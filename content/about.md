@@ -21,10 +21,9 @@ Recently (well in 2016) I co-authored a book called [Professional Scala](http://
 ## Other Blogs
 * [Developer Death March](https://developerdeathmarch.com/) - A blog about developer horror stories and funny content
 
-## Writing in progress
-* Currently writing some chapters in the practical applications of [LinuxKit](https://github.com/linuxkit/linuxkit)
-* Developer Workflow by Example aka "how to develop like a boss in 2019"
-
+## Things in progress
+* Thinking through some medium articles or maybe write.as
+* Looking into things involving the indie web movement
 
 ## Random Trivia
 
