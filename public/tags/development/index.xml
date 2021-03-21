@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>development on Benjamin Neil</title>
+    <link>http://bneil.me/tags/development/</link>
+    <description>Recent content in development on Benjamin Neil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Apr 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://bneil.me/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nondistributable Artifacts</title>
+      <link>http://bneil.me/posts/docker-nondistributable-artifacts/</link>
+      <pubDate>Sun, 08 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://bneil.me/posts/docker-nondistributable-artifacts/</guid>
+      <description>The Mystery I was reading through the docker documentation for docker registry and ran into this curious idea of nondistributable artifacts and how that related to some layers that are proprietary. Which got me thinking about how I could setup my own non distributable layers.
+So looking into microsoft/windowsservercore I figured since those had some foreign layers I could take a gander at what was in the manifest which made particular layers &amp;ldquo;foreign&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

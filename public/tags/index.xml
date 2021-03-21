@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Benjamin Neil</title>
+    <link>http://bneil.me/tags/</link>
+    <description>Recent content in Tags on Benjamin Neil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://bneil.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>docker</title>
+      <link>http://bneil.me/tags/docker/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://bneil.me/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rebric</title>
+      <link>http://bneil.me/tags/rebric/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://bneil.me/tags/rebric/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>openfaas</title>
+      <link>http://bneil.me/tags/openfaas/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://bneil.me/tags/openfaas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>development</title>
+      <link>http://bneil.me/tags/development/</link>
+      <pubDate>Sun, 08 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://bneil.me/tags/development/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
