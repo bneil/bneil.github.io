@@ -1,7 +1,0 @@
-{
-  "CloudConfig" :{
-    "Zone": "ewr1",
-    "BucketName":"ops"
-  },
-  "Dirs" : ["public_html", "cert"]
-}
