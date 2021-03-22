@@ -66,7 +66,15 @@ disqusShortname = "yourdiscussshortname" # Enable or disable Disqus.
     # RTL support
     rtl = false
 
+    # Bottom sns share
     snsShare = true # new add
+    # Popular sns share
+    # if you want add sns. please message!
+    enableTwitterShare = true  # new add
+    enableFacebookShare = true # new add
+    enableHatenaShare = true   # new add
+    enableLineShare = true     # new add
+    enableLinkedInShare = true # new add
 
     thumbnail = "images/tn.png" # default sns thumbnail
 
@@ -76,15 +84,23 @@ disqusShortname = "yourdiscussshortname" # Enable or disable Disqus.
 # Social links
 [[params.social]]
     name = "Github"
+    icon = "fab fa-github"
     weight = 1
     url = "https://github.com/naro143/"
 [[params.social]]
     name = "Twitter"
+    icon = "fab fa-twitter"
     weight = 2
     url = "https://twitter.com/naro143/"
 [[params.social]]
     name = "LinkedIn"
+    icon = "fab fa-linkedin"
     weight = 3
+    url = "https://www.linkedin.com/in/naro143/"
+[[params.social]]
+    # If icon is not set, Text is displayed.
+    name = "LinkedIn"
+    weight = 4
     url = "https://www.linkedin.com/in/naro143/"
 
 # Menu links

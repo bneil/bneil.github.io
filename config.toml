@@ -18,7 +18,7 @@ disqusShortname = "" # Enable or disable Disqus.
     info = "AUTOMATION MECHANIC" # Author's job title or info.
     description = "Benjamin Neil's personal website" # Site description.
     keywords = "blog,developer,engineer,golang,erlang,rust,scala,kubernetes,docker,personal" # Site keywords.
-    avatarurl = "/images/avatar.jpg" # Contain the path of the optionnal avatar in the static folder.
+    avatarurl = "/images/avatar.gif" # Contain the path of the optionnal avatar in the static folder.
 
     footercontent = "building / testing / documenting / automating" # Add footer content
     fixedbarContent = "Do you want to know me more? →" # Add fixedbar content

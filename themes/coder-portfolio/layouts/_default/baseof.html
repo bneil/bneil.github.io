@@ -19,44 +19,34 @@
     <meta name="twitter:site" content="{{ .Permalink }}">
     <meta name="twitter:image" content="{{ if .IsPage }}{{ .Site.BaseURL }}{{ .Params.thumbnail }}{{ else }}{{ .Site.BaseURL }}{{ .Site.Params.thumbnail }}{{ end }}">
 
-    <base href="{{ .Site.BaseURL }}">
+    <base href="{{ .Permalink }}">
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
 
     <link rel="canonical" href="{{ .Permalink }}">
-    {{ if .Site.Params.snsShare }}
+    {{ if or (.Site.Params.snsShare) (.Site.Params.faIcons) }}
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     {{ end }}
     <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
-    <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
-    <link rel="stylesheet" href="{{ "css/style.min.css" | absURL }}">
+    <link rel="stylesheet" href="{{ "css/normalize.min.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/style.min.css" | relURL }}">
 
     {{ if .Site.Params.rtl}}
-      <link rel="stylesheet" href="{{ "css/style-rtl.min.css" | absURL }}">
+      <link rel="stylesheet" href="{{ "css/style-rtl.min.css" | relURL }}">
     {{ end }}
 
     {{ range .Site.Params.custom_css }}
       <link rel="stylesheet" href="{{ . | absURL }}">
     {{ end }}
 
-    <link rel="icon" type="image/png" href="{{ "/images/favicon-32x32.png" | absURL }}" sizes="32x32">
-    <link rel="icon" type="image/png" href="{{ "/images/favicon-16x16.png" | absURL }}" sizes="16x16">
+    <link rel="icon" type="image/png" href="{{ "images/favicon-32x32.png" | relURL }}" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ "images/favicon-16x16.png" | relURL }}" sizes="16x16">
 
-    {{ if .RSSLink }}
-      <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-      <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+    {{ with .Site.Home.AlternativeOutputFormats.Get "RSS" }}
+      <link rel="alternate" href="{{ .Permalink }}" type="application/rss+xml" title="{{ $.Site.Title | plainify }}">
+      <link href="{{ .Permalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title | plainify }}" />
     {{ end }}
 
-    {{ .Hugo.Generator }}
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23046899-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-23046899-1');
-    </script>
+    {{ hugo.Generator }}
   </head>
 
   <body class="{{ if .Site.Params.rtl }}rtl{{ end }}">
@@ -73,7 +63,7 @@
 
     {{ template "_internal/google_analytics.html" . }}
 
-  <script src="{{ "js/app.js" | absURL }}"></script>
+  <script src="{{ "js/app.js" | relURL }}"></script>
   {{ with .Site.Params.fixedbarContentAfter }}
   <script>
   (function($) {
