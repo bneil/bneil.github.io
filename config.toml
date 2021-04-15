@@ -33,6 +33,10 @@ disqusShortname = "" # Enable or disable Disqus.
     langseparator = "|" # Separates menus from language selectors when site is multilingual.
     copyright = "2000-2021"
 
+    singleDateFormat = "Mon, Jan 2, 2006"
+    indexDateFormat = "Mon, Jan 2, 2006"
+    listDateFormat = "Jan 2"
+
 # Social links
 [[params.socialIcons]]
     title = "Github"

@@ -5,9 +5,7 @@
             <h3 title="{{ .Site.Params.Title }}"><a class="p-name u-url" rel="me" href="https://bneil.me/">{{ .Site.Params.Title }}</a></h3>
 
             <div class="description">
-                <p class="p-note">…
-                {{ replace .Site.Params.description "\n" "<br>" | safeHTML }}
-                </p>
+                <p class="p-note"> {{ replace .Site.Params.description "\n" "<br>" | safeHTML }} </p>
             </div>
         </div>
     </div>
