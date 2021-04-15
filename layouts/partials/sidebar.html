@@ -1,8 +1,9 @@
 <div class="sidebar{{ with .Site.Params.doNotLoadAnimations }} . {{ else }} animated fadeInDown {{ end }}">
     <div class="logo-title">
-        <div class="title">
-            <img src="{{ .Site.Params.profilePicture | relURL }}" alt="profile picture">
-            <h3 title=""><a href="/">{{ .Site.Params.Title }}</a></h3>
+        <div class="title h-card">
+            <img class="u-photo" src="{{ .Site.Params.profilePicture | relURL }}" alt="profile picture">
+            <h3 title="{{ .Site.Params.Title }}"><a class="h-card" rel="me" href="https://bneil.me/">{{ .Site.Params.Title }}</a></h3>
+
             <div class="description">
                 <p>{{ replace .Site.Params.description "\n" "<br>" | safeHTML }}</p>
             </div>
@@ -11,7 +12,7 @@
     <ul class="social-links">
         {{ range $item := .Site.Params.socialIcons }}
         <li>
-            <a href="{{ $item.url }}" rel="me" aria-label="{{ $item.title }}">
+            <a class="u-url" href="{{ $item.url }}" rel="me" aria-label="{{ $item.title }}">
                 <i class="{{ $item.icon }} fa-2x" aria-hidden="true"></i>
             </a>
         </li>
@@ -22,7 +23,6 @@
         <br/>
         <p>Built with <a href="https://gohugo.io">Hugo</a>.<br/>
         Theme is <a href="https://themes.gohugo.io/anatole/">Anatole</a></p>
-        <a class="h-card" rel="me" href="https://bneil.me/">HCard</a>
         <b id="license">The content of this site is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons</a>.</b>
     </div>
 </div>
