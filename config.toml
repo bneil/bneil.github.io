@@ -58,6 +58,10 @@ disqusShortname = "" # Enable or disable Disqus.
     title = "Medium"
     icon = "fab fa-medium"
     url = "https://medium.com/@bneil/about"
+[[params.socialIcons]]
+    title = "rss"
+    icon = "fas fa-rss"
+    url = "https://bneil.me/posts/index.xml"
 
 # Menu links
 [[menu.main]]
