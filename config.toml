@@ -57,7 +57,7 @@ disqusShortname = "" # Enable or disable Disqus.
 [[params.socialIcons]]
     title = "Medium"
     icon = "fab fa-medium"
-    url = "https://medium.com/@bneil"
+    url = "https://medium.com/@bneil/about"
 
 # Menu links
 [[menu.main]]
