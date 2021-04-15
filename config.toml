@@ -15,7 +15,7 @@ pygmentsUseClasses = true # new add
 disqusShortname = "" # Enable or disable Disqus.
 
 [params] # theme parameters
-    title="I'm Ben"
+    title="Benjamin Neil"
     author = "Benjamin Neil" # Author's name.
     info = "AUTOMATION MECHANIC" # Author's job title or info.
     description = """
