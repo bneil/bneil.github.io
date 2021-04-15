@@ -1,14 +1,11 @@
 +++
 title = ""
 slug = "resume"
-thumbnail = "images/tn.png"
+thumbnail = "/images/resume.jpg"
 description = "resume"
 +++
 
-## A. B. C.
-### Always Be Coding
-
-------
+## This is what ive been up to
 
 ### Technical Overview
 
@@ -21,8 +18,16 @@ description = "resume"
 ------
 
 ### Experience
+**REBRIC** *CTO Co-Founder* __Nov 2016 to Present__<br/>
 
-**REBRIC** *Senior Consultant* __Nov 2016 to present__<br/>
+- Worked in creating a platform from the ground up for a number of pivotes
+- Manage a team of highly impressive engineers
+- Engage daily in coffee drinking and long stares at the monitor
+- Helped drive growth through a pandemic to a startup 
+  
+**Technical Toolset** Docker, Aws Stack, Go
+
+**REBRIC** *Senior Consultant* __Nov 2016 to Feb 2020__<br/>
 
 - Working as a consultant to help companies modernize their architecture which includes evangelizing kubernetes, docker swarm mode, jenkins and general civil discourse
 - Contributed to a large shared groovy pipeline
