@@ -7,6 +7,7 @@
         {{ end }}
         <div class="post-title">
             <h3>{{ .Title }}</h3>
+            <a rel="author" class="p-author h-card" href="#">{{ .Site.Params.author }}</a>
             {{ if or (eq .Type "posts") (eq .Type .Site.Params.postSectionName) }}
             <div class="info">
                 <em class="fas fa-calendar-day"></em>
