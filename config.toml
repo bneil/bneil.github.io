@@ -33,6 +33,12 @@ disqusShortname = "" # Enable or disable Disqus.
     langseparator = "|" # Separates menus from language selectors when site is multilingual.
     copyright = "2000-2021"
 
+
+[params.utterances]
+    repo = "bneil/bneil.github.io"
+    issueTerm = "question"
+    theme= "github-dark-orange"
+
 # Social links
 [[params.socialIcons]]
     title = "Github"
@@ -61,31 +67,36 @@ disqusShortname = "" # Enable or disable Disqus.
 [[params.socialIcons]]
     title = "rss"
     icon = "fas fa-rss"
-    url = "https://bneil.me/posts/index.xml"
+    url = "https://bneil.me/post/index.xml"
 
 # Menu links
 [[menu.main]]
     name = "Home"
     weight = 1
+    identifier = "home"
     url  = "/"
 
 [[menu.main]]
     name = "Contact"
+    identifier = "contact"
     weight = 2
     url = "/contact"
 
 [[menu.main]]
     name = "Resume"
+    identifier = "resume"
     weight = 3
     url = "/resume"
 
 [[menu.main]]
     name = "About"
+    identifier = "about"
     weight = 4
     url = "/about"
 
 [[menu.main]]
     name = "Blog"
+    identifier = "blog"
     weight = 5
-    url  = "/posts"
+    url  = "/post"
 

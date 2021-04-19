@@ -19,3 +19,8 @@ Although, having said that it really isnt at the point id like it to be. I origi
 to regale my coworkers with. The end result of that project can be [found here](https://danny-devito.acererak.workers.dev/).
 
 Looks like ive got my night planned.
+
+## O_O
+
+On looking through the documentation some more, looks like its as easy as signing into [webmentions.io](https://webmention.io/)
+and signing in. Although I still have to figure out how to retrieve the mentions and report them on this site...
