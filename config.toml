@@ -33,11 +33,14 @@ disqusShortname = "" # Enable or disable Disqus.
     langseparator = "|" # Separates menus from language selectors when site is multilingual.
     copyright = "2000-2021"
 
+    # Google Site Verify
+    googleSiteVerify = "UA-23046899-1"
 
 [params.utterances]
     repo = "bneil/bneil.github.io"
     issueTerm = "question"
     theme= "github-dark-orange"
+
 
 # Social links
 [[params.socialIcons]]
@@ -99,4 +102,16 @@ disqusShortname = "" # Enable or disable Disqus.
     identifier = "blog"
     weight = 5
     url  = "/post"
+
+[[menu.main]]
+    name = "Notes"
+    identifier = "notes"
+    weight = 6
+    url  = "/tags/notes"
+
+[[menu.main]]
+    name = "Now"
+    identifier = "now"
+    weight = 7
+    url  = "/now"
 

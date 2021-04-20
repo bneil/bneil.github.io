@@ -5,4 +5,6 @@ thumbnail = ""
 description = "now"
 +++
 
-WIP
+Now.. is now.. is now..
+
+so its a work in progress
