@@ -26,7 +26,7 @@ disqusShortname = "" # Enable or disable Disqus.
     avatarurl = "/images/avatar.gif" # Contain the path of the optionnal avatar in the static folder.
     profilePicture = "/images/avatar.gif"
     displayMode = "dark"
-    disableThemeSwitcher = true
+    disableThemeSwitcher = false
     readMore = true
 
     # Multilanguage mode

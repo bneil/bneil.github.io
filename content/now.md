@@ -1,10 +1,38 @@
 +++
 title = "now"
 slug = "now"
-thumbnail = ""
+thumbnail = "/images/now.jpg"
 description = "now"
 +++
 
-Now.. is now.. is now..
+# What im doing _now_
 
-so its a work in progress
+Mostly im working really hard at keeping the engineering side of my startup going the 
+correct direction while trying to balance life. Im becoming more and more obsessed with
+determining the best way to store and retrieve information from my notes that seem to
+be spread across ten different applications.
+
+## Reading
+- [ ] Several short sentences about writing
+- [ ] The Chestnut Man
+- [ ] Distributed Services with Go
+- [ ] A New Kind Of Science
+
+## Listening To
+- [ ] Leviathan Wakes / James S. A. Corey
+
+## Watching
+- [X] The Circle Season 2 ( it just brings me those sweet 2020 vibes )
+
+## Learning About
+* Different note-taking apps
+* Different note-taking strategies
+* The differences between public/private data models
+
+## Exercise
+* Walking / Running a min 9k steps a day
+* At least 2 weekly 3.5 runs or more
+
+
+This page is following best practice as defined from
+[@NowNowNow](https://twitter.com/NowNowNow)
