@@ -16,7 +16,7 @@ disqusShortname = "" # Enable or disable Disqus.
 
 [params] # theme parameters
     title="Benjamin Neil"
-    author = "Benjamin Neil" # Author's name.
+    author = "" # Author's nate.
     info = "AUTOMATION MECHANIC" # Author's job title or info.
     description = """
     AUTOMATION MECHANIC
@@ -25,7 +25,7 @@ disqusShortname = "" # Enable or disable Disqus.
     keywords = "blog,developer,engineer,golang,erlang,rust,scala,kubernetes,docker,personal" # Site keywords.
     avatarurl = "/images/avatar.gif" # Contain the path of the optionnal avatar in the static folder.
     profilePicture = "/images/avatar.gif"
-    displayMode = "dark"
+    displayMode = "light"
     disableThemeSwitcher = false
     readMore = true
 
