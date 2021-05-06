@@ -25,7 +25,6 @@ disqusShortname = "" # Enable or disable Disqus.
     keywords = "blog,developer,engineer,golang,erlang,rust,scala,kubernetes,docker,personal" # Site keywords.
     avatarurl = "/images/avatar.gif" # Contain the path of the optionnal avatar in the static folder.
     profilePicture = "/images/avatar.gif"
-    displayMode = "light"
     disableThemeSwitcher = false
     readMore = true
 
