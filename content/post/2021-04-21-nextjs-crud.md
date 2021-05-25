@@ -24,7 +24,7 @@ installing both tailwind css and tailwind jit.
 ```
 
 if you want to learn more about the 'why' you should use the jit instead of
-using tailwind directly, 
+using tailwind directly,
 
 The following are just nice to have when cleaning up the code as we go
 ```bash
@@ -59,7 +59,7 @@ module.exports = {
 ### Adding a custom font
 
 I really wanted to use a fun font, so I ended up grabbing
-"big shoulders" from google fonts. 
+"big shoulders" from google fonts.
 
 So I added the custom font to the _document.tsx page, namily
 because that was the place I saw you could inject information into
@@ -117,7 +117,7 @@ module.exports = {
 ```
 
 So at this point the code is little more than a nice playground
-to get started creating an application. In the upcoming sections 
-im going to break into how to fetch and work with nextjs as a simple 
+to get started creating an application. In the upcoming sections
+im going to break into how to fetch and work with nextjs as a simple
 crud application.
 
