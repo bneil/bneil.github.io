@@ -7,7 +7,7 @@ description = "now"
 
 # What im doing _now_
 
-Mostly im working really hard at keeping the engineering side of my startup going the 
+Mostly im working really hard at keeping the engineering side of my startup going the
 correct direction while trying to balance life. Im becoming more and more obsessed with
 determining the best way to store and retrieve information from my notes that seem to
 be spread across ten different applications.
@@ -19,10 +19,11 @@ be spread across ten different applications.
 - [ ] A New Kind Of Science
 
 ## Listening To
-- [ ] Leviathan Wakes / James S. A. Corey
+- [x] Leviathan Wakes / James S. A. Corey
 
 ## Watching
-- [X] The Circle Season 2 ( it just brings me those sweet 2020 vibes )
+- [ ] Wayne
+- [x] Uploaded
 
 ## Learning About
 * Different note-taking apps
