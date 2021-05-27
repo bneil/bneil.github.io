@@ -1,0 +1,6 @@
+{{- partial "medium-zoom.html" . -}}
+{{- partial "math.html" . -}}
+{{- template "_internal/google_analytics_async.html" . -}}
+{{- if (hugo.IsProduction)  -}}
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "cc4d2eca67bc471d83269a9e66e60551"}'></script><!-- End Cloudflare Web Analytics -->
+{{- end -}}

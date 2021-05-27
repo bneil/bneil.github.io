@@ -33,7 +33,7 @@ disqusShortname = "" # Enable or disable Disqus.
     copyright = "2000-2021"
 
     # Google Site Verify
-    gtagId = "UA-23046899-1"
+    # gtagId = "UA-23046899-1"
 
 [params.utterances]
     repo = "bneil/bneil.github.io"
