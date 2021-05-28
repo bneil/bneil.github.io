@@ -9,6 +9,8 @@ description = "resume"
 
 ### Technical Overview
 
+I really use alot of tech soup - so these change all the time
+
 1. Docker EE and Kubernetes
 1. Go, Rust, Scala and more
 1. Drone, Jenkins and Gitlab
@@ -18,14 +20,20 @@ description = "resume"
 ------
 
 ### Experience
-**REBRIC** *CTO Co-Founder* __Nov 2016 to Present__<br/>
 
-- Worked in creating a platform from the ground up for a number of pivotes
-- Manage a team of highly impressive engineers
-- Engage daily in coffee drinking and long stares at the monitor
-- Helped drive growth through a pandemic to a startup 
-  
+**Compliable** *CTO Co-Founder* __Sept 2020 to Present__<br/>
+Same role just now with a new compliarific name!
 **Technical Toolset** Docker, Aws Stack, Go
+
+**REBRIC** *Chief Technical Officer* __Nov 2016 to Sept 2020__ <br/>
+
+- Lead the long-term technical strategy development and tactical execution of those strategies at Rebric
+- Directed technical teams and resources in solutions for design, development and delivery services to benefit the buisness
+- Developed a road map to optimize the rollout of the Rebric infrastructure
+- Launched development, testing and production environments for all Rebric infrastructure
+- Articulated a clear vision, to drive technical discussions throughout the SDLC lifecycle to be in parity with the buisness
+
+**Technical Toolset** Docker, Jenkins, Ambassador, Play, Rust, Go Microservices, OpenFaas, GCP, AWS.
 
 **REBRIC** *Senior Consultant* __Nov 2016 to Feb 2020__<br/>
 
@@ -38,15 +46,6 @@ description = "resume"
 
 **Technical Toolset** Docker, Jenkins, Bitbucket, Go
 
-**REBRIC** *Chief Technical Officer* __Nov 2016 to present__ <br/>
-
-- Lead the long-term technical strategy development and tactical execution of those strategies at Rebric
-- Directed technical teams and resources in solutions for design, development and delivery services to benefit the buisness
-- Developed a road map to optimize the rollout of the Rebric infrastructure
-- Launched development, testing and production environments for all Rebric infrastructure
-- Articulated a clear vision, to drive technical discussions throughout the SDLC lifecycle to be in parity with the buisness
-
-**Technical Toolset** Docker, Jenkins, Ambassador, Play, Rust, Go Microservices, OpenFaas, GCP, AWS.
 
 **AppThis LLC** *Senior Fullstack Engineer* __Mar 2015 to Nov 2016__ <br/>
 
