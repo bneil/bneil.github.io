@@ -44,8 +44,6 @@ Deciding on a good schema, im thinking something like
 * event
 * count
 
-## Working with timestamps
+## On second thought...
 
-After creating the 'audit' table, either in terraform, cli or web console.
-
-WIP
+Maybe just using rds would be a better fit. The amount of scanning would be pretty awful. Ok, abandoning idea!
