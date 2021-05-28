@@ -1,8 +1,8 @@
 ---
-title: "Audit Dynamodb"
+title: "Audit Service - Dynamodb"
 date: 2021-05-26T11:13:53-06:00
-Tags: ["notes", "aws"]
-Categories: ["notes"]
+Tags: ["aws","golang"]
+Categories: ["coding"]
 DisableFront: false
 draft: false
 ---
@@ -14,7 +14,7 @@ draft: false
 Decided that I wanted an audit db and service to help keep track of user behaviors.
 Since I already have some in Redis, and some in Postgres I thought this might be a useful exercise.
 The main thing id like to accomplish with this code is going to be a way to track events and break
-them down by week/month/year per user and per company. 
+them down by week/month/year per user and per company.
 
 Im having some self debate about creating tables for the tallies or if I should just be creating
 them on the fly using a query. I like the idea of the tally because it would be a place to easily
@@ -37,7 +37,7 @@ Deciding on a good schema, im thinking something like
 * event
 * count
 
-  
+
 *company tally table*
 * companyName
 * Timespan - YYmm

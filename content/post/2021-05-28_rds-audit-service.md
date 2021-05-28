@@ -1,5 +1,5 @@
 ---
-title: "Audit Service"
+title: "Audit Service - RDS"
 date: 2021-05-28T11:39:43-06:00
 Description: "Part two in creating an audit service"
 Tags: ["rds", "aws", "golang"]
@@ -11,14 +11,14 @@ DisableComments: false
 
 ## Description
 
-When I started to think more critically about how interactions would work inside 
+When I started to think more critically about how interactions would work inside
 dynamodb for auditing I quickly learned about pain. Lots and lots of pain. Including
 the fact id probably end up having to use dynamodb streams and couple that with elasticsearch.
 So im not going to even entertain that idea and am going down the ol trusty sql route.
 
 # Creating the database
 
-Im still on an older version of terraform, so public shamming for being on 0.12.6. 
+Im still on an older version of terraform, so public shamming for being on 0.12.6.
 
 ## IaaC section
 
@@ -27,7 +27,7 @@ tfenv install 0.12.6
 tfenv use 0.12.6
 ```
 
-I had already done an `tf import` from a previous db table, so I just copied and pasted then 
+I had already done an `tf import` from a previous db table, so I just copied and pasted then
 modified the database values. Note the xxxx's below are redacted text so change that if you
 are copy and pasting.
 
@@ -77,14 +77,14 @@ resource "aws_db_instance" "aduit_db" {
 }
 
 output "password" {
-  description = "The password is:" 
+  description = "The password is:"
   value = random_password.password.*.result
 }
 ```
 ## Goose time / Local Dev
 
-Inside the project, im creating a table's folder then setting up [goose](https://github.com/pressly/goose). 
-its as easy as running `go get -u github.com/pressly/goose/cmd/goose`.  Also, I needed to set up a testing 
+Inside the project, im creating a table's folder then setting up [goose](https://github.com/pressly/goose).
+its as easy as running `go get -u github.com/pressly/goose/cmd/goose`.  Also, I needed to set up a testing
 postgres instance.
 
 ### Quick Docker Setup
@@ -118,7 +118,7 @@ then run `docker-compose -f localdb.compose.yaml up` and you should have a local
 ### Back to goose
 
 Please note I cheated and created the database manually, I just don't like accidentally dropping the entire db if
-it can be helped. Otherwise... a quick mkdir for 'tables' and then added 
+it can be helped. Otherwise... a quick mkdir for 'tables' and then added
 
 001_create_events_table.sql
 ```shell
