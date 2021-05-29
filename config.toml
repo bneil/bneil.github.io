@@ -27,7 +27,7 @@ disqusShortname = "" # Enable or disable Disqus.
     profilePicture = "/images/avatar.gif"
     disableThemeSwitcher = false
     readMore = true
-    customCss = ["css/fancy_buttons.css"]
+    #customCss = ["css/fancy_buttons.css"]
 
     # Multilanguage mode
     langseparator = "|" # Separates menus from language selectors when site is multilingual.
