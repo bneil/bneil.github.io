@@ -1,7 +1,7 @@
 ---
 title: "Connecting/Migrations in RDS"
 date: 2021-06-01T17:03:50-06:00
-draft: true
+draft: false
 Tags: ["notes", "aws", "goose", "docker"]
 Categories: ["notes", "coding"]
 ---
