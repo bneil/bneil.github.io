@@ -26,3 +26,10 @@ for a second.
 * New questing systems
 * New treasure hunting games
 * AI looks like it improved
+
+### Living Ships
+
+Oh, man took me a week straight, but I was able to create/find the living ship.
+Was a really fun adventure up until the section where you have to track down a portal. 
+Since that was a bit of a hunt, and a half to figure out how to get to the Euclid galaxy
+from the new galaxy I had just created from finishing the atlas path
