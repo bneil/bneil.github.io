@@ -4,7 +4,7 @@ date = 2021-04-15T15:36:52-06:00
 title = "WASM and Webmentions"
 slug = "wasm"
 tags = ['wasm','webmentions','indieweb']
-categories = ['wasm']
+categories = ['coding']
 thumbnail = "/images/sun.jpg"
 description = "first look into webmentions"
 +++

@@ -3,7 +3,7 @@ title: "Nextjs Crud :: Setup"
 date: 2021-04-21T20:06:34-06:00
 Description: "A crud app w/ nextjs and typescript"
 Tags: ["nextjs"]
-Categories: ["programming"]
+Categories: ["coding"]
 DisableComments: false
 ---
 

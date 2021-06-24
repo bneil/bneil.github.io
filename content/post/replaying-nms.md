@@ -3,13 +3,8 @@ title: "Replaying No Mans Sky"
 date: 2021-05-25T10:33:49-06:00
 slug: "replaying-nms"
 draft: false
-tags: [
-    "gaming",
-    "no man sky",
-]
-categories: [
-    "games",
-]
+tags: [ "gaming", "no man sky", ]
+categories: [ "gaming", ]
 ---
 
 # No Man Sky

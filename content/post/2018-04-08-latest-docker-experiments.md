@@ -2,13 +2,8 @@
 title =  "Nondistributable Artifacts"
 date = "2018-04-08"
 slug = "docker-nondistributable-artifacts"
-tags = [
-    "docker",
-    "development",
-]
-categories = [
-    "docker",
-]
+tags = [ "docker", "development", ]
+categories = [ "coding", ]
 +++
 
 ## The Mystery

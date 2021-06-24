@@ -22,7 +22,9 @@ I really use alot of tech soup - so these change all the time
 ### Experience
 
 **Compliable** *CTO Co-Founder* __Sept 2020 to Present__<br/>
-Same role just now with a new compliarific name!
+
+Same role just now with a new name!
+
 **Technical Toolset** Docker, Aws Stack, Go
 
 **REBRIC** *Chief Technical Officer* __Nov 2016 to Sept 2020__ <br/>

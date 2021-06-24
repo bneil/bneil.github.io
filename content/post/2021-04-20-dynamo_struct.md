@@ -3,7 +3,7 @@ title: "Migrating to Dynamo"
 date: 2021-04-20T10:15:26-06:00
 Description: "Another day, another migration"
 Tags: ["aws"]
-Categories: ["golang", "aws"]
+Categories: ["coding"]
 thumbnail:  "/images/standing.jpg"
 DisableComments: false
 ---
