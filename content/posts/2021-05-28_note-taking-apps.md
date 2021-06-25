@@ -10,5 +10,8 @@ DisableComments: false
 ## Obsidian
 **Currently Using**
 
-WIP
+Notes/Second Brain
+obsidian.md -> sourcehut -> all mobile devices
+
+
 

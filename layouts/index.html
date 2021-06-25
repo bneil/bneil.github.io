@@ -1,10 +1,10 @@
 {{ define "main" }}
-    <div class="post">
+<div class="post" xmlns="http://www.w3.org/1999/html">
       <h1>welcome</h1>
       to my digital garden, im still in the process of making things look better.
       That said! Its looking pretty good, just take a look at these hip categories:
       <p/>
-      {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+      {{range sort ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
       <p><a href="{{.Permalink}}"><h2>{{.Title}}</h2></a></p>
       {{end}}
 
@@ -13,5 +13,4 @@
         <a href="{{.Permalink}}">#{{.Title}}</a>
       {{end}}
     </div>
-    <hr/>
 {{ end }}

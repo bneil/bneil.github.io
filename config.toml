@@ -101,7 +101,7 @@ disqusShortname = "" # Enable or disable Disqus.
     name = "Blog"
     identifier = "blog"
     weight = 5
-    url  = "/post"
+    url  = "/posts"
 
 [[menu.main]]
     name = "Notes"
