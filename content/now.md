@@ -14,15 +14,15 @@ be spread across ten different applications.
 
 ## Reading
 - [ ] Several short sentences about writing
-- [ ] The Chestnut Man
 - [ ] Distributed Services with Go
-- [ ] A New Kind Of Science
 
 ## Listening To
-- [x] Leviathan Wakes / James S. A. Corey
+- [x] Abaddon's Gate / James S. A. Corey
+- [x] Calibans War / James S. A. Corey
+- [x] [Leviathan Wakes]({{< ref "leviathan_wakes.md" >}} "Leviathan Wakes") / James S. A. Corey
 
 ## Watching
-- [ ] Wayne
+- [x] Wayne (ended up not watching all of it)
 - [x] Uploaded
 
 ## Learning About
@@ -32,6 +32,7 @@ be spread across ten different applications.
 
 ## Exercise
 * Walking / Running a min 9k steps a day
+  * now trying rucking with 20 pounds of weight in a backpack
 * At least 2 weekly 3.5 runs or more
 
 
