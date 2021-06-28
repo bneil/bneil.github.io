@@ -23,11 +23,11 @@ be spread across ten different applications.
 
 ## Watching
 - [ ] Primal
-- [x] (recommend) Willy's Wonderland
-- [x] (pass) Dog Eat Dog "nick cage movie"
-- [x] (recommend) Invincible
-- [x] (pass) Wayne (ended up not watching all of it)
-- [x] (recommend) Uploaded
+- [x] {{< emoji ":thumbsup:" >}} Willy's Wonderland
+- [x] {{< emoji ":thumbsdown:" >}} Dog Eat Dog "nick cage movie"
+- [x] {{< emoji ":thumbsup:" >}} Invincible
+- [x] {{< emoji ":thumbsdown:" >}} Wayne (ended up not watching all of it)
+- [x] {{< emoji ":thumbsup:" >}} Uploaded
 
 ## Learning About
 * Different note-taking apps
