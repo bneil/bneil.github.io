@@ -21,4 +21,4 @@ as Holden is defined by his upbringing on Earth.
 
 My friend had told me years ago to read this book and im glad I finally have.
 
-What an amazing time and im looking forward to reading more from Mr. Corey.
+What an amazing time and im looking forward to reading more from the expanse.
