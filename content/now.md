@@ -18,7 +18,7 @@ be spread across ten different applications.
 
 ## Listening To
 - [x] Abaddon's Gate / James S. A. Corey
-- [x] Calibans War / James S. A. Corey
+- [x] [Calibans War]({{< ref "calibans_war.md" >}} "Calibans War") / James S. A. Corey
 - [x] [Leviathan Wakes]({{< ref "leviathan_wakes.md" >}} "Leviathan Wakes") / James S. A. Corey
 
 ## Watching
