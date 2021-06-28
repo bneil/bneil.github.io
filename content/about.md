@@ -5,9 +5,9 @@ thumbnail = "/images/setup.jpg"
 description = "about"
 +++
 
-<img width="150" height="150" style="margin: 35px 10px 15px 0px" src="/images/error-avatar.jpg" align="left"/>
-
 ---------------------------
+<img width="150" height="150" style="margin: 35px 10px 15px 0px" src="/images/error-avatar.jpg" />
+
 My name is Benjamin Neil, a polyglot engineer in Colorado. I have had the privilege to work the 
 past eleven years making websites, services, documentation and tools for amazing companies.
 
@@ -25,8 +25,7 @@ Recently (well in 2016) I co-authored a book called [Professional Scala](http://
 * [Developer Death March](https://developerdeathmarch.com/) - A blog about developer horror stories and funny content
 
 ## Things in progress
-* Thinking through some medium articles or maybe write.as
-* Looking into things involving the indie web movement
+Go checkout my [NOW]({{< ref "now.md" >}} "NOW") page, it has all the things im working on well, right now!
 
 ## Random Trivia
 
