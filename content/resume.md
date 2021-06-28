@@ -5,11 +5,9 @@ thumbnail = "/images/resume.jpg"
 description = "resume"
 +++
 
-## This is what ive been up to
-
 ### Technical Overview
 
-I really use alot of tech soup - so these change all the time
+I really use a lot of tech soup - so these change all the time
 
 1. Docker EE and Kubernetes
 1. Go, Rust, Scala and more

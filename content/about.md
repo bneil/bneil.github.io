@@ -6,7 +6,7 @@ description = "about"
 +++
 
 ---------------------------
-<img width="150" height="150" style="margin: 35px 10px 15px 0px" src="/images/error-avatar.jpg" />
+![imerror](/images/error-avatar.jpg)
 
 My name is Benjamin Neil, a polyglot engineer in Colorado. I have had the privilege to work the 
 past eleven years making websites, services, documentation and tools for amazing companies.

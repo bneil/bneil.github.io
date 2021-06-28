@@ -8,7 +8,7 @@
         <div class="post-title">
             <h3>{{ .Title }}</h3>
             <a rel="author" class="p-author h-card" href="#">{{ .Site.Params.author }}</a>
-            {{ if or (eq .Type "post") (eq .Type .Site.Params.postSectionName) }}
+            {{ if or (eq .Type "posts") (eq .Type "review") (eq .Type .Site.Params.postSectionName) }}
             <div class="info">
                 <em class="fas fa-calendar-day"></em>
                 <span class="date"><time class="dt-published">{{ if isset .Site.Params "singledateformat" }}
@@ -21,8 +21,15 @@
             {{ end }}
         </div>
         <div class="e-content p-name">
+
         {{ .Content }}
 
+
+            {{ if or (eq .Type "posts") (eq .Type "review") }}
+            <small>
+                <strong>This Post Was Last Updated:</strong> {{ .Lastmod.Format "Mon, 02 Jan 2006 15:04:05 MST" }}
+            </small>
+            {{ end }}
         {{- if (eq .Params.contact true) -}}
         {{- partial "contact.html" . -}}
         {{- end -}}
