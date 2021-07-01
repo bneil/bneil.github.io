@@ -1,12 +1,11 @@
-+++
-title = "now"
-slug = "now"
-thumbnail = "/images/now.jpg"
-description = "now"
-+++
+---
+title: "now"
+slug: "now"
+thumbnail: "/images/now.jpg"
+description: "now"
+---
 
 # What im doing _now_
-### updated on: {{ .Page.Lastmod.Format "20060102-15:04:05.000" }}
 
 Mostly im working really hard at keeping the engineering side of my startup going the
 correct direction while trying to balance life. Im becoming more and more obsessed with
