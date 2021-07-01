@@ -7,9 +7,7 @@ Categories: ["reviews"]
 DisableFront: true
 ---
 
-### Score: 5/5 
-
-really great world building, interesting plot and just enough tension to really feel like an adventure.
+Really great world building, interesting plot and just enough tension to really feel like an adventure.
 I was a little confused when reading this book at first since the prologue was really odd. That and the whiplash
 we get as we are first getting introduced into the world that James Corey paints 
 for us.

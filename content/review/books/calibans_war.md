@@ -6,8 +6,6 @@ Tags: ["book"]
 Categories: ["reviews"]
 ---
 
-### score: 5/5 
-
 I couldn't put this title down from page one. Where in Leviathans Wake
 I was impressed by the world building and just wild adventure, in caliban's 
 war the character and story arcs are on a completely different level. From

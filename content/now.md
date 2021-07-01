@@ -6,6 +6,7 @@ description = "now"
 +++
 
 # What im doing _now_
+### updated on: {{ .Page.Lastmod.Format "20060102-15:04:05.000" }}
 
 Mostly im working really hard at keeping the engineering side of my startup going the
 correct direction while trying to balance life. Im becoming more and more obsessed with
@@ -17,12 +18,14 @@ be spread across ten different applications.
 - [ ] Distributed Services with Go
 
 ## Listening To
-- [x] Abaddon's Gate / James S. A. Corey
-- [x] [Calibans War]({{< ref "calibans_war.md" >}} "Calibans War") / James S. A. Corey
-- [x] [Leviathan Wakes]({{< ref "leviathan_wakes.md" >}} "Leviathan Wakes") / James S. A. Corey
+- [ ] Cibola Burn / James S. A. Corey
+- [x] {< emoji ":thumbsup:" >}} [Abaddon's Gate]({{< ref "abaddon.md" >}} "Abaddon's Gate") / James S. A. Corey
+- [x] {< emoji ":thumbsup:" >}} [Calibans War]({{< ref "calibans_war.md" >}} "Calibans War") / James S. A. Corey
+- [x] {< emoji ":thumbsup:" >}} [Leviathan Wakes]({{< ref "leviathan_wakes.md" >}} "Leviathan Wakes") / James S. A. Corey
 
 ## Watching
-- [ ] Primal
+- [ ] {{< emoji ":thumbsup:" >}} Alone - Million dollar challenge
+  - I never thought id learn so much about the importance of fishing.
 - [x] {{< emoji ":thumbsup:" >}} Willy's Wonderland
 - [x] {{< emoji ":thumbsdown:" >}} Dog Eat Dog "nick cage movie"
 - [x] {{< emoji ":thumbsup:" >}} Invincible
