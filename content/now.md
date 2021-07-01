@@ -19,9 +19,9 @@ be spread across ten different applications.
 
 ## Listening To
 - [ ] Cibola Burn / James S. A. Corey
-- [x] {< emoji ":thumbsup:" >}} [Abaddon's Gate]({{< ref "abaddons_gate.md" >}} "Abaddon's Gate") / James S. A. Corey
-- [x] {< emoji ":thumbsup:" >}} [Calibans War]({{< ref "calibans_war.md" >}} "Calibans War") / James S. A. Corey
-- [x] {< emoji ":thumbsup:" >}} [Leviathan Wakes]({{< ref "leviathan_wakes.md" >}} "Leviathan Wakes") / James S. A. Corey
+- [x] {{< emoji ":thumbsup:" >}} [Abaddon's Gate]({{< ref "abaddons_gate.md" >}} "Abaddon's Gate") / James S. A. Corey
+- [x] {{< emoji ":thumbsup:" >}} [Calibans War]({{< ref "calibans_war.md" >}} "Calibans War") / James S. A. Corey
+- [x] {{< emoji ":thumbsup:" >}} [Leviathan Wakes]({{< ref "leviathan_wakes.md" >}} "Leviathan Wakes") / James S. A. Corey
 
 ## Watching
 - [ ] {{< emoji ":thumbsup:" >}} Alone - Million dollar challenge
@@ -37,8 +37,9 @@ be spread across ten different applications.
 * Different note-taking strategies
 
 ## Exercise
-* Walking / Running a min 9k steps a day
+* Walking / Running a min 10k steps a day
   * now trying rucking with 20 pounds of weight in a backpack
+  * every other day 10 pull ups
 * At least 2 weekly 3.5 runs or more
 
 This page is following best practice as defined from
