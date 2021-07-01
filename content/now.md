@@ -7,6 +7,9 @@ description: "now"
 
 # What im doing _now_
 
+_Last Updated: {{< updated >}}_
+
+
 Mostly im working really hard at keeping the engineering side of my startup going the
 correct direction while trying to balance life. Im becoming more and more obsessed with
 determining the best way to store and retrieve information from my notes that seem to
