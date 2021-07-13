@@ -2,8 +2,8 @@
 title: "Cibola Burn"
 date: 2021-07-13T13:48:53-06:00
 draft: false
-tags = ["book"]
-categories = ["review"]
+tags: ["book"]
+categories: ["review"]
 ---
 
 ## He reaches out
