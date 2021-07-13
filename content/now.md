@@ -20,13 +20,16 @@ be spread across ten different applications.
 - [ ] Distributed Services with Go
 
 ## Listening To
-- [ ] Cibola Burn / James S. A. Corey
+- [ ] Nemesis Games  / James S. A. Corey
+- [x] {{< emoji ":thumbsup:" >}} [Cibola Burn]({{< ref "cibola_burn.md" >}} "Cibola Burn") Cibola Burn / James S. A. Corey
 - [x] {{< emoji ":thumbsup:" >}} [Abaddon's Gate]({{< ref "abaddons_gate.md" >}} "Abaddon's Gate") / James S. A. Corey
 - [x] {{< emoji ":thumbsup:" >}} [Calibans War]({{< ref "calibans_war.md" >}} "Calibans War") / James S. A. Corey
 - [x] {{< emoji ":thumbsup:" >}} [Leviathan Wakes]({{< ref "leviathan_wakes.md" >}} "Leviathan Wakes") / James S. A. Corey
 
 ## Watching
-- [ ] {{< emoji ":thumbsup:" >}} Alone - Million dollar challenge
+- [ ] {{< emoji ":thumbsup:" >}} Full Dive: This Ultimate Next-Gen Full Dive RPG Is Even Shittier than Real Life!
+- [ ] {{< emoji ":thumbsup:" >}} Netflix - Castlevania Series
+- [x] {{< emoji ":thumbsup:" >}} Alone - Million dollar challenge
   - I never thought id learn so much about the importance of fishing.
 - [x] {{< emoji ":thumbsup:" >}} Willy's Wonderland
 - [x] {{< emoji ":thumbsdown:" >}} Dog Eat Dog "nick cage movie"
