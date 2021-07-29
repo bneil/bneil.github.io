@@ -20,7 +20,8 @@ be spread across ten different applications.
 - [ ] Distributed Services with Go
 
 ## Listening To
-- [ ] Nemesis Games  / James S. A. Corey
+- [ ] Babylon's Ashes  / James S. A. Corey
+- [x] {{< emoji ":thumbsup:" >}} Nemesis Games  / James S. A. Corey
 - [x] {{< emoji ":thumbsup:" >}} [Cibola Burn]({{< ref "cibola_burn.md" >}} "Cibola Burn") Cibola Burn / James S. A. Corey
 - [x] {{< emoji ":thumbsup:" >}} [Abaddon's Gate]({{< ref "abaddons_gate.md" >}} "Abaddon's Gate") / James S. A. Corey
 - [x] {{< emoji ":thumbsup:" >}} [Calibans War]({{< ref "calibans_war.md" >}} "Calibans War") / James S. A. Corey
@@ -36,10 +37,6 @@ be spread across ten different applications.
 - [x] {{< emoji ":thumbsup:" >}} Invincible
 - [x] {{< emoji ":thumbsdown:" >}} Wayne (ended up not watching all of it)
 - [x] {{< emoji ":thumbsup:" >}} Uploaded
-
-## Learning About
-* Different note-taking apps
-* Different note-taking strategies
 
 ## Exercise
 * Walking / Running a min 10k steps a day
