@@ -18,9 +18,12 @@ be spread across ten different applications.
 ## Reading
 - [ ] Several short sentences about writing
 - [ ] Distributed Services with Go
+- [x] Piranesi
 
 ## Listening To
-- [ ] Babylon's Ashes  / James S. A. Corey
+- [ ] Tiamat's Wraith  / James S. A. Corey
+- [x] {{< emoji ":thumbsup:" >}} Persepolis Rising / James S. A. Corey
+- [x] {{< emoji ":thumbsup:" >}} Babylon's Ashes  / James S. A. Corey
 - [x] {{< emoji ":thumbsup:" >}} Nemesis Games  / James S. A. Corey
 - [x] {{< emoji ":thumbsup:" >}} [Cibola Burn]({{< ref "cibola_burn.md" >}} "Cibola Burn") Cibola Burn / James S. A. Corey
 - [x] {{< emoji ":thumbsup:" >}} [Abaddon's Gate]({{< ref "abaddons_gate.md" >}} "Abaddon's Gate") / James S. A. Corey
@@ -28,8 +31,8 @@ be spread across ten different applications.
 - [x] {{< emoji ":thumbsup:" >}} [Leviathan Wakes]({{< ref "leviathan_wakes.md" >}} "Leviathan Wakes") / James S. A. Corey
 
 ## Watching
-- [ ] {{< emoji ":thumbsup:" >}} Full Dive: This Ultimate Next-Gen Full Dive RPG Is Even Shittier than Real Life!
 - [ ] {{< emoji ":thumbsup:" >}} Netflix - Castlevania Series
+- [x] {{< emoji ":thumbsup:" >}} Full Dive: This Ultimate Next-Gen Full Dive RPG Is Even Shittier than Real Life!
 - [x] {{< emoji ":thumbsup:" >}} Alone - Million dollar challenge
   - I never thought id learn so much about the importance of fishing.
 - [x] {{< emoji ":thumbsup:" >}} Willy's Wonderland
