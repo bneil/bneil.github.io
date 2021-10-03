@@ -1,5 +1,5 @@
 <!doctype html><html dir=ltr lang=en data-theme><head>
-<title> | 404 Page not found </title>
+<title> | Connecting/Migrations in RDS </title>
 <meta charset=utf-8><meta name=generator content="Hugo 0.88.1"><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name=description content="    AUTOMATION MECHANIC
     writer and coder
@@ -12,14 +12,14 @@
 <link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
 <link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
 <link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
-<link rel=canonical href=/404.html>
+<link rel=canonical href=/notes/note_connecting_to_rds/>
 <script type=text/javascript src=/js/anatole-header.min.0c05c0a90d28c968a1cad4fb31abd0b8e1264e788ccefed022ae1d3b6f627514.js integrity="sha256-DAXAqQ0oyWihytT7MavQuOEmTniMzv7QIq4dO29idRQ=" crossorigin=anonymous></script>
 <script type=text/javascript src=/js/anatole-theme-switcher.min.7fd87181cdd7e8413aa64b6867bb32f3a8dc242e684fc7d5bbb9f600dbc2b6eb.js integrity="sha256-f9hxgc3X6EE6pktoZ7sy86jcJC5oT8fVu7n2ANvCtus=" crossorigin=anonymous></script>
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="404 Page not found">
-<meta name=twitter:description content="    AUTOMATION MECHANIC
-    writer and coder
-    ">
+<meta name=twitter:title content="Connecting/Migrations in RDS">
+<meta name=twitter:description content="Goose Since goose uses pq under the hood, to hit remote urls
+goose postgres &#34;user=postgres password=${PROD_PGPASS} dbname=test sslmode=disable host=database.rds.amazonaws.com&#34; status PSQL / RDS I didnt have a default database created, so I needed to psql into it - summoning psql via docker container
+docker run -it --rm jbergknoff/postgresql-client postgresql://postgres:${PROD_PGPASS}@database.rds.amazonaws.com:5432 ">
 </head>
 <body><div class="sidebar animated fadeInDown">
 <div class=logo-title>
@@ -101,12 +101,33 @@ Theme is <a href=https://themes.gohugo.io/anatole/>Anatole</a></p>
 </div>
 <div class=autopagerize_page_element>
 <div class=content>
-<div class=page_404>
-<h1>404</h1>
-<h2>Page Not Found</h2>
-<p>Sorry, this page does not exist.</p>
-<p>You can head back to <a href=/>homepage</a>.</p>
+<div class="post animated fadeInDown">
+<article class=h-entry>
+<div class=post-content>
+<div class=post-title>
+<h3>Connecting/Migrations in RDS</h3>
+<a rel=author class="p-author h-card" href=#></a>
 </div>
+<div class="e-content p-name">
+<h2 id=goose>Goose</h2>
+<p>Since goose uses pq under the hood, to hit remote urls</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=nx>goose</span> <span class=nx>postgres</span> <span class=s>&#34;user=postgres password=${PROD_PGPASS} dbname=test sslmode=disable host=database.rds.amazonaws.com&#34;</span> <span class=nx>status</span>
+</code></pre></div><h2 id=psql--rds>PSQL / RDS</h2>
+<p>I didnt have a default database created, so I needed to psql into it - summoning psql via docker container</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell>docker run -it --rm jbergknoff/postgresql-client postgresql://postgres:<span class=si>${</span><span class=nv>PROD_PGPASS</span><span class=si>}</span>@database.rds.amazonaws.com:5432
+</code></pre></div>
+</div>
+</div>
+</article>
+<div class=post-footer>
+<div class=info>
+<span class=separator><a class=category href=/categories/notes/>notes</a><a class=category href=/categories/coding/>coding</a></span>
+<span class=separator><a class=tag href=/tags/notes/>notes</a><a class=tag href=/tags/aws/>aws</a><a class=tag href=/tags/goose/>goose</a><a class=tag href=/tags/docker/>docker</a></span>
+</div>
+</div>
+</div>
+<link rel=webmention href=https://webmention.io/bneil.me/webmention>
+<link rel=pingback href=https://webmention.io/bneil.me/xmlrpc>
 </div>
 </div>
 </div>
