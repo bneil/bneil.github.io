@@ -17,21 +17,25 @@ be spread across ten different applications.
 
 ## Reading
 - [ ] Several short sentences about writing
-- [ ] Distributed Services with Go
+    - seriously, for a book about short sentences, I end up taking notes and then
+      spending weeks researching them.
+- [x] Distributed Services with Go
 - [x] Piranesi
 
 ## Listening To
-- [ ] Tiamat's Wraith  / James S. A. Corey
+- [x] Tiamat's Wraith  / James S. A. Corey
 - [x] {{< emoji ":thumbsup:" >}} Persepolis Rising / James S. A. Corey
 - [x] {{< emoji ":thumbsup:" >}} Babylon's Ashes  / James S. A. Corey
-- [x] {{< emoji ":thumbsup:" >}} Nemesis Games  / James S. A. Corey
+- [x] {{< emoji ":thumbsup:" >}} [Nemesis Games]({{< ref "nemesis_games.md" >}} "Nemesis Games") Cibola Burn / James S. A. Corey
 - [x] {{< emoji ":thumbsup:" >}} [Cibola Burn]({{< ref "cibola_burn.md" >}} "Cibola Burn") Cibola Burn / James S. A. Corey
 - [x] {{< emoji ":thumbsup:" >}} [Abaddon's Gate]({{< ref "abaddons_gate.md" >}} "Abaddon's Gate") / James S. A. Corey
 - [x] {{< emoji ":thumbsup:" >}} [Calibans War]({{< ref "calibans_war.md" >}} "Calibans War") / James S. A. Corey
 - [x] {{< emoji ":thumbsup:" >}} [Leviathan Wakes]({{< ref "leviathan_wakes.md" >}} "Leviathan Wakes") / James S. A. Corey
 
 ## Watching
-- [ ] {{< emoji ":thumbsup:" >}} Netflix - Castlevania Series
+- [x] {{< emoji ":thumbsup:" >}} Netflix - Castlevania Series
+    - not going to ruin anything, but i didnt see this happening in an anime
+    ![nope](/images/death.jpg)
 - [x] {{< emoji ":thumbsup:" >}} Full Dive: This Ultimate Next-Gen Full Dive RPG Is Even Shittier than Real Life!
 - [x] {{< emoji ":thumbsup:" >}} Alone - Million dollar challenge
   - I never thought id learn so much about the importance of fishing.

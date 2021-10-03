@@ -2,6 +2,7 @@ baseurl = "/"
 title = "Benjamin Neil" # Site title.
 #theme = "coder-portfolio" # Set the theme.
 theme = "anatole" # Set the theme.
+#theme = "blank" # Set the theme.
 languagecode = "en" # The site’s language code used to generate RSS.
 defaultcontentlanguage = "en" # The default content language.
 
