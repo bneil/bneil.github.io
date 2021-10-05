@@ -10,22 +10,21 @@ to my digital garden, im still in the process of making things look better.
 That said! Thanks to everyone for reading!!
 
 ## Navigation
-=> gemini://bneil.me/resume/index.gmi
-=> gemini://bneil.me/about/index.gmi About Me
-=> gemini://bneil.me/contact/index.gmi Contact
-=> gemini://bneil.me/now/index.gmi now
+=> gemini://shiny.bneil.me/about/index.gmi About Me
+=> gemini://shiny.bneil.me/contact/index.gmi Contact
+=> gemini://shiny.bneil.me/now/index.gmi now
 
   .--.      .-'.      .--.      .--.      .--.      .--.      .`-.      .--.
 :::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\
 
 ## by major subject
 {{range sort ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
-=> {{ replace .Permalink "https" "gemini" 1}} {{ .Title }}{{end}}
+=> {{ replace .Permalink "https://" "gemini://shiny." 1}} {{ .Title }}{{end}}
 
 
 ## by tag
 {{range ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
-=> {{ replace .Permalink "https" "gemini" 1}} {{ .Title }}{{end}}
+=> {{ replace .Permalink "https://" "gemini://shiny." 1}} {{ .Title }}{{end}}
 
 
 :::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\
