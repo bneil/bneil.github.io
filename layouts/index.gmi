@@ -19,11 +19,11 @@ That said! Thanks to everyone for reading!!
 
 ## by major subject
 {{range sort ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
-=> {{ replace .Permalink "https://" "gemini://shiny." 1}}gemini/index.gmi {{ .Title }}{{end}}
+=> {{ replace .Permalink "https://" "gemini://shiny." 1}} {{ .Title }}{{end}}
 
 ## by tag
 {{range ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
-=> {{ replace .Permalink "https://" "gemini://shiny." 1}}gemini/index.gmi {{ .Title }}{{end}}
+=> {{ replace .Permalink "https://" "gemini://shiny." 1}} {{ .Title }}{{end}}
 
 => gemini://shiny.bneil.me/tags/aws/ aws
 
