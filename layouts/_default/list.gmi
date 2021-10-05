@@ -3,5 +3,5 @@
 
 Pages in this section:
 {{ range .Pages }}
-=> {{ .RelPermalink }} {{ .Date.Format "2006-01-02" }} {{ .Title }}
+=> {{ replace .RelPermalink "/gemini" "" 1}} {{ .Date.Format "2006-01-02" }} {{ .Title }}
 {{- end -}}
