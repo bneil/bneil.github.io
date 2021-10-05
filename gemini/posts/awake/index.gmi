@@ -39,4 +39,3 @@ To that end, im going to be trying to incorporate more of the concepts ive been 
 about those implementations here. 
 
 Cheers
-

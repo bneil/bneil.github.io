@@ -37,4 +37,3 @@ I like how simple trello is. I like how simple vim is. I love markdown for note 
 articles on virtual gardens or second brains, it seems like the ability to search and structure data
 is what makes the most sense. But does hugo provide that, kinda, I think id probably need to restrict 
 the frontpage from displaying notes. But slugs should do a good job of keeping projects together.
-

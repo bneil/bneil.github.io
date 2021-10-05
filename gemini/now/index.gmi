@@ -63,4 +63,3 @@ be spread across ten different applications.
 This page is following best practice as defined from
 [@NowNowNow](https://twitter.com/NowNowNow)
 
-

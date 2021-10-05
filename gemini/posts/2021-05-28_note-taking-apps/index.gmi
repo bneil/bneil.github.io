@@ -13,4 +13,3 @@ obsidian.md -> sourcehut -> all mobile devices
 
 
 
-

@@ -20,4 +20,3 @@ I didnt have a default database created, so I needed to psql into it - summoning
 docker run -it --rm jbergknoff/postgresql-client postgresql://postgres:${PROD_PGPASS}@database.rds.amazonaws.com:5432
 ```*(.+?)
 
-

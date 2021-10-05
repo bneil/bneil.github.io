@@ -20,4 +20,3 @@ the host machine for the proper resources.
 So, the search begins for finding some more information around foreign layers and how to specify them within a manifest,
 dockerfile or registry...
 
-

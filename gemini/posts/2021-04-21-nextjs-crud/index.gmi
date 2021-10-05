@@ -119,4 +119,3 @@ im going to break into how to fetch and work with nextjs as a simple
 crud application.
 
 
-

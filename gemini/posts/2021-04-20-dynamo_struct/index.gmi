@@ -154,4 +154,3 @@ func (s DynamoStore) SetPrimaryKey(pk string) DynamoStore {
 ```*(.+?)
 
 I didnt upload a gist of this code, sorry :)
-

@@ -45,4 +45,3 @@ company tally table
 
 Maybe just using rds would be a better fit. The amount of scanning would be pretty awful. Ok, abandoning idea!
 
-

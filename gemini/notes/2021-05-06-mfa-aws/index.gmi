@@ -23,4 +23,3 @@ credentials to use ecr in aws from the cli.
 5. Issue the command aws ecr get-login --profile mfa
   1. ecr above can be replaced with any service
 
-
