@@ -11,4 +11,3 @@
 {{ if .Next }}=> {{ replace .Next.Permalink "/gemini" "" 1}} ← Newer: {{ .Next.Title }}{{ end }}
 {{ if .Prev -}}=> {{ replace .Prev.Permalink "/gemini" "" 1}} → Older: {{ .Prev.Title }}{{- end }}
 {{ $content }}
-
