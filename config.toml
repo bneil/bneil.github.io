@@ -40,8 +40,8 @@ paginate=3 # articles per page
   home = ["html", "rss", "gemini","gemini_rss"]
   page = ["html", "gemini"]
   section = ["html","gemini"]
-  term = ["gemini"]
-  taxanomy = ["gemini"]
+  term = ["gemini", "html"]
+  taxanomy = ["gemini", "html"]
 
 
 [params]
