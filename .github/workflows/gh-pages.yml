@@ -23,8 +23,22 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Deploy
+      - name: Deploy To Github
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+
+      - name: Compress action step
+        uses: master-atul/tar-action@v1.0.2
+        id: compress
+        with:
+          command: c
+          files: |
+            ./public/gemini
+          outPath: site.tar.gz
+
+      - name: curl
+        uses: enflo/curl-action@master
+        with:
+          curl: curl --oauth2-bearer ${{secrets.SRHT_TOKEN}} -Fcontent=@site.tar.gz -Fprotocol=GEMINI https://pages.sr.ht/publish/shiny.bneil.me
