@@ -1,0 +1,33 @@
+<footer>
+<hr>
+{{- range $index, $key := .Site.Params.Social -}}
+<a class="soc" href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>|
+{{- end -}} ⚡️
+	{{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }}  {{ end }}
+</footer>
+
+<div class="h-card" style="display:none">
+	<span class="p-name">Ben Neil</span>
+	<span class="p-given-name">Ben</span>
+	<abbr class="p-additional-name">E.</abbr>
+	<span class="p-family-name">Neil</span>
+	<span class="p-nickname">bneil</span> (IRC)
+	<img class="u-photo" src="https://bneil.me/images/avatar.gif"/>
+	<a class="u-url" href="https://bneil.me">w</a>,
+	<a class="u-email" href="mailto:ben@neil-conceptscom">e</a>
+	<div class="p-category">programmer</div>
+	<div class="p-note">Now is tea time</div>
+</div>
+
+{{ if not .Site.IsServer }}
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "cc4d2eca67bc471d83269a9e66e60551"}'></script><!-- End Cloudflare Web Analytics -->
+<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101323590);</script>
+<script async src="//static.getclicky.com/js"></script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101323590ns.gif" /></p></noscript>
+{{- end -}}
+
+{{- if (isset .Site.Params "social") -}}
+<script>
+      feather.replace()
+</script>
+{{- end -}}

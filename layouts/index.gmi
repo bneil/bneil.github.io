@@ -1,14 +1,25 @@
-## List of posts
+:::::::. :::.    :::..,::::::  ::: :::        .        :  .,::::::
+ ;;;'';;'`;;;;,  `;;;;;;;''''  ;;; ;;;        ;;,.    ;;; ;;;;''''
+ [[[__[[\. [[[[[. '[[ [[cccc   [[[ [[[        [[[[, ,[[[[, [[cccc
+ $$""""Y$$ $$$ "Y$c$$ $$""""   $$$ $$'        $$$$$$$$"$$$ $$""""
+_88o,,od8P 888    Y88 888oo,__ 888o88oo,.__d8b888 Y88" 888o888oo,__
+""YUMMMP"  MMM     YM """"YUMMMMMM""""YUMMMYMPMMM  M'  "MMM""""YUMMM
 
-{{ range (where .Site.RegularPages "Section" "articles") }}
-=> {{ replace .Permalink "/gemini" "" 1}} {{ .Title }}
-{{ end }}
+# welcome,
+to my digital garden, im still in the process of making things look better.
+That said! Thanks to everyone for reading!
 
-## Posts grouped by year
+  .--.      .-'.      .--.      .--.      .--.      .--.      .`-.      .--.
+:::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\
 
-{{ range .Site.RegularPages.GroupByDate "2006" }}
-### {{ .Key }}
-{{ range .Pages.ByDate.Reverse }}
-=> {{ replace .Permalink "/gemini" "" 1}} {{ .Title }}
-{{- end }}
-{{ end }}
+## by major subject
+{{range sort ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+=> {{ replace .Permalink "/gemini" "" 1}} {{ .Title }}{{end}}
+
+
+## by tag
+{{range ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
+=> {{ replace .Permalink "/gemini" "" 1}} {{ .Title }}{{end}}
+
+:::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\
+'      `--'      `.-'      `--'      `--'      `--'      `-.'      `--'      `

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	{{ partial "header.html" . }}
+	<body>
+		<div class="content">
+			{{ partial "head.html" . }}
+
+
+			
+			<main class="list">
+				<div class="site-description">
+					{{- if isset .Site.Params "subtitle" -}}
+					<p>{{ .Site.Params.Subtitle | markdownify }}</p>
+					{{- end -}}
+				</div>
+
+				<h1>welcome,</h1>
+				to my digital garden, im still in the process of making things look better.
+				That said! Its looking pretty good, just take a look at these hip categories:
+
+
+				{{range sort ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+				<p><a href="{{.Permalink}}"><h2>{{.Title}}</h2></a></p>
+				{{end}}
+
+				tags:<p/>
+				{{range ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
+				<a href="{{.Permalink}}">#{{.Title}}</a>
+				{{end}}
+
+
+				<!--
+				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
+				{{ range $paginator.Pages }}
+				<section class="list-item">
+					<h1 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h1>
+					<time>{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
+					<br><div class="description">
+						{{ if isset .Params "description" }}
+						{{ .Description }}
+						{{ else }}
+						{{ .Summary }}&hellip;
+						{{ end }}
+					</div>
+					<a href="{{ .RelPermalink }}">Read more ⟶</a>
+				</section>
+				{{ end }}
+				{{ template "partials/paginator.html" . }}
+				-->
+
+
+			</main>
+			{{ partial "footer.html" . }}
+		</div>
+		
+	</body>
+</html>
