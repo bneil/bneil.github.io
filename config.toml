@@ -78,7 +78,7 @@ paginate=3 # articles per page
 [[params.social]]
     name = "rss"
     icon = "rss"
-    url = "https://bneil.me/post/index.xml"
+    url = "https://bneil.me/index.xml"
 
 
 # Main menu Items
