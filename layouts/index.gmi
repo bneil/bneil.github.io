@@ -1,0 +1,14 @@
+## List of posts
+
+{{ range (where .Site.RegularPages "Section" "articles") }}
+=> {{ replace .Permalink "/gemini" "" 1}} {{ .Title }}
+{{ end }}
+
+## Posts grouped by year
+
+{{ range .Site.RegularPages.GroupByDate "2006" }}
+### {{ .Key }}
+{{ range .Pages.ByDate.Reverse }}
+=> {{ replace .Permalink "/gemini" "" 1}} {{ .Title }}
+{{- end }}
+{{ end }}

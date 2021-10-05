@@ -1,0 +1,14 @@
+# {{ .Title }}
+
+{{ $content := .RawContent -}}
+{{ $content := $content | replaceRE "\\*(.+?)\\*" "$1" -}}
+{{ $content := $content | replaceRE "`(.+?)`" "$1" -}}
+{{ $content := $content | replaceRE "`" "```*(.+?)" -}}
+{{- $content = $content | replaceRE `\!\[(.+?)\]\((.+?)\)` "=> $2 Image: $1" }}
+{{- range findRE `\[.+?\]\(.+?\)` $content }}
+    {{- $content = $content | replaceRE `\[(.+?)\]\((.+?)\)(.+)` "$1$3\n\n=> $2 $1 " }}
+{{- end }}
+{{ if .Next }}=> {{ replace .Next.Permalink "/gemini" "" 1}} ← Newer: {{ .Next.Title }}{{ end }}
+{{ if .Prev -}}=> {{ replace .Prev.Permalink "/gemini" "" 1}} → Older: {{ .Prev.Title }}{{- end }}
+{{ $content }}
+
