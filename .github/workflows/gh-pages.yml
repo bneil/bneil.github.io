@@ -39,6 +39,6 @@ jobs:
           outPath: site.tar.gz
 
       - name: curl
-        uses: enflo/curl-action@master
+        uses: wei/curl@v1
         with:
-          curl: curl --oauth2-bearer "${{secrets.SRHT_TOKEN}}" -Fcontent=@site.tar.gz -Fprotocol=GEMINI https://pages.sr.ht/publish/shiny.bneil.me
+          args: --oauth2-bearer "${{secrets.SRHT_TOKEN}}" -Fcontent=@site.tar.gz -Fprotocol=GEMINI https://pages.sr.ht/publish/shiny.bneil.me
