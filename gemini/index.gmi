@@ -19,36 +19,34 @@ That said! Thanks to everyone for reading!!
 
 ## by major subject
 
-=> gemini://bneil.me/categories/review/gemini/index.gmi review
-=> gemini://bneil.me/categories/reviews/gemini/index.gmi reviews
-=> gemini://bneil.me/categories/coding/gemini/index.gmi coding
-=> gemini://bneil.me/categories/notes/gemini/index.gmi notes
-=> gemini://bneil.me/categories/workflow/gemini/index.gmi workflow
-=> gemini://bneil.me/categories/gaming/gemini/index.gmi gaming
-=> gemini://bneil.me/categories/general/gemini/index.gmi general
+=> gemini://shiny.bneil.me/categories/review/gemini/index.gmi review
+=> gemini://shiny.bneil.me/categories/reviews/gemini/index.gmi reviews
+=> gemini://shiny.bneil.me/categories/coding/gemini/index.gmi coding
+=> gemini://shiny.bneil.me/categories/notes/gemini/index.gmi notes
+=> gemini://shiny.bneil.me/categories/workflow/gemini/index.gmi workflow
+=> gemini://shiny.bneil.me/categories/gaming/gemini/index.gmi gaming
+=> gemini://shiny.bneil.me/categories/general/gemini/index.gmi general
 
 ## by tag
 
-=> gemini://bneil.me/tags/first/gemini/index.gmi first
-=> gemini://bneil.me/tags/book/gemini/index.gmi book
-=> gemini://bneil.me/tags/aws/gemini/index.gmi aws
-=> gemini://bneil.me/tags/docker/gemini/index.gmi docker
-=> gemini://bneil.me/tags/goose/gemini/index.gmi goose
-=> gemini://bneil.me/tags/notes/gemini/index.gmi notes
-=> gemini://bneil.me/tags/golang/gemini/index.gmi golang
-=> gemini://bneil.me/tags/rds/gemini/index.gmi rds
-=> gemini://bneil.me/tags/seedling/gemini/index.gmi seedling
-=> gemini://bneil.me/tags/gaming/gemini/index.gmi gaming
-=> gemini://bneil.me/tags/no-man-sky/gemini/index.gmi no man sky
-=> gemini://bneil.me/tags/nextjs/gemini/index.gmi nextjs
-=> gemini://bneil.me/tags/indieweb/gemini/index.gmi indieweb
-=> gemini://bneil.me/tags/wasm/gemini/index.gmi wasm
-=> gemini://bneil.me/tags/webmentions/gemini/index.gmi webmentions
-=> gemini://bneil.me/tags/fun/gemini/index.gmi fun
-=> gemini://bneil.me/tags/writing/gemini/index.gmi writing
-=> gemini://bneil.me/tags/development/gemini/index.gmi development
-
-=> gemini://shiny.bneil.me/tags/aws/ aws
+=> gemini://shiny.bneil.me/tags/first/gemini/index.gmi first
+=> gemini://shiny.bneil.me/tags/book/gemini/index.gmi book
+=> gemini://shiny.bneil.me/tags/aws/gemini/index.gmi aws
+=> gemini://shiny.bneil.me/tags/docker/gemini/index.gmi docker
+=> gemini://shiny.bneil.me/tags/goose/gemini/index.gmi goose
+=> gemini://shiny.bneil.me/tags/notes/gemini/index.gmi notes
+=> gemini://shiny.bneil.me/tags/golang/gemini/index.gmi golang
+=> gemini://shiny.bneil.me/tags/rds/gemini/index.gmi rds
+=> gemini://shiny.bneil.me/tags/seedling/gemini/index.gmi seedling
+=> gemini://shiny.bneil.me/tags/gaming/gemini/index.gmi gaming
+=> gemini://shiny.bneil.me/tags/no-man-sky/gemini/index.gmi no man sky
+=> gemini://shiny.bneil.me/tags/nextjs/gemini/index.gmi nextjs
+=> gemini://shiny.bneil.me/tags/indieweb/gemini/index.gmi indieweb
+=> gemini://shiny.bneil.me/tags/wasm/gemini/index.gmi wasm
+=> gemini://shiny.bneil.me/tags/webmentions/gemini/index.gmi webmentions
+=> gemini://shiny.bneil.me/tags/fun/gemini/index.gmi fun
+=> gemini://shiny.bneil.me/tags/writing/gemini/index.gmi writing
+=> gemini://shiny.bneil.me/tags/development/gemini/index.gmi development
 
 :::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\
 '      `--'      `.-'      `--'      `--'      `--'      `-.'      `--'      `
