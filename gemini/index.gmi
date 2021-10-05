@@ -7,7 +7,7 @@ _88o,,od8P 888    Y88 888oo,__ 888o88oo,.__d8b888 Y88" 888o888oo,__
 
 # welcome,
 to my digital garden, im still in the process of making things look better.
-That said! Thanks to everyone for reading!
+That said! Thanks to everyone for reading!!
 
 ## Navigation
 => gemini://bneil.me/resume/index.gmi
