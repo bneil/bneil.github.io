@@ -41,4 +41,4 @@ jobs:
       - name: curl
         uses: enflo/curl-action@master
         with:
-          curl: curl --oauth2-bearer ${{secrets.SRHT_TOKEN}} -Fcontent=@site.tar.gz -Fprotocol=GEMINI https://pages.sr.ht/publish/shiny.bneil.me
+          curl: curl --oauth2-bearer "${{secrets.SRHT_TOKEN}}" -Fcontent=@site.tar.gz -Fprotocol=GEMINI https://pages.sr.ht/publish/shiny.bneil.me
