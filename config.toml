@@ -1,87 +1,69 @@
-baseurl = "/"
-title = "Benjamin Neil" # Site title.
-#theme = "coder-portfolio" # Set the theme.
-theme = "anatole" # Set the theme.
-#theme = "blank" # Set the theme.
-languagecode = "en" # The site’s language code used to generate RSS.
-defaultcontentlanguage = "en" # The default content language.
+baseURL = "https://bneil.me"
+languageCode = "en-us"
+title = "bneil.me"
+copyright = "© bneil"
+theme="archie"
 
-paginate = 20 # Default number of pages per page in pagination.
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
-pygmentsstyle = "b2" # Color-theme or style for syntax highlighting.
-pygmentscodefences = true # Enable code fence background highlighting.
-pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences without specified language.
-pygmentsUseClasses = true # new add
 enableGitInfo = true
 enableInlineShortcodes= true
 
-disqusShortname = "" # Enable or disable Disqus.
+paginate=3 # articles per page
 
-[params] # theme parameters
-    title="Benjamin Neil"
-    author = "" # Author's nate.
-    info = "AUTOMATION MECHANIC" # Author's job title or info.
-    description = """
-    AUTOMATION MECHANIC
-    writer and coder
-    """
-    keywords = "blog,developer,engineer,golang,erlang,rust,scala,kubernetes,docker,personal" # Site keywords.
-    avatarurl = "/images/avatar.gif" # Contain the path of the optionnal avatar in the static folder.
-    profilePicture = "/images/avatar.gif"
-    disableThemeSwitcher = false
-    readMore = true
-    customCss = ["css/override.css"]
-    webmentions = "https://mention.bneil.me"
+[mediaTypes]
+  [mediaTypes."application/rss+xml"]
+    suffixes = ['xml']
+  [mediaTypes.'text/gemini']
+    suffixes = ['gmi']
 
-    # Multilanguage mode
-    langseparator = "|" # Separates menus from language selectors when site is multilingual.
-    copyright = "2000-2021"
-
-    # Google Site Verify
-    # gtagId = "UA-23046899-1"
-
-[params.utterances]
-    repo = "bneil/bneil.github.io"
-    issueTerm = "question"
-    theme= "github-dark-orange"
+[outputFormats]
+[outputFormats.Gemini]
+    name = "GEMINI"
+    isPlainText = true
+    isHTML = false
+    mediaType = 'text/gemini'
+    protocol= 'gemini://'
+    permalinkable = true
+    path = 'gemini/'
+[outputFormats.GEMINI_RSS]
+    bassName = "rss"
+    isPlainText = false
+    path = "/gemini/"
+    mediaType = "application/rss+xml"
 
 
-# Social links
-[[params.socialIcons]]
-    title = "Github"
-    icon = "fab fa-github"
-    url = "https://github.com/bneil"
-[[params.socialIcons]]
-    title = "Twitter"
-    icon = "fab fa-twitter"
-    url = "https://twitter.com/benneil/"
-[[params.socialIcons]]
-    title = "LinkedIn"
-    icon = "fab fa-linkedin"
-    url = "https://www.linkedin.com/in/readyplayer1/"
-[[params.socialIcons]]
-    title = "Email"
-    icon = "fas fa-envelope"
-    url = "mailto:ben@neil-concepts.com"
-[[params.socialIcons]]
-    title = "Coderwall"
-    icon = "fas fa-code"
-    url = "https://coderwall.com/bneil"
-[[params.socialIcons]]
-    title = "Medium"
-    icon = "fab fa-medium"
-    url = "https://medium.com/@bneil/about"
-[[params.socialIcons]]
-    title = "rss"
-    icon = "fas fa-rss"
-    url = "https://bneil.me/post/index.xml"
+[outputs]
+  home = ["HTML", "RSS", "GEMINI","GEMINI_RSS"]
+  page = ["HTML", "GEMINI"]
 
-# Menu links
+[params]
+	mode="light" # color-mode → light,dark,toggle or auto
+	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
+	subtitle = "learnings from a professional automation mechanic"
+
+# Social Tags
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/bneil"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/benneil"
+
+# Main menu Items
+
 [[menu.main]]
-    name = "Home"
-    weight = 1
-    identifier = "home"
-    url  = "/"
+name = "Home"
+url = "/"
+weight = 1
+
 
 [[menu.main]]
     name = "Contact"
