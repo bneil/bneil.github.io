@@ -3,4 +3,4 @@
 
 Pages in this section:
 
-=> /gemini/posts/2021-05-28_note-taking-apps/index.gmi 2021-05-28 Note taking apps
+=> /posts/2021-05-28_note-taking-apps/index.gmi 2021-05-28 Note taking apps

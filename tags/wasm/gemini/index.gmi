@@ -3,4 +3,4 @@
 
 Pages in this section:
 
-=> /gemini/posts/wasm/index.gmi 2021-04-15 WASM and Webmentions
+=> /posts/wasm/index.gmi 2021-04-15 WASM and Webmentions

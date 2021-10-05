@@ -3,7 +3,7 @@
 
 Pages in this section:
 
-=> /gemini/notes/note_connecting_to_rds/index.gmi 2021-06-01 Connecting/Migrations in RDS
-=> /gemini/notes/dynamodb_pages/index.gmi 2021-05-25 Dynamo DB Pages
-=> /gemini/notes/2021-05-06-mfa-aws/index.gmi 2021-05-06 Using MFA with AWS CLI
-=> /gemini/notes/2021-04-19-taking-notes/index.gmi 2021-04-19 On Notes
+=> /notes/note_connecting_to_rds/index.gmi 2021-06-01 Connecting/Migrations in RDS
+=> /notes/dynamodb_pages/index.gmi 2021-05-25 Dynamo DB Pages
+=> /notes/2021-05-06-mfa-aws/index.gmi 2021-05-06 Using MFA with AWS CLI
+=> /notes/2021-04-19-taking-notes/index.gmi 2021-04-19 On Notes

@@ -3,6 +3,6 @@
 
 Pages in this section:
 
-=> /gemini/review/books/abaddons_gate/index.gmi 2021-06-30 Abaddons Gate
-=> /gemini/review/books/calibans_war/index.gmi 2021-06-27 Calibans War
-=> /gemini/review/books/leviathan_wakes/index.gmi 2021-06-27 Leviathan Wakes
+=> /review/books/abaddons_gate/index.gmi 2021-06-30 Abaddons Gate
+=> /review/books/calibans_war/index.gmi 2021-06-27 Calibans War
+=> /review/books/leviathan_wakes/index.gmi 2021-06-27 Leviathan Wakes

@@ -3,4 +3,4 @@
 
 Pages in this section:
 
-=> /gemini/posts/replaying-nms/index.gmi 2021-05-25 Replaying No Mans Sky
+=> /posts/replaying-nms/index.gmi 2021-05-25 Replaying No Mans Sky

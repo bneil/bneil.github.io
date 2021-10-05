@@ -3,10 +3,10 @@
 
 Pages in this section:
 
-=> /gemini/notes/note_connecting_to_rds/index.gmi 2021-06-01 Connecting/Migrations in RDS
-=> /gemini/posts/2021-05-28_rds-audit-service/index.gmi 2021-05-28 Audit Service - RDS
-=> /gemini/posts/audit-dynamodb/index.gmi 2021-05-26 Audit Service - Dynamodb
-=> /gemini/posts/2021-04-21-nextjs-crud/index.gmi 2021-04-21 Nextjs Crud :: Setup
-=> /gemini/posts/2021-04-20-dynamo_struct/index.gmi 2021-04-20 Migrating to Dynamo
-=> /gemini/posts/wasm/index.gmi 2021-04-15 WASM and Webmentions
-=> /gemini/posts/docker-nondistributable-artifacts/index.gmi 2018-04-08 Nondistributable Artifacts
+=> /notes/note_connecting_to_rds/index.gmi 2021-06-01 Connecting/Migrations in RDS
+=> /posts/2021-05-28_rds-audit-service/index.gmi 2021-05-28 Audit Service - RDS
+=> /posts/audit-dynamodb/index.gmi 2021-05-26 Audit Service - Dynamodb
+=> /posts/2021-04-21-nextjs-crud/index.gmi 2021-04-21 Nextjs Crud :: Setup
+=> /posts/2021-04-20-dynamo_struct/index.gmi 2021-04-20 Migrating to Dynamo
+=> /posts/wasm/index.gmi 2021-04-15 WASM and Webmentions
+=> /posts/docker-nondistributable-artifacts/index.gmi 2018-04-08 Nondistributable Artifacts
