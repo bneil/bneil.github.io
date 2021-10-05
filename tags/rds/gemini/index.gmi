@@ -1,0 +1,7 @@
+# rds
+
+
+Pages in this section:
+
+=> /gemini/posts/2021-05-28_note-taking-apps/index.gmi 2021-05-28 Note taking apps
+=> /gemini/posts/2021-05-28_rds-audit-service/index.gmi 2021-05-28 Audit Service - RDS

@@ -1,0 +1,6 @@
+# nextjs
+
+
+Pages in this section:
+
+=> /gemini/posts/2021-04-21-nextjs-crud/index.gmi 2021-04-21 Nextjs Crud :: Setup

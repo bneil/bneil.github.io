@@ -1,0 +1,6 @@
+# goose
+
+
+Pages in this section:
+
+=> /gemini/notes/note_connecting_to_rds/index.gmi 2021-06-01 Connecting/Migrations in RDS

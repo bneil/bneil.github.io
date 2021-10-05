@@ -1,0 +1,7 @@
+# review
+
+
+Pages in this section:
+
+=> /gemini/review/books/nemesis_games/index.gmi 2021-09-13 Nemesis Games
+=> /gemini/review/books/cibola_burn/index.gmi 2021-07-13 Cibola Burn
