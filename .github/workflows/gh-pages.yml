@@ -32,6 +32,8 @@ jobs:
       - name: Compress action step
         id: compress
         run: |
+           cp -R public/tags public/gemini/tags
+           cp -R public/categories public/gemini/categories
            tar -C public/gemini/ -cvz . > site.tar.gz
 
       - name: curl
