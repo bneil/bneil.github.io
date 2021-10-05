@@ -10,45 +10,44 @@ to my digital garden, im still in the process of making things look better.
 That said! Thanks to everyone for reading!!
 
 ## Navigation
-=> gemini://bneil.me/resume/index.gmi
-=> gemini://bneil.me/about/index.gmi About Me
-=> gemini://bneil.me/contact/index.gmi Contact
-=> gemini://bneil.me/now/index.gmi now
+=> gemini://shiny.bneil.me/about/index.gmi About Me
+=> gemini://shiny.bneil.me/contact/index.gmi Contact
+=> gemini://shiny.bneil.me/now/index.gmi now
 
   .--.      .-'.      .--.      .--.      .--.      .--.      .`-.      .--.
 :::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\
 
 ## by major subject
 
-=> gemini://bneil.me/categories/review/ review
-=> gemini://bneil.me/categories/reviews/ reviews
-=> gemini://bneil.me/categories/coding/ coding
-=> gemini://bneil.me/categories/notes/ notes
-=> gemini://bneil.me/categories/workflow/ workflow
-=> gemini://bneil.me/categories/gaming/ gaming
-=> gemini://bneil.me/categories/general/ general
+=> gemini://shiny.bneil.me/categories/review/ review
+=> gemini://shiny.bneil.me/categories/reviews/ reviews
+=> gemini://shiny.bneil.me/categories/coding/ coding
+=> gemini://shiny.bneil.me/categories/notes/ notes
+=> gemini://shiny.bneil.me/categories/workflow/ workflow
+=> gemini://shiny.bneil.me/categories/gaming/ gaming
+=> gemini://shiny.bneil.me/categories/general/ general
 
 
 ## by tag
 
-=> gemini://bneil.me/tags/first/ first
-=> gemini://bneil.me/tags/book/ book
-=> gemini://bneil.me/tags/aws/ aws
-=> gemini://bneil.me/tags/docker/ docker
-=> gemini://bneil.me/tags/goose/ goose
-=> gemini://bneil.me/tags/notes/ notes
-=> gemini://bneil.me/tags/golang/ golang
-=> gemini://bneil.me/tags/rds/ rds
-=> gemini://bneil.me/tags/seedling/ seedling
-=> gemini://bneil.me/tags/gaming/ gaming
-=> gemini://bneil.me/tags/no-man-sky/ no man sky
-=> gemini://bneil.me/tags/nextjs/ nextjs
-=> gemini://bneil.me/tags/indieweb/ indieweb
-=> gemini://bneil.me/tags/wasm/ wasm
-=> gemini://bneil.me/tags/webmentions/ webmentions
-=> gemini://bneil.me/tags/fun/ fun
-=> gemini://bneil.me/tags/writing/ writing
-=> gemini://bneil.me/tags/development/ development
+=> gemini://shiny.bneil.me/tags/first/ first
+=> gemini://shiny.bneil.me/tags/book/ book
+=> gemini://shiny.bneil.me/tags/aws/ aws
+=> gemini://shiny.bneil.me/tags/docker/ docker
+=> gemini://shiny.bneil.me/tags/goose/ goose
+=> gemini://shiny.bneil.me/tags/notes/ notes
+=> gemini://shiny.bneil.me/tags/golang/ golang
+=> gemini://shiny.bneil.me/tags/rds/ rds
+=> gemini://shiny.bneil.me/tags/seedling/ seedling
+=> gemini://shiny.bneil.me/tags/gaming/ gaming
+=> gemini://shiny.bneil.me/tags/no-man-sky/ no man sky
+=> gemini://shiny.bneil.me/tags/nextjs/ nextjs
+=> gemini://shiny.bneil.me/tags/indieweb/ indieweb
+=> gemini://shiny.bneil.me/tags/wasm/ wasm
+=> gemini://shiny.bneil.me/tags/webmentions/ webmentions
+=> gemini://shiny.bneil.me/tags/fun/ fun
+=> gemini://shiny.bneil.me/tags/writing/ writing
+=> gemini://shiny.bneil.me/tags/development/ development
 
 
 :::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\
