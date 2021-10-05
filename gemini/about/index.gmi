@@ -1,8 +1,6 @@
 # About Me
 
 
-=> gemini://bneil.me/resume/index.gmi ← Newer: 
-=> gemini://bneil.me/contact/index.gmi → Older: Contact
 
 ---------------------------
 => /images/error-avatar.jpg Image: imerror

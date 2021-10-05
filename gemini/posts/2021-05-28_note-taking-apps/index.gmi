@@ -1,8 +1,6 @@
 # Note taking apps
 
 
-=> gemini://bneil.me/notes/note_connecting_to_rds/index.gmi ← Newer: Connecting/Migrations in RDS
-=> gemini://bneil.me/posts/2021-05-28_rds-audit-service/index.gmi → Older: Audit Service - RDS
 
 ## Obsidian
 *Currently Using*

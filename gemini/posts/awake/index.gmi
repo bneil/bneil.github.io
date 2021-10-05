@@ -1,8 +1,6 @@
 # Not dead
 
 
-=> gemini://bneil.me/posts/wasm/index.gmi ← Newer: WASM and Webmentions
-=> gemini://bneil.me/posts/docker-nondistributable-artifacts/index.gmi → Older: Nondistributable Artifacts
 
 # Whats going on?
 

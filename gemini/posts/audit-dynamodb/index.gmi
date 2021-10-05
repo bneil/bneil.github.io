@@ -1,8 +1,6 @@
 # Audit Service - Dynamodb
 
 
-=> gemini://bneil.me/posts/2021-05-28_rds-audit-service/index.gmi ← Newer: Audit Service - RDS
-=> gemini://bneil.me/notes/dynamodb_pages/index.gmi → Older: Dynamo DB Pages
 
 # Audit Service
 

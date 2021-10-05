@@ -1,8 +1,6 @@
 # WASM and Webmentions
 
 
-=> gemini://bneil.me/notes/2021-04-19-taking-notes/index.gmi ← Newer: On Notes
-=> gemini://bneil.me/posts/awake/index.gmi → Older: Not dead
 
 # Webmentions
 

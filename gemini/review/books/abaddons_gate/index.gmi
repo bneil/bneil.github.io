@@ -1,8 +1,6 @@
 # Abaddons Gate
 
 
-=> gemini://bneil.me/review/books/cibola_burn/index.gmi ← Newer: Cibola Burn
-=> gemini://bneil.me/review/books/calibans_war/index.gmi → Older: Calibans War
 
 I'm burning through these books and this one was no different.
 

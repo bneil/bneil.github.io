@@ -1,8 +1,6 @@
 # Contact
 
 
-=> gemini://bneil.me/about/index.gmi ← Newer: About Me
-=> gemini://bneil.me/now/index.gmi → Older: now
 
 Have questions or want to discuss programming?
 

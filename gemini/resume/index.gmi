@@ -1,8 +1,6 @@
 # 
 
 
-=> gemini://bneil.me/posts/docker-nondistributable-artifacts/index.gmi ← Newer: Nondistributable Artifacts
-=> gemini://bneil.me/about/index.gmi → Older: About Me
 
 ### Technical Overview
 

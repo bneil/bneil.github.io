@@ -1,8 +1,6 @@
 # Replaying No Mans Sky
 
 
-=> gemini://bneil.me/notes/dynamodb_pages/index.gmi ← Newer: Dynamo DB Pages
-=> gemini://bneil.me/notes/2021-05-06-mfa-aws/index.gmi → Older: Using MFA with AWS CLI
 
 # No Man Sky
 

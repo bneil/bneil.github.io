@@ -1,8 +1,6 @@
 # Migrating to Dynamo
 
 
-=> gemini://bneil.me/posts/2021-04-21-nextjs-crud/index.gmi ← Newer: Nextjs Crud :: Setup
-=> gemini://bneil.me/notes/2021-04-19-taking-notes/index.gmi → Older: On Notes
 
 ## Another store getting migrated
 

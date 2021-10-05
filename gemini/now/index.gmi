@@ -1,8 +1,6 @@
 # now
 
 
-=> gemini://bneil.me/contact/index.gmi ← Newer: Contact
-
 
 # What im doing _now_
 

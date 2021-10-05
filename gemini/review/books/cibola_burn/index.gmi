@@ -1,8 +1,6 @@
 # Cibola Burn
 
 
-=> gemini://bneil.me/review/books/nemesis_games/index.gmi ← Newer: Nemesis Games
-=> gemini://bneil.me/review/books/abaddons_gate/index.gmi → Older: Abaddons Gate
 
 ## He reaches out
 

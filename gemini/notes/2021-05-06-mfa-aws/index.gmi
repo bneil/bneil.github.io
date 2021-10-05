@@ -1,8 +1,6 @@
 # Using MFA with AWS CLI
 
 
-=> gemini://bneil.me/posts/replaying-nms/index.gmi ← Newer: Replaying No Mans Sky
-=> gemini://bneil.me/posts/2021-04-21-nextjs-crud/index.gmi → Older: Nextjs Crud :: Setup
 
 ## MFA on AWS Cli
 

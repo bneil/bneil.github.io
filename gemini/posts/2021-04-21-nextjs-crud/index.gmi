@@ -1,8 +1,6 @@
 # Nextjs Crud :: Setup
 
 
-=> gemini://bneil.me/notes/2021-05-06-mfa-aws/index.gmi ← Newer: Using MFA with AWS CLI
-=> gemini://bneil.me/posts/2021-04-20-dynamo_struct/index.gmi → Older: Migrating to Dynamo
 
 # Setup
 

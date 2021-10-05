@@ -1,8 +1,6 @@
 # On Notes
 
 
-=> gemini://bneil.me/posts/2021-04-20-dynamo_struct/index.gmi ← Newer: Migrating to Dynamo
-=> gemini://bneil.me/posts/wasm/index.gmi → Older: WASM and Webmentions
 
 ## Hugo for note taking
 

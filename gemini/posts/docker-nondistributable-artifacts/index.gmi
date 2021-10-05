@@ -1,8 +1,6 @@
 # Nondistributable Artifacts
 
 
-=> gemini://bneil.me/posts/awake/index.gmi ← Newer: Not dead
-=> gemini://bneil.me/resume/index.gmi → Older: 
 
 ## The Mystery
 

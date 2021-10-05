@@ -1,8 +1,6 @@
 # Leviathan Wakes
 
 
-=> gemini://bneil.me/review/books/calibans_war/index.gmi ← Newer: Calibans War
-=> gemini://bneil.me/notes/note_connecting_to_rds/index.gmi → Older: Connecting/Migrations in RDS
 
 Really great world building, interesting plot and just enough tension to really feel like an adventure.
 I was a little confused when reading this book at first since the prologue was really odd. That and the whiplash

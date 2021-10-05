@@ -1,8 +1,6 @@
 # Dynamo DB Pages
 
 
-=> gemini://bneil.me/posts/audit-dynamodb/index.gmi ← Newer: Audit Service - Dynamodb
-=> gemini://bneil.me/posts/replaying-nms/index.gmi → Older: Replaying No Mans Sky
 
 ## Dynamo code snippet
 

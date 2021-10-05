@@ -1,8 +1,6 @@
 # Nemesis Games
 
 
-=> gemini://bneil.me/posts/first_post/index.gmi ← Newer: First Post
-=> gemini://bneil.me/review/books/cibola_burn/index.gmi → Older: Cibola Burn
 
 ## Never break the party
 

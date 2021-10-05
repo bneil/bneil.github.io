@@ -1,8 +1,6 @@
 # Connecting/Migrations in RDS
 
 
-=> gemini://bneil.me/review/books/leviathan_wakes/index.gmi ← Newer: Leviathan Wakes
-=> gemini://bneil.me/posts/2021-05-28_note-taking-apps/index.gmi → Older: Note taking apps
 
 ## Goose
 
