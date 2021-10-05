@@ -1,0 +1,15 @@
+# Posts
+
+
+Pages in this section:
+
+=> /gemini/posts/first_post/index.gmi 2021-10-04 First Post
+=> /gemini/posts/2021-05-28_note-taking-apps/index.gmi 2021-05-28 Note taking apps
+=> /gemini/posts/2021-05-28_rds-audit-service/index.gmi 2021-05-28 Audit Service - RDS
+=> /gemini/posts/audit-dynamodb/index.gmi 2021-05-26 Audit Service - Dynamodb
+=> /gemini/posts/replaying-nms/index.gmi 2021-05-25 Replaying No Mans Sky
+=> /gemini/posts/2021-04-21-nextjs-crud/index.gmi 2021-04-21 Nextjs Crud :: Setup
+=> /gemini/posts/2021-04-20-dynamo_struct/index.gmi 2021-04-20 Migrating to Dynamo
+=> /gemini/posts/wasm/index.gmi 2021-04-15 WASM and Webmentions
+=> /gemini/posts/awake/index.gmi 2021-04-12 Not dead
+=> /gemini/posts/docker-nondistributable-artifacts/index.gmi 2018-04-08 Nondistributable Artifacts
