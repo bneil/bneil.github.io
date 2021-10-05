@@ -3,7 +3,7 @@
 	<article class="h-entry">
 		<div class="title">
 			<h1 class="title">{{ .Title }}</h1>
-			<div class="meta">Posted on {{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</div>
+                        <div class="meta">Posted on <time class="dt-published" datetime="YYYY-MM-DD HH:MM:SS">{{ dateFormat "Jan 2, 2006" .Date }}</time>{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</div>
 		</div>
 		{{ if isset .Params "tldr" }}
 		<div class="tldr">
@@ -11,10 +11,11 @@
 			{{ .Params.tldr }}
 		</div>{{ end }}
 
-		<section class="body">
+		<section class="body e-content">
 			{{ .Content }}
 		</section>
 
+                <small> <a class="u-url" href="{{ .Page.Permalink }}">{{ .Page.Permalink }}</a> </small>
 		<div class="post-tags">
 			{{ if ne .Type "page" }}
 			{{ if gt .Params.tags 0 }}
