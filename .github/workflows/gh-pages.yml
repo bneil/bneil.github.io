@@ -30,13 +30,9 @@ jobs:
           publish_dir: ./public
 
       - name: Compress action step
-        uses: master-atul/tar-action@v1.0.2
         id: compress
-        with:
-          command: c
-          files: |
-            ./public/gemini
-          outPath: site.tar.gz
+        run: |
+           tar -C public/gemini/ -cvz . > site.tar.gz
 
       - name: curl
         uses: wei/curl@v1
