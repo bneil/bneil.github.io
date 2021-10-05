@@ -3,7 +3,7 @@
 {{- range $index, $key := .Site.Params.Social -}}
 <a class="soc" href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>|
 {{- end -}} ⚡️
-	{{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }}  {{ end }}
+	{{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }}  |  {{ end }}site was last updated: {{ .Site.LastChange.Format "Jan 2, 2006" }}
 </footer>
 
 <div class="h-card" style="display:none">

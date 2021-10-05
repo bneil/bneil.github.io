@@ -9,17 +9,24 @@ _88o,,od8P 888    Y88 888oo,__ 888o88oo,.__d8b888 Y88" 888o888oo,__
 to my digital garden, im still in the process of making things look better.
 That said! Thanks to everyone for reading!
 
+## Navigation
+=> gemini://bneil.me/resume/index.gmi
+=> gemini://bneil.me/about/index.gmi About Me
+=> gemini://bneil.me/contact/index.gmi Contact
+=> gemini://bneil.me/now/index.gmi now
+
   .--.      .-'.      .--.      .--.      .--.      .--.      .`-.      .--.
 :::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\
 
 ## by major subject
 {{range sort ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
-=> {{ replace .Permalink "/gemini" "" 1}} {{ .Title }}{{end}}
+=> {{ replace .Permalink "https" "gemini" 1}} {{ .Title }}{{end}}
 
 
 ## by tag
 {{range ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
-=> {{ replace .Permalink "/gemini" "" 1}} {{ .Title }}{{end}}
+=> {{ replace .Permalink "https" "gemini" 1}} {{ .Title }}{{end}}
+
 
 :::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\
 '      `--'      `.-'      `--'      `--'      `--'      `-.'      `--'      `
