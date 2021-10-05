@@ -1,0 +1,55 @@
+# About Me
+
+
+=> gemini://bneil.me/resume/index.gmi ← Newer: 
+=> gemini://bneil.me/contact/index.gmi → Older: Contact
+
+---------------------------
+=> /images/error-avatar.jpg Image: imerror
+
+My name is Benjamin Neil, a polyglot engineer in Colorado. I have had the privilege to work the 
+past eleven years making websites, services, documentation and tools for amazing companies.
+
+I'm obsessed with technology and programming - mainy linux, hypervisors, containers, unikernels, 
+scala, rust, go etc. Ive got a real problem researching tools and enjoy writing then rewriting 
+internal documentation.
+
+---------------------------
+
+# Publications
+
+Recently (well in 2016) I co-authored a book called Professional Scala, it was an exciting experience and I really enjoyed the feedback from the scala community.
+
+=> http://www.wrox.com/WileyCDA/WroxTitle/Professional-Scala.productCd-1119267226.html Professional Scala 
+
+## Other Blogs
+* Developer Death March - A blog about developer horror stories and funny content
+
+=> https://developerdeathmarch.com/ Developer Death March 
+
+## Things in progress
+Go checkout my NOW page, it has all the things im working on well, right now!
+
+=> {{< ref "now.md" >}} "NOW" NOW 
+
+## Random Trivia
+
+Some fun facts about this site and me:
+
+* The first program I made was a Mortal Kombat Trivia game
+* I used to run a BBS called "Serious Games" using Wildcat! BBS
+* My favorite DOOR game was "Legend of the Red Dragon"
+* Hugo's House of Horrors is my favorite adventure game - followed by Monkey Island and Loom
+* The longest ive been awake coding / releasing software was just over three days.
+* I really like using the tomato timer to segregate work sessions
+* This site was coded in Vim using lots of plugins mentioned at [spf13-vim](http://vim.spf13.com/)
+
+=> http://vim.org Vim 
+
+Have questions or suggestions? Feel free to ask me on Twitter.
+
+=> https://twitter.com/benneil ask me on Twitter 
+
+Thanks for reading!
+
+

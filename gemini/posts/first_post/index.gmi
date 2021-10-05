@@ -1,0 +1,9 @@
+# First Post
+
+
+
+=> gemini://bneil.me/review/books/nemesis_games/index.gmi → Older: Nemesis Games
+
+Trying to follow along and get a build for hugo and for gemini working in github actions.
+
+

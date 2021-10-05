@@ -1,0 +1,42 @@
+# Not dead
+
+
+=> gemini://bneil.me/posts/wasm/index.gmi ← Newer: WASM and Webmentions
+=> gemini://bneil.me/posts/docker-nondistributable-artifacts/index.gmi → Older: Nondistributable Artifacts
+
+# Whats going on?
+
+It all started with finding a webring. I hadnt seen one since the mid 90's and the accidental stumbling upon one
+was almost magical. If you've never had the pleasure, a web ring was this piece of tech that was largely social.
+It was a way of finding genres of websites you were interested in and daisy chaining between them. Largely this was
+before google owned search and the 'little' guys like alta vista were king. In anycase since the advent of google
+pwn of online search ive seen fewer and fewer webrings when organically surfing around the internet.
+
+## indie web
+
+Turns out, that web ring was also a movement that had started as far back as 2014, so being the hipster that I am
+I started digging into movement. Stumbling across concepts like POSSE and digital gardens I became enthralled and a
+little jealous. Its been years since ive worked on my own brand, or my own digital vision. So seeing that a movement
+had sprung up that fosters that sort of growth was really something.
+
+# On being creative
+
+Ive been posting poetry and creative writing under a shell name now for over a year. Its been a way to relax when writing
+and not worry so much about writing under, well, my name. Since 'my name', is associated to being a cto for a startup.
+Associated with friends and family. I dont know, its just a really freeing experience to not worry about the people who
+can associated you with your writing.
+
+Im guessing that most people can understand that. Its what used to make travel so appealing. Nothing better than rolling
+into a new pub and grabbing a drink with people who don't know your name. Its an experience in self building. 
+
+But the downside, I now have over a year of work under a shell name. I won't be able to move those over to this account
+without someone figuring that out. But, who knows, maybe there are enough people in the world now that one person writing
+poetry isnt a big deal. Maybe its just some latent elementary angst.
+
+## this blog meets indie web
+
+To that end, im going to be trying to incorporate more of the concepts ive been reading about from indieweb then writing
+about those implementations here. 
+
+Cheers
+

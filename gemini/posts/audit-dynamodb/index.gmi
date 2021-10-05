@@ -1,0 +1,48 @@
+# Audit Service - Dynamodb
+
+
+=> gemini://bneil.me/posts/2021-05-28_rds-audit-service/index.gmi ← Newer: Audit Service - RDS
+=> gemini://bneil.me/notes/dynamodb_pages/index.gmi → Older: Dynamo DB Pages
+
+# Audit Service
+
+## Description
+
+Decided that I wanted an audit db and service to help keep track of user behaviors.
+Since I already have some in Redis, and some in Postgres I thought this might be a useful exercise.
+The main thing id like to accomplish with this code is going to be a way to track events and break
+them down by week/month/year per user and per company.
+
+Im having some self debate about creating tables for the tallies or if I should just be creating
+them on the fly using a query. I like the idea of the tally because it would be a place to easily
+look that information up. Although if some error occurs it could possibly be inaccurate.
+
+### Schema
+
+Deciding on a good schema, im thinking something like
+
+audit table
+* userId
+* companyName (i dislike using company id because then you have to look it up)
+* timestamp
+* event
+
+user tally table
+* userId
+* companyName
+* Timespan - YYmmdd
+* event
+* count
+
+
+company tally table
+* companyName
+* Timespan - YYmm
+* event
+* count
+
+## On second thought...
+
+Maybe just using rds would be a better fit. The amount of scanning would be pretty awful. Ok, abandoning idea!
+
+
