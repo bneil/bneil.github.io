@@ -45,6 +45,7 @@ paginate=3 # articles per page
 
 
 [params]
+  customcss=["css/update.css"]
   mode="dark" # color-mode → light,dark,toggle or auto
   useCDN=true
   subtitle = "learnings from a professional automation mechanic"
