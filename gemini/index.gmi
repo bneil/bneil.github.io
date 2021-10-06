@@ -16,8 +16,10 @@ That said! Thanks to everyone for reading!!
 => gemini://shiny.bneil.me/contact/index.gmi Contact
 => gemini://shiny.bneil.me/now/index.gmi now
 
+```
   .--.      .-'.      .--.      .--.      .--.      .--.      .`-.      .--.
 :::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\
+```
 
 ## by major subject
 
@@ -50,5 +52,7 @@ That said! Thanks to everyone for reading!!
 => gemini://shiny.bneil.me/tags/writing/gemini/index.gmi writing
 => gemini://shiny.bneil.me/tags/development/gemini/index.gmi development
 
+```
 :::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\
 '      `--'      `.-'      `--'      `--'      `--'      `-.'      `--'      `
+```
