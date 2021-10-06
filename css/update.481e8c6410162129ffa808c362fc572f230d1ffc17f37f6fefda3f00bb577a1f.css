@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+:root{
+--maincolor: red;
+--bordercl:rebeccapurple;
+--callouctcolor:dodgerblue;
+--hovercolor:navy;
+--darkMaincolor: #f86802;
+}
+html {
+  color: #232333;
+  font-family: 'Fira Code', 'Roboto Mono', monospace;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+hr {
+    border-top: 3px dotted white;
+}
+
+a {
+  border-bottom: 3px solid var(--darkMaincolor);
+  color: inherit;
+}
+a:hover {
+  background-color: var(--darkMaincolor);
+  color: black;
+}
