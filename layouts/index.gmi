@@ -16,8 +16,10 @@ That said! Thanks to everyone for reading!!
 => gemini://shiny.bneil.me/contact/index.gmi Contact
 => gemini://shiny.bneil.me/now/index.gmi now
 
+```
   .--.      .-'.      .--.      .--.      .--.      .--.      .`-.      .--.
 :::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\
+```
 
 ## by major subject
 {{range sort ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
@@ -27,5 +29,7 @@ That said! Thanks to everyone for reading!!
 {{range ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
 => {{ replace .Permalink "gemini://" "gemini://shiny." 1}} {{ .Title }}{{end}}
 
+```
 :::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\
 '      `--'      `.-'      `--'      `--'      `--'      `-.'      `--'      `
+```
