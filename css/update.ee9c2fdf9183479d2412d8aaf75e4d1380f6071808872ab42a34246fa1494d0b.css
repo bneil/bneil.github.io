@@ -1,39 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 :root{
---maincolor: red;
---bordercl:rebeccapurple;
---callouctcolor:dodgerblue;
---hovercolor:navy;
---darkMaincolor: #f86802;
+  --maincolor: red;
+  --bordercl:rebeccapurple;
+  --callouctcolor:dodgerblue;
+  --hovercolor:navy;
+  --darkMaincolor: #f86802;
 }
+
 html {
   color: #232333;
   font-family: 'Fira Code', 'Roboto Mono', monospace;
   font-size: 15px;
   line-height: 1.6em;
 }
+
 hr {
-    border-top: 3px dotted white;
+  border-top: 3px dotted white;
 }
 
 a {
   border-bottom: 3px solid var(--darkMaincolor);
   color: inherit;
 }
+
 a:hover {
   background-color: var(--darkMaincolor);
   color: black;
 }
+
 .float-right{
   float:right;
 }
+
 .no-border{
   border: none;
 }
 
 .halloween-hr {
-    display:block;
-    border:0px;
-    height:30px;
-    background:url('/images/blood_hr.gif') repeat-x;
-  }
+  display:block;
+  border:0px;
+  height:30px;
+  background:url('/images/blood_hr.gif') repeat-x;
+}
