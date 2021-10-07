@@ -8,3 +8,5 @@ tags: first
 ---
 
 Trying to follow along and get a build for hugo and for gemini working in github actions.
+
+* nice
