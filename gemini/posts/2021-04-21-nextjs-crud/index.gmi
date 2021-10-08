@@ -1,6 +1,6 @@
 # Nextjs Crud :: Setup
 
-# Nextjs Crud :: Setup
+
 
 
 
