@@ -1,5 +1,7 @@
 # Audit Service - Dynamodb
 
+# Audit Service - Dynamodb
+
 
 
 # Audit Service
@@ -19,13 +21,13 @@ look that information up. Although if some error occurs it could possibly be ina
 
 Deciding on a good schema, im thinking something like
 
-audit table
+*audit table*
 * userId
 * companyName (i dislike using company id because then you have to look it up)
 * timestamp
 * event
 
-user tally table
+*user tally table*
 * userId
 * companyName
 * Timespan - YYmmdd
@@ -33,7 +35,7 @@ user tally table
 * count
 
 
-company tally table
+*company tally table*
 * companyName
 * Timespan - YYmm
 * event
@@ -43,3 +45,9 @@ company tally table
 
 Maybe just using rds would be a better fit. The amount of scanning would be pretty awful. Ok, abandoning idea!
 
+
+---
+updated: 25 June 2021.
+
+=> / Back to the Index
+=> https://bneil.me/posts/audit-dynamodb/ View this article on the WWW

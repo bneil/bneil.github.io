@@ -1,20 +1,28 @@
 # Connecting/Migrations in RDS
 
+# Connecting/Migrations in RDS
+
 
 
 ## Goose
 
 Since goose uses pq under the hood, to hit remote urls
 
-```*(.+?)go
+```go
 goose postgres "user=postgres password=${PROD_PGPASS} dbname=test sslmode=disable host=database.rds.amazonaws.com" status
-```*(.+?)
+```
 
 ## PSQL / RDS
 
 I didnt have a default database created, so I needed to psql into it - summoning psql via docker container
 
-```*(.+?)shell
+```shell
 docker run -it --rm jbergknoff/postgresql-client postgresql://postgres:${PROD_PGPASS}@database.rds.amazonaws.com:5432
-```*(.+?)
+```
 
+
+---
+updated: 2 October 2021.
+
+=> / Back to the Index
+=> https://bneil.me/notes/note_connecting_to_rds/ View this article on the WWW

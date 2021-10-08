@@ -1,5 +1,7 @@
 # Replaying No Mans Sky
 
+# Replaying No Mans Sky
+
 
 
 # No Man Sky
@@ -24,3 +26,9 @@ Was a really fun adventure up until the section where you have to track down a p
 Since that was a bit of a hunt, and a half to figure out how to get to the Euclid galaxy
 from the new galaxy I had just created from finishing the atlas path
 
+
+---
+updated: 25 June 2021.
+
+=> / Back to the Index
+=> https://bneil.me/posts/replaying-nms/ View this article on the WWW

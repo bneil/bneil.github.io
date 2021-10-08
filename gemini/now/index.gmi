@@ -1,10 +1,12 @@
 # now
 
+# now
+
 
 
 # What im doing _now_
 
-_Last Updated: {{< updated >}}_
+_Last Updated: {{}}_
 
 
 Mostly im working really hard at keeping the engineering side of my startup going the
@@ -13,44 +15,34 @@ determining the best way to store and retrieve information from my notes that se
 be spread across ten different applications.
 
 ## Reading
-- [ ] Several short sentences about writing
+* [ ] Several short sentences about writing
     - seriously, for a book about short sentences, I end up taking notes and then
       spending weeks researching them.
-- [x] Distributed Services with Go
-- [x] Piranesi
+* [x] Distributed Services with Go
+* [x] Piranesi
 
 ## Listening To
-- [x] Tiamat's Wraith  / James S. A. Corey
-- [x] {{< emoji ":thumbsup:" >}} Persepolis Rising / James S. A. Corey
-- [x] {{< emoji ":thumbsup:" >}} Babylon's Ashes  / James S. A. Corey
-- x] {{< emoji ":thumbsup:" >}} [Nemesis Games Cibola Burn / James S. A. Corey
-
-=> {{< ref "nemesis_games.md" >}} "Nemesis Games" x] {{< emoji ":thumbsup:" >}} [Nemesis Games 
-- x] {{< emoji ":thumbsup:" >}} [Cibola Burn Cibola Burn / James S. A. Corey
-
-=> {{< ref "cibola_burn.md" >}} "Cibola Burn" x] {{< emoji ":thumbsup:" >}} [Cibola Burn 
-- x] {{< emoji ":thumbsup:" >}} [Abaddon's Gate / James S. A. Corey
-
-=> {{< ref "abaddons_gate.md" >}} "Abaddon's Gate" x] {{< emoji ":thumbsup:" >}} [Abaddon's Gate 
-- x] {{< emoji ":thumbsup:" >}} [Calibans War / James S. A. Corey
-
-=> {{< ref "calibans_war.md" >}} "Calibans War" x] {{< emoji ":thumbsup:" >}} [Calibans War 
-- x] {{< emoji ":thumbsup:" >}} [Leviathan Wakes / James S. A. Corey
-
-=> {{< ref "leviathan_wakes.md" >}} "Leviathan Wakes" x] {{< emoji ":thumbsup:" >}} [Leviathan Wakes 
+* [x] Tiamat's Wraith  / James S. A. Corey
+* [x] {{}} Persepolis Rising / James S. A. Corey
+* [x] {{}} Babylon's Ashes  / James S. A. Corey
+* x] {{}} [Nemesis Games [1] / James S. A. Corey
+* x] {{}} [Cibola Burn [2] / James S. A. Corey
+* x] {{}} [Abaddon's Gate [3] / James S. A. Corey
+* x] {{}} [Calibans War [4] / James S. A. Corey
+* x] {{}} [Leviathan Wakes [5] / James S. A. Corey
 
 ## Watching
-- [x] {{< emoji ":thumbsup:" >}} Netflix - Castlevania Series
+* [x] {{}} Netflix - Castlevania Series
     - not going to ruin anything, but i didnt see this happening in an anime
-    => /images/death.jpg Image: nope
-- [x] {{< emoji ":thumbsup:" >}} Full Dive: This Ultimate Next-Gen Full Dive RPG Is Even Shittier than Real Life!
-- [x] {{< emoji ":thumbsup:" >}} Alone - Million dollar challenge
+    !nope [6]
+* [x] {{}} Full Dive: This Ultimate Next-Gen Full Dive RPG Is Even Shittier than Real Life!
+* [x] {{}} Alone - Million dollar challenge
   - I never thought id learn so much about the importance of fishing.
-- [x] {{< emoji ":thumbsup:" >}} Willy's Wonderland
-- [x] {{< emoji ":thumbsdown:" >}} Dog Eat Dog "nick cage movie"
-- [x] {{< emoji ":thumbsup:" >}} Invincible
-- [x] {{< emoji ":thumbsdown:" >}} Wayne (ended up not watching all of it)
-- [x] {{< emoji ":thumbsup:" >}} Uploaded
+* [x] {{}} Willy's Wonderland
+* [x] {{}} Dog Eat Dog "nick cage movie"
+* [x] {{}} Invincible
+* [x] {{}} Wayne (ended up not watching all of it)
+* [x] {{}} Uploaded
 
 ## Exercise
 * Walking / Running a min 10k steps a day
@@ -59,5 +51,11 @@ be spread across ten different applications.
 * At least 2 weekly 3.5 runs or more
 
 This page is following best practice as defined from
-[@NowNowNow](https://twitter.com/NowNowNow)
+@NowNowNow [7]
 
+
+---
+updated: 7 October 2021.
+
+=> / Back to the Index
+=> https://bneil.me/now/ View this article on the WWW

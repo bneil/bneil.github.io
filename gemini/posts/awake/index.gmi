@@ -1,5 +1,7 @@
 # Not dead
 
+# Not dead
+
 
 
 # Whats going on?
@@ -37,3 +39,9 @@ To that end, im going to be trying to incorporate more of the concepts ive been 
 about those implementations here. 
 
 Cheers
+
+---
+updated: 25 June 2021.
+
+=> / Back to the Index
+=> https://bneil.me/posts/awake/ View this article on the WWW

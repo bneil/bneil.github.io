@@ -1,5 +1,7 @@
 # Audit Service - RDS
 
+# Audit Service - RDS
+
 
 
 # Audit Service or Round 2 Fight
@@ -17,16 +19,16 @@ Im still on an older version of terraform, so public shamming for being on 0.12.
 
 ## IaaC section
 
-```*(.+?)shell
+```shell
 tfenv install 0.12.6
 tfenv use 0.12.6
-```*(.+?)
+```
 
-I had already done an tf import from a previous db table, so I just copied and pasted then
+I had already done an `tf import` from a previous db table, so I just copied and pasted then
 modified the database values. Note the xxxx's below are redacted text so change that if you
 are copy and pasting.
 
-```*(.+?)hacl
+```hacl
 resource "random_password" "password" {
   length           = 16
   special          = true
@@ -75,18 +77,16 @@ output "password" {
   description = "The password is:"
   value = random_password.password.*.result
 }
-```*(.+?)
+```
 ## Goose time / Local Dev
 
-Inside the project, im creating a table's folder then setting up goose.
-
-=> https://github.com/pressly/goose goose 
-its as easy as running go get -u github.com/pressly/goose/cmd/goose.  Also, I needed to set up a testing
+Inside the project, im creating a table's folder then setting up goose [1].
+its as easy as running `go get -u github.com/pressly/goose/cmd/goose`.  Also, I needed to set up a testing
 postgres instance.
 
 ### Quick Docker Setup
 localdb.compose.yaml
-```*(.+?)yaml
+```yaml
 version: '3.5'
 
 volumes:
@@ -108,9 +108,9 @@ services:
     image: adminer
     ports:
       - 8000:8080
-```*(.+?)
+```
 
-then run docker-compose -f localdb.compose.yaml up and you should have a local copy of postgres running
+then run `docker-compose -f localdb.compose.yaml up` and you should have a local copy of postgres running
 
 ### Back to goose
 
@@ -118,7 +118,7 @@ Please note I cheated and created the database manually, I just don't like accid
 it can be helped. Otherwise... a quick mkdir for 'tables' and then added
 
 001_create_events_table.sql
-```*(.+?)shell
+```shell
 -- +goose Up
 -- +goose StatementBegin
 SELECT 'up SQL query';
@@ -139,12 +139,12 @@ CREATE TABLE events (
 SELECT 'down SQL query';
 DROP TABLE events;
 -- +goose StatementEnd
-```*(.+?)
+```
 
 _The extension is for using UUID_
 
 So now that the database can be mucked with it was easy enough to run
-goose postgres "user=postgres password=${TEMP_PGPASS} dbname=audit_dev sslmode=disable" up
+`goose postgres "user=postgres password=${TEMP_PGPASS} dbname=audit_dev sslmode=disable" up`
 I played around with that for a bit just because migration tooling is neat.
 
 ## The end?
@@ -152,3 +152,9 @@ I played around with that for a bit just because migration tooling is neat.
 Now I just need to write the code for the migration of older audit records. So if any neat code comes up, I'll write it
 on here.
 
+
+---
+updated: 25 June 2021.
+
+=> / Back to the Index
+=> https://bneil.me/posts/2021-05-28_rds-audit-service/ View this article on the WWW

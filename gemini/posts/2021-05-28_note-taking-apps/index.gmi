@@ -1,9 +1,11 @@
 # Note taking apps
 
+# Note taking apps
+
 
 
 ## Obsidian
-*Currently Using*
+**Currently Using**
 
 Notes/Second Brain
 obsidian.md -> sourcehut -> all mobile devices
@@ -11,3 +13,9 @@ obsidian.md -> sourcehut -> all mobile devices
 
 
 
+
+---
+updated: 25 June 2021.
+
+=> / Back to the Index
+=> https://bneil.me/posts/2021-05-28_note-taking-apps/ View this article on the WWW

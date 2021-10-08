@@ -1,9 +1,11 @@
 # About Me
 
+# About Me
+
 
 
 ---------------------------
-=> /images/error-avatar.jpg Image: imerror
+!imerror [1]
 
 My name is Benjamin Neil, a polyglot engineer in Colorado. I have had the privilege to work the 
 past eleven years making websites, services, documentation and tools for amazing companies.
@@ -16,19 +18,13 @@ internal documentation.
 
 # Publications
 
-Recently (well in 2016) I co-authored a book called Professional Scala, it was an exciting experience and I really enjoyed the feedback from the scala community.
-
-=> http://www.wrox.com/WileyCDA/WroxTitle/Professional-Scala.productCd-1119267226.html Professional Scala 
+Recently (well in 2016) I co-authored a book called Professional Scala [2], it was an exciting experience and I really enjoyed the feedback from the scala community.
 
 ## Other Blogs
-* Developer Death March - A blog about developer horror stories and funny content
-
-=> https://developerdeathmarch.com/ Developer Death March 
+* Developer Death March [3] - A blog about developer horror stories and funny content
 
 ## Things in progress
-Go checkout my NOW page, it has all the things im working on well, right now!
-
-=> {{< ref "now.md" >}} "NOW" NOW 
+Go checkout my NOW [4] page, it has all the things im working on well, right now!
 
 ## Random Trivia
 
@@ -40,13 +36,15 @@ Some fun facts about this site and me:
 * Hugo's House of Horrors is my favorite adventure game - followed by Monkey Island and Loom
 * The longest ive been awake coding / releasing software was just over three days.
 * I really like using the tomato timer to segregate work sessions
-* This site was coded in Vim using lots of plugins mentioned at [spf13-vim](http://vim.spf13.com/)
+* This site was coded in Vim [5] using lots of plugins mentioned at spf13-vim [6]
 
-=> http://vim.org Vim 
-
-Have questions or suggestions? Feel free to ask me on Twitter.
-
-=> https://twitter.com/benneil ask me on Twitter 
+Have questions or suggestions? Feel free to ask me on Twitter [7].
 
 Thanks for reading!
 
+
+---
+updated: 27 June 2021.
+
+=> / Back to the Index
+=> https://bneil.me/about/ View this article on the WWW

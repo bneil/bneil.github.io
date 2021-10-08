@@ -1,12 +1,14 @@
 # Dynamo DB Pages
 
+# Dynamo DB Pages
+
 
 
 ## Dynamo code snippet
 
 Recently got burned because we needed to do a recursive paging through dynamo
 
-```*(.+?)go
+```go
 var listOfThings []Whatever
 
 err := store.ScanPages(input,
@@ -26,4 +28,10 @@ err := store.ScanPages(input,
 if err != nil {
     t.Fail()
 }
-```*(.+?)
+```
+
+---
+updated: 2 October 2021.
+
+=> / Back to the Index
+=> https://bneil.me/notes/dynamodb_pages/ View this article on the WWW

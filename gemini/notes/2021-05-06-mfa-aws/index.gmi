@@ -1,5 +1,7 @@
 # Using MFA with AWS CLI
 
+# Using MFA with AWS CLI
+
 
 
 ## MFA on AWS Cli
@@ -9,15 +11,21 @@
 Just writing down the steps ive been manually taken for updating my
 credentials to use ecr in aws from the cli.
 
-1. Check authy on phone and write down code
-2. Check arn from aws and write that down
-3. Issue this command aws sts get-session-token --serial-number <arn here> --token-code <authy code>
-4. Take those values and plop the into ~/.aws/credentials
-  1. Ensure the profile is [mfa]
+* Check authy on phone and write down code
+* Check arn from aws and write that down
+* Issue this command `aws sts get-session-token --serial-number  --token-code <authy code>`
+* Take those values and plop the into `~/.aws/credentials`
+  1. Ensure the profile is `[mfa]`
   2. Convert the json to the toml keys
         1. "SecretAccessKey": aws_secret_access_key
         2. "SessionToken":  aws_session_token
         3. "AccessKeyId":  aws_access_key_id
-5. Issue the command aws ecr get-login --profile mfa
+* Issue the command `aws ecr get-login --profile mfa`
   1. ecr above can be replaced with any service
 
+
+---
+updated: 2 October 2021.
+
+=> / Back to the Index
+=> https://bneil.me/notes/2021-05-06-mfa-aws/ View this article on the WWW

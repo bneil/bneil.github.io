@@ -1,5 +1,7 @@
 # Migrating to Dynamo
 
+# Migrating to Dynamo
+
 
 
 ## Another store getting migrated
@@ -9,32 +11,32 @@ away from redis and into dynamo. So far ive gotten the
 underpinnings done by creating a dynamo store
 
 The main struct looks like this
-```*(.+?)go
+```go
 type DynamoStore struct {
     tableName  string
     primaryKey string
     store      *dynamodb.DynamoDB
 }
-```*(.+?)
+```
 
 The funny thing is that im basically treating dynamo in
 the same way I was treating redis. Which is as primarily
-a key value  store. sigh
+a key value  store. *sigh*
 
 factory
-```*(.+?)go
+```go
 func NewDynamoStore(tableName, pk string) *DynamoStore {
     s := DynamoStore{}
     s.store = store.GetDynamoStore().Store
     s.SetPrimaryKey(pk)
     return s.SetTableName(tableName)
 }
-```*(.+?)
+```
 
 Then the actual underpinnings, which are the usual crud methods
 
 Forget:
-```*(.+?)go
+```go
 func (s *DynamoStore) Forget(key string) error {
     params := &dynamodb.DeleteItemInput{
         Key: map[string]*dynamodb.AttributeValue{
@@ -52,10 +54,10 @@ func (s *DynamoStore) Forget(key string) error {
 
     return nil
 }
-```*(.+?)
+```
 
 Put:
-```*(.+?)go
+```go
 func (s *DynamoStore) Put(key string, val interface{}) error {
 b, err := json.Marshal(val)
 if err != nil {
@@ -79,14 +81,14 @@ if err != nil {
 
 	return nil
 }
-```*(.+?)
+```
 
 So note the json value, that was something I dont know if I like or not. 
 But for right now I think its a necessary evil since im not looking
 to separate my objects into composite keys.
 
 Get:
-```*(.+?)go
+```go
 func (s *DynamoStore) Get(key string, val interface{}) error {
     input := &dynamodb.GetItemInput{
         Key: map[string]*dynamodb.AttributeValue{
@@ -125,13 +127,13 @@ func (s *DynamoStore) Get(key string, val interface{}) error {
 
 	return err
 }
-```*(.+?)
+```
 
 Now the most controversal piece of code, setters and getters in golang.
 I feel like this is an antipattern but golang feels OO so im trying it out.
 /me hide from the gods of golang
-```*(.+?)go
-func (s DynamoStore) SetTableName(tableName string) DynamoStore {
+```go
+func (s *DynamoStore) SetTableName(tableName string) *DynamoStore {
   if len(tableName) != 0 {
     s.tableName = fmt.Sprintf("%s", tableName)
   } else {
@@ -141,7 +143,7 @@ func (s DynamoStore) SetTableName(tableName string) DynamoStore {
 }
 
 
-func (s DynamoStore) SetPrimaryKey(pk string) DynamoStore {
+func (s *DynamoStore) SetPrimaryKey(pk string) *DynamoStore {
   if len(pk) != 0 {
     s.primaryKey = fmt.Sprintf("%s", pk)
   } else {
@@ -149,6 +151,12 @@ func (s DynamoStore) SetPrimaryKey(pk string) DynamoStore {
   }
   return s
 }
-```*(.+?)
+```
 
 I didnt upload a gist of this code, sorry :)
+
+---
+updated: 25 June 2021.
+
+=> / Back to the Index
+=> https://bneil.me/posts/2021-04-20-dynamo_struct/ View this article on the WWW

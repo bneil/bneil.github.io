@@ -1,5 +1,7 @@
 # On Notes
 
+# On Notes
+
 
 
 ## Hugo for note taking
@@ -35,3 +37,9 @@ I like how simple trello is. I like how simple vim is. I love markdown for note 
 articles on virtual gardens or second brains, it seems like the ability to search and structure data
 is what makes the most sense. But does hugo provide that, kinda, I think id probably need to restrict 
 the frontpage from displaying notes. But slugs should do a good job of keeping projects together.
+
+---
+updated: 2 October 2021.
+
+=> / Back to the Index
+=> https://bneil.me/notes/2021-04-19-taking-notes/ View this article on the WWW
