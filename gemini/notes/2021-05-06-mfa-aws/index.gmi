@@ -2,8 +2,6 @@
 
 # Using MFA with AWS CLI
 
-
-
 ## MFA on AWS Cli
 
 ### Description

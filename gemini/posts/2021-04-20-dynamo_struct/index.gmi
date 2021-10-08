@@ -2,8 +2,6 @@
 
 # Migrating to Dynamo
 
-
-
 ## Another store getting migrated
 
 Today's pivotal tasks are all related towards moving things

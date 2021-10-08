@@ -2,8 +2,6 @@
 
 # Nondistributable Artifacts
 
-
-
 ## The Mystery
 
 I was reading through the docker documentation for docker registry and ran into this curious idea of nondistributable

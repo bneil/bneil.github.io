@@ -2,8 +2,6 @@
 
 # Dynamo DB Pages
 
-
-
 ## Dynamo code snippet
 
 Recently got burned because we needed to do a recursive paging through dynamo

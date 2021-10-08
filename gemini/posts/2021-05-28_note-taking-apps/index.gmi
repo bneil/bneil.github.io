@@ -2,8 +2,6 @@
 
 # Note taking apps
 
-
-
 ## Obsidian
 **Currently Using**
 

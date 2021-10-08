@@ -2,8 +2,6 @@
 
 # On Notes
 
-
-
 ## Hugo for note taking
 
 I'm wondering if using Hugo for writing notes would even be

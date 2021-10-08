@@ -2,8 +2,6 @@
 
 # now
 
-
-
 # What im doing _now_
 
 _Last Updated: {{}}_
@@ -25,16 +23,16 @@ be spread across ten different applications.
 * √ Tiamat's Wraith  / James S. A. Corey
 * √ {{}} Persepolis Rising / James S. A. Corey
 * √ {{}} Babylon's Ashes  / James S. A. Corey
-* √ {{}} Nemesis Games [1] / James S. A. Corey
-* √ {{}} Cibola Burn [2] / James S. A. Corey
-* √ {{}} Abaddon's Gate [3] / James S. A. Corey
-* √ {{}} Calibans War [4] / James S. A. Corey
-* √ {{}} Leviathan Wakes [5] / James S. A. Corey
+* √ {{}} [Nemesis Games]({{}} "Nemesis Games") / James S. A. Corey
+* √ {{}} [Cibola Burn]({{}} "Cibola Burn") / James S. A. Corey
+* √ {{}} [Abaddon's Gate]({{}} "Abaddon's Gate") / James S. A. Corey
+* √ {{}} [Calibans War]({{}} "Calibans War") / James S. A. Corey
+* √ {{}} [Leviathan Wakes]({{}} "Leviathan Wakes") / James S. A. Corey
 
 ## Watching
 * √ {{}} Netflix - Castlevania Series
     - not going to ruin anything, but i didnt see this happening in an anime
-    !nope [6]
+    ![nope](/images/death.jpg)
 * √ {{}} Full Dive: This Ultimate Next-Gen Full Dive RPG Is Even Shittier than Real Life!
 * √ {{}} Alone - Million dollar challenge
   - I never thought id learn so much about the importance of fishing.
@@ -51,7 +49,7 @@ be spread across ten different applications.
 * At least 2 weekly 3.5 runs or more
 
 This page is following best practice as defined from
-@NowNowNow [7]
+[@NowNowNow](https://twitter.com/NowNowNow)
 
 
 ---

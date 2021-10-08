@@ -2,8 +2,6 @@
 
 # 
 
-
-
 ### Technical Overview
 
 I really use a lot of tech soup - so these change all the time

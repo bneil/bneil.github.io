@@ -2,8 +2,6 @@
 
 # Nextjs Crud :: Setup
 
-
-
 # Setup
 
 So the gist of the below is that we are creating a starter nextjs application, typescript, converting to yarn and finally

@@ -2,10 +2,8 @@
 
 # About Me
 
-
-
 ---------------------------
-!imerror [1]
+![imerror](/images/error-avatar.jpg)
 
 My name is Benjamin Neil, a polyglot engineer in Colorado. I have had the privilege to work the 
 past eleven years making websites, services, documentation and tools for amazing companies.
@@ -18,13 +16,13 @@ internal documentation.
 
 # Publications
 
-Recently (well in 2016) I co-authored a book called Professional Scala [2], it was an exciting experience and I really enjoyed the feedback from the scala community.
+Recently (well in 2016) I co-authored a book called [Professional Scala](http://www.wrox.com/WileyCDA/WroxTitle/Professional-Scala.productCd-1119267226.html), it was an exciting experience and I really enjoyed the feedback from the scala community.
 
 ## Other Blogs
-* Developer Death March [3] - A blog about developer horror stories and funny content
+* [Developer Death March](https://developerdeathmarch.com/) - A blog about developer horror stories and funny content
 
 ## Things in progress
-Go checkout my NOW [4] page, it has all the things im working on well, right now!
+Go checkout my [NOW]({{}} "NOW") page, it has all the things im working on well, right now!
 
 ## Random Trivia
 
@@ -36,9 +34,9 @@ Some fun facts about this site and me:
 * Hugo's House of Horrors is my favorite adventure game - followed by Monkey Island and Loom
 * The longest ive been awake coding / releasing software was just over three days.
 * I really like using the tomato timer to segregate work sessions
-* This site was coded in Vim [5] using lots of plugins mentioned at spf13-vim [6]
+* This site was coded in [Vim](http://vim.org) using lots of plugins mentioned at [spf13-vim](http://vim.spf13.com/)
 
-Have questions or suggestions? Feel free to ask me on Twitter [7].
+Have questions or suggestions? Feel free to [ask me on Twitter](https://twitter.com/benneil).
 
 Thanks for reading!
 

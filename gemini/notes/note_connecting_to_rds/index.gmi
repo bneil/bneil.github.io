@@ -2,8 +2,6 @@
 
 # Connecting/Migrations in RDS
 
-
-
 ## Goose
 
 Since goose uses pq under the hood, to hit remote urls
