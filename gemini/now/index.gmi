@@ -15,34 +15,34 @@ determining the best way to store and retrieve information from my notes that se
 be spread across ten different applications.
 
 ## Reading
-* [ ] Several short sentences about writing
+* ▢ Several short sentences about writing
     - seriously, for a book about short sentences, I end up taking notes and then
       spending weeks researching them.
-* [x] Distributed Services with Go
-* [x] Piranesi
+* √ Distributed Services with Go
+* √ Piranesi
 
 ## Listening To
-* [x] Tiamat's Wraith  / James S. A. Corey
-* [x] {{}} Persepolis Rising / James S. A. Corey
-* [x] {{}} Babylon's Ashes  / James S. A. Corey
-* x] {{}} [Nemesis Games [1] / James S. A. Corey
-* x] {{}} [Cibola Burn [2] / James S. A. Corey
-* x] {{}} [Abaddon's Gate [3] / James S. A. Corey
-* x] {{}} [Calibans War [4] / James S. A. Corey
-* x] {{}} [Leviathan Wakes [5] / James S. A. Corey
+* √ Tiamat's Wraith  / James S. A. Corey
+* √ {{}} Persepolis Rising / James S. A. Corey
+* √ {{}} Babylon's Ashes  / James S. A. Corey
+* √ {{}} Nemesis Games [1] / James S. A. Corey
+* √ {{}} Cibola Burn [2] / James S. A. Corey
+* √ {{}} Abaddon's Gate [3] / James S. A. Corey
+* √ {{}} Calibans War [4] / James S. A. Corey
+* √ {{}} Leviathan Wakes [5] / James S. A. Corey
 
 ## Watching
-* [x] {{}} Netflix - Castlevania Series
+* √ {{}} Netflix - Castlevania Series
     - not going to ruin anything, but i didnt see this happening in an anime
     !nope [6]
-* [x] {{}} Full Dive: This Ultimate Next-Gen Full Dive RPG Is Even Shittier than Real Life!
-* [x] {{}} Alone - Million dollar challenge
+* √ {{}} Full Dive: This Ultimate Next-Gen Full Dive RPG Is Even Shittier than Real Life!
+* √ {{}} Alone - Million dollar challenge
   - I never thought id learn so much about the importance of fishing.
-* [x] {{}} Willy's Wonderland
-* [x] {{}} Dog Eat Dog "nick cage movie"
-* [x] {{}} Invincible
-* [x] {{}} Wayne (ended up not watching all of it)
-* [x] {{}} Uploaded
+* √ {{}} Willy's Wonderland
+* √ {{}} Dog Eat Dog "nick cage movie"
+* √ {{}} Invincible
+* √ {{}} Wayne (ended up not watching all of it)
+* √ {{}} Uploaded
 
 ## Exercise
 * Walking / Running a min 10k steps a day
