@@ -1,10 +1,10 @@
 # {{ .Title }}
 
-# {{ .Title }}{{ $scratch := newScratch }}
+{{ $scratch := newScratch }}
 {{ $content := .RawContent -}}
 {{ $content := $content | replaceRE `#### ` "### " -}}
-{{ $content := $content | replaceRE `\[x\]` "√" -}}
-{{ $content := $content | replaceRE `\[ \]` "▢" -}}
+{{ $content := $content | replaceRE `- \[x\]` "√" -}}
+{{ $content := $content | replaceRE `- \[ \]` "▢" -}}
 {{ $content := $content | replaceRE `\n- (.+?)` "\n* $1" -}}
 {{ $content := $content | replaceRE `\n(\d+). (.+?)` "\n* $2" -}}
 {{ $content := $content | replaceRE `\[\^(.+?)\]:?` "" -}}
