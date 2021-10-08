@@ -1,11 +1,24 @@
 # {{ .Title }}
 
+# {{ .Title }}{{ $scratch := newScratch }}
 {{ $content := .RawContent -}}
-{{ $content := $content | replaceRE "\\*(.+?)\\*" "$1" -}}
-{{ $content := $content | replaceRE "`(.+?)`" "$1" -}}
-{{ $content := $content | replaceRE "`" "```*(.+?)" -}}
-{{- $content = $content | replaceRE `\!\[(.+?)\]\((.+?)\)` "=> $2 Image: $1" }}
-{{- range findRE `\[.+?\]\(.+?\)` $content }}
-    {{- $content = $content | replaceRE `\[(.+?)\]\((.+?)\)(.+)` "$1$3\n\n=> $2 $1 " }}
-{{- end }}
-{{ $content }}
+{{ $content := $content | replaceRE `#### ` "### " -}}
+{{ $content := $content | replaceRE `\n- (.+?)` "\n* $1" -}}
+{{ $content := $content | replaceRE `\n(\d+). (.+?)` "\n* $2" -}}
+{{ $content := $content | replaceRE `\[\^(.+?)\]:?` "" -}}
+{{ $content := $content | replaceRE `<br/??>` "\n" -}}
+{{ $content := $content | replaceRE `<a .*href="(.+?)".*>(.+?)</a>` "[$2]($1)" -}}
+{{ $content := $content | replaceRE `\sgemini://(\S*)` " [gemini://$1](gemini://$1)" -}}
+{{ $content := $content | replaceRE "([^`])<.*?>([^`])" "$1$2" -}}
+{{ $content := $content | replaceRE `\n\n!\[.*\]\((.+?) \"(.+?)\"\)` "\n\n=> $1 Image: $2" -}}
+{{ $content := $content | replaceRE `\n\n!\[.*]\((.+?)\)` "\n\n=> $1 Embedded Image: $1" -}}
+{{ $links := findRE `\n=> ` $content }}{{ $scratch.Set "ref" (add (len $links) 1) }}
+{{ $refs := findRE `\[.+?\]\(.+?\)` $content }}
+{{ $scratch.Set "content" $content }}{{ range $refs }}{{ $ref := $scratch.Get "ref" }}{{ $contentInLoop := $scratch.Get "content" }}{{ $url := (printf "%s #%d" . $ref) }}{{ $contentInLoop := replace $contentInLoop . $url -}}{{ $scratch.Set "content" $contentInLoop }}{{ $scratch.Set "ref" (add $ref 1) }}{{ end }}{{ $content := $scratch.Get "content" | replaceRE `\[(.+?)\]\((.+?)\) #(\d+)` "$1 [$3]" -}}
+{{ $content | safeHTML }}
+
+---
+updated: {{ .Lastmod.Format (.Site.Params.dateFormat | default "2 January 2006") }}.
+
+=> / Back to the Index
+=> https://bneil.me{{ replace (replace .RelPermalink "/gemini" "" 1) "index.gmi" "" }} View this article on the WWW

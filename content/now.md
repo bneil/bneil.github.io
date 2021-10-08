@@ -26,8 +26,8 @@ be spread across ten different applications.
 - [x] Tiamat's Wraith  / James S. A. Corey
 - [x] {{< emoji ":thumbsup:" >}} Persepolis Rising / James S. A. Corey
 - [x] {{< emoji ":thumbsup:" >}} Babylon's Ashes  / James S. A. Corey
-- [x] {{< emoji ":thumbsup:" >}} [Nemesis Games]({{< ref "nemesis_games.md" >}} "Nemesis Games") Cibola Burn / James S. A. Corey
-- [x] {{< emoji ":thumbsup:" >}} [Cibola Burn]({{< ref "cibola_burn.md" >}} "Cibola Burn") Cibola Burn / James S. A. Corey
+- [x] {{< emoji ":thumbsup:" >}} [Nemesis Games]({{< ref "nemesis_games.md" >}} "Nemesis Games") / James S. A. Corey
+- [x] {{< emoji ":thumbsup:" >}} [Cibola Burn]({{< ref "cibola_burn.md" >}} "Cibola Burn") / James S. A. Corey
 - [x] {{< emoji ":thumbsup:" >}} [Abaddon's Gate]({{< ref "abaddons_gate.md" >}} "Abaddon's Gate") / James S. A. Corey
 - [x] {{< emoji ":thumbsup:" >}} [Calibans War]({{< ref "calibans_war.md" >}} "Calibans War") / James S. A. Corey
 - [x] {{< emoji ":thumbsup:" >}} [Leviathan Wakes]({{< ref "leviathan_wakes.md" >}} "Leviathan Wakes") / James S. A. Corey
