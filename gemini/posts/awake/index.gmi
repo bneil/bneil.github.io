@@ -2,8 +2,6 @@
 
 
 
-
-
 # Whats going on?
 
 It all started with finding a webring. I hadnt seen one since the mid 90's and the accidental stumbling upon one
@@ -43,8 +41,8 @@ Cheers
 ---
 updated: 25 June 2021.
 
-=> / Back to the Index
-=> https://bneil.me/posts/awake/ View this article on the WWW
+=> / to the Index
+=> https://bneil.me/posts/awake/ / html
 
 ```
        .'(`.-` \_.-'-./`  |\_( "\__

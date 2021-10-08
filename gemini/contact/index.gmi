@@ -2,8 +2,6 @@
 
 
 
-
-
 Have questions or want to discuss programming?
 
 * if you have keybase you can follow me and im usually on the messaging app
@@ -15,8 +13,8 @@ Have questions or want to discuss programming?
 ---
 updated: 15 April 2021.
 
-=> / Back to the Index
-=> https://bneil.me/contact/ View this article on the WWW
+=> / to the Index
+=> https://bneil.me/contact/ / html
 
 ```
        .'(`.-` \_.-'-./`  |\_( "\__

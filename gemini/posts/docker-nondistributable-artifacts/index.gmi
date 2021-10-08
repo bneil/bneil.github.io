@@ -2,8 +2,6 @@
 
 
 
-
-
 ## The Mystery
 
 I was reading through the docker documentation for docker registry and ran into this curious idea of nondistributable
@@ -24,8 +22,8 @@ dockerfile or registry...
 ---
 updated: 25 June 2021.
 
-=> / Back to the Index
-=> https://bneil.me/posts/docker-nondistributable-artifacts/ View this article on the WWW
+=> / to the Index
+=> https://bneil.me/posts/docker-nondistributable-artifacts/ / html
 
 ```
        .'(`.-` \_.-'-./`  |\_( "\__

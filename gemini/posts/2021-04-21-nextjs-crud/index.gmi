@@ -2,8 +2,6 @@
 
 
 
-
-
 # Setup
 
 So the gist of the below is that we are creating a starter nextjs application, typescript, converting to yarn and finally
@@ -123,8 +121,8 @@ crud application.
 ---
 updated: 25 June 2021.
 
-=> / Back to the Index
-=> https://bneil.me/posts/2021-04-21-nextjs-crud/ View this article on the WWW
+=> / to the Index
+=> https://bneil.me/posts/2021-04-21-nextjs-crud/ / html
 
 ```
        .'(`.-` \_.-'-./`  |\_( "\__

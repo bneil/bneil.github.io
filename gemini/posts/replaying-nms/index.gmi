@@ -2,8 +2,6 @@
 
 
 
-
-
 # No Man Sky
 
 Used to play the game a few years back and am starting to get back into it.
@@ -30,8 +28,8 @@ from the new galaxy I had just created from finishing the atlas path
 ---
 updated: 25 June 2021.
 
-=> / Back to the Index
-=> https://bneil.me/posts/replaying-nms/ View this article on the WWW
+=> / to the Index
+=> https://bneil.me/posts/replaying-nms/ / html
 
 ```
        .'(`.-` \_.-'-./`  |\_( "\__

@@ -2,8 +2,6 @@
 
 
 
-
-
 ---------------------------
 ![imerror](/images/error-avatar.jpg)
 
@@ -56,8 +54,8 @@ Thanks for reading!
 ---
 updated: 27 June 2021.
 
-=> / Back to the Index
-=> https://bneil.me/about/ View this article on the WWW
+=> / to the Index
+=> https://bneil.me/about/ / html
 
 ```
        .'(`.-` \_.-'-./`  |\_( "\__

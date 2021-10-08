@@ -2,8 +2,6 @@
 
 
 
-
-
 ## Hugo for note taking
 
 I'm wondering if using Hugo for writing notes would even be
@@ -41,8 +39,8 @@ the frontpage from displaying notes. But slugs should do a good job of keeping p
 ---
 updated: 2 October 2021.
 
-=> / Back to the Index
-=> https://bneil.me/notes/2021-04-19-taking-notes/ View this article on the WWW
+=> / to the Index
+=> https://bneil.me/notes/2021-04-19-taking-notes/ / html
 
 ```
        .'(`.-` \_.-'-./`  |\_( "\__

@@ -2,8 +2,6 @@
 
 
 
-
-
 ## Another store getting migrated
 
 Today's pivotal tasks are all related towards moving things
@@ -158,8 +156,8 @@ I didnt upload a gist of this code, sorry :)
 ---
 updated: 25 June 2021.
 
-=> / Back to the Index
-=> https://bneil.me/posts/2021-04-20-dynamo_struct/ View this article on the WWW
+=> / to the Index
+=> https://bneil.me/posts/2021-04-20-dynamo_struct/ / html
 
 ```
        .'(`.-` \_.-'-./`  |\_( "\__

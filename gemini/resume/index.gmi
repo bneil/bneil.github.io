@@ -2,8 +2,6 @@
 
 
 
-
-
 ### Technical Overview
 
 I really use a lot of tech soup - so these change all the time
@@ -95,8 +93,8 @@ DeVry University, Phoenix, Arizona
 ---
 updated: 27 June 2021.
 
-=> / Back to the Index
-=> https://bneil.me/resume/ View this article on the WWW
+=> / to the Index
+=> https://bneil.me/resume/ / html
 
 ```
        .'(`.-` \_.-'-./`  |\_( "\__

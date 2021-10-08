@@ -2,8 +2,6 @@
 
 
 
-
-
 # Webmentions
 
 So as I journey through the fun webmentions, it looks like since im
@@ -27,8 +25,8 @@ and signing in. Although I still have to figure out how to retrieve the mentions
 ---
 updated: 25 June 2021.
 
-=> / Back to the Index
-=> https://bneil.me/posts/wasm/ View this article on the WWW
+=> / to the Index
+=> https://bneil.me/posts/wasm/ / html
 
 ```
        .'(`.-` \_.-'-./`  |\_( "\__

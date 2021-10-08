@@ -2,8 +2,6 @@
 
 
 
-
-
 ## MFA on AWS Cli
 
 ### Description
@@ -27,8 +25,8 @@ credentials to use ecr in aws from the cli.
 ---
 updated: 2 October 2021.
 
-=> / Back to the Index
-=> https://bneil.me/notes/2021-05-06-mfa-aws/ View this article on the WWW
+=> / to the Index
+=> https://bneil.me/notes/2021-05-06-mfa-aws/ / html
 
 ```
        .'(`.-` \_.-'-./`  |\_( "\__

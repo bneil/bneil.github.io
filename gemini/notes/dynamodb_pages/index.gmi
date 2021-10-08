@@ -2,8 +2,6 @@
 
 
 
-
-
 ## Dynamo code snippet
 
 Recently got burned because we needed to do a recursive paging through dynamo
@@ -33,8 +31,8 @@ if err != nil {
 ---
 updated: 2 October 2021.
 
-=> / Back to the Index
-=> https://bneil.me/notes/dynamodb_pages/ View this article on the WWW
+=> / to the Index
+=> https://bneil.me/notes/dynamodb_pages/ / html
 
 ```
        .'(`.-` \_.-'-./`  |\_( "\__

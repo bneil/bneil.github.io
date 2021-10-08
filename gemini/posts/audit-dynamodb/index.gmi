@@ -2,8 +2,6 @@
 
 
 
-
-
 # Audit Service
 
 ## Description
@@ -49,8 +47,8 @@ Maybe just using rds would be a better fit. The amount of scanning would be pret
 ---
 updated: 25 June 2021.
 
-=> / Back to the Index
-=> https://bneil.me/posts/audit-dynamodb/ View this article on the WWW
+=> / to the Index
+=> https://bneil.me/posts/audit-dynamodb/ / html
 
 ```
        .'(`.-` \_.-'-./`  |\_( "\__

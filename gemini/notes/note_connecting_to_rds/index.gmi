@@ -2,8 +2,6 @@
 
 
 
-
-
 ## Goose
 
 Since goose uses pq under the hood, to hit remote urls
@@ -24,8 +22,8 @@ docker run -it --rm jbergknoff/postgresql-client postgresql://postgres:${PROD_PG
 ---
 updated: 2 October 2021.
 
-=> / Back to the Index
-=> https://bneil.me/notes/note_connecting_to_rds/ View this article on the WWW
+=> / to the Index
+=> https://bneil.me/notes/note_connecting_to_rds/ / html
 
 ```
        .'(`.-` \_.-'-./`  |\_( "\__

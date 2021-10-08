@@ -2,8 +2,6 @@
 
 
 
-
-
 Trying to follow along and get a build for hugo and for gemini working in github actions.
 
 * nice
@@ -12,8 +10,8 @@ Trying to follow along and get a build for hugo and for gemini working in github
 ---
 updated: 7 October 2021.
 
-=> / Back to the Index
-=> https://bneil.me/posts/first_post/ View this article on the WWW
+=> / to the Index
+=> https://bneil.me/posts/first_post/ / html
 
 ```
        .'(`.-` \_.-'-./`  |\_( "\__
