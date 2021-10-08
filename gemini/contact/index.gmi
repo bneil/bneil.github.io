@@ -2,9 +2,13 @@
 
 # Contact
 
+
+
 Have questions or want to discuss programming?
 
-* if you have keybase you can [follow me](https://keybase.io/trugrok) and im usually on the messaging app
+* if you have keybase you can follow me and im usually on the messaging app
+
+=> https://keybase.io/trugrok follow me 
 * [reach out on Twitter](https://twitter.com/benneil)
 
 
@@ -13,3 +17,22 @@ updated: 15 April 2021.
 
 => / Back to the Index
 => https://bneil.me/contact/ View this article on the WWW
+
+```
+       .'(`.-` \_.-'-./`  |\_( "\__
+                 __.>\ ';  _;---,._|   / __/`'--)
+                /.--.  : |/' _.--.<|  /  | |
+            _..-'    `\     /' /`  /_/ _/_/
+             >_.-``-. `Y  /' _;---.`|/))))
+            '` .-''. \|:  \.'   __, .-'"`
+             .'--._ `-:  \/:  /'  '.\
+                 /.'`\ :;   /'      `-
+                -`    |     |
+                      :.; : |                  .-'~^~`-.
+                      |:    |                .' _     _ `.
+                      |:.   |                | |_) | |_) |
+                      :. :  |                | | \ | |   |
+                    .jgs. : ;                |           |
+            -."-/\\\/:::.    `\."-._'."-"_\\-|           |///."-
+            " -."-.\\"-."//.-".`-."_\\-.".-\\`=.........=`//-".
+```

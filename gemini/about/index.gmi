@@ -2,6 +2,8 @@
 
 # About Me
 
+
+
 ---------------------------
 ![imerror](/images/error-avatar.jpg)
 
@@ -16,13 +18,19 @@ internal documentation.
 
 # Publications
 
-Recently (well in 2016) I co-authored a book called [Professional Scala](http://www.wrox.com/WileyCDA/WroxTitle/Professional-Scala.productCd-1119267226.html), it was an exciting experience and I really enjoyed the feedback from the scala community.
+Recently (well in 2016) I co-authored a book called Professional Scala, it was an exciting experience and I really enjoyed the feedback from the scala community.
+
+=> http://www.wrox.com/WileyCDA/WroxTitle/Professional-Scala.productCd-1119267226.html Professional Scala 
 
 ## Other Blogs
-* [Developer Death March](https://developerdeathmarch.com/) - A blog about developer horror stories and funny content
+* Developer Death March - A blog about developer horror stories and funny content
+
+=> https://developerdeathmarch.com/ Developer Death March 
 
 ## Things in progress
-Go checkout my [NOW]({{}} "NOW") page, it has all the things im working on well, right now!
+Go checkout my NOW page, it has all the things im working on well, right now!
+
+=> {{}} "NOW" NOW 
 
 ## Random Trivia
 
@@ -34,9 +42,13 @@ Some fun facts about this site and me:
 * Hugo's House of Horrors is my favorite adventure game - followed by Monkey Island and Loom
 * The longest ive been awake coding / releasing software was just over three days.
 * I really like using the tomato timer to segregate work sessions
-* This site was coded in [Vim](http://vim.org) using lots of plugins mentioned at [spf13-vim](http://vim.spf13.com/)
+* This site was coded in Vim using lots of plugins mentioned at [spf13-vim](http://vim.spf13.com/)
 
-Have questions or suggestions? Feel free to [ask me on Twitter](https://twitter.com/benneil).
+=> http://vim.org Vim 
+
+Have questions or suggestions? Feel free to ask me on Twitter.
+
+=> https://twitter.com/benneil ask me on Twitter 
 
 Thanks for reading!
 
@@ -46,3 +58,22 @@ updated: 27 June 2021.
 
 => / Back to the Index
 => https://bneil.me/about/ View this article on the WWW
+
+```
+       .'(`.-` \_.-'-./`  |\_( "\__
+                 __.>\ ';  _;---,._|   / __/`'--)
+                /.--.  : |/' _.--.<|  /  | |
+            _..-'    `\     /' /`  /_/ _/_/
+             >_.-``-. `Y  /' _;---.`|/))))
+            '` .-''. \|:  \.'   __, .-'"`
+             .'--._ `-:  \/:  /'  '.\
+                 /.'`\ :;   /'      `-
+                -`    |     |
+                      :.; : |                  .-'~^~`-.
+                      |:    |                .' _     _ `.
+                      |:.   |                | |_) | |_) |
+                      :. :  |                | | \ | |   |
+                    .jgs. : ;                |           |
+            -."-/\\\/:::.    `\."-._'."-"_\\-|           |///."-
+            " -."-.\\"-."//.-".`-."_\\-.".-\\`=.........=`//-".
+```

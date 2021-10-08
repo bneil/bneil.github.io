@@ -2,6 +2,8 @@
 
 # Audit Service - RDS
 
+
+
 # Audit Service or Round 2 Fight
 
 ## Description
@@ -78,7 +80,9 @@ output "password" {
 ```
 ## Goose time / Local Dev
 
-Inside the project, im creating a table's folder then setting up [goose](https://github.com/pressly/goose).
+Inside the project, im creating a table's folder then setting up goose.
+
+=> https://github.com/pressly/goose goose 
 its as easy as running `go get -u github.com/pressly/goose/cmd/goose`.  Also, I needed to set up a testing
 postgres instance.
 
@@ -156,3 +160,22 @@ updated: 25 June 2021.
 
 => / Back to the Index
 => https://bneil.me/posts/2021-05-28_rds-audit-service/ View this article on the WWW
+
+```
+       .'(`.-` \_.-'-./`  |\_( "\__
+                 __.>\ ';  _;---,._|   / __/`'--)
+                /.--.  : |/' _.--.<|  /  | |
+            _..-'    `\     /' /`  /_/ _/_/
+             >_.-``-. `Y  /' _;---.`|/))))
+            '` .-''. \|:  \.'   __, .-'"`
+             .'--._ `-:  \/:  /'  '.\
+                 /.'`\ :;   /'      `-
+                -`    |     |
+                      :.; : |                  .-'~^~`-.
+                      |:    |                .' _     _ `.
+                      |:.   |                | |_) | |_) |
+                      :. :  |                | | \ | |   |
+                    .jgs. : ;                |           |
+            -."-/\\\/:::.    `\."-._'."-"_\\-|           |///."-
+            " -."-.\\"-."//.-".`-."_\\-.".-\\`=.........=`//-".
+```

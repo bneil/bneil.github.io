@@ -2,6 +2,8 @@
 
 # now
 
+
+
 # What im doing _now_
 
 _Last Updated: {{}}_
@@ -23,11 +25,21 @@ be spread across ten different applications.
 * √ Tiamat's Wraith  / James S. A. Corey
 * √ {{}} Persepolis Rising / James S. A. Corey
 * √ {{}} Babylon's Ashes  / James S. A. Corey
-* √ {{}} [Nemesis Games]({{}} "Nemesis Games") / James S. A. Corey
-* √ {{}} [Cibola Burn]({{}} "Cibola Burn") / James S. A. Corey
-* √ {{}} [Abaddon's Gate]({{}} "Abaddon's Gate") / James S. A. Corey
-* √ {{}} [Calibans War]({{}} "Calibans War") / James S. A. Corey
-* √ {{}} [Leviathan Wakes]({{}} "Leviathan Wakes") / James S. A. Corey
+* √ {{}} Nemesis Games / James S. A. Corey
+
+=> {{}} "Nemesis Games" Nemesis Games 
+* √ {{}} Cibola Burn / James S. A. Corey
+
+=> {{}} "Cibola Burn" Cibola Burn 
+* √ {{}} Abaddon's Gate / James S. A. Corey
+
+=> {{}} "Abaddon's Gate" Abaddon's Gate 
+* √ {{}} Calibans War / James S. A. Corey
+
+=> {{}} "Calibans War" Calibans War 
+* √ {{}} Leviathan Wakes / James S. A. Corey
+
+=> {{}} "Leviathan Wakes" Leviathan Wakes 
 
 ## Watching
 * √ {{}} Netflix - Castlevania Series
@@ -57,3 +69,22 @@ updated: 7 October 2021.
 
 => / Back to the Index
 => https://bneil.me/now/ View this article on the WWW
+
+```
+       .'(`.-` \_.-'-./`  |\_( "\__
+                 __.>\ ';  _;---,._|   / __/`'--)
+                /.--.  : |/' _.--.<|  /  | |
+            _..-'    `\     /' /`  /_/ _/_/
+             >_.-``-. `Y  /' _;---.`|/))))
+            '` .-''. \|:  \.'   __, .-'"`
+             .'--._ `-:  \/:  /'  '.\
+                 /.'`\ :;   /'      `-
+                -`    |     |
+                      :.; : |                  .-'~^~`-.
+                      |:    |                .' _     _ `.
+                      |:.   |                | |_) | |_) |
+                      :. :  |                | | \ | |   |
+                    .jgs. : ;                |           |
+            -."-/\\\/:::.    `\."-._'."-"_\\-|           |///."-
+            " -."-.\\"-."//.-".`-."_\\-.".-\\`=.........=`//-".
+```

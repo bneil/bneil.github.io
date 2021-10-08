@@ -2,6 +2,8 @@
 
 # Migrating to Dynamo
 
+
+
 ## Another store getting migrated
 
 Today's pivotal tasks are all related towards moving things
@@ -158,3 +160,22 @@ updated: 25 June 2021.
 
 => / Back to the Index
 => https://bneil.me/posts/2021-04-20-dynamo_struct/ View this article on the WWW
+
+```
+       .'(`.-` \_.-'-./`  |\_( "\__
+                 __.>\ ';  _;---,._|   / __/`'--)
+                /.--.  : |/' _.--.<|  /  | |
+            _..-'    `\     /' /`  /_/ _/_/
+             >_.-``-. `Y  /' _;---.`|/))))
+            '` .-''. \|:  \.'   __, .-'"`
+             .'--._ `-:  \/:  /'  '.\
+                 /.'`\ :;   /'      `-
+                -`    |     |
+                      :.; : |                  .-'~^~`-.
+                      |:    |                .' _     _ `.
+                      |:.   |                | |_) | |_) |
+                      :. :  |                | | \ | |   |
+                    .jgs. : ;                |           |
+            -."-/\\\/:::.    `\."-._'."-"_\\-|           |///."-
+            " -."-.\\"-."//.-".`-."_\\-.".-\\`=.........=`//-".
+```

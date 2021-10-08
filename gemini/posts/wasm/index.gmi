@@ -2,14 +2,20 @@
 
 # WASM and Webmentions
 
+
+
 # Webmentions
 
-So as I journey through the fun [webmentions](https://indieweb.org/Webmention), it looks like since im
+So as I journey through the fun webmentions, it looks like since im
+
+=> https://indieweb.org/Webmention webmentions 
 just using github pages, I would migrate over to using cloudflare so I could play more with webworkers.
 My last attempt was that Danny Devito Quote generator that I believe was working fairly well.
 
 Although, having said that it really isnt at the point id like it to be. I originally wanted an "always sunny in philadelphia"
-to regale my coworkers with. The end result of that project can be [found here](https://danny-devito.acererak.workers.dev/).
+to regale my coworkers with. The end result of that project can be found here.
+
+=> https://danny-devito.acererak.workers.dev/ found here 
 
 Looks like ive got my night planned.
 
@@ -23,3 +29,22 @@ updated: 25 June 2021.
 
 => / Back to the Index
 => https://bneil.me/posts/wasm/ View this article on the WWW
+
+```
+       .'(`.-` \_.-'-./`  |\_( "\__
+                 __.>\ ';  _;---,._|   / __/`'--)
+                /.--.  : |/' _.--.<|  /  | |
+            _..-'    `\     /' /`  /_/ _/_/
+             >_.-``-. `Y  /' _;---.`|/))))
+            '` .-''. \|:  \.'   __, .-'"`
+             .'--._ `-:  \/:  /'  '.\
+                 /.'`\ :;   /'      `-
+                -`    |     |
+                      :.; : |                  .-'~^~`-.
+                      |:    |                .' _     _ `.
+                      |:.   |                | |_) | |_) |
+                      :. :  |                | | \ | |   |
+                    .jgs. : ;                |           |
+            -."-/\\\/:::.    `\."-._'."-"_\\-|           |///."-
+            " -."-.\\"-."//.-".`-."_\\-.".-\\`=.........=`//-".
+```
