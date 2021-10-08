@@ -23,14 +23,14 @@ be spread across ten different applications.
 - [x] Piranesi
 
 ## Listening To
-- [x] Tiamat's Wraith  / James S. A. Corey
-- [x] {{< emoji ":thumbsup:" >}} Persepolis Rising / James S. A. Corey
-- [x] {{< emoji ":thumbsup:" >}} Babylon's Ashes  / James S. A. Corey
-- [x] {{< emoji ":thumbsup:" >}} [Nemesis Games]({{< ref "nemesis_games.md" >}} "Nemesis Games") / James S. A. Corey
-- [x] {{< emoji ":thumbsup:" >}} [Cibola Burn]({{< ref "cibola_burn.md" >}} "Cibola Burn") / James S. A. Corey
-- [x] {{< emoji ":thumbsup:" >}} [Abaddon's Gate]({{< ref "abaddons_gate.md" >}} "Abaddon's Gate") / James S. A. Corey
-- [x] {{< emoji ":thumbsup:" >}} [Calibans War]({{< ref "calibans_war.md" >}} "Calibans War") / James S. A. Corey
-- [x] {{< emoji ":thumbsup:" >}} [Leviathan Wakes]({{< ref "leviathan_wakes.md" >}} "Leviathan Wakes") / James S. A. Corey
+Tiamat's Wraith  / James S. A. Corey
+Persepolis Rising / James S. A. Corey
+Babylon's Ashes  / James S. A. Corey
+[Nemesis Games]({{< ref "nemesis_games.md" >}} "Nemesis Games") / James S. A. Corey
+[Cibola Burn]({{< ref "cibola_burn.md" >}} "Cibola Burn") / James S. A. Corey
+[Abaddon's Gate]({{< ref "abaddons_gate.md" >}} "Abaddon's Gate") / James S. A. Corey
+[Calibans War]({{< ref "calibans_war.md" >}} "Calibans War") / James S. A. Corey
+[Leviathan Wakes]({{< ref "leviathan_wakes.md" >}} "Leviathan Wakes") / James S. A. Corey
 
 ## Watching
 - [x] {{< emoji ":thumbsup:" >}} Netflix - Castlevania Series

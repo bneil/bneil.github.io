@@ -1,5 +1,4 @@
 # {{ .Title }}
-
 {{ $scratch := newScratch }}
 {{ $content := .RawContent -}}
 {{ $content := $content | replaceRE `#### ` "### " -}}
@@ -14,18 +13,16 @@
 {{ $content := $content | replaceRE "([^`])<.*?>([^`])" "$1$2" -}}
 {{ $content := $content | replaceRE `\n\n!\[.*\]\((.+?) \"(.+?)\"\)` "\n\n=> $1 Image: $2" -}}
 {{ $content := $content | replaceRE `\n\n!\[.*]\((.+?)\)` "\n\n=> $1 Embedded Image: $1" -}}
-
 {{- range findRE `\[.+?\]\(.+?\)` $content }}
     {{- $content = $content | replaceRE `\[(.+?)\]\((.+?)\)(.+)` "$1$3\n\n=> $2 $1 " }}
 {{- end }}
-
 {{ $content | safeHTML }}
 
 ---
 updated: {{ .Lastmod.Format (.Site.Params.dateFormat | default "2 January 2006") }}.
 
-=> / Back to the Index
-=> https://bneil.me{{ replace (replace .RelPermalink "/gemini" "" 1) "index.gmi" "" }} View this article on the WWW
+=> / to the Index
+=> https://bneil.me{{ replace (replace .RelPermalink "/gemini" "" 1) "index.gmi" "" }} / html
 
 ```
        .'(`.-` \_.-'-./`  |\_( "\__
