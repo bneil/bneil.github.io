@@ -13,55 +13,44 @@ determining the best way to store and retrieve information from my notes that se
 be spread across ten different applications.
 
 ## Reading
-▢
-   Several short sentences about writing
+▢   Several short sentences about writing
     - seriously, for a book about short sentences, I end up taking notes and then
       spending weeks researching them.
-√
-   Distributed Services with Go
-√
-   Piranesi
+√   Distributed Services with Go
+√   Piranesi
 
 ## Listening To
-Tiamat's Wraith  / James S. A. Corey
-Persepolis Rising / James S. A. Corey
-Babylon's Ashes  / James S. A. Corey
-Nemesis Games / James S. A. Corey
+√  Tiamat’s Wraith / James S. A. Corey
+√   👍 Persepolis Rising / James S. A. Corey
+√   👍 Babylon’s Ashes / James S. A. Corey
+√   👍 Nemesis Games / James S. A. Corey
+=> /review/books/nemesis_games/ Nemesis Games
 
-=> {{}} "Nemesis Games" Nemesis Games 
-Cibola Burn / James S. A. Corey
+√   👍 Cibola Burn / James S. A. Corey
+=> /review/books/cibola_burn/ Cibola Burn
 
-=> {{}} "Cibola Burn" Cibola Burn 
-Abaddon's Gate / James S. A. Corey
+√   👍 Abaddon’s Gate / James S. A. Corey
+=> /review/books/abaddons_gate/ Abaddon’s Gate
 
-=> {{}} "Abaddon's Gate" Abaddon's Gate 
-Calibans War / James S. A. Corey
+√   👍 Calibans War / James S. A. Corey
+=> /review/books/calibans_war/ Calibans War
 
-=> {{}} "Calibans War" Calibans War 
-Leviathan Wakes / James S. A. Corey
+√   👍 Leviathan Wakes / James S. A. Corey
+=> /review/books/leviathan_wakes/ Leviathan Wakes
 
-=> {{}} "Leviathan Wakes" Leviathan Wakes 
 
 ## Watching
-√
-   {{}} Netflix - Castlevania Series
+√   👍 Netflix - Castlevania Series
     - not going to ruin anything, but i didnt see this happening in an anime
     ![nope](/images/death.jpg)
-√
-   {{}} Full Dive: This Ultimate Next-Gen Full Dive RPG Is Even Shittier than Real Life!
-√
-   {{}} Alone - Million dollar challenge
+√   👍 Full Dive: This Ultimate Next-Gen Full Dive RPG Is Even Shittier than Real Life!
+√   👍 Alone - Million dollar challenge
   - I never thought id learn so much about the importance of fishing.
-√
-   {{}} Willy's Wonderland
-√
-   {{}} Dog Eat Dog "nick cage movie"
-√
-   {{}} Invincible
-√
-   {{}} Wayne (ended up not watching all of it)
-√
-   {{}} Uploaded
+√   👍 Willy's Wonderland
+√   👎 Dog Eat Dog "nick cage movie"
+√   👍 Invincible
+√   👍 Wayne (ended up not watching all of it)
+√   👍 Uploaded
 
 ## Exercise
 * Walking / Running a min 10k steps a day
@@ -74,7 +63,7 @@ This page is following best practice as defined from
 
 
 ---
-updated: 7 October 2021.
+updated: 8 October 2021.
 
 => / to the Index
 => https://bneil.me/now/ / html
