@@ -2,8 +2,8 @@
 {{ $scratch := newScratch }}
 {{ $content := .RawContent -}}
 {{ $content := $content | replaceRE `#### ` "### " -}}
-{{ $content := $content | replaceRE `- \[x\]` "√\n  " -}}
-{{ $content := $content | replaceRE `- \[ \]` "▢\n  " -}}
+{{ $content := $content | replaceRE `- \[x\]` "√  " -}}
+{{ $content := $content | replaceRE `- \[ \]` "▢  " -}}
 {{ $content := $content | replaceRE `\n- (.+?)` "\n* $1" -}}
 {{ $content := $content | replaceRE `\n(\d+). (.+?)` "\n* $2" -}}
 {{ $content := $content | replaceRE `\[\^(.+?)\]:?` "" -}}
@@ -14,9 +14,9 @@
 {{ $content := $content | replaceRE `\n\n!\[.*\]\((.+?) \"(.+?)\"\)` "\n\n=> $1 Image: $2" -}}
 {{ $content := $content | replaceRE `\n\n!\[.*]\((.+?)\)` "\n\n=> $1 Embedded Image: $1" -}}
 {{- range findRE `\[.+?\]\(.+?\)` $content }}
-    {{- $content = $content | replaceRE `\[(.+?)\]\((.+?)\)(.+)` "$1$3\n\n=> $2 $1 " }}
+    {{- $content = $content | replaceRE `\[(.+?)\]\((.+?)\)(.+)` "$1$3\n=> $2 $1\n" }}
 {{- end }}
-{{ $content | safeHTML }}
+{{ $content  }}
 
 ---
 updated: {{ .Lastmod.Format (.Site.Params.dateFormat | default "2 January 2006") }}.

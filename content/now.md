@@ -23,27 +23,27 @@ be spread across ten different applications.
 - [x] Piranesi
 
 ## Listening To
-Tiamat's Wraith  / James S. A. Corey
-Persepolis Rising / James S. A. Corey
-Babylon's Ashes  / James S. A. Corey
-[Nemesis Games]({{< ref "nemesis_games.md" >}} "Nemesis Games") / James S. A. Corey
-[Cibola Burn]({{< ref "cibola_burn.md" >}} "Cibola Burn") / James S. A. Corey
-[Abaddon's Gate]({{< ref "abaddons_gate.md" >}} "Abaddon's Gate") / James S. A. Corey
-[Calibans War]({{< ref "calibans_war.md" >}} "Calibans War") / James S. A. Corey
-[Leviathan Wakes]({{< ref "leviathan_wakes.md" >}} "Leviathan Wakes") / James S. A. Corey
+- [x]Tiamat’s Wraith / James S. A. Corey
+- [x] 👍 Persepolis Rising / James S. A. Corey
+- [x] 👍 Babylon’s Ashes / James S. A. Corey
+- [x] 👍 <a href="/review/books/nemesis_games/" title="Nemesis Games">Nemesis Games</a> / James S. A. Corey
+- [x] 👍 <a href="/review/books/cibola_burn/" title="Cibola Burn">Cibola Burn</a> / James S. A. Corey
+- [x] 👍 <a href="/review/books/abaddons_gate/" title="Abaddon's Gate">Abaddon’s Gate</a> / James S. A. Corey
+- [x] 👍 <a href="/review/books/calibans_war/" title="Calibans War">Calibans War</a> / James S. A. Corey
+- [x] 👍 <a href="/review/books/leviathan_wakes/" title="Leviathan Wakes">Leviathan Wakes</a> / James S. A. Corey</p>
 
 ## Watching
-- [x] {{< emoji ":thumbsup:" >}} Netflix - Castlevania Series
+- [x] 👍 Netflix - Castlevania Series
     - not going to ruin anything, but i didnt see this happening in an anime
     ![nope](/images/death.jpg)
-- [x] {{< emoji ":thumbsup:" >}} Full Dive: This Ultimate Next-Gen Full Dive RPG Is Even Shittier than Real Life!
-- [x] {{< emoji ":thumbsup:" >}} Alone - Million dollar challenge
+- [x] 👍 Full Dive: This Ultimate Next-Gen Full Dive RPG Is Even Shittier than Real Life!
+- [x] 👍 Alone - Million dollar challenge
   - I never thought id learn so much about the importance of fishing.
-- [x] {{< emoji ":thumbsup:" >}} Willy's Wonderland
-- [x] {{< emoji ":thumbsdown:" >}} Dog Eat Dog "nick cage movie"
-- [x] {{< emoji ":thumbsup:" >}} Invincible
-- [x] {{< emoji ":thumbsdown:" >}} Wayne (ended up not watching all of it)
-- [x] {{< emoji ":thumbsup:" >}} Uploaded
+- [x] 👍 Willy's Wonderland
+- [x] 👎 Dog Eat Dog "nick cage movie"
+- [x] 👍 Invincible
+- [x] 👍 Wayne (ended up not watching all of it)
+- [x] 👍 Uploaded
 
 ## Exercise
 * Walking / Running a min 10k steps a day
