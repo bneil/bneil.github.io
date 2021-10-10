@@ -35,6 +35,11 @@ paginate=3 # articles per page
     path = "/gemini/"
     mediaType = "application/rss+xml"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 
 [outputs]
   home = ["html", "rss", "gemini","gemini_rss"]
