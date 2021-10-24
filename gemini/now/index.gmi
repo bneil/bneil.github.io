@@ -2,15 +2,15 @@
 
 
 ```
-    @@@  @@@   @@@@@@   @@@  @@@  @@@                 
-    @@@@ @@@  @@@@@@@@  @@@  @@@  @@@                 
-    @@!@!@@@  @@!  @@@  @@!  @@!  @@!                 
-    !@!!@!@!  !@!  @!@  !@!  !@!  !@!                 
-    @!@ !!@!  @!@  !@!  @!!  !!@  @!@                 
-    !@!  !!!  !@!  !!!  !@!  !!!  !@!                 
-    !!:  !!!  !!:  !!!  !!:  !!:  !!:                 
-    :!:  !:!  :!:  !:!  :!:  :!:  :!:  :!:  :!:  :!:  
-     ::   ::  ::::: ::   :::: :: :::   :::  :::  :::  
+    @@@  @@@   @@@@@@   @@@  @@@  @@@
+    @@@@ @@@  @@@@@@@@  @@@  @@@  @@@
+    @@!@!@@@  @@!  @@@  @@!  @@!  @@!
+    !@!!@!@!  !@!  @!@  !@!  !@!  !@!
+    @!@ !!@!  @!@  !@!  @!!  !!@  @!@
+    !@!  !!!  !@!  !!!  !@!  !!!  !@!
+    !!:  !!!  !!:  !!!  !!:  !!:  !!:
+    :!:  !:!  :!:  !:!  :!:  :!:  :!:  :!:  :!:  :!:
+     ::   ::  ::::: ::   :::: :: :::   :::  :::  :::
     ::    :    : :  :     :: :  : :    :::  :::  :::
 ```
 _Last Updated: {{}}_
@@ -30,7 +30,9 @@ be spread across ten different applications.
 ## Listening To
 √  Tiamat’s Wraith / James S. A. Corey
 √   👍 Persepolis Rising / James S. A. Corey
-√   👍 Babylon’s Ashes / James S. A. Corey
+√   👍 Babylons Ashes / James S. A. Corey
+=> /review/books/babylons_ashes/ Babylons Ashes
+
 √   👍 Nemesis Games / James S. A. Corey
 => /review/books/nemesis_games/ Nemesis Games
 
@@ -71,7 +73,7 @@ This page is following best practice as defined from
 
 
 ---
-updated: 8 October 2021.
+updated: 24 October 2021.
 
 => / to the Index
 => https://bneil.me/now/ / html
