@@ -9,20 +9,20 @@ Categories: ["reviews"]
 
 I'm burning through these books and this one was no different.
 
-Maybe it's the instant draw. 
+Maybe it's the instant draw.
 
 To characters whose only hope
-of kindling a romantic hookup is belting themselves into 
+of kindling a romantic hookup is belting themselves into
 a junker spaceship and hurling themselves through a gate
-built from the reconstituted remains of Venus. 
+built from the reconstituted remains of Venus.
 
 But damn.
 
 The flair seems so human, I could see it being real.
 
-Abaddons Gate centers around the aforementioned ring. It's
+Abaddon's Gate centers around the aforementioned ring. It's
 existence bringing the whole of humanity towards it. Sure.
-What could possibly go wrong. 
+What could possibly go wrong.
 
 Within minutes of starting this book, I was hooked, again.
 I really can't recommend it enough.
