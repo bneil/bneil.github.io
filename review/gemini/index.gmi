@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /review/books/babylons_ashes/index.gmi 2021-10-23 Babylon's Ashes
 => /review/books/nemesis_games/index.gmi 2021-09-13 Nemesis Games
 => /review/books/cibola_burn/index.gmi 2021-07-13 Cibola Burn
 => /review/books/abaddons_gate/index.gmi 2021-06-30 Abaddons Gate

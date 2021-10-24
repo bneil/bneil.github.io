@@ -33,8 +33,8 @@ That said! Thanks to everyone for reading!!
 
 ## by tag
 
-=> gemini://shiny.bneil.me/tags/first/gemini/index.gmi first
 => gemini://shiny.bneil.me/tags/book/gemini/index.gmi book
+=> gemini://shiny.bneil.me/tags/first/gemini/index.gmi first
 => gemini://shiny.bneil.me/tags/aws/gemini/index.gmi aws
 => gemini://shiny.bneil.me/tags/docker/gemini/index.gmi docker
 => gemini://shiny.bneil.me/tags/goose/gemini/index.gmi goose
