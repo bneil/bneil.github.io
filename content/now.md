@@ -5,15 +5,15 @@ date: "2020-04-20"
 description: "now"
 ---
 ```
-    @@@  @@@   @@@@@@   @@@  @@@  @@@                 
-    @@@@ @@@  @@@@@@@@  @@@  @@@  @@@                 
-    @@!@!@@@  @@!  @@@  @@!  @@!  @@!                 
-    !@!!@!@!  !@!  @!@  !@!  !@!  !@!                 
-    @!@ !!@!  @!@  !@!  @!!  !!@  @!@                 
-    !@!  !!!  !@!  !!!  !@!  !!!  !@!                 
-    !!:  !!!  !!:  !!!  !!:  !!:  !!:                 
-    :!:  !:!  :!:  !:!  :!:  :!:  :!:  :!:  :!:  :!:  
-     ::   ::  ::::: ::   :::: :: :::   :::  :::  :::  
+    @@@  @@@   @@@@@@   @@@  @@@  @@@
+    @@@@ @@@  @@@@@@@@  @@@  @@@  @@@
+    @@!@!@@@  @@!  @@@  @@!  @@!  @@!
+    !@!!@!@!  !@!  @!@  !@!  !@!  !@!
+    @!@ !!@!  @!@  !@!  @!!  !!@  @!@
+    !@!  !!!  !@!  !!!  !@!  !!!  !@!
+    !!:  !!!  !!:  !!!  !!:  !!:  !!:
+    :!:  !:!  :!:  !:!  :!:  :!:  :!:  :!:  :!:  :!:
+     ::   ::  ::::: ::   :::: :: :::   :::  :::  :::
     ::    :    : :  :     :: :  : :    :::  :::  :::
 ```
 _Last Updated: {{< updated >}}_
@@ -33,7 +33,7 @@ be spread across ten different applications.
 ## Listening To
 - [x]Tiamat’s Wraith / James S. A. Corey
 - [x] 👍 Persepolis Rising / James S. A. Corey
-- [x] 👍 Babylon’s Ashes / James S. A. Corey
+- [x] 👍 <a href="/review/books/babylons_ashes/" title="Babylon's Ashes">Babylons Ashes</a> / James S. A. Corey
 - [x] 👍 <a href="/review/books/nemesis_games/" title="Nemesis Games">Nemesis Games</a> / James S. A. Corey
 - [x] 👍 <a href="/review/books/cibola_burn/" title="Cibola Burn">Cibola Burn</a> / James S. A. Corey
 - [x] 👍 <a href="/review/books/abaddons_gate/" title="Abaddon's Gate">Abaddon’s Gate</a> / James S. A. Corey
