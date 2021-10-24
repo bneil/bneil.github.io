@@ -1,6 +1,7 @@
 +++
-title = ""
+title = "Resume"
 slug = "resume"
+date = "2020-10-20"
 thumbnail = "/images/resume.jpg"
 description = "resume"
 +++

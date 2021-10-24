@@ -1,6 +1,7 @@
 +++
 title = "About Me"
 slug = "about"
+date = "2020-10-20"
 thumbnail = "/images/setup.jpg"
 description = "about"
 +++
@@ -8,11 +9,11 @@ description = "about"
 ---------------------------
 ![imerror](/images/error-avatar.jpg)
 
-My name is Benjamin Neil, a polyglot engineer in Colorado. I have had the privilege to work the 
+My name is Benjamin Neil, a polyglot engineer in Colorado. I have had the privilege to work the
 past eleven years making websites, services, documentation and tools for amazing companies.
 
-I'm obsessed with technology and programming - mainy linux, hypervisors, containers, unikernels, 
-scala, rust, go etc. Ive got a real problem researching tools and enjoy writing then rewriting 
+I'm obsessed with technology and programming - mainy linux, hypervisors, containers, unikernels,
+scala, rust, go etc. Ive got a real problem researching tools and enjoy writing then rewriting
 internal documentation.
 
 ---------------------------

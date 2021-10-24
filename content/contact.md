@@ -1,6 +1,7 @@
 +++
 title = "Contact"
 slug = "contact"
+date = "2020-10-20"
 thumbnail = "/images/pexels.jpg"
 description = "contact"
 +++
