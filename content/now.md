@@ -24,7 +24,7 @@ determining the best way to store and retrieve information from my notes that se
 be spread across ten different applications.
 
 ## Reading
-- [ ] Several short sentences about writing
+- [x] Several short sentences about writing
     - seriously, for a book about short sentences, I end up taking notes and then
       spending weeks researching them.
 - [x] Distributed Services with Go
