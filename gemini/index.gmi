@@ -24,7 +24,6 @@ That said! Thanks to everyone for reading!!
 ## by major subject
 
 => gemini://shiny.bneil.me/categories/review/gemini/index.gmi review
-=> gemini://shiny.bneil.me/categories/reviews/gemini/index.gmi reviews
 => gemini://shiny.bneil.me/categories/coding/gemini/index.gmi coding
 => gemini://shiny.bneil.me/categories/notes/gemini/index.gmi notes
 => gemini://shiny.bneil.me/categories/workflow/gemini/index.gmi workflow
