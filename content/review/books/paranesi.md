@@ -1,10 +1,11 @@
 ---
 title: "Piranesi"
-date: 2021-11-10T22:45:53-05
+date: 2021-11-10T22:45:53-05:00
 draft: false
-Description: "Don't blink"
-Tags: ["book"]
-Categories: ["reviews"]
+description: "Don't blink"
+tags: ["book"]
+categories: ["review"]
+
 ---
 
 Really weird but really neat book. A book in which the protagonist and environment, were constant highlights. The

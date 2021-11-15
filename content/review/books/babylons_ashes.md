@@ -3,7 +3,7 @@ title: "Babylon's Ashes"
 date: 2021-10-23T13:48:53-06:00
 draft: false
 tags: ["book"]
-Description: "Quick review of Babylon's Ashes"
+description: "Quick review of Babylon's Ashes"
 categories: ["review"]
 
 ---

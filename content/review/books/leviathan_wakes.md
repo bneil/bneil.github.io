@@ -1,15 +1,16 @@
 ---
 title: "Leviathan Wakes"
 date: 2021-06-27T10:33:49-06:00
-Description: "Just my impressions of Leviathan Wakes"
-Tags: ["book"]
-Categories: ["reviews"]
+description: "Just my impressions of Leviathan Wakes"
+tags: ["book"]
+categories: ["review"]
 DisableFront: true
+
 ---
 
 Really great world building, interesting plot and just enough tension to really feel like an adventure.
 I was a little confused when reading this book at first since the prologue was really odd. That and the whiplash
-we get as we are first getting introduced into the world that James Corey paints 
+we get as we are first getting introduced into the world that James Corey paints
 for us.
 
 For me my favorite character was Miller, and I was enjoying the tug of what felt like

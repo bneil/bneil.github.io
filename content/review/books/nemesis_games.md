@@ -4,6 +4,7 @@ date: 2021-09-13T13:48:53-06:00
 draft: false
 tags: ["book"]
 categories: ["review"]
+
 ---
 
 ## Never break the party

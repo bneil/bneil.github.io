@@ -4,7 +4,8 @@ date: 2021-06-30T19:22:33-06:00
 draft: false
 Description: "Just my impressions of Abaddon's Gate"
 Tags: ["book"]
-Categories: ["reviews"]
+Categories: ["review"]
+
 ---
 
 I'm burning through these books and this one was no different.
