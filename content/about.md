@@ -9,7 +9,7 @@ description = "about"
 ---------------------------
 ![imerror](/images/error-avatar.jpg)
 
-My name is Benjamin Neil, a polyglot engineer in Colorado. I have had the privilege to work the
+My name is Ben Neil, a polyglot engineer. I have had the privilege to work the
 past eleven years making websites, services, documentation and tools for amazing companies.
 
 I'm obsessed with technology and programming - mainy linux, hypervisors, containers, unikernels,
