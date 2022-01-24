@@ -10,27 +10,19 @@ determining the best way to store and retrieve information from my notes that se
 be spread across ten different applications.
 
 ## Reading
-▢   Recapture The Rapture / Jamie Wheal
-√   👍 How Rory Thorne Destroyed the Multiverse / K. Eason
-=> /review/books/rory/ How Rory Thorne Destroyed the Multiverse
+▢   How the Multiverse Got Its Revenge / K. Eason
+√   The Only Good Indians / Stephen Graham Jones
+=> /review/books/good_indians/ The Only Good Indians
 
-√   👍 Piranesi / Susanna Clarke
-=> /review/books/paranesi/ Piranesi
-
+√   Recapture The Rapture / Jamie Wheal
 
 ## Listening To
 ▢   podcasts....
-√   👍 Tiamat’s Wraith / James S. A. Corey
-√   👍 Persepolis Rising / James S. A. Corey
-√   👍 Babylons Ashes / James S. A. Corey
-=> /review/books/babylons_ashes/ Babylons Ashes
-
+√   Book 3 of the Wheel of Time
 
 ## Watching
-▢   Ted Lassow
-√   👍 Netflix - Castlevania Series
-    - not going to ruin anything, but i didnt see this happening in an anime
-    ![nope](/images/death.jpg)
+√   Midnight Mass
+√   Ted Lassow
 
 ## Exercise
 * Walking / Running a min 10k steps a day
@@ -43,7 +35,7 @@ This page is following best practice as defined from
 
 
 ---
-updated: 10 November 2021.
+updated: 23 January 2022.
 
 => / to the Index
 => https://bneil.me/now/ / html
