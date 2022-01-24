@@ -13,21 +13,17 @@ determining the best way to store and retrieve information from my notes that se
 be spread across ten different applications.
 
 ## Reading
-- [ ] Recapture The Rapture / Jamie Wheal
-- [x] 👍 <a href="/review/books/rory/" title="rory">How Rory Thorne Destroyed the Multiverse</a> / K. Eason
-- [x] 👍 <a href="/review/books/paranesi/" title="paranesi">Piranesi</a> / Susanna Clarke
+- [ ] How the Multiverse Got Its Revenge / K. Eason
+- [x] <a href="/review/books/good_indians/">The Only Good Indians</a> / Stephen Graham Jones
+- [x] Recapture The Rapture / Jamie Wheal
 
 ## Listening To
 - [ ] podcasts....
-- [x] 👍 Tiamat’s Wraith / James S. A. Corey
-- [x] 👍 Persepolis Rising / James S. A. Corey
-- [x] 👍 <a href="/review/books/babylons_ashes/" title="Babylon's Ashes">Babylons Ashes</a> / James S. A. Corey
+- [x] Book 3 of the Wheel of Time
 
 ## Watching
-- [ ] Ted Lassow
-- [x] 👍 Netflix - Castlevania Series
-    - not going to ruin anything, but i didnt see this happening in an anime
-    ![nope](/images/death.jpg)
+- [x] Midnight Mass
+- [x] Ted Lassow
 
 ## Exercise
 * Walking / Running a min 10k steps a day
