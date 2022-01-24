@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /review/books/good_indians/index.gmi 2022-01-22 The Only Good Indians
 => /review/books/rory/index.gmi 2021-11-10 How Rory Thorne Destroyed the Multiverse
 => /review/books/paranesi/index.gmi 2021-11-10 Piranesi
 => /review/books/babylons_ashes/index.gmi 2021-10-23 Babylon's Ashes
