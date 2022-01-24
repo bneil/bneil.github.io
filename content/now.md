@@ -19,7 +19,8 @@ be spread across ten different applications.
 
 ## Listening To
 - [ ] podcasts....
-- [x] Book 3 of the Wheel of Time
+- [ ] Book 3 of the Wheel of Time
+- [x] Book 2 of the Wheel of Time
 
 ## Watching
 - [x] Midnight Mass
