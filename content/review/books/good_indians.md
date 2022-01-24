@@ -1,6 +1,6 @@
 ---
 title: "The Only Good Indians"
-date: 2022-01-23T22:45:53-05:00
+date: 2022-01-22T22:45:53-05:00
 draft: false
 description: "The land claims what you leave behind."
 tags: ["book"]
