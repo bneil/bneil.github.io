@@ -24,7 +24,7 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
 */
 
 body {
-  background: #000 url('/images/back.jpg');
+  background: #111e22 url('/images/back.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
