@@ -5,7 +5,7 @@
 <a href=/about>About</a>
 <a href=/posts>Blog</a>
 <a href=/tags/notes>Notes</a>
-<a href=/now>Now</a></nav></header><main><article class=h-entry><div class=title><h1 class="title p-name">Migrating to Dynamo</h1><div class=meta>Posted on Apr 20, 2021</div></div><section class="body e-content"><h2 id=another-store-getting-migrated>Another store getting migrated</h2><p>Today&rsquo;s pivotal tasks are all related towards moving things
+<a href=/now>Now</a></nav></header><main><article class=h-entry><div class=title><h1 class="title p-name">Migrating to Dynamo</h1><div class=meta>Posted on Apr 20, 2021</div></div><div><img src=/images/standing.jpg></div><section class="body e-content"><h2 id=another-store-getting-migrated>Another store getting migrated</h2><p>Today&rsquo;s pivotal tasks are all related towards moving things
 away from redis and into dynamo. So far ive gotten the
 underpinnings done by creating a dynamo store</p><p>The main struct looks like this</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#66d9ef>type</span> <span style=color:#a6e22e>DynamoStore</span> <span style=color:#66d9ef>struct</span> {
 </span></span><span style=display:flex><span>    <span style=color:#a6e22e>tableName</span>  <span style=color:#66d9ef>string</span>

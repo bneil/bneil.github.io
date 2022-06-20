@@ -3,7 +3,6 @@
 
 
 ---------------------------
-![imerror](/images/error-avatar.jpg)
 
 My name is Ben Neil, a polyglot engineer. I have had the privilege to work the
 past eleven years making websites, services, documentation and tools for amazing companies.
@@ -56,7 +55,7 @@ Thanks for reading!
 
 
 ---
-updated: 7 December 2021.
+updated: 19 June 2022.
 
 => / to the Index
 => https://bneil.me/about/ / html
