@@ -2,12 +2,10 @@
 title = "About Me"
 slug = "about"
 date = "2020-10-20"
-thumbnail = "/images/setup.jpg"
 description = "about"
 +++
 
 ---------------------------
-![imerror](/images/error-avatar.jpg)
 
 My name is Ben Neil, a polyglot engineer. I have had the privilege to work the
 past eleven years making websites, services, documentation and tools for amazing companies.

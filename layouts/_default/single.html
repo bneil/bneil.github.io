@@ -11,6 +11,12 @@
 			{{ .Params.tldr }}
 		</div>{{ end }}
 
+		{{ if isset .Params "thumbnail" }}
+		<div >
+                  <img src="{{ .Params.thumbnail }}" />
+		</div>{{ end }}
+
+
 		<section class="body e-content">
 			{{ .Content }}
 		</section>
