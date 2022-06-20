@@ -47,7 +47,7 @@ Same role just now with a new name!
 
 **Technical Toolset** Docker, Jenkins, Bitbucket, Go
 
-
+------
 **AppThis LLC** *Senior Fullstack Engineer* __Mar 2015 to Nov 2016__ <br/>
 
 - Primary sysadmin / devops lead for the entirety of the AppThis infrastructure
@@ -59,6 +59,7 @@ Same role just now with a new name!
 
 **Technical Toolset** Scala, Akka, RabbitMQ, AWS, ScalaTest, SaltStack
 
+------
 **Dire Wolf Digital** *Senior Engineer* __Jul 2011 to Mar 2015__ <br/>
 
 - Tasked with adapting and expanding the DWD infrastructure to meet the goals of internal and external stake holders.
@@ -69,6 +70,7 @@ Same role just now with a new name!
 
 **Technical Toolset** Scala, Akka, Bootstrap, Backbone.js, Thrift/Protobuf, Cassandra, Postgres
 
+------
 **Sony Online Entertainment** *Lead Developer* __May 2006 to Jul 2011__ <br/>
 
 - Lead, manage and mentor a team of web developers to align strategic goals of the company
@@ -84,5 +86,5 @@ Same role just now with a new name!
 
 ### Education
 
-**Bachelor of Computer Infomration Systems** __2000 to 2003__
+**Bachelor of Computer Information Systems** __2000 to 2003__
 DeVry University, Phoenix, Arizona
