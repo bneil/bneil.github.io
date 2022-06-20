@@ -1,118 +1,25 @@
-<!doctype html><html><head>
-<meta charset=utf-8>
-<meta http-equiv=x-ua-compatible content="IE=edge"><title>Audit Service - Dynamodb - bneil.me</title><meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=description content="Audit Service Description Decided that I wanted an audit db and service to help keep track of user behaviors. Since I already have some in Redis, and some in Postgres I thought this might be a useful exercise. The main thing id like to accomplish with this code is going to be a way to track events and break them down by week/month/year per user and per company.
-Im having some self debate about creating tables for the tallies or if I should just be creating them on the fly using a query.">
-<meta property="og:image" content>
-<meta property="og:title" content="Audit Service - Dynamodb">
-<meta property="og:description" content="Audit Service Description Decided that I wanted an audit db and service to help keep track of user behaviors. Since I already have some in Redis, and some in Postgres I thought this might be a useful exercise. The main thing id like to accomplish with this code is going to be a way to track events and break them down by week/month/year per user and per company.
-Im having some self debate about creating tables for the tallies or if I should just be creating them on the fly using a query.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://bneil.me/posts/audit-dynamodb/"><meta property="article:section" content="posts">
-<meta property="article:published_time" content="2021-05-26T11:13:53-06:00">
-<meta property="article:modified_time" content="2021-06-25T10:21:39-06:00">
-<meta name=twitter:card content="summary">
-<meta name=twitter:title content="Audit Service - Dynamodb">
-<meta name=twitter:description content="Audit Service Description Decided that I wanted an audit db and service to help keep track of user behaviors. Since I already have some in Redis, and some in Postgres I thought this might be a useful exercise. The main thing id like to accomplish with this code is going to be a way to track events and break them down by week/month/year per user and per company.
-Im having some self debate about creating tables for the tallies or if I should just be creating them on the fly using a query.">
-<script src=https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js></script>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap" rel=stylesheet>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel=stylesheet>
-<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel=stylesheet>
-<link rel=stylesheet type=text/css media=screen href=https://bneil.me/css/main.2f9b5946627215dc1ae7fa5f82bfc9cfcab000329136befeea5733f21e77d68f.css>
-<link id=darkModeStyle rel=stylesheet type=text/css href=https://bneil.me/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css>
-<link rel=stylesheet type=text/css href=https://bneil.me/css/update.87adedd5cefb47280a833bf9de869c6001a7967fdecb78e1157dd1c51f679a82.css>
-</head>
-<body>
-<div class=content><header>
-<div class=main>
-<a href=https://bneil.me>bneil.me</a>
-</div>
-<nav>
-<a href=/>Home</a>
+<!doctype html><html><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><title>Audit Service - Dynamodb - bneil.me</title><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Audit Service Description Decided that I wanted an audit db and service to help keep track of user behaviors. Since I already have some in Redis, and some in Postgres I thought this might be a useful exercise. The main thing id like to accomplish with this code is going to be a way to track events and break them down by week/month/year per user and per company.
+Im having some self debate about creating tables for the tallies or if I should just be creating them on the fly using a query."><meta property="og:image" content><meta property="og:title" content="Audit Service - Dynamodb"><meta property="og:description" content="Audit Service Description Decided that I wanted an audit db and service to help keep track of user behaviors. Since I already have some in Redis, and some in Postgres I thought this might be a useful exercise. The main thing id like to accomplish with this code is going to be a way to track events and break them down by week/month/year per user and per company.
+Im having some self debate about creating tables for the tallies or if I should just be creating them on the fly using a query."><meta property="og:type" content="article"><meta property="og:url" content="https://bneil.me/posts/audit-dynamodb/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2021-05-26T11:13:53-06:00"><meta property="article:modified_time" content="2021-06-25T10:21:39-06:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="Audit Service - Dynamodb"><meta name=twitter:description content="Audit Service Description Decided that I wanted an audit db and service to help keep track of user behaviors. Since I already have some in Redis, and some in Postgres I thought this might be a useful exercise. The main thing id like to accomplish with this code is going to be a way to track events and break them down by week/month/year per user and per company.
+Im having some self debate about creating tables for the tallies or if I should just be creating them on the fly using a query."><script src=https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js></script>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap" rel=stylesheet><link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel=stylesheet><link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel=stylesheet><link rel=stylesheet type=text/css media=screen href=https://bneil.me/css/main.2f9b5946627215dc1ae7fa5f82bfc9cfcab000329136befeea5733f21e77d68f.css><link id=darkModeStyle rel=stylesheet type=text/css href=https://bneil.me/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css><link rel=stylesheet type=text/css href=https://bneil.me/css/update.87adedd5cefb47280a833bf9de869c6001a7967fdecb78e1157dd1c51f679a82.css></head><body><div class=content><header><div class=main><a href=https://bneil.me>bneil.me</a></div><nav><a href=/>Home</a>
 <a href=/contact>Contact</a>
 <a href=/resume>Resume</a>
 <a href=/about>About</a>
 <a href=/posts>Blog</a>
 <a href=/tags/notes>Notes</a>
-<a href=/now>Now</a>
-</nav>
-</header>
-<main>
-<article class=h-entry>
-<div class=title>
-<h1 class="title p-name">Audit Service - Dynamodb</h1>
-<div class=meta>Posted on May 26, 2021</div>
-</div>
-<section class="body e-content">
-<h1 id=audit-service>Audit Service</h1>
-<h2 id=description>Description</h2>
-<p>Decided that I wanted an audit db and service to help keep track of user behaviors.
+<a href=/now>Now</a></nav></header><main><article class=h-entry><div class=title><h1 class="title p-name">Audit Service - Dynamodb</h1><div class=meta>Posted on May 26, 2021</div></div><section class="body e-content"><h1 id=audit-service>Audit Service</h1><h2 id=description>Description</h2><p>Decided that I wanted an audit db and service to help keep track of user behaviors.
 Since I already have some in Redis, and some in Postgres I thought this might be a useful exercise.
 The main thing id like to accomplish with this code is going to be a way to track events and break
-them down by week/month/year per user and per company.</p>
-<p>Im having some self debate about creating tables for the tallies or if I should just be creating
+them down by week/month/year per user and per company.</p><p>Im having some self debate about creating tables for the tallies or if I should just be creating
 them on the fly using a query. I like the idea of the tally because it would be a place to easily
-look that information up. Although if some error occurs it could possibly be inaccurate.</p>
-<h3 id=schema>Schema</h3>
-<p>Deciding on a good schema, im thinking something like</p>
-<p><em>audit table</em></p>
-<ul>
-<li>userId</li>
-<li>companyName (i dislike using company id because then you have to look it up)</li>
-<li>timestamp</li>
-<li>event</li>
-</ul>
-<p><em>user tally table</em></p>
-<ul>
-<li>userId</li>
-<li>companyName</li>
-<li>Timespan - YYmmdd</li>
-<li>event</li>
-<li>count</li>
-</ul>
-<p><em>company tally table</em></p>
-<ul>
-<li>companyName</li>
-<li>Timespan - YYmm</li>
-<li>event</li>
-<li>count</li>
-</ul>
-<h2 id=on-second-thought>On second thought&mldr;</h2>
-<p>Maybe just using rds would be a better fit. The amount of scanning would be pretty awful. Ok, abandoning idea!</p>
-</section>
-<small> <a class=u-url href=https://bneil.me/posts/audit-dynamodb/>https://bneil.me/posts/audit-dynamodb/</a> </small>
-<div class=post-tags>
-<nav class="nav tags">
-<ul class=tags>
-<li><a href=/tags/aws>aws</a></li>
-<li><a href=/tags/golang>golang</a></li>
-</ul>
-</nav>
-</div>
-</article>
-</main>
-<footer>
-<hr><a class=soc rel=me href=https://github.com/bneil title=Github><i data-feather=github></i></a>|<a class=soc rel=me href=https://twitter.com/benneil/ title=Twitter><i data-feather=twitter></i></a>|<a class=soc rel=me href=https://www.linkedin.com/in/readyplayer1/ title=LinkedIn><i data-feather=linkedin></i></a>|<a class=soc rel=me href=mailto:ben@neil-concepts.com title=Email><i data-feather=mail></i></a>|<a class=soc rel=me href=https://coderwall.com/bneil title=Coderwall><i data-feather=code></i></a>|<a class=soc rel=me href=https://medium.com/@bneil/about title=Medium><i data-feather=book></i></a>|<a class=soc rel=me href=https://bneil.me/index.xml title=rss><i data-feather=rss></i></a>|⚡️
-2022 © bneil | site was last updated: Jan 23, 2022
-</footer>
-<link rel=webmention href=https://webmention.io/bneil.me/webmention>
-<link rel=pingback href=https://webmention.io/bneil.me/xmlrpc>
-<div class=h-card style=display:none>
-<span class=p-name>Ben Neil</span>
+look that information up. Although if some error occurs it could possibly be inaccurate.</p><h3 id=schema>Schema</h3><p>Deciding on a good schema, im thinking something like</p><p><em>audit table</em></p><ul><li>userId</li><li>companyName (i dislike using company id because then you have to look it up)</li><li>timestamp</li><li>event</li></ul><p><em>user tally table</em></p><ul><li>userId</li><li>companyName</li><li>Timespan - YYmmdd</li><li>event</li><li>count</li></ul><p><em>company tally table</em></p><ul><li>companyName</li><li>Timespan - YYmm</li><li>event</li><li>count</li></ul><h2 id=on-second-thought>On second thought&mldr;</h2><p>Maybe just using rds would be a better fit. The amount of scanning would be pretty awful. Ok, abandoning idea!</p></section><small><a class=u-url href=https://bneil.me/posts/audit-dynamodb/>https://bneil.me/posts/audit-dynamodb/</a></small><div class=post-tags><nav class="nav tags"><ul class=tags><li><a href=/tags/aws>aws</a></li><li><a href=/tags/golang>golang</a></li></ul></nav></div></article></main><footer><hr><a class=soc rel=me href=https://github.com/bneil title=Github><i data-feather=github></i></a>|<a class=soc rel=me href=https://twitter.com/benneil/ title=Twitter><i data-feather=twitter></i></a>|<a class=soc rel=me href=https://www.linkedin.com/in/readyplayer1/ title=LinkedIn><i data-feather=linkedin></i></a>|<a class=soc rel=me href=mailto:ben@neil-concepts.com title=Email><i data-feather=mail></i></a>|<a class=soc rel=me href=https://coderwall.com/bneil title=Coderwall><i data-feather=code></i></a>|<a class=soc rel=me href=https://medium.com/@bneil/about title=Medium><i data-feather=book></i></a>|<a class=soc rel=me href=https://bneil.me/index.xml title=rss><i data-feather=rss></i></a>|⚡️
+2022 © bneil | site was last updated: Jan 23, 2022</footer><link rel=webmention href=https://webmention.io/bneil.me/webmention><link rel=pingback href=https://webmention.io/bneil.me/xmlrpc><div class=h-card style=display:none><span class=p-name>Ben Neil</span>
 <span class=p-given-name>Ben</span>
 <abbr class=p-additional-name>E.</abbr>
 <span class=p-family-name>Neil</span>
 <span class=p-nickname>bneil</span> (IRC)
 <img class=u-photo src=https://bneil.me/images/avatar.gif>
 <a class=u-url href=https://bneil.me>w</a>,
-<a class=u-email href=mailto:ben@neil-conceptscom>e</a>
-<div class=p-category>programmer</div>
-<div class=p-note>Now is tea time</div>
-</div>
-<script defer src=https://static.cloudflareinsights.com/beacon.min.js data-cf-beacon='{"token": "cc4d2eca67bc471d83269a9e66e60551"}'></script>
-<script>var clicky_site_ids=clicky_site_ids||[];clicky_site_ids.push(101323590)</script>
-<script async src=//static.getclicky.com/js></script>
-<noscript><p><img alt=Clicky width=1 height=1 src=//in.getclicky.com/101323590ns.gif></p></noscript><script>feather.replace()</script></div>
-</body>
-</html>
+<a class=u-email href=mailto:ben@neil-conceptscom>e</a><div class=p-category>programmer</div><div class=p-note>Now is tea time</div></div><script defer src=https://static.cloudflareinsights.com/beacon.min.js data-cf-beacon='{"token": "cc4d2eca67bc471d83269a9e66e60551"}'></script>
+<script>var clicky_site_ids=clicky_site_ids||[];clicky_site_ids.push(101323590)</script><script async src=//static.getclicky.com/js></script><noscript><p><img alt=Clicky width=1 height=1 src=//in.getclicky.com/101323590ns.gif></p></noscript><script>feather.replace()</script></div></body></html>
