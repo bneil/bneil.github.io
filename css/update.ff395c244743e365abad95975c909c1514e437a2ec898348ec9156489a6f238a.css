@@ -4,8 +4,19 @@
   --bordercl:rebeccapurple;
   --callouctcolor:dodgerblue;
   --hovercolor:navy;
+  --darkMaincolor: #f4db7d;
+}
+/*
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+:root{
+  --maincolor: red;
+  --bordercl:rebeccapurple;
+  --callouctcolor:dodgerblue;
+  --hovercolor:navy;
   --darkMaincolor: #f86802;
 }
+*/
 
 html {
   color: #232333;
