@@ -86,13 +86,17 @@ paginate=3 # articles per page
     icon = "rss"
     url = "https://bneil.me/index.xml"
 
+[params.indieweb]
+    domain = "https://bneil.me"
+    webmention = { endpoint = "https://webmention.io/" }
+
 
 # Main menu Items
 
 [[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
+    name = "Home"
+    url = "/"
+    weight = 1
 
 
 [[menu.main]]

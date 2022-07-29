@@ -20,8 +20,10 @@
 		<section class="body e-content">
 			{{ .Content }}
 		</section>
-
-                <small> <a class="u-url" href="{{ .Page.Permalink }}">{{ .Page.Permalink }}</a> </small>
+		<div>
+			{{ partial "webmention.html" . }}
+		</div>
+        <small>permalink: <a class="u-url" href="{{ .Page.Permalink }}">{{ .Page.Permalink }}</a> </small>
 		<div class="post-tags">
 			{{ if ne .Type "page" }}
 			{{ if gt .Params.tags 0 }}
@@ -35,6 +37,7 @@
 			{{ end }}
 			{{ end }}
 		</div>
+
 	</article>
 </main>
 {{ end }}
