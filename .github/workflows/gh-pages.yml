@@ -40,3 +40,8 @@ jobs:
         uses: wei/curl@v1
         with:
           args: --oauth2-bearer "${{secrets.SRHT_TOKEN}}" -Fcontent=@site.tar.gz -Fprotocol=GEMINI https://pages.sr.ht/publish/shiny.bneil.me
+
+      - name: curl webmentions
+        uses: wei/curl@v1
+        with:
+          args: https://webmentions-go.vercel.app/api/webmention
