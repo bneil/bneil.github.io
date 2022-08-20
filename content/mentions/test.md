@@ -9,4 +9,4 @@ webmention: "https://bneil.me/notes/note_connecting_to_rds/"
 
 ---
 
-What an amazing [article](https://bneil.me/notes/note_connecting_to_rds/), wtg
+What an amazing [article](https://bneil.me/notes/note_connecting_to_rds/), wtg.
