@@ -13,18 +13,15 @@ determining the best way to store and retrieve information from my notes that se
 be spread across ten different applications.
 
 ## Reading
-- [ ] How the Multiverse Got Its Revenge / K. Eason
-- [x] <a href="/review/books/good_indians/">The Only Good Indians</a> / Stephen Graham Jones
-- [x] Recapture The Rapture / Jamie Wheal
+- Klara and the Sun 
 
 ## Listening To
-- [ ] podcasts....
-- [ ] Book 3 of the Wheel of Time
-- [x] Book 2 of the Wheel of Time
+- Wheel of Time / Book 9 / Winter's Heart
+- Podcasts 
 
 ## Watching
-- [x] Midnight Mass
-- [x] Ted Lassow
+- Survivor
+- Rings of Power
 
 ## Exercise
 * Walking / Running a min 10k steps a day
