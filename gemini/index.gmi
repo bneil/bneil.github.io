@@ -23,8 +23,8 @@ That said! Thanks to everyone for reading!!
 
 ## by major subject
 
-=> gemini://shiny.bneil.me/categories/coding/gemini/index.gmi coding
 => gemini://shiny.bneil.me/categories/review/gemini/index.gmi review
+=> gemini://shiny.bneil.me/categories/coding/gemini/index.gmi coding
 => gemini://shiny.bneil.me/categories/mentions/gemini/index.gmi mentions
 => gemini://shiny.bneil.me/categories/notes/gemini/index.gmi notes
 => gemini://shiny.bneil.me/categories/workflow/gemini/index.gmi workflow
@@ -33,10 +33,10 @@ That said! Thanks to everyone for reading!!
 
 ## by tag
 
+=> gemini://shiny.bneil.me/tags/book/gemini/index.gmi book
 => gemini://shiny.bneil.me/tags/golang/gemini/index.gmi golang
 => gemini://shiny.bneil.me/tags/serverless/gemini/index.gmi serverless
 => gemini://shiny.bneil.me/tags/vercel/gemini/index.gmi vercel
-=> gemini://shiny.bneil.me/tags/book/gemini/index.gmi book
 => gemini://shiny.bneil.me/tags/first/gemini/index.gmi first
 => gemini://shiny.bneil.me/tags/testing/gemini/index.gmi testing
 => gemini://shiny.bneil.me/tags/aws/gemini/index.gmi aws
@@ -54,6 +54,7 @@ That said! Thanks to everyone for reading!!
 => gemini://shiny.bneil.me/tags/fun/gemini/index.gmi fun
 => gemini://shiny.bneil.me/tags/writing/gemini/index.gmi writing
 => gemini://shiny.bneil.me/tags/development/gemini/index.gmi development
+=> gemini://shiny.bneil.me/tags/books/gemini/index.gmi books
 
 ```
 :::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\

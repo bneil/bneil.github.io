@@ -1,0 +1,6 @@
+# books
+
+
+Pages in this section:
+
+=> /posts/books_2022/index.gmi 0001-01-01 Books Read in 2022

@@ -10,20 +10,15 @@ determining the best way to store and retrieve information from my notes that se
 be spread across ten different applications.
 
 ## Reading
-▢   How the Multiverse Got Its Revenge / K. Eason
-√   The Only Good Indians / Stephen Graham Jones
-=> /review/books/good_indians/ The Only Good Indians
-
-√   Recapture The Rapture / Jamie Wheal
+* Klara and the Sun 
 
 ## Listening To
-▢   podcasts....
-▢   Book 3 of the Wheel of Time
-√   Book 2 of the Wheel of Time
+* Wheel of Time / Book 9 / Winter's Heart
+* Podcasts 
 
 ## Watching
-√   Midnight Mass
-√   Ted Lassow
+* Survivor
+* Rings of Power
 
 ## Exercise
 * Walking / Running a min 10k steps a day
@@ -36,7 +31,7 @@ This page is following best practice as defined from
 
 
 ---
-updated: 23 January 2022.
+updated: 2 September 2022.
 
 => / to the Index
 => https://bneil.me/now/ / html

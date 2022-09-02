@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /review/books/klara/index.gmi 2022-08-01 Klara and the sun
 => /review/books/good_indians/index.gmi 2022-01-22 The Only Good Indians
 => /review/books/rory/index.gmi 2021-11-10 How Rory Thorne Destroyed the Multiverse
 => /review/books/paranesi/index.gmi 2021-11-10 Piranesi
