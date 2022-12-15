@@ -1,0 +1,37 @@
+# Obsidian Plugins
+
+
+
+## Obsidian Plugins
+
+As an update {{}}
+I ended up biting the bullet and a now using obsidian sync. Just in terms
+of ease of mind. Totally worth the investment.
+
+So with that my current list is as follows
+
+```json
+[
+  "table-editor-obsidian",
+  "templater-obsidian",
+  "dataview",
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-minimal-settings",
+  "obsidian-kanban",
+  "periodic-notes",
+  "workbench-obsidian",
+  "readwise-official",
+  "quickadd",
+  "obsidian-excel-to-markdown-table",
+  "obsidian-outliner",
+  "obsidian-projects"
+]
+```
+
+
+---
+updated: 14 December 2022.
+
+=> / to the Index
+=> https://bneil.me/posts/obsidian-plugins/ / html
+

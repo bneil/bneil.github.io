@@ -9,11 +9,8 @@ Notes/Second Brain
 obsidian.md -> sourcehut -> all mobile devices
 
 
-
-
-
 ---
-updated: 25 June 2021.
+updated: 14 December 2022.
 
 => / to the Index
 => https://bneil.me/posts/2021-05-28_note-taking-apps/ / html

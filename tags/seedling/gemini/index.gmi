@@ -3,4 +3,6 @@
 
 Pages in this section:
 
+=> /posts/2022-12-14_obsidian-plugins/index.gmi 2022-12-14 Obsidian Plugins
+=> /posts/obsidian-plugins/index.gmi 2022-12-14 Obsidian Plugins
 => /posts/2021-05-28_note-taking-apps/index.gmi 2021-05-28 Note taking apps
