@@ -12,6 +12,3 @@ DisableComments: false
 
 Notes/Second Brain
 obsidian.md -> sourcehut -> all mobile devices
-
-
-
