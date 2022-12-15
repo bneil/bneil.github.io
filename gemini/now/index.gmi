@@ -7,23 +7,23 @@ _Last Updated: {{}}_
 Mostly im working really hard at keeping the engineering side of my startup going the
 correct direction while trying to balance life. Im becoming more and more obsessed with
 determining the best way to store and retrieve information from my notes that seem to
-be spread across ten different applications.
+be spread across ten different applications. I do have this intrensic want to combine both
+my work projects and home projects in one solid system. Which as of now is the popular PARA method.
 
 ## Reading
-* Klara and the Sun 
+*  Just finished up the last chaos walking book. The whole series was amazing. 
 
 ## Listening To
-* Wheel of Time / Book 9 / Winter's Heart
+* Laws of human nature (its ok)
+* Wheel of Time / Gathering storm
 * Podcasts 
 
 ## Watching
-* Survivor
-* Rings of Power
+* Survivor (almost caught up)
 
 ## Exercise
-* Walking / Running a min 10k steps a day
-  * now trying rucking with 20 pounds of weight in a backpack
-  * every other day 10 pull ups
+* Doing lots of exercises as part of the pomodoro
+  * Pomodoro's are not great with meetings
 * At least 2 weekly 3.5 runs or more
 
 This page is following best practice as defined from
@@ -31,7 +31,7 @@ This page is following best practice as defined from
 
 
 ---
-updated: 2 September 2022.
+updated: 14 December 2022.
 
 => / to the Index
 => https://bneil.me/now/ / html

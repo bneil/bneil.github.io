@@ -4,7 +4,6 @@
 Pages in this section:
 
 => /posts/2022-12-14_obsidian-plugins/index.gmi 2022-12-14 Obsidian Plugins
-=> /posts/obsidian-plugins/index.gmi 2022-12-14 Obsidian Plugins
 => /posts/2021-07-29-webmentions-are-fun/index.gmi 2022-07-29 Webmentions are fun
 => /posts/first_post/index.gmi 2021-10-04 First Post
 => /posts/2021-05-28_note-taking-apps/index.gmi 2021-05-28 Note taking apps

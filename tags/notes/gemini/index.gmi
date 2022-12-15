@@ -4,7 +4,6 @@
 Pages in this section:
 
 => /posts/2022-12-14_obsidian-plugins/index.gmi 2022-12-14 Obsidian Plugins
-=> /posts/obsidian-plugins/index.gmi 2022-12-14 Obsidian Plugins
 => /notes/note_connecting_to_rds/index.gmi 2021-06-01 Connecting/Migrations in RDS
 => /notes/dynamodb_pages/index.gmi 2021-05-25 Dynamo DB Pages
 => /notes/2021-05-06-mfa-aws/index.gmi 2021-05-06 Using MFA with AWS CLI
