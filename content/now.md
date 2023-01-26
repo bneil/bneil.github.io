@@ -14,12 +14,12 @@ be spread across ten different applications. I do have this intrensic want to co
 my work projects and home projects in one solid system. Which as of now is the popular PARA method.
 
 ## Reading
--  Just finished up the last chaos walking book. The whole series was amazing. 
+-  Atomic Habits (good so far)
+-  Digital Zettelkasten
 
 ## Listening To
-- Laws of human nature (its ok)
 - Wheel of Time / Gathering storm
-- Podcasts 
+- Podcasts
 
 ## Watching
 - Survivor (almost caught up)
