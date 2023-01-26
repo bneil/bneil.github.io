@@ -52,7 +52,7 @@ paginate=3 # articles per page
 [params]
   customcss=["css/update.css"]
   mode="dark" # color-mode → light,dark,toggle or auto
-  useCDN=false
+  useCDN=true
   subtitle = "learnings from a professional automation mechanic"
   geminiBaseUrl = "gemini://shiny.bneil.me"
 
