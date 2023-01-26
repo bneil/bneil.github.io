@@ -3,8 +3,10 @@
 
 Pages in this section:
 
+=> /posts/2023-01-25-books-to-read-2023/index.gmi 2023-01-26 Books to Read 2023
 => /posts/2022-12-14_obsidian-plugins/index.gmi 2022-12-14 Obsidian Plugins
 => /posts/2021-07-29-webmentions-are-fun/index.gmi 2022-07-29 Webmentions are fun
+=> /posts/books_2022/index.gmi 2021-11-10 Books Read in 2022
 => /posts/first_post/index.gmi 2021-10-04 First Post
 => /posts/2021-05-28_note-taking-apps/index.gmi 2021-05-28 Note taking apps
 => /posts/2021-05-28_rds-audit-service/index.gmi 2021-05-28 Audit Service - RDS
@@ -15,4 +17,3 @@ Pages in this section:
 => /posts/wasm/index.gmi 2021-04-15 WASM and Webmentions
 => /posts/awake/index.gmi 2021-04-12 Not dead
 => /posts/docker-nondistributable-artifacts/index.gmi 2018-04-08 Nondistributable Artifacts
-=> /posts/books_2022/index.gmi 0001-01-01 Books Read in 2022

@@ -23,6 +23,7 @@ That said! Thanks to everyone for reading!!
 
 ## by major subject
 
+=> gemini://shiny.bneil.me/categories/reading/gemini/index.gmi reading
 => gemini://shiny.bneil.me/categories/workflow/gemini/index.gmi workflow
 => gemini://shiny.bneil.me/categories/review/gemini/index.gmi review
 => gemini://shiny.bneil.me/categories/coding/gemini/index.gmi coding
@@ -33,6 +34,7 @@ That said! Thanks to everyone for reading!!
 
 ## by tag
 
+=> gemini://shiny.bneil.me/tags/books/gemini/index.gmi books
 => gemini://shiny.bneil.me/tags/notes/gemini/index.gmi notes
 => gemini://shiny.bneil.me/tags/seedling/gemini/index.gmi seedling
 => gemini://shiny.bneil.me/tags/book/gemini/index.gmi book
@@ -54,7 +56,6 @@ That said! Thanks to everyone for reading!!
 => gemini://shiny.bneil.me/tags/fun/gemini/index.gmi fun
 => gemini://shiny.bneil.me/tags/writing/gemini/index.gmi writing
 => gemini://shiny.bneil.me/tags/development/gemini/index.gmi development
-=> gemini://shiny.bneil.me/tags/books/gemini/index.gmi books
 
 ```
 :::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\
