@@ -1,10 +1,11 @@
 ---
-title: "Books Read in 2022"
-description: "Books im hoping to read"
-date: 2021-11-10T22:45:53-05
-tldr:  "just books ive read"
+title: Books Read in 2022
+description: Books im hoping to read
+date: 2021-11-10T22:45:53.046Z
+tldr: just books ive read
 draft: false
 tags: books
+categories: reading
 ---
 
 # Selfhelp

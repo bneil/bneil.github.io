@@ -1,3 +1,7 @@
 .idea
 .DS_Store
 public
+.frontmatter/content/mediaDb.json
+.hugo_build.lock
+.vscode/settings.json
+frontmatter.json
