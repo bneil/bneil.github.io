@@ -1,0 +1,23 @@
+{
+  "subject": "acct:bneil@indieweb.social",
+  "aliases": [
+    "https://indieweb.social/@bneil",
+    "https://indieweb.social/users/bneil"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://indieweb.social/@bneil"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://indieweb.social/users/bneil"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://indieweb.social/authorize_interaction?uri={uri}"
+    }
+  ]
+}
