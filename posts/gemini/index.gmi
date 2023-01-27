@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /posts/2023-01-26-slipboxes-and-evergreens/index.gmi 2023-01-27 Slipboxes and Evergreens
 => /posts/2023-01-25-books-to-read-2023/index.gmi 2023-01-26 Books to Read 2023
 => /posts/2022-12-14_obsidian-plugins/index.gmi 2022-12-14 Obsidian Plugins
 => /posts/2021-07-29-webmentions-are-fun/index.gmi 2022-07-29 Webmentions are fun
