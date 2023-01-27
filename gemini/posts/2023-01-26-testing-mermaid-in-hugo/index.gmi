@@ -1,0 +1,29 @@
+# Testing Mermaid in Hugo
+
+
+
+This is a test of me adding mermaid.js to this blog
+
+{{}}
+flowchart TB
+    c1-->a2
+    subgraph one
+    a1-->a2
+    end
+    subgraph two
+    b1-->b2
+    end
+    subgraph three
+    c1-->c2
+    end
+    one --> two
+    three --> two
+    two --> c2
+{{}}
+
+---
+updated: 26 January 2023.
+
+=> / to the Index
+=> https://bneil.me/posts/2023-01-26-testing-mermaid-in-hugo/ / html
+

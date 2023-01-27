@@ -1,0 +1,6 @@
+# test
+
+
+Pages in this section:
+
+=> /posts/2023-01-26-testing-mermaid-in-hugo/index.gmi 2023-01-27 Testing Mermaid in Hugo
