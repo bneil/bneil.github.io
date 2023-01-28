@@ -37,10 +37,10 @@ That said! Thanks to everyone for reading!!
 ## by tag
 
 => gemini://shiny.bneil.me/tags/test/gemini/index.gmi test
+=> gemini://shiny.bneil.me/tags/seedling/gemini/index.gmi seedling
 => gemini://shiny.bneil.me/tags/slipbox/gemini/index.gmi slipbox
 => gemini://shiny.bneil.me/tags/books/gemini/index.gmi books
 => gemini://shiny.bneil.me/tags/notes/gemini/index.gmi notes
-=> gemini://shiny.bneil.me/tags/seedling/gemini/index.gmi seedling
 => gemini://shiny.bneil.me/tags/book/gemini/index.gmi book
 => gemini://shiny.bneil.me/tags/golang/gemini/index.gmi golang
 => gemini://shiny.bneil.me/tags/serverless/gemini/index.gmi serverless
