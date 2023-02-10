@@ -9,7 +9,7 @@ tags:
 categories: "productivity"
 ---
 
-For years ive struggled with keeping up with ideas. Growing them, compounding them and more importantly proving them out. 
+For years ive struggled with keeping up with ideas. Growing them, expanding them and more importantly proving them out. 
 Then, when coming to this website ive found it especially hard when it comes to figuring out what would be an interesting read.
 So I typically end up reading more on the subject of coming up with subjects. Wherein I found the holy grail and as others before me
 found this great strategy to ruminate on ideas. The all magical slipbox made popular by niklas luhmann.
@@ -62,6 +62,16 @@ flowchart TB
 {{< /mermaid >}}
 </div>
 
+## The daily practice
+
+So having setup Obsidian using the aforementioned PARA method and having the bujo setup. The daily practice is usually to do the following
+
+1. Turn on the pomodoro
+1. Create daily note in obsidian
+1. Take the notes from the bujo transfer to obsidian daily not
+1. Transfer previous days notes into todays daily notes
+
+More to come, stay tuned 😎
 
 ## Supported Reading and websites
 
@@ -69,3 +79,5 @@ flowchart TB
 - [x] How to take smart notes
 - [Evergreen Notes](https://notes.andymatuschak.org/Evergreen_notes)
 - [Digital Gardens](https://maggieappleton.com/garden-history)
+
+<hr/>
