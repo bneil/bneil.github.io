@@ -31,8 +31,29 @@ however I have found that with both a good amount of dallying occurs. To be spec
 and crafting new ideas. Which is fine, thats kinda the point. At least its better than doom scrolling twitter. 
 
 The underlying structures for each medium are based off of different strategies. The bujo is going to follow the structure that was passionately 
-laid out by Ryder Carroll in 'The bullet journal method'. While the structure provided to obsidian is modeled off of the PARA Method, for design
-and a slipbox. 
+laid out by Ryder Carroll in 'The bullet journal method'. While the structure provided to obsidian is modeled off of the PARA Method, laid out in 'Building a second brain' by Tiago Forte, for folder layout then a slipbox in the resources area. 
+
+The slipbox is mostly following advice from 'How to take smart notes' by Sönke Ahrens.  Which involves taking fleeting note. Which is a single page in the bujo or a 'Fleeting Note' / simple
+note in Obsidian. Then taking time at the end of the day to move them into a permanet note which
+is then referenced by a map of content. Which is a index of underlying information around a subject
+of interest. On a side, originally I had thought that the slipbox would be highly organized but its
+really not. Its just kind of a mess of subjects that are intreguing that you tend to _want_ to expand upon just because.
+
+The last bit of the slipbox is the use of Zoterto for keeping track of where the information is coming from. Since splitting the reference note is supposed to remain independent of the permanent note. While this, I personally feel, only helps people doing more academic research ive tried to keep to the methodology.
+
+The last bit, Readwise, Pocket, Instapaper and Hypothesis are all very fun and enjoyable to in creating a digital funnel. Basically as im running around the internet and pulling up information if its an article I don't have time to read I slap the 'Instapaper' extension and **BAM** the information is ready to go next time I pull up the instapaper app. Aside from that instapaper has some unique in's from email sources that I use for various newsletters. Pocket I reserve for bookmarking simply because I needed a better bookmark tool. Then Hypothesis is great with grabbing random highlights across the web.
+
+Readwise, is amazing. I've been using it for around 455 days consistently now and while I disagree with the amount of 'Catcher and the Rye' quotes it keeps showing me the actually funnel into obsidian is very impressive. It basically works like this
+
+
+{{}}
+flowchart TB
+    Pocket-->Readwise
+    Instapaper-->Readwise
+    Hypothesis-->Readwise
+    Readwise-->Obsidian
+{{}}
+
 
 
 ## Supported Reading and websites
@@ -43,7 +64,7 @@ and a slipbox.
 * [Digital Gardens](https://maggieappleton.com/garden-history)
 
 ---
-updated: 27 January 2023.
+updated: 9 February 2023.
 
 => / to the Index
 => https://bneil.me/posts/2023-01-26-slipboxes-and-evergreens/ / html
