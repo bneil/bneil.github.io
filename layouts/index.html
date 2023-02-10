@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html>
-  {{ partial "header.html" . }}
-  <body>
-    <div class="content">
-      {{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+<body>
+  <div class="content">
+    {{ partial "head.html" . }}
 
 
 
-      <main class="list">
-        <div class="site-description">
-          {{- if isset .Site.Params "subtitle" -}}
-          {{- end -}}
-        </div>
+    <main class="list">
+      <div class="site-description">
+        {{- if isset .Site.Params "subtitle" -}}
+        {{- end -}}
+      </div>
 
-        <h1>welcome,</h1>
-        to my corner of the internet, im always in the process of improving this website and its accompanying blog. As such it happily changes
-        technologies and content quite often. Hope you enjoy!
+      <h1>welcome,</h1>
+      to my corner of the internet, im always in the process of improving this website and its accompanying blog. As
+      such it happily changes
+      technologies and content quite often. Hope you enjoy!
+
+      <p />
+
+      <h2>Most Recent Posts</h2>
+      {{ range ( where .Site.RegularPages "Type" "posts" | first 5 ) }}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{end}}
+
+      <h2>Categories</h2>
+      {{- $catz := ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+      {{range $index, $t := sort $catz }}
+      <a href="{{.Permalink}}">{{.Title}}</a> {{- if ne $index (len $catz) }} | {{ end }}
+      {{end}}
 
 
-        <p/>
-        <h2>Categories</h2>
-        {{range sort ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
-        <a href="{{.Permalink}}">{{.Title}}</a><br/>
-        {{end}}
-
-        <h2>Tags</h2>
-        {{range ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
-        <a href="{{.Permalink}}">#{{.Title}}</a>
-        {{end}}
+      <h2>Tags</h2>
+      {{range ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
+      <a href="{{.Permalink}}">#{{.Title}}</a>
+      {{end}}
 
 
 
-        <!--
+      <!--
           {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
           {{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
           {{ range $paginator.Pages }}
@@ -52,15 +61,16 @@
         -->
 
 
-      </main>
-      {{ partial "footer.html" . }}
+    </main>
+    {{ partial "footer.html" . }}
 
-      <p>
+    <p>
       <a href="gemini://shiny.bneil.me">
-        <img src="/images/gemini.jpeg"/>
+        <img src="/images/gemini.jpeg" />
       </a>
       &nbsp;
-    </div>
+  </div>
 
-  </body>
+</body>
+
 </html>
