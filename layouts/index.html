@@ -21,10 +21,12 @@
 
       <p />
 
-      <h2>Most Recent Posts</h2>
-      {{ range ( where .Site.RegularPages "Type" "posts" | first 5 ) }}
-      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-      {{end}}
+      <h2>Most Recently Modified Posts</h2>
+      <ul>
+        {{ range ( where .Site.RegularPages "Type" "posts" | first 5 ).ByLastmod.Reverse }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{end}}
+      </ul>
 
       <h2>Categories</h2>
       {{- $catz := ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
