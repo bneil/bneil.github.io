@@ -57,14 +57,16 @@ flowchart TB
 
 ## The daily practice
 
-So having setup Obsidian using the aforementioned PARA method and having the bujo setup. The daily practice is usually to do the following
+So having setup Obsidian using the aforementioned PARA method and having the bujo setup. The daily practice is usually to do the following in the morning
 
 * Turn on the pomodoro
 * Create daily note in obsidian
-* Take the notes from the bujo transfer to obsidian daily not
-* Transfer previous days notes into todays daily notes
+* Create the bujo daily note and check any forgotten tasks
+* Take the notes from the bujo transfer to obsidian daily note
 
-More to come, stay tuned 😎
+Note that these steps don't use any slipnote methodologies and thats because the first focus of the day is on tasks. The slip box is used for developing ideas and expanding them which should happen through the day but isn't explicit. 
+
+`todo add the obsidian templates`
 
 ## Supported Reading and websites
 
@@ -76,7 +78,7 @@ More to come, stay tuned 😎
 <hr/>
 
 ---
-updated: 9 February 2023.
+updated: 13 February 2023.
 
 => / to the Index
 => https://bneil.me/posts/2023-01-26-slipboxes-and-evergreens/ / html
