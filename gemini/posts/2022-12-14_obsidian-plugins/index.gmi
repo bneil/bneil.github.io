@@ -4,7 +4,7 @@
 
 ## Obsidian Plugins
 
-As an update {{}}
+As an update [Note Taking Apps]({{}} "Note Taking Apps")
 I ended up biting the bullet and a now using obsidian sync. Just in terms
 of ease of mind. Totally worth the investment.
 
@@ -30,7 +30,7 @@ So with that my current list is as follows
 
 
 ---
-updated: 14 December 2022.
+updated: 31 March 2023.
 
 => / to the Index
 => https://bneil.me/posts/2022-12-14_obsidian-plugins/ / html
