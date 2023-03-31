@@ -9,7 +9,7 @@ DisableComments: false
 
 ## Obsidian Plugins
 
-As an update {{< ref "2021-05-28_note-taking-apps.md" >}}
+As an update [Note Taking Apps]({{< ref "2021-05-28_note-taking-apps.md" >}} "Note Taking Apps")
 I ended up biting the bullet and a now using obsidian sync. Just in terms
 of ease of mind. Totally worth the investment.
 
