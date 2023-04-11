@@ -14,7 +14,7 @@ frontend:
 1. htmx
 
 backend:
-1. golang / gin for the language and server
+1. golang / fiber for the language and server
 1. fig for configuration
 1. clover for the database
 
