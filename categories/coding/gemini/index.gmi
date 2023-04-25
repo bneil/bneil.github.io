@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /posts/2023-04-04-building-crud-with-htmx/index.gmi 2023-04-05 Building CRUD with htmx
 => /posts/2021-07-29-webmentions-are-fun/index.gmi 2022-07-29 Webmentions are fun
 => /notes/note_connecting_to_rds/index.gmi 2021-06-01 Connecting/Migrations in RDS
 => /posts/2021-05-28_rds-audit-service/index.gmi 2021-05-28 Audit Service - RDS

@@ -23,6 +23,7 @@ That said! Thanks to everyone for reading!!
 
 ## by major subject
 
+=> gemini://shiny.bneil.me/categories/coding/gemini/index.gmi coding
 => gemini://shiny.bneil.me/categories/monthly/gemini/index.gmi monthly
 => gemini://shiny.bneil.me/categories/update/gemini/index.gmi update
 => gemini://shiny.bneil.me/categories/diagrams/gemini/index.gmi diagrams
@@ -30,7 +31,6 @@ That said! Thanks to everyone for reading!!
 => gemini://shiny.bneil.me/categories/reading/gemini/index.gmi reading
 => gemini://shiny.bneil.me/categories/workflow/gemini/index.gmi workflow
 => gemini://shiny.bneil.me/categories/review/gemini/index.gmi review
-=> gemini://shiny.bneil.me/categories/coding/gemini/index.gmi coding
 => gemini://shiny.bneil.me/categories/mentions/gemini/index.gmi mentions
 => gemini://shiny.bneil.me/categories/notes/gemini/index.gmi notes
 => gemini://shiny.bneil.me/categories/gaming/gemini/index.gmi gaming
@@ -38,14 +38,15 @@ That said! Thanks to everyone for reading!!
 
 ## by tag
 
+=> gemini://shiny.bneil.me/tags/golang/gemini/index.gmi golang
+=> gemini://shiny.bneil.me/tags/htmx/gemini/index.gmi htmx
+=> gemini://shiny.bneil.me/tags/seedling/gemini/index.gmi seedling
 => gemini://shiny.bneil.me/tags/update/gemini/index.gmi update
 => gemini://shiny.bneil.me/tags/test/gemini/index.gmi test
-=> gemini://shiny.bneil.me/tags/seedling/gemini/index.gmi seedling
 => gemini://shiny.bneil.me/tags/slipbox/gemini/index.gmi slipbox
 => gemini://shiny.bneil.me/tags/books/gemini/index.gmi books
 => gemini://shiny.bneil.me/tags/notes/gemini/index.gmi notes
 => gemini://shiny.bneil.me/tags/book/gemini/index.gmi book
-=> gemini://shiny.bneil.me/tags/golang/gemini/index.gmi golang
 => gemini://shiny.bneil.me/tags/serverless/gemini/index.gmi serverless
 => gemini://shiny.bneil.me/tags/vercel/gemini/index.gmi vercel
 => gemini://shiny.bneil.me/tags/first/gemini/index.gmi first
