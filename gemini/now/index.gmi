@@ -4,22 +4,18 @@
 
 _Last Updated: {{}}_
 
-Mostly im working really hard at keeping the engineering side of my startup going the
-correct direction while trying to balance life. Im becoming more and more obsessed with
-determining the best way to store and retrieve information from my notes that seem to
-be spread across ten different applications. I do have this intrensic want to combine both
-my work projects and home projects in one solid system. Which as of now is the popular PARA method.
+As of right now, its the start of september so im just relaxing and getting used to the change of season. Its been a great summer but im ready for more bike rides that aren't in the high temps. 
+
 
 ## Reading
-*  Atomic Habits (good so far)
-*  Digital Zettelkasten
+*  Children of memory
+*  He who drowned the world
 
 ## Listening To
-* Wheel of Time / Gathering storm
-* Podcasts
+* Podcasts - mostly 'if books could kill'
 
 ## Watching
-* Survivor (almost caught up)
+* This week im doing alot of movie watching, so no more tv shows for a bit
 
 ## Exercise
 * Doing lots of exercises as part of the pomodoro
@@ -31,7 +27,7 @@ This page is following best practice as defined from
 
 
 ---
-updated: 25 January 2023.
+updated: 10 September 2023.
 
 => / to the Index
 => https://bneil.me/now/ / html
