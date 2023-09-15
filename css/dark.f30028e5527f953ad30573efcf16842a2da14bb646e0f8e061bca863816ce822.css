@@ -429,3 +429,9 @@ div.highlight pre {
     background:url('/images/blood_hr.gif') repeat-x;
   }
 
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }

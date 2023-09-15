@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /posts/2023-09-15-2023-09-15-atacama-the-hidden-web/index.gmi 2023-09-15 Atacama - The hidden web
 => /posts/2023-04-04-building-crud-with-htmx/index.gmi 2023-04-05 Building CRUD with htmx
 => /posts/2023-02-02-2023-january-wrap-up/index.gmi 2023-02-02 2023 January Wrap Up
 => /posts/2023-01-26-testing-mermaid-in-hugo/index.gmi 2023-01-27 Testing Mermaid in Hugo
