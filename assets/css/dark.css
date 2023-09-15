@@ -251,7 +251,7 @@ div.highlight pre {
     flex-flow: row wrap;
 
     height: 400px;
-    
+
     padding: 0;
     margin: 0;
 }
@@ -266,19 +266,19 @@ div.highlight pre {
     color: white;
     background-color: #202124;
   }
-  
+
   ::-moz-selection {
     background: blue;
     color: #fff;
     text-shadow: none;
   }
-  
+
   ::selection {
     background: red;
     color: #fff;
     text-shadow: none;
   }
-  
+
   hr {
     border-top: 3px dotted blue;
   }
@@ -297,7 +297,7 @@ div.highlight pre {
   blockquote {
     border-color: blue;
   }
-  
+
   h1,
   h2,
   h3,
@@ -330,7 +330,7 @@ div.highlight pre {
     color: var(--darkMaincolor);
     content: "###### ";
   }
-  
+
   a {
     border-bottom: 3px solid var(--darkMaincolor);
     color: inherit;
@@ -339,14 +339,14 @@ div.highlight pre {
     background-color: var(--darkMaincolor);
     color: black;
   }
-  
+
   .site-description a {
     color: #ddd;
   }
   .site-description a:hover {
     color: black;
   }
-  
+
   .tags a {
     border-bottom: 3px solid var(--darkMaincolor);
   }
@@ -354,17 +354,17 @@ div.highlight pre {
     background-color: var(--darkMaincolor);
     color: black;
   }
-  
+
   .site-title a {
     color: white;
     text-decoration: none !important;
   }
-  
+
   .header nav,
   .footer {
     border-color: #333;
   }
-  
+
   .highlight {
     background-color: #333;
   }
@@ -397,7 +397,7 @@ div.highlight pre {
   .highlight pre code[class*='language-json']::before{
     content: 'json';
     background: dodgerblue;
-     color: #000000 
+     color: #000000
   }
   .highlight pre code[class*='language-python']::before,
   .highlight pre code[class*='language-py']::before {
@@ -421,3 +421,11 @@ div.highlight pre {
     background: royalblue;
     color: whitesmoke ;
   }
+
+  .halloween-hr {
+    display:block;
+    border:0px;
+    height:30px;
+    background:url('/images/blood_hr.gif') repeat-x;
+  }
+
