@@ -1,4 +1,4 @@
-# Atacama - The hidden web
+# Atacama - A very very new social platform
 
 
 
@@ -9,7 +9,7 @@ Back in Febuary, I was going through some articles on social.coop which self des
 
 As im likely to do, I have been slowly devouring all the links and discussions from the website to self inform and make myself a slightly better developer. The content on the site is especially resonating since
 I love cooperatives and have wanted to create a similar structure for myself and other developers in Colorado. Which, is in itself another rabbit hole but ill digress. I stumbled upon a really interesting looking
-descent social that promised this idea of an unconference which, at the time I hadn't known was a thing. Entrigued I read through the site
+descent social that promised this idea of an unconference which, at the time I hadn't known was a thing. Intrigued I read through the site
 => https://www.wikiwand.com/en/Unconference unconference
 
 => https://decentsocial.net/ descent social
@@ -50,17 +50,19 @@ One of the notes, this one, made mention of a mysterious speaker known as @hoody
 => https://codeberg.org/DecentSocial/2023-02-notes/raw/branch/main/pages/atacama-anon-and-distributed.md this one
 
 
-Personally, having tried other network like Nostr, I was entrigued by some of the develop choices that this speaker had gone into developing and I specifcally loved the idea that the platform was fully anonymous, stays on your phone, and seemed like a platform you could just jump on and off as ya pleased.
+Personally, having tried other network like Nostr, I was intrigued by the choices that this speaker had disscussed, specifcally I loved the idea that the platform was fully anonymous, stay on your phone, and seemed like a platform you could just jump on and off as ya pleased.
 
-The one problem, was I couldn't find a link about it at all. So that started my next rabbit hole adventure which was to find atacama.
+The one problem. Was I couldn't find a link to a beta of it at all. 
 
-Rather then go through the steps above, id say a good amount of searching for that hoody brought me to a twitter user tag of `hoodownr` that had done a really neat indiegogo campaign a few years back. Also found a patreon for that person, but it wasn't setup. Also ran into a dead end on github. 
+So that started my next rabbit hole adventure, which was to find 'atacama'.
+
+Rather then go through the steps above, id say a good amount of searching for that user brought me to a twitter user tag of `hoodownr` that had done a really neat indiegogo campaign a few years back. Also found a patreon for that person, but it wasn't setup. Also ran into a dead end on github. 
 => https://github.com/oli0/Hoodownr github
 
 => https://www.indiegogo.com/projects/hoodownr-game-of-discovery indiegogo campaign
 
 
-But, after putting hoodownr into the github search, I ran across a user of the same name and while the account seemed barren except for a few repos. The about information had a twitter and what appeared to be a link to moderator.rocks. So I clicked the link.
+But, after putting hoodownr into the github search, I ran across a user of the same name and while the account seemed barren except for a few repos. The about information had a twitter and what appeared to be a link to moderator.rocks. So I intrepidly clicked the link.
 => https://moderator.rocks moderator.rocks
 
 => https://github.com/hoodownr same name
@@ -72,12 +74,12 @@ But, after putting hoodownr into the github search, I ran across a user of the s
 
 ### Atacama is a graphless, identityless .onion native instagramlike for sharing happy and positive things about you and your friends.
 
-Nothing says fun and excitement like a homepage on IPFS and an android package you have to trick your phone into downloading. Regardless, I was so excited to see this and some of these descriptions brought to mind my own thoughts about bluesky, twitter, et
+Nothing says fun and excitement like a homepage on IPFS and an android package you have to trick your phone into downloading. Regardless, I was excited to see this and some of these descriptions brought to mind my own thoughts about bluesky, twitter, etc
 
 
-Well, in any case I had found the project that I didn't know I wanted and have been using the very small web application to post small wins throughout my day. Its refreshing given all the new development into decentralized social platforms that this one seems to be small and has given this a lot of thought and really feels like its a labor of love. 
+Well, in any case I had found the project that I didn't know I wanted and have been using the very small android application to post small wins throughout my day. Its refreshing given all the new development into decentralized social platforms that this one seems to be small and has given this a lot of thought and really feels like its a labor of love. 
 
-In conclusion, this was a really fun unconference to follow breadcrumbs. Im really hoping next year to catch the meetup and see what other projects people are presenting.
+In conclusion, it was a really fun follow breadcrumbs. Im really hoping next year to catch the meetup and see what other projects people are presenting.
 
 ### Tangents
 
