@@ -10,8 +10,8 @@ categories: ["rabbithole"]
 
 # The hidden meetup
 
-Back in Febuary, I was going through some articles on [social.coop](https://social.coop) which self described as being `A Fediverse instance for people interested in cooperative and collective projects.`. 
-As im likely to do, I have been slowly devouring all the links and discussions from the website to self inform and make myself a slightly better developer. The content on the site is especially resonating since
+Back in Febuary, I was going through some articles on [social.coop](https://social.coop) a mastmastodon instance that describes itself as being `A Fediverse instance for people interested in cooperative and collective projects.`. 
+As im likely to do, I have been slowly networking and checking out all the culture and discussions from the instance to self inform and make myself a slightly more informed netizen. The content on the site is especially resonating since
 I love cooperatives and have wanted to create a similar structure for myself and other developers in Colorado. Which, is in itself another rabbit hole but ill digress. I stumbled upon a really interesting looking
 [descent social](https://decentsocial.net/) that promised this idea of an [unconference](https://www.wikiwand.com/en/Unconference) which, at the time I hadn't known was a thing. Intrigued I read through the site
 and realized that I had missed the party by a few days. Nothing seemed to remain from the event, no streamers or downed flipper zeros. Just a whole lot of nothing. So I decided to dig in.
