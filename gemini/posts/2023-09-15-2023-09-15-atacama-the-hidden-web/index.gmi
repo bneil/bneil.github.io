@@ -4,10 +4,10 @@
 
 # The hidden meetup
 
-Back in Febuary, I was going through some articles on social.coop which self described as being `A Fediverse instance for people interested in cooperative and collective projects.`. 
+Back in Febuary, I was going through some articles on social.coop a mastmastodon instance that describes itself as being `A Fediverse instance for people interested in cooperative and collective projects.`. 
 => https://social.coop social.coop
 
-As im likely to do, I have been slowly devouring all the links and discussions from the website to self inform and make myself a slightly better developer. The content on the site is especially resonating since
+As im likely to do, I have been slowly networking and checking out all the culture and discussions from the instance to self inform and make myself a slightly more informed netizen. The content on the site is especially resonating since
 I love cooperatives and have wanted to create a similar structure for myself and other developers in Colorado. Which, is in itself another rabbit hole but ill digress. I stumbled upon a really interesting looking
 descent social that promised this idea of an unconference which, at the time I hadn't known was a thing. Intrigued I read through the site
 => https://www.wikiwand.com/en/Unconference unconference
@@ -86,7 +86,7 @@ In conclusion, it was a really fun follow breadcrumbs. Im really hoping next yea
 https://archive.fosdem.org/2023/schedule/events/ <-- found a scuttlebutt! 
 
 ---
-updated: 15 September 2023.
+updated: 16 September 2023.
 
 => / to the Index
 => https://bneil.me/posts/2023-09-15-2023-09-15-atacama-the-hidden-web/ / html
