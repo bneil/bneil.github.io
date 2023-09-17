@@ -4,6 +4,8 @@ title = "bneil.me"
 copyright = "© bneil"
 theme="archie"
 
+enableRobotsTXT=false
+
 # Code Highlight
 pygmentsstyle = "monokai"
 pygmentscodefences = true
