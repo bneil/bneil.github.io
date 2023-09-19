@@ -1,8 +1,8 @@
 ---
 title: "Hugo vs The AI"
-date: 2023-09-19T18:27:57-06:00
+date: 2023-09-18T10:33:49-06:00
 Description: "What to do and where to place to block some AI on your personal site"
-Tags: ["notes"]
+Tags: ["notes", "ai"]
 Categories: ["notes"]
 DisableFront: true
 DisableComments: true
