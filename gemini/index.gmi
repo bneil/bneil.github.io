@@ -55,6 +55,7 @@ That said! Thanks to everyone for reading!!
 
 ## by major subject
 
+=> gemini://shiny.bneil.me/categories/notes/gemini/index.gmi notes
 => gemini://shiny.bneil.me/categories/rabbithole/gemini/index.gmi rabbithole
 => gemini://shiny.bneil.me/categories/coding/gemini/index.gmi coding
 => gemini://shiny.bneil.me/categories/monthly/gemini/index.gmi monthly
@@ -65,12 +66,13 @@ That said! Thanks to everyone for reading!!
 => gemini://shiny.bneil.me/categories/workflow/gemini/index.gmi workflow
 => gemini://shiny.bneil.me/categories/review/gemini/index.gmi review
 => gemini://shiny.bneil.me/categories/mentions/gemini/index.gmi mentions
-=> gemini://shiny.bneil.me/categories/notes/gemini/index.gmi notes
 => gemini://shiny.bneil.me/categories/gaming/gemini/index.gmi gaming
 => gemini://shiny.bneil.me/categories/general/gemini/index.gmi general
 
 ## by tag
 
+=> gemini://shiny.bneil.me/tags/ai/gemini/index.gmi ai
+=> gemini://shiny.bneil.me/tags/notes/gemini/index.gmi notes
 => gemini://shiny.bneil.me/tags/decentralized/gemini/index.gmi decentralized
 => gemini://shiny.bneil.me/tags/golang/gemini/index.gmi golang
 => gemini://shiny.bneil.me/tags/htmx/gemini/index.gmi htmx
@@ -79,7 +81,6 @@ That said! Thanks to everyone for reading!!
 => gemini://shiny.bneil.me/tags/test/gemini/index.gmi test
 => gemini://shiny.bneil.me/tags/slipbox/gemini/index.gmi slipbox
 => gemini://shiny.bneil.me/tags/books/gemini/index.gmi books
-=> gemini://shiny.bneil.me/tags/notes/gemini/index.gmi notes
 => gemini://shiny.bneil.me/tags/book/gemini/index.gmi book
 => gemini://shiny.bneil.me/tags/serverless/gemini/index.gmi serverless
 => gemini://shiny.bneil.me/tags/vercel/gemini/index.gmi vercel

@@ -1,0 +1,6 @@
+# ai
+
+
+Pages in this section:
+
+=> /notes/2023-09-18-hugo-vs-the-ai/index.gmi 2023-09-18 Hugo vs The AI

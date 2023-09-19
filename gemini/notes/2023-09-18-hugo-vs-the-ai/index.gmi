@@ -1,0 +1,26 @@
+# Hugo vs The AI
+
+
+
+## Hugo and AI
+
+Should be pretty easy, just toss a `robots.txt` into your static folder and toss the following into it
+
+```
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+```
+
+
+---
+updated: 18 September 2023.
+
+=> / to the Index
+=> https://bneil.me/notes/2023-09-18-hugo-vs-the-ai/ / html
+
