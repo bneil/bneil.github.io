@@ -35,10 +35,10 @@ of approaches for golang file hierarchy.
 
 - [Classic Implementation - PetStore](https://github.com/kevinhohl/petstore)
 - [todo with htmx spike](https://github.com/quii/todo)
-  - thanks [random reddit thread](https://old.reddit.com/r/golang/comments/10z4z3j/go_time_266_is_htmx_the_way_to_go/)
+- thanks [random reddit thread](https://old.reddit.com/r/golang/comments/10z4z3j/go_time_266_is_htmx_the_way_to_go/)
 
 I left the chatGPT resource out of it because it kinda failed hilariously which may have just been the issue
-of the LLM model ending in 2021. Who knows, but deep inside I my breathing relax. For much like death, AI isn't taking
+of the LLM model ending in 2021. Who knows, but deep inside my breathing relaxes. For much like death, AI isn't taking
 my job today.
 
 I really liked the quii todo css style and the static file layout. Felt like MVC was making a come back, but I wasn't
