@@ -55,9 +55,9 @@ That said! Thanks to everyone for reading!!
 
 ## by major subject
 
+=> gemini://shiny.bneil.me/categories/coding/gemini/index.gmi coding
 => gemini://shiny.bneil.me/categories/notes/gemini/index.gmi notes
 => gemini://shiny.bneil.me/categories/rabbithole/gemini/index.gmi rabbithole
-=> gemini://shiny.bneil.me/categories/coding/gemini/index.gmi coding
 => gemini://shiny.bneil.me/categories/monthly/gemini/index.gmi monthly
 => gemini://shiny.bneil.me/categories/update/gemini/index.gmi update
 => gemini://shiny.bneil.me/categories/diagrams/gemini/index.gmi diagrams
@@ -71,6 +71,7 @@ That said! Thanks to everyone for reading!!
 
 ## by tag
 
+=> gemini://shiny.bneil.me/tags/planning/gemini/index.gmi planning
 => gemini://shiny.bneil.me/tags/ai/gemini/index.gmi ai
 => gemini://shiny.bneil.me/tags/notes/gemini/index.gmi notes
 => gemini://shiny.bneil.me/tags/decentralized/gemini/index.gmi decentralized
