@@ -7,23 +7,23 @@ description: "now"
 
 _Last Updated: {{< updated >}}_
 
-As of right now, its the start of september so im just relaxing and getting used to the change of season. Its been a great summer but im ready for more bike rides that aren't in the high temps. 
+As of right now, its the start of November, looking forward to a fun filled month of CTO'n and getting ready for some friends and family at Thanksgiving time. I really love this month for giving a more focused opportunity to remember to show thanks for friends and family. Since, I know that I can get a really into my own problems and worlds.
 
 
 ## Reading
--  Children of memory
--  He who drowned the world
+-  A sanderson book
 
 ## Listening To
 - Podcasts - mostly 'if books could kill'
+- So many more. having a really good month of podcasts
 
 ## Watching
-- This week im doing alot of movie watching, so no more tv shows for a bit
+- Upload! Love the series and glad its back
 
 ## Exercise
 * Doing lots of exercises as part of the pomodoro
   * Pomodoro's are not great with meetings
-* At least 2 weekly 3.5 runs or more
+* At least 2 weekly - although I need to record the progress better
 
 This page is following best practice as defined from
 [@NowNowNow](https://twitter.com/NowNowNow)
