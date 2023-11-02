@@ -3,4 +3,5 @@
 
 Pages in this section:
 
+=> /posts/2023-11-02-what-i-searched-today/index.gmi 2023-11-02 what-i-searched-today
 => /posts/2023-11-02-nablopomo-maybe-going-to-try/index.gmi 2023-11-01 NaBloPoMo-maybe-going-to-try

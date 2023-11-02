@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /posts/2023-11-02-what-i-searched-today/index.gmi 2023-11-02 what-i-searched-today
 => /posts/2023-11-02-nablopomo-maybe-going-to-try/index.gmi 2023-11-01 NaBloPoMo-maybe-going-to-try
 => /posts/2023-10-29-weekly-writeup/index.gmi 2023-10-29 weekly-writeup (week 4 of Oct 2023)
 => /posts/2023-10-22-weekly-writeup/index.gmi 2023-10-22 weekly-writeup (week 3 of Oct 2023)
