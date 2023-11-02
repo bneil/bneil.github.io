@@ -3,7 +3,7 @@ title: what-i-searched-today
 description: "Find out some facinating tales of internet fun times"
 date: 2023-11-02T16:09:01.435Z
 preview: ""
-draft: true
+draft: false
 tags: ["NaBloPoMo"]
 categories: ["challenge"]
 ---
