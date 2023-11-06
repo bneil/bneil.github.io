@@ -4,7 +4,7 @@ description: "A fun exercise to determine when you should push a fix"
 date: 2023-10-03T04:04:42.977Z
 preview: ""
 draft: false
-tags: ["planning"]
+tags: ["planning", "humor"]
 categories: ["coding"]
 ---
 

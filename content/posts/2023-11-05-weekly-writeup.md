@@ -1,6 +1,6 @@
 ---
 title: weekly-writeup (week 1 of Nov 2023)
-description: "First weekly writeup of November 2023"
+description: "First weekly of November 2023"
 date: 2023-11-05T03:46:45.698Z
 preview: ""
 draft: false
