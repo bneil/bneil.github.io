@@ -74,6 +74,7 @@ That said! Thanks to everyone for reading!!
 
 => gemini://shiny.bneil.me/tags/nablopomo/gemini/index.gmi NaBloPoMo
 => gemini://shiny.bneil.me/tags/update/gemini/index.gmi update
+=> gemini://shiny.bneil.me/tags/humor/gemini/index.gmi humor
 => gemini://shiny.bneil.me/tags/planning/gemini/index.gmi planning
 => gemini://shiny.bneil.me/tags/ai/gemini/index.gmi ai
 => gemini://shiny.bneil.me/tags/notes/gemini/index.gmi notes

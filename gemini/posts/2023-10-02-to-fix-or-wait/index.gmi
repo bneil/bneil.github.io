@@ -39,7 +39,7 @@ Hey, works on my machine. IF the bug is critical and the fix needs thorough test
 The decision to fix or wait on fixing a production issues should be weighed against a lot of factors. The above acronym aside, it's still important to discuss the issue in full in a slack/matrix/irc thread. To document it through a five whys exercise or do any other due dilligence that makes sense. 
 
 ---
-updated: 2 October 2023.
+updated: 5 November 2023.
 
 => / to the Index
 => https://bneil.me/posts/2023-10-02-to-fix-or-wait/ / html
