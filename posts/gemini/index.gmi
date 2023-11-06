@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /posts/2023-11-06-virtual-standups/index.gmi 2023-11-06 virtual-standups
 => /posts/2023-11-05-weekly-writeup/index.gmi 2023-11-05 weekly-writeup (week 1 of Nov 2023)
 => /posts/2023-11-04-another-site-to-discover/index.gmi 2023-11-04 another-site-to-discover
 => /posts/2023-11-03-more-from-the-depths/index.gmi 2023-11-03 more-from-the-depths
