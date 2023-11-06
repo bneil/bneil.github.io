@@ -3,8 +3,11 @@
 
 Pages in this section:
 
+=> /posts/2023-11-05-weekly-writeup/index.gmi 2023-11-05 running-out-of-titles
+=> /posts/2023-11-04-another-site-to-discover/index.gmi 2023-11-04 another-site-to-discover
+=> /posts/2023-11-03-more-from-the-depths/index.gmi 2023-11-03 more-from-the-depths
 => /posts/2023-11-02-what-i-searched-today/index.gmi 2023-11-02 what-i-searched-today
-=> /posts/2023-11-02-nablopomo-maybe-going-to-try/index.gmi 2023-11-01 NaBloPoMo-maybe-going-to-try
+=> /posts/2023-11-01-nablopomo-maybe-going-to-try/index.gmi 2023-11-01 NaBloPoMo-maybe-going-to-try
 => /posts/2023-10-29-weekly-writeup/index.gmi 2023-10-29 weekly-writeup (week 4 of Oct 2023)
 => /posts/2023-10-22-weekly-writeup/index.gmi 2023-10-22 weekly-writeup (week 3 of Oct 2023)
 => /posts/2023-10-02-to-fix-or-wait/index.gmi 2023-10-03 To Fix or .. to wait
