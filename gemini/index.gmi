@@ -72,7 +72,7 @@ That said! Thanks to everyone for reading!!
 
 ## by tag
 
-=> gemini://shiny.bneil.me/tags/nablopomo/gemini/index.gmi NaBloPoMo
+=> gemini://shiny.bneil.me/tags/nablopomo2023/gemini/index.gmi NaBloPoMo2023
 => gemini://shiny.bneil.me/tags/update/gemini/index.gmi update
 => gemini://shiny.bneil.me/tags/humor/gemini/index.gmi humor
 => gemini://shiny.bneil.me/tags/planning/gemini/index.gmi planning

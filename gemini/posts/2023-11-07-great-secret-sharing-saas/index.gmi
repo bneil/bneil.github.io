@@ -1,0 +1,21 @@
+# great-secret-sharing-saas
+
+
+
+Wanted to share a great SaaS secret sharing service I stumbled upon a few years back. https://scrt.link/, why:
+=> https://scrt.link/ https://scrt.link/
+
+
+* Really love the persons development attitude
+* It works really well for sharing on time secrets (rather then sending in anyplace with history)
+* Found out about uptimerobot.com from their status page
+* Really love the design of the [links](https://scrt.link/security)
+
+If your looking for some easy to use secret sharing site, this is the way 👍
+
+---
+updated: 7 November 2023.
+
+=> / to the Index
+=> https://bneil.me/posts/2023-11-07-great-secret-sharing-saas/ / html
+

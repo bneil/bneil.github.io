@@ -17,7 +17,7 @@ Daily Standup! Please reply with:
 I really like the simplicity of the ask, I love that I now have an archive to run through. All in all, for the past three years, no one has complained and its been great to have it added to the morning rituals.
 
 ---
-updated: 6 November 2023.
+updated: 7 November 2023.
 
 => / to the Index
 => https://bneil.me/posts/2023-11-06-virtual-standups/ / html

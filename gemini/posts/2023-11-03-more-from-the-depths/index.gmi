@@ -9,7 +9,7 @@ Found this article call MVC is dead, its time to MOVE on. Really liked the idea,
 
 
 ---
-updated: 5 November 2023.
+updated: 7 November 2023.
 
 => / to the Index
 => https://bneil.me/posts/2023-11-03-more-from-the-depths/ / html
