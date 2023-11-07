@@ -4,7 +4,7 @@ description: "My thoughts on the in person standup"
 date: 2023-11-06T16:44:24.807Z
 preview: ""
 draft: false
-tags: ["NaBloPoMo"]
+tags: ["NaBloPoMo2023"]
 categories: ["challenge"]
 ---
 

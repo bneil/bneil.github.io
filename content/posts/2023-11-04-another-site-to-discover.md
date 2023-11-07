@@ -4,7 +4,7 @@ description: "Just another site that discovered about digital gardening"
 date: 2023-11-04T03:42:55.620Z
 preview: ""
 draft: false
-tags: ["NaBloPoMo"]
+tags: ["NaBloPoMo2023"]
 categories: ["challenge"]
 ---
 

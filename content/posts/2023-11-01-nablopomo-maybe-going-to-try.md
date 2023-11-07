@@ -4,7 +4,7 @@ description: ""
 date: 2023-11-01T16:04:33.216Z
 preview: ""
 draft: false
-tags: ["NaBloPoMo"]
+tags: ["NaBloPoMo2023"]
 categories: ["challenge"]
 ---
 

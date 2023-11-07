@@ -4,7 +4,7 @@ description: "First weekly of November 2023"
 date: 2023-11-05T03:46:45.698Z
 preview: ""
 draft: false
-tags: ["NaBloPoMo", "update"]
+tags: ["NaBloPoMo2023", "update"]
 categories: ["challenge", "general"]
 ---
 

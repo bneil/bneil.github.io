@@ -4,7 +4,7 @@ description: "another fun post"
 date: 2023-11-03T16:09:01.435Z
 preview: ""
 draft: false
-tags: ["NaBloPoMo"]
+tags: ["NaBloPoMo2023"]
 categories: ["challenge"]
 ---
 
