@@ -411,13 +411,14 @@ div.highlight pre {
     background: royalblue;
     color: whitesmoke ;
   }
-
+/*
   .halloween-hr {
     display:block;
     border:0px;
     height:30px;
     background:url('/images/blood_hr.gif') repeat-x;
   }
+  */
 
   .center {
     display: block;
