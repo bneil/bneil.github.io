@@ -3,6 +3,8 @@
 
 Pages in this section:
 
+=> /posts/2023-11-09-on-slow-coding/index.gmi 2023-11-09 on-slow-coding
+=> /posts/2023-11-08-its-easier-said-than-done/index.gmi 2023-11-08 its-easier-said-than-done
 => /posts/2023-11-07-great-secret-sharing-saas/index.gmi 2023-11-07 great-secret-sharing-saas
 => /posts/2023-11-06-virtual-standups/index.gmi 2023-11-06 virtual-standups
 => /posts/2023-11-05-weekly-writeup/index.gmi 2023-11-05 weekly-writeup (week 1 of Nov 2023)
