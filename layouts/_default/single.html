@@ -20,7 +20,15 @@
 		<section class="body e-content">
 			{{ .Content }}
 		</section>
-                <a class="u-bridgy-fed" href="https://fed.brid.gy/"></a>
+		<hr/>
+        <a class="u-bridgy-fed" href="https://fed.brid.gy/"></a>
+		<div class="manual-webmention"><p>Have you written a <a href="https://indieweb.org/responses">response</a> to this post? Put the url here:</p>
+			<form id="manual-webmention" action="https://webmention.io/bneil.me/webmention" method="post">
+				<input type="url" name="source">
+				<input type="hidden" name="target" value="{{ .Page.Permalink }}">
+				<input type="submit" name="submit" value="Comment"></form>
+			</form>
+		</div>
 		<div>
 			{{ partial "webmention.html" . }}
 		</div>
