@@ -3,6 +3,8 @@
 
 Pages in this section:
 
+=> /posts/2023-11-11-i-love-pomodoros-but-meetings/index.gmi 2023-11-11 i-love-pomodoros-but-meetings
+=> /posts/2023-11-10-on-four-day-workweeks/index.gmi 2023-11-10 on-four-day-workweeks
 => /posts/2023-11-09-on-slow-coding/index.gmi 2023-11-09 on-slow-coding
 => /posts/2023-11-08-its-easier-said-than-done/index.gmi 2023-11-08 its-easier-said-than-done
 => /posts/2023-11-07-great-secret-sharing-saas/index.gmi 2023-11-07 great-secret-sharing-saas
