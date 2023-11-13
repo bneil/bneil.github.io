@@ -21,7 +21,16 @@
 			{{ .Content }}
 		</section>
 		<hr/>
-        <a class="u-bridgy-fed" href="https://fed.brid.gy/"></a>
+		### comments
+		<script src="https://utteranc.es/client.js"
+        repo="bneil/bneil.github.io"
+        issue-term="pathname"
+        theme="preferred-color-scheme"
+        crossorigin="anonymous"
+        async>
+         </script>
+		<hr/>
+		### webmention section
 		<div class="manual-webmention"><p>Have you written a <a href="https://indieweb.org/responses">response</a> to this post? Put the url here:</p>
 			<form id="manual-webmention" action="https://webmention.io/bneil.me/webmention" method="post">
 				<input type="url" name="source">
@@ -29,6 +38,7 @@
 				<input type="submit" name="submit" value="Comment"></form>
 			</form>
 		</div>
+		<br/>
 		<div>
 			{{ partial "webmention.html" . }}
 		</div>
