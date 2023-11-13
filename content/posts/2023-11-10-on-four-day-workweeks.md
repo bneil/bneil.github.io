@@ -20,4 +20,4 @@ One thing ive noticed is that when, we do need to push. People show up and they 
 
 I could find more bullets, and I probably should, given the number of times ive had to defend this cultural choice. But its deep in me, that part of me that just enjoys working without structure. Which I get to do, if I want on Fridays. I can spin up a microservice or I can go walk with my wife - I can go for a run and not worry im not in by 10am. I love it and I love giving that freedom to anyone who we employ. Honestly, its one of the few things in my life I don't mind defending - especially when folks hate it because we could be doing 'more'. Well, sure, you can always have people doing more, but the thing is
 
-That shouldn't be the fucking requirement. People need to be motivated, and what motivates someone more than by telling them they get some of their life back by getting shit done.
+That shouldn't be the fucking requirement. People need to be motivated, and what motivates someone more than by telling them they get some of their life back to work on what they want.
