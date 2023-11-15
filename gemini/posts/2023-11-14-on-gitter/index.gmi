@@ -1,0 +1,20 @@
+# on-gitter
+
+
+
+Back in the day, when I was daily using scala. I truly enjoyed the client 'gitter' for communicating to all the cool folks over in the scala ecosystem. So today I was having some nostalgia for my old friends and decided to fire up my old client. Rather than being
+greeted with the usual rooms, turns out it was upgrade time! More than that it looks like it switched to a client called 'Element' and that they now support matrix. I've been following matrix somewhat just as an alternative to IRC, but again, I haven't jumped into
+that tech in awhile but ive been following Beeper which also allows a matrix client. Honestly, can't wait
+=> https://www.beeper.com/ Beeper
+
+for that to come out. 
+
+So anyway, got element installed and am attached to gitter.im. Saw some of the folks I remember hanging out with and im looking forward to reconnecting to some folks. 
+
+
+---
+updated: 14 November 2023.
+
+=> / to the Index
+=> https://bneil.me/posts/2023-11-14-on-gitter/ / html
+
