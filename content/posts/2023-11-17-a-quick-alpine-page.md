@@ -1,5 +1,5 @@
 ---
-title: a-quick-htmx-page
+title: a-quick-alpine-page
 description: "Just got bored and needed to write something today, so skeleton app time"
 date: 2023-11-17T19:50:48.837Z
 preview: ""
@@ -80,7 +80,7 @@ func main() {
 }
 ```
 
-with the pug method looking like this
+with the pug method looking like this.
 
 ```
 // renderPugTemplate reads and renders a Pug template with the given data.
