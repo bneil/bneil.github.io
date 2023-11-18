@@ -1,0 +1,16 @@
+# osx-spotlight-for-debian
+
+
+
+Was putsing around on the debian 12 machine today and wanted to quickly find a program. Due to the start menu being so far away. After hunting online, I found this nifty open source tech called alfred which has a nice file search and bunches of apps.
+=> https://albertlauncher.github.io alfred
+
+
+After installing its a little jumpy while typing but thats fun
+
+---
+updated: 18 November 2023.
+
+=> / to the Index
+=> https://bneil.me/posts/2023-11-18-osx-spotlight-for-debian/ / html
+
