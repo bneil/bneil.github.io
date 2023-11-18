@@ -1,4 +1,4 @@
-# a-quick-htmx-page
+# a-quick-alpine-page
 
 
 
@@ -74,7 +74,7 @@ func main() {
 }
 ```
 
-with the pug method looking like this
+with the pug method looking like this.
 
 ```
 // renderPugTemplate reads and renders a Pug template with the given data.
