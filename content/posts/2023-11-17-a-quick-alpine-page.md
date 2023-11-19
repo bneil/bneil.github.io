@@ -10,7 +10,7 @@ categories: ["challenge"]
 
 Had a little bit of time today, so wanted to do a quick skeleton for golang that included htmx. My other project 'optimal' is going super slow, just because im only working on it on weekends or late nights. So im hoping that this will just be a little more focused and I can share some code AND get a free blog article out of it! 
 
-Of course you can find the [project]() and skip all the vegtables and get to the meat.
+Of course you can find the [project](https://codeberg.org/bneil/fun-with-alpine) (now on codeberg!) and skip all the vegtables and get to the meat.
 
 *Please note I didn't tag this post as htmx because I didnt want to get hopes up, for some reason I bang my head against the wall alot with software development. It just takes time. So im going to go slow*
 
