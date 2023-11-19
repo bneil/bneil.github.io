@@ -1,0 +1,103 @@
+# alpine-pt2
+
+
+
+Continuing on, lets go ahead and add air because doing reloads is lame. Also going to add a makefile because I feel like those two go together like beer and skittles.
+=> https://github.com/cosmtrek/air air
+
+
+First lets make a bin directory
+
+`mkdir bin`
+
+Then lets add the `.air.toml` file
+
+```
+root = "."
+testdata_dir = "testdata"
+tmp_dir = "tmp"
+
+[build]
+  bin = "./bin/app"
+  cmd = "go build -o ./bin/app main.go"
+  delay = 1000
+  exclude_dir = []
+  exclude_file = []
+  exclude_regex = ["_test.go"]
+  exclude_unchanged = false
+  follow_symlink = false
+  full_bin = "./bin/app"
+  include_dir = []
+  include_ext = ["go", "tpl", "tmpl", "html","gohtml","css"]
+  kill_delay = "0s"
+  log = "build-errors.log"
+  send_interrupt = false
+  stop_on_error = true
+
+[color]
+  app = ""
+  build = "yellow"
+  main = "magenta"
+  runner = "green"
+  watcher = "cyan"
+
+[log]
+  time = true
+
+[misc]
+  clean_on_exit = false
+
+[screen]
+  clear_on_rebuild = false
+```
+
+Now we can add in a simple Makefile, ive used Taskfile as an alternative, but really didn't get much out of it other then having everything in golang. Which is great but not really a requirement for this project. So here is the Makfile magic:
+=> https://github.com/go-task/task Taskfile
+
+
+```
+GOCMD = go
+GOBUILD = $(GOCMD) build
+GOCLEAN = $(GOCMD) clean
+GOTEST = $(GOCMD) test
+GOGET = $(GOCMD) get
+
+MAIN = main.go
+
+BINARY_NAME = ./bin/app
+
+watch:
+	air
+
+build:
+	$(GOBUILD) -o $(BINARY_NAME) $(MAIN)
+
+run:
+	$(GOBUILD) -o $(BINARY_NAME) $(MAIN)
+	./$(BINARY_NAME)
+
+test:
+	$(GOTEST) -v ./...
+
+get:
+	$(GOGET) ./...
+
+clean:
+	$(GOCLEAN)
+	rm -f $(BINARY_NAME)
+
+all: build run
+
+.PHONY: build run test get clean watch all
+```
+
+One question I always had back in the day with Makefiles was that .PHONY target, to put it simply when you mark a target as .PHONY, it's like telling Make that this target doesn't represent a real file or thing to build; it represents a task to be performed. So its always good to have your tasks in there.
+
+Day 2 complete
+
+---
+updated: 19 November 2023.
+
+=> / to the Index
+=> https://bneil.me/posts/2023-11-19-alpine-pt2/ / html
+
