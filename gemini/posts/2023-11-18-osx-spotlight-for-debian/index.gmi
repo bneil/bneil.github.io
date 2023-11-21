@@ -9,7 +9,7 @@ Was putsing around on the debian 12 machine today and wanted to quickly find a p
 After installing its a little jumpy while typing but thats fun
 
 ---
-updated: 18 November 2023.
+updated: 20 November 2023.
 
 => / to the Index
 => https://bneil.me/posts/2023-11-18-osx-spotlight-for-debian/ / html
