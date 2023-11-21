@@ -1,7 +1,7 @@
 ---
 title: osx-spotlight-for-debian
 description: "Was working on the linux box and wanted an osx search 'spotlike' experience"
-date: 2023-11-17T19:50:48.837Z
+date: 2023-11-18T19:50:48.837Z
 preview: ""
 draft: false
 tags: ["NaBloPoMo2023"]
