@@ -13,7 +13,7 @@ So anyway, got element installed and am attached to gitter.im. Saw some of the f
 
 
 ---
-updated: 14 November 2023.
+updated: 20 November 2023.
 
 => / to the Index
 => https://bneil.me/posts/2023-11-14-on-gitter/ / html

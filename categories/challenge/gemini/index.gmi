@@ -10,7 +10,7 @@ Pages in this section:
 => /posts/2023-11-17-a-quick-alpine-page/index.gmi 2023-11-17 a-quick-alpine-page
 => /posts/2023-11-16-unikernel-and-wasm-part-2/index.gmi 2023-11-16 unikernel-and-wasm-part-2
 => /posts/2023-11-15-unikernals-and-wasm/index.gmi 2023-11-15 unikernals-and-wasm
-=> /posts/2023-11-14-on-gitter/index.gmi 2023-11-15 on-gitter
+=> /posts/2023-11-14-on-gitter/index.gmi 2023-11-14 on-gitter
 => /posts/2023-11-13-quote-from-frost/index.gmi 2023-11-13 quote-from-frost
 => /posts/2023-11-12-weekly-writeup/index.gmi 2023-11-12 weekly-writeup (week 2 of Nov 2023)
 => /posts/2023-11-11-i-love-pomodoros-but-meetings/index.gmi 2023-11-11 i-love-pomodoros-but-meetings
