@@ -1,0 +1,26 @@
+# on-gemini
+
+
+
+The Gemini protocol is this neat gopher like protocol that lets me broadcast this blog like a good ol fashioned MUD. Its fantastic. Originally I found out about the idea, by visiting The Paranoid Times which had an article for using said protocol. However, I didn't quite understand, but I did end up going to sourcehut which had this nifty article. But all those links aside, whats it like using something like amfora? Its darn good and gives you all the hacker vibes. But seriously, its nice to just have a text based place to read and not have all the intensity of a full blown web browser. Also, if you like ansi art, its on fine display.
+=> https://github.com/makew0rld/amfora amfora
+
+=> https://sourcehut.org/blog/2021-02-18-sourcehut-pages/ article
+
+=> https://srht.site/ sourcehut
+
+=> https://theparanoidtimes.org/blog/2021/09/05/how-to-create-gemini-static-site/ The Paranoid Times
+
+=> https://indieweb.org/Gemini Gemini
+
+
+What is it about technology like the command line that is so good? For me its nostalgia and its familiar. I love magic of the command line, the way the blinking cursor is just waiting for me or anyone to take it for a spin. 
+If. You know the right words to use.
+
+
+---
+updated: 21 November 2023.
+
+=> / to the Index
+=> https://bneil.me/posts/2023-11-21-on-gemini/ / html
+

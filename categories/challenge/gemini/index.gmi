@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /posts/2023-11-21-on-gemini/index.gmi 2023-11-22 on-gemini
 => /posts/2023-11-20-how-did-today-go/index.gmi 2023-11-21 how-did-today-go
 => /posts/2023-11-19-weekly-writeup/index.gmi 2023-11-19 weekly-writeup
 => /posts/2023-11-19-alpine-pt2/index.gmi 2023-11-19 alpine-pt2

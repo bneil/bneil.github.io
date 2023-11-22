@@ -1,0 +1,6 @@
+# gemini
+
+
+Pages in this section:
+
+=> /posts/2023-11-21-on-gemini/index.gmi 2023-11-22 on-gemini
