@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /posts/2023-11-25-on-journaling/index.gmi 2023-11-26 on-journaling
 => /posts/2023-11-24-more-alpine-fun/index.gmi 2023-11-25 more-alpine-fun
 => /posts/2023-11-22-took-a-day-off/index.gmi 2023-11-23 took-a-day-off
 => /posts/2023-11-23-thanksgiving/index.gmi 2023-11-23 thanksgiving-2023
