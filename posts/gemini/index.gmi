@@ -3,6 +3,8 @@
 
 Pages in this section:
 
+=> /posts/2023-11-28-current-anime-watching/index.gmi 2023-11-29 current-anime-watching
+=> /posts/2023-11-26-weekly-writeup/index.gmi 2023-11-27 weekly-writeup
 => /posts/2023-11-25-on-journaling/index.gmi 2023-11-26 on-journaling
 => /posts/2023-11-24-more-alpine-fun/index.gmi 2023-11-25 more-alpine-fun
 => /posts/2023-11-22-took-a-day-off/index.gmi 2023-11-23 took-a-day-off
