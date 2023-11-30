@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /posts/2023-11-29-as-a-cto-who-is-technical/index.gmi 2023-11-29 as-a-cto-who-is-technical
 => /posts/2023-11-28-current-anime-watching/index.gmi 2023-11-29 current-anime-watching
 => /posts/2023-11-26-weekly-writeup/index.gmi 2023-11-27 weekly-writeup
 => /posts/2023-11-27-quote-myself/index.gmi 2023-11-27 quote-myself
