@@ -8,7 +8,7 @@ tags: ["NaBloPoMo2023"]
 categories: ["challenge"]
 ---
 
-Again, running low on ideas per day, so today im going to rank the anime im watching on [crunchyroll](https://crunchyroll.com)
+Again, running low on ideas for one post per day, so today im going to rank the anime im watching on [crunchyroll](https://crunchyroll.com)
 
 ## Top Tier
 1. Frieren: Beyond Journey's End 
