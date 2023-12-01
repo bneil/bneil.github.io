@@ -1,0 +1,38 @@
+# last-day-of-NaBloPoMo2023
+
+
+
+# Wrapping up NaBloPoMo2023
+
+Doing thirty days of blog posts was a lot harder than I thought. The last couple days especially felt difficult, since I didn't have time to continue coding up any htmx examples or alpinejs or really much golang. Since, typically for those projects I spend a few hours coding and writing the steps back to the blog. But even more, finding things that I wanted to write about was difficult. So I'm really glad that this is over and im happy that I tried.
+
+Not going to lie. I did end up missing a few times through this month, id usually just have half an article written, or some terrible idea have baked that I just couldn't `git push` on. But end of it, I did finish writing all the articles and I did really enjoy the experience. But maybe a quick breakdown is in order
+
+## What I liked about the experience
+
+* Blogging! I got to throw all sorts of spaghetti at this blog in terms of subjects
+* It was fun, stressful but fun
+* I got to improve the blog a little bit by upgrading themes and staying up to date
+* Made me appreciate my weekly writeup more, since that was an easier post 
+* Forgiving myself when I missed a day. I'm only human and these kinda challenges really remind you of that.
+
+## What I didn't like
+
+* My spelling. Without doing more revisions, my usual bad spelling has infected the internet... maybe vscode has a more aggressive spell checker?
+* Forgetting a day, or forgetting to push up an article. 
+* Not having a bucket of drafts to use for articles. I ran through ideas fairly fast and maybe thats not even bad?
+
+## Conclusion
+
+Going to do this again next year and am going to again attempt the advent of code coming out in a few hours. Maybe this year ill be able to get passed the fourth or fifth day. That challege wrecks me once it gets into matrix arrays and the like. But, here is hoping.
+=> https://adventofcode.com/ advent of code
+
+
+Oh, and thanks, if anyone reads this, hope you got some enjoyment out of the articles posted! 
+
+---
+updated: 30 November 2023.
+
+=> / to the Index
+=> https://bneil.me/posts/2023-11-30-last-day-of-nablopomo2023/ / html
+
