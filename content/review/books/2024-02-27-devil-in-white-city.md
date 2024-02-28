@@ -8,6 +8,10 @@ tags: ["book"]
 categories: ["review"]
 ---
 
+<p align="center">
+  <img src="/images/cloud-kingdom-opening-768.jpg" />
+</p>
+
 
 Got started on this book from a recommendation from my wife and wasn't disappointed. Devil in the white city by Erik Larson 
 goes into two pivotal events of the early
