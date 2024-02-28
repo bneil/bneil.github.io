@@ -18,10 +18,6 @@
           <img src="/images/halloweenjason.gif" class="no-border" />
         </div>
       -->
-      <div>
-        <img src="/images/hedgehog-stealing-apple-768.jpg" />
-      </div>
-
       <h1>Welcome</h1> you've stumbled onto my humble corner of the internet!
       This website is the personal site of Ben Neil, a lifelong programmer and generalist. 
       This site is always a work in progress, constantly evolving and growing as I explore new technologies and ideas. 
@@ -39,6 +35,11 @@
         <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
         {{end}}
       </ul>
+
+      <div>
+        <img src="/images/talking-head-768.jpg" />
+      </div>
+
 
       <h2>Categories</h2>
       {{- $catz := ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
