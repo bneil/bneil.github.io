@@ -1,4 +1,4 @@
-# golang
+# Golang
 
 
 Pages in this section:

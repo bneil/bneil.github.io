@@ -1,4 +1,4 @@
-# nextjs
+# Nextjs
 
 
 Pages in this section:
