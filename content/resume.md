@@ -2,21 +2,87 @@
 title = "Resume"
 slug = "resume"
 date = "2020-10-20"
-thumbnail = "/images/resume.jpg"
 description = "resume"
+noComment = true
 +++
 
-### Technical Overview
+<style>
+ .thumbnail {
+   max-width: 200px;
+   border-radius: 8px;
+   transition: filter 0.3s ease;
+   margin-right:10px;
+ }
 
-I really use a lot of tech soup - so these change all the time
+ .thumbnail:hover {
+   filter: brightness(1.2) saturate(1.2);
+ }
 
-1. Docker EE and Kubernetes
-1. Go, Rust, Scala and more
-1. Drone, Jenkins and Gitlab
-1. PostgreSQL, MySQL, Redis and more
-1. Vue.js, next.js
+.spaceship-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.spaceship {
+  position: absolute;
+  font-size: 2rem;
+  transform: translateX(-100%);
+  animation: rocket 10s linear infinite;
+  cursor: pointer;
+  z-index: 99;
+}
+
+.explosion {
+  animation: explode 1s ease-out forwards;
+}
+
+@keyframes rocket {
+  0% {
+    transform: translateX(-100%); /* Start off-screen */
+  }
+  100% {
+    transform: translateX(calc(100vw + 100%)); /* Move off-screen on the right */
+  }
+}
+
+
+@keyframes explode {
+  0% {
+    content: '💥';
+  }
+  100% {
+    content: '';
+  }
+}
+
+</style>
+
+
+<img class="thumbnail" src="/images/reading-768.jpg" width="320" align="left" /><p/>
+
+## Driven Technologist: Transforming Visions into Realities
+
+
+Over a decade of experience in spearheading cutting-edge technological solutions, bridging the gap between business objectives and technical excellence. A technical leader with a proven track record of architecting scalable, resilient, and high-performance systems that drive innovation and propel growth.
+
+With a deep passion for continuous learning and an unwavering commitment to staying ahead of the curve, I thrive in dynamic environments where challenges are met with creative problem-solving and a relentless pursuit of excellence.
+
+But most importantly im able <br/>
+🚀👩‍💻🔥 to use 💻⚡️🌟 emojis 🏆⌨️💪 for great good! 🥳🎉 
+
+### Technology Summary
+
+**Frontend:** Vue.js, Next.js/React, Backbone.js (yeah ive been at this awhile)<br/>
+**Backend:** Go, Rust, Scala, Akka, Java, Thrift/Protobuf, NATS<br/>
+**DevOps:** Docker, Kubernetes, Jenkins, Drone, GitLab, Ambassador, OpenFaaS<br/>
+**Databases:** PostgreSQL, MySQL, Redis, Cassandra, Turso, Pocketbase<br/>
+**Clouds:** AWS, GCP, Fly.io<br/>
+
+<i>Ive left alot off this list in the hopes it wouldn't be distracting. Lots of technology has come and gone over the past twenty years</i>
 
 ------
+<div class="spaceship-container"></div>
 
 ### Experience
 
@@ -88,3 +154,46 @@ Same role just now with a new name!
 
 **Bachelor of Computer Information Systems** __2000 to 2003__
 DeVry University, Phoenix, Arizona
+
+
+### Let's Collaborate
+
+Are you seeking a seasoned technologist to drive innovation and unlock new possibilities for your organization? Let's connect and explore how we can join forces to bring your vision to life.
+
+#### Contact Me
+
+- Email: [ben@neil-concepts.com](mailto:ben@neil-concepts.com)
+
+
+---
+
+<script>
+function explodeSpaceship(event) {
+  const spaceship = event.target;
+  spaceship.classList.add('explosion');
+
+  setTimeout(() => {
+    spaceship.remove();
+  }, 1000);
+}
+
+function createSpaceships(count) {
+  const container = document.querySelector('.spaceship-container');
+
+  for (let i = 0; i < count; i++) {
+    const spaceship = document.createElement('div');
+    spaceship.className = 'spaceship';
+    spaceship.textContent = '👾';
+    container.appendChild(spaceship);
+
+    spaceship.style.top = `${Math.random() * 80}vh`;
+    spaceship.style.animationDelay = `${Math.random() * 10}s`;
+
+    spaceship.addEventListener('click', explodeSpaceship);
+  }
+}
+
+
+createSpaceships(5);
+
+</script>
