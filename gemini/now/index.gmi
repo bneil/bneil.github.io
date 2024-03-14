@@ -4,30 +4,24 @@
 
 _Last Updated: {{}}_
 
-Bleh, forgot to update this. After that month of writing all month I got lazy. Anyhoot, looking forward to some eggnog and some time off to code more on the side.
-
+The past month has been an absolute joy when it comes to writing and coding. Every day, I've found myself eagerly sitting down at my computer, ideas bubbling in my mind, ready to translate thoughts into words or lines of code. The creative process of taking a blank page or an empty editor and gradually shaping it into something coherent and functional is incredibly rewarding. Or at least thats how ive been feeling lately. 
 
 ## Reading
-*  A sanderson book
+* [Finding Flow](https://books.google.com/books/about/Finding_Flow.html?id=dmd9AAAAMAAJ)
 
 ## Listening To
-* Podcasts - mostly qanon anonymous. ended up patreoning because I had to hear some 'manclan'
-* So many more. having a really good month of podcasts
+* Podcasts - Been listening to 'Your Undivided Attention'
 
 ## Watching
-* Alone - addicted to that show
-
-## Exercise
-* Doing lots of exercises as part of the pomodoro
-  * Pomodoro's are not great with meetings
-* I have failed at exercise, just getting steps in at this point
+* Below Deck
+* Love Is Blind Season 6
 
 This page is following best practice as defined from
 [@NowNowNow](https://twitter.com/NowNowNow)
 
 
 ---
-updated: 20 December 2023.
+updated: 14 March 2024.
 
 => / to the Index
 => https://bneil.me/now/ / html
