@@ -22,10 +22,11 @@
 
 .spaceship {
   position: absolute;
-  font-size: 2rem;
+  font-size: 2.5rem;
   transform: translateX(-100%);
-  animation: rocket 10s linear infinite;
-  cursor: pointer;
+  animation: rocket 30s linear infinite;
+  cursor: crosshair;
+  opacity: .88;
   z-index: 99;
 }
 
@@ -55,9 +56,10 @@
 
 
 
-<p/>
 
 ## Driven Technologist: Transforming Visions into Realities
+
+<p/>
 
 
 Over a decade of experience in spearheading cutting-edge technological solutions, bridging the gap between business objectives and technical excellence. A technical leader with a proven track record of architecting scalable, resilient, and high-performance systems that drive innovation and propel growth.
@@ -66,7 +68,10 @@ With a deep passion for continuous learning and an unwavering commitment to stay
 
 But most importantly im able 
 
-🚀👩‍💻🔥 to use 💻⚡️🌟 emojis 🏆⌨️💪 for great good! 🥳🎉 
+
+🚀👩‍💻🔥 to use 💻⚡️🌟 
+
+emojis 🏆⌨️💪 for great good! 🥳🎉 
 
 ### Technology Summary
 
