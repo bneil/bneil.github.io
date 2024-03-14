@@ -26,10 +26,11 @@ noComment = true
 
 .spaceship {
   position: absolute;
-  font-size: 2rem;
+  font-size: 2.5rem;
   transform: translateX(-100%);
-  animation: rocket 10s linear infinite;
-  cursor: pointer;
+  animation: rocket 30s linear infinite;
+  cursor: crosshair;
+  opacity: .88;
   z-index: 99;
 }
 
@@ -59,9 +60,10 @@ noComment = true
 </style>
 
 
-<img class="thumbnail" src="/images/reading-768.jpg" width="320" align="left" /><p/>
 
 ## Driven Technologist: Transforming Visions into Realities
+
+<img class="thumbnail" src="/images/reading-768.jpg" width="320" align="left" /><p/>
 
 
 Over a decade of experience in spearheading cutting-edge technological solutions, bridging the gap between business objectives and technical excellence. A technical leader with a proven track record of architecting scalable, resilient, and high-performance systems that drive innovation and propel growth.
@@ -69,7 +71,10 @@ Over a decade of experience in spearheading cutting-edge technological solutions
 With a deep passion for continuous learning and an unwavering commitment to staying ahead of the curve, I thrive in dynamic environments where challenges are met with creative problem-solving and a relentless pursuit of excellence.
 
 But most importantly im able <br/>
-🚀👩‍💻🔥 to use 💻⚡️🌟 emojis 🏆⌨️💪 for great good! 🥳🎉 
+
+🚀👩‍💻🔥 to use 💻⚡️🌟 
+
+emojis 🏆⌨️💪 for great good! 🥳🎉 
 
 ### Technology Summary
 
