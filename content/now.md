@@ -8,7 +8,10 @@ noComment: true
 
 _Last Updated: {{< updated >}}_
 
-The past month has been challenging. I stopped working full time at the startup I cofounded, this outside of the feelings of disapointment has been a challenge in getting back to first principles. I love teaching, coding, writing documentation and discovering new solutions for hard to solve problems. So its been hard to slow down and focus on next steps. Head over to {{< ref "resume.md" >}} if you want to play some basic space invaders and review a resume 😊
+<img class="thumbnail" src="/images/lived-merrily.jpg" width="320" align="right" /><p/>
+The past month has been challenging. I stopped working full time at the startup I co-founded, this outside of the feelings of mixed disappointment has been a challenge in getting back to first principles. I love coding, collaborating and discovering new solutions for hard problems. So its been hard to slow down and focus on next steps. 
+
+Just saying if your here and reading this, maybe head over to my [resume]({{< ref "resume.md" >}}) if you want to play some basic space invaders and maybe we can collab sometime 😊
 
 ## Reading
 - [Finding Flow](https://books.google.com/books/about/Finding_Flow.html?id=dmd9AAAAMAAJ)
