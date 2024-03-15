@@ -51,7 +51,7 @@ noComment = true
 
 ## Driven Technologist: Transforming Visions into Realities
 
-<img class="thumbnail" src="/images/reading-768.jpg" width="320" align="left" /><p/>
+<img class="thumbnail" src="/images/wild-report.jpg" width="320" align="left" /><p/>
 
 
 Over a decade of experience in spearheading cutting-edge technological solutions, bridging the gap between business objectives and technical excellence. A technical leader with a proven track record of architecting scalable, resilient, and high-performance systems that drive innovation and propel growth.
@@ -60,9 +60,7 @@ With a deep passion for continuous learning and an unwavering commitment to stay
 
 But most importantly im able <br/>
 
-🚀👩‍💻🔥 to use 💻⚡️🌟 
-
-emojis 🏆⌨️💪 for great good! 🥳🎉 
+🚀👩‍💻🔥 to use 💻⚡️🌟 emojis 🏆⌨️💪 for great good! 🥳🎉 
 
 ### Technology Summary
 
