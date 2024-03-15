@@ -34,9 +34,6 @@ noComment = true
   z-index: 99;
 }
 
-.explosion {
-  animation: explode 1s ease-out forwards;
-}
 
 @keyframes rocket {
   0% {
@@ -47,15 +44,6 @@ noComment = true
   }
 }
 
-
-@keyframes explode {
-  0% {
-    content: '💥';
-  }
-  100% {
-    content: '';
-  }
-}
 
 </style>
 
@@ -175,7 +163,7 @@ Are you seeking a seasoned technologist to drive innovation and unlock new possi
 <script>
 function explodeSpaceship(event) {
   const spaceship = event.target;
-  spaceship.classList.add('explosion');
+  spaceship.textContent = '💥';
 
   setTimeout(() => {
     spaceship.remove();
