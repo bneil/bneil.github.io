@@ -50,6 +50,7 @@ noComment = true
 
 
 ## Driven Technologist: Transforming Visions into Realities
+...also an avid bug remover! 🚫👾
 
 <img class="thumbnail" src="/images/wild-report.jpg" width="320" align="left" /><p/>
 
