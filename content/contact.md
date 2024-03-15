@@ -4,6 +4,7 @@ slug = "contact"
 date = "2020-10-20"
 thumbnail = "/images/pexels.jpg"
 description = "contact"
+noComment = true
 +++
 
 Have questions or want to discuss programming?

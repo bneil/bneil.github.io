@@ -3,11 +3,12 @@ title: "now"
 slug: "now"
 date: "2020-04-20"
 description: "now"
+noComment: true
 ---
 
 _Last Updated: {{< updated >}}_
 
-The past month has been an absolute joy when it comes to writing and coding. Every day, I've found myself eagerly sitting down at my computer, ideas bubbling in my mind, ready to translate thoughts into words or lines of code. The creative process of taking a blank page or an empty editor and gradually shaping it into something coherent and functional is incredibly rewarding. Or at least thats how ive been feeling lately. 
+The past month has been challenging. I stopped working full time at the startup I cofounded, this outside of the feelings of disapointment has been a challenge in getting back to first principles. I love teaching, coding, writing documentation and discovering new solutions for hard to solve problems. So its been hard to slow down and focus on next steps. Head over to {{< ref "resume.md" >}} if you want to play some basic space invaders and review a resume 😊
 
 ## Reading
 - [Finding Flow](https://books.google.com/books/about/Finding_Flow.html?id=dmd9AAAAMAAJ)
