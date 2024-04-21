@@ -5,28 +5,32 @@
 _Last Updated: {{}}_
 
 <p/>
-The past month has been challenging. I stopped working full time at the startup I co-founded, this outside of the feelings of mixed disappointment has been a challenge in getting back to first principles. I love coding, collaborating and discovering new solutions for hard problems. So its been hard to slow down and focus on next steps. 
+Ahh, love April in Colorado. Nothing like a sprinkle of rain, a tiny bounce of hail and sunshine. Im very much enjoying the month and have spent a lot of time this month reaching
+out to folks that can help me find more clients. Its been a challenge for sure. Also looking
+to spend more time in appreciating the family. Very thankful for them.
 
-Just saying if your here and reading this, maybe head over to my resume if you want to play some basic space invaders and maybe we can collab sometime 😊
+Also if you are reading this, maybe head over to my resume if you want to play some basic space invaders and maybe we can collab sometime 😊
 => {{}} resume
 
 
 ## Reading
-* [Finding Flow](https://books.google.com/books/about/Finding_Flow.html?id=dmd9AAAAMAAJ)
+* [Gentleman In Moscow](https://app.thestorygraph.com/books/2e9f1635-f2f5-4d27-9aeb-3d9258f0b389)
+* [A Gathering of SHadows](https://app.thestorygraph.com/books/86c94683-f4b1-4fec-bb16-e52fe250f8c5)
 
 ## Listening To
 * Podcasts - Been listening to 'Your Undivided Attention'
 
 ## Watching
 * Below Deck
-* Love Is Blind Season 6
+* Survivor
+* Amazing Race
 
 This page is following best practice as defined from
 [@NowNowNow](https://twitter.com/NowNowNow)
 
 
 ---
-updated: 15 March 2024.
+updated: 21 April 2024.
 
 => / to the Index
 => https://bneil.me/now/ / html
