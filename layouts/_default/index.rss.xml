@@ -37,7 +37,7 @@ xmlns:atom="http://www.w3.org/2005/Atom">
             <guid>{{ .Permalink }}</guid>
 
             <description>{{ "<![CDATA[" | safeHTML }} {{ .Summary }}]]></description>
-            <content:encoded>{{ "<![CDATA[" | safeHTML }} {{ .Content }}]]></content:encoded>
+            <content:encoded>{{ "<![CDATA[" | safeHTML }} {{ partial "rss.html" . | safeHTML }}]]></content:encoded>
             <webmention>
                 {{ with .Params.webmention }}{{.}}{{end}}
             </webmention>
