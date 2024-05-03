@@ -5,3 +5,4 @@ public
 .hugo_build.lock
 .vscode/settings.json
 frontmatter.json
+._*
