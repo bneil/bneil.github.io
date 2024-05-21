@@ -59,6 +59,8 @@ Happy Fall Y'all
 
 ## by tag
 
+=> gemini://shiny.bneil.me/tags/meetings/gemini/index.gmi Meetings
+=> gemini://shiny.bneil.me/tags/offchest/gemini/index.gmi Offchest
 => gemini://shiny.bneil.me/tags/book/gemini/index.gmi Book
 => gemini://shiny.bneil.me/tags/nablopomo2023/gemini/index.gmi NaBloPoMo2023
 => gemini://shiny.bneil.me/tags/update/gemini/index.gmi Update
