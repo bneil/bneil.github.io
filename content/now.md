@@ -9,9 +9,8 @@ noComment: true
 _Last Updated: {{< updated >}}_
 
 <img class="thumbnail" src="/images/lived-merrily.jpg" width="320" align="right" /><p/>
-Ahh, love April in Colorado. Nothing like a sprinkle of rain, a tiny bounce of hail and sunshine. Im very much enjoying the month and have spent a lot of time this month reaching
-out to folks that can help me find more clients. Its been a challenge for sure. Also looking
-to spend more time in appreciating the family. Very thankful for them.
+Nothing like updating the now page half way through the month. Always cracks me up. Its been a rough start to the month just due to me stepping down as CTO for Compliable. Had to get my resume in order, continue
+reaching out to folks and really think hard about what is working vs what is not working in my life right now. 
 
 Also if you are reading this, maybe head over to my [resume]({{< ref "resume.md" >}}) if you want to play some basic space invaders and maybe we can collab sometime 😊
 
