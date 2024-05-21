@@ -29,6 +29,16 @@
 
       <p />
 
+      <!--
+      <h2>Most Recently Added Posts</h2>
+      <ul>
+        {{ range after 1 (  where .Site.Pages "Type" "posts" | first 4 ).ByDate.Reverse  }}
+          <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+    -->
+
+
       <h2>Most Recently Modified Posts</h2>
       <ul>
         {{ range ( where .Site.RegularPages "Type" "posts" | first 5 ).ByLastmod.Reverse }}

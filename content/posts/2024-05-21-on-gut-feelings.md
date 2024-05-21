@@ -5,8 +5,7 @@ date: 2024-05-21T18:02:22.078Z
 preview: ""
 draft: false
 tags: ['meetings','offchest']
-categories: []
-type: default
+categories: ['update']
 ---
 
 ## On trusting your gut
