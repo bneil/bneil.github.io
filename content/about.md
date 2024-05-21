@@ -6,17 +6,6 @@ description = "about"
 noComment = true
 +++
 
----------------------------
-
-My name is Ben Neil, a polyglot engineer. I have had the privilege to work the
-past eleven years making websites, services, documentation and tools for amazing companies.
-
-I'm obsessed with technology and programming - mainy linux, hypervisors, containers, unikernels,
-scala, rust, go etc. Ive got a real problem researching tools and enjoy writing then rewriting
-internal documentation.
-
----------------------------
-
 # Publications
 
 Recently (well in 2016) I co-authored a book called [Professional Scala](http://www.wrox.com/WileyCDA/WroxTitle/Professional-Scala.productCd-1119267226.html), it was an exciting experience and I really enjoyed the feedback from the scala community.
