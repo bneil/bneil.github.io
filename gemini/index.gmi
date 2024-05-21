@@ -42,6 +42,7 @@ Happy Fall Y'all
 
 ## by major subject
 
+=> gemini://shiny.bneil.me/categories/update/gemini/index.gmi Update
 => gemini://shiny.bneil.me/categories/review/gemini/index.gmi Review
 => gemini://shiny.bneil.me/categories/challenge/gemini/index.gmi Challenge
 => gemini://shiny.bneil.me/categories/general/gemini/index.gmi General
@@ -49,7 +50,6 @@ Happy Fall Y'all
 => gemini://shiny.bneil.me/categories/notes/gemini/index.gmi Notes
 => gemini://shiny.bneil.me/categories/rabbithole/gemini/index.gmi Rabbithole
 => gemini://shiny.bneil.me/categories/monthly/gemini/index.gmi Monthly
-=> gemini://shiny.bneil.me/categories/update/gemini/index.gmi Update
 => gemini://shiny.bneil.me/categories/diagrams/gemini/index.gmi Diagrams
 => gemini://shiny.bneil.me/categories/productivity/gemini/index.gmi Productivity
 => gemini://shiny.bneil.me/categories/reading/gemini/index.gmi Reading
