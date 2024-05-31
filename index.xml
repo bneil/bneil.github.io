@@ -1537,16 +1537,9 @@ poetry isnt a big deal. Maybe its just some latent elementary angst.</p>
 <p>To that end, im going to be trying to incorporate more of the concepts ive been reading about from indieweb then writing
 about those implementations here.</p>
 <p>Cheers</p>
-]]></content:encoded><webmention/></item><item><title>About Me</title><link>https://bneil.me/about/</link><pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate><guid>https://bneil.me/about/</guid><description> My name is Ben Neil, a polyglot engineer. I have had the privilege to work the past eleven years making websites, services, documentation and tools for amazing companies.
-I&amp;rsquo;m obsessed with technology and programming - mainy linux, hypervisors, containers, unikernels, scala, rust, go etc. Ive got a real problem researching tools and enjoy writing then rewriting internal documentation.
-Publications Recently (well in 2016) I co-authored a book called Professional Scala, it was an exciting experience and I really enjoyed the feedback from the scala community.</description><content:encoded><![CDATA[ <hr>
-<p>My name is Ben Neil, a polyglot engineer. I have had the privilege to work the
-past eleven years making websites, services, documentation and tools for amazing companies.</p>
-<p>I&rsquo;m obsessed with technology and programming - mainy linux, hypervisors, containers, unikernels,
-scala, rust, go etc. Ive got a real problem researching tools and enjoy writing then rewriting
-internal documentation.</p>
-<hr>
-<h1 id="publications">Publications</h1>
+]]></content:encoded><webmention/></item><item><title>About Me</title><link>https://bneil.me/about/</link><pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate><guid>https://bneil.me/about/</guid><description> Publications Recently (well in 2016) I co-authored a book called Professional Scala, it was an exciting experience and I really enjoyed the feedback from the scala community.
+Other Blogs Developer Death March - A blog about developer horror stories and funny content Things in progress Go checkout my NOW page, it has all the things im working on well, right now!
+Random Trivia Some fun facts about this site and me:</description><content:encoded><![CDATA[ <h1 id="publications">Publications</h1>
 <p>Recently (well in 2016) I co-authored a book called <a href="http://www.wrox.com/WileyCDA/WroxTitle/Professional-Scala.productCd-1119267226.html">Professional Scala</a>, it was an exciting experience and I really enjoyed the feedback from the scala community.</p>
 <h2 id="other-blogs">Other Blogs</h2>
 <ul>
@@ -1728,17 +1721,16 @@ function createSpaceships(count) {
 createSpaceships(5);
 
 </script>
-]]></content:encoded><webmention/></item><item><title>now</title><link>https://bneil.me/now/</link><pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate><guid>https://bneil.me/now/</guid><description> Last Updated: May 21, 2024
-Nothing like updating the now page half way through the month. Always cracks me up. Its been a rough start to the month just due to me stepping down as CTO for Compliable. Had to get my resume in order, continue reaching out to folks and really think hard about what is working vs what is not working in my life right now.
-Also if you are reading this, maybe head over to my resume if you want to play some basic space invaders and maybe we can collab sometime 😊</description><content:encoded><![CDATA[ <p><em>Last Updated: May 21, 2024</em></p>
+]]></content:encoded><webmention/></item><item><title>now</title><link>https://bneil.me/now/</link><pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate><guid>https://bneil.me/now/</guid><description><![CDATA[ Last Updated: May 31, 2024
+And&hellip;&hellip;. I got covid.. again. So thankfully working from home is still a thing, got done with some client work today and im off to sleep
+Also if you are reading this, maybe head over to my resume if you want to play some basic space invaders and maybe we can collab sometime 😊
+Reading A Gathering of Shadows &lt;- Finished this it was really good Listening To Podcasts - Been listening to &lsquo;Your Undivided Attention&rsquo; Watching Anime This page is following best practice as defined from @NowNowNow]]></description><content:encoded><![CDATA[ <p><em>Last Updated: May 31, 2024</em></p>
 <p><img class="thumbnail" src="https://bneil.me/images/lived-merrily.jpg" width="320" align="right" /><p/>
-Nothing like updating the now page half way through the month. Always cracks me up. Its been a rough start to the month just due to me stepping down as CTO for Compliable. Had to get my resume in order, continue
-reaching out to folks and really think hard about what is working vs what is not working in my life right now.</p>
+And&hellip;&hellip;. I got covid.. again. So thankfully working from home is still a thing, got done with some client work today and im off to sleep</p>
 <p>Also if you are reading this, maybe head over to my <a href="https://bneil.me/resume/">resume</a> if you want to play some basic space invaders and maybe we can collab sometime 😊</p>
 <h2 id="reading">Reading</h2>
 <ul>
-<li><a href="https://app.thestorygraph.com/books/2e9f1635-f2f5-4d27-9aeb-3d9258f0b389">Gentleman In Moscow</a></li>
-<li><a href="https://app.thestorygraph.com/books/86c94683-f4b1-4fec-bb16-e52fe250f8c5">A Gathering of SHadows</a></li>
+<li><a href="https://app.thestorygraph.com/books/86c94683-f4b1-4fec-bb16-e52fe250f8c5">A Gathering of Shadows</a> &lt;- Finished this it was really good</li>
 </ul>
 <h2 id="listening-to">Listening To</h2>
 <ul>
@@ -1746,9 +1738,7 @@ reaching out to folks and really think hard about what is working vs what is not
 </ul>
 <h2 id="watching">Watching</h2>
 <ul>
-<li>Below Deck</li>
-<li>Survivor</li>
-<li>Amazing Race</li>
+<li>Anime</li>
 </ul>
 <p>This page is following best practice as defined from
 <a href="https://twitter.com/NowNowNow">@NowNowNow</a></p>
