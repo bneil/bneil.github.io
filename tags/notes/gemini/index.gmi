@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /posts/2024-06-01-golang-ctx/index.gmi 2024-06-01 golang-ctx
 => /notes/2023-09-18-hugo-vs-the-ai/index.gmi 2023-09-18 Hugo vs The AI
 => /posts/2022-12-14_obsidian-plugins/index.gmi 2022-12-14 Obsidian Plugins
 => /notes/note_connecting_to_rds/index.gmi 2021-06-01 Connecting/Migrations in RDS

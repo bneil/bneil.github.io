@@ -1,0 +1,200 @@
+<!doctype html><html><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>golang-ctx - bneil.me</title><meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="Was adding some in memory stores and wanted to do a quick write up about context in golang"><meta property="og:image" content><meta property="og:url" content="https://bneil.me/posts/2024-06-01-golang-ctx/"><meta property="og:site_name" content="bneil.me"><meta property="og:title" content="golang-ctx"><meta property="og:description" content="Was adding some in memory stores and wanted to do a quick write up about context in golang"><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2024-06-01T19:23:59+00:00"><meta property="article:modified_time" content="2024-06-01T15:34:52-06:00"><meta property="article:tag" content="Notes"><meta property="article:tag" content="Golang"><meta name=twitter:card content="summary"><meta name=twitter:title content="golang-ctx"><meta name=twitter:description content="Was adding some in memory stores and wanted to do a quick write up about context in golang"><script src=https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js></script><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap" rel=stylesheet><link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel=stylesheet><link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel=stylesheet><link rel=stylesheet type=text/css media=screen href=https://bneil.me/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css><link id=darkModeStyle rel=stylesheet type=text/css href=https://bneil.me/css/dark.f7f653818008804da30d1735284e5eb1e9c3339332869aa296658b199bea7809.css disabled></head><body><div class=content><header><div class=main><a href=https://bneil.me/>bneil.me</a></div><nav><a href=/>Home</a>
+<a href=/contact>Contact</a>
+<a href=/resume>Resume</a>
+<a href=/about>About</a>
+<a href=/posts>Blog</a>
+<a href=/tags/notes>Notes</a>
+<a href=/now>Now</a>
+| <span id=dark-mode-toggle onclick=toggleTheme()></span>
+<script src=https://bneil.me/js/themetoggle.js></script></nav></header><main><article class=h-entry><div class=title><h1 class="title p-name">golang-ctx</h1><div class=meta>Posted on Jun 1, 2024</div></div><section class="body e-content"><p>I&rsquo;ve used the context package alot with basically little thought, so I figured it would be helpful to have a few notes on the use and reason behind it for later reference. So hopefully this can help future devs and myself later on if I forget.</p><p>The way I remember context, is that its a wrapper around information you want to pass all around your program. You have special switches to kill the context and forget it ever existed. But really its a way to keep &lsquo;context&rsquo; of an action or series of actions.</p><p>Think of it like a journal. You can write to it and reference it throughout its lifecycle. Wherever and whenever you need.</p><p>So for the easy example</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#f92672>package</span> <span style=color:#a6e22e>main</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>import</span> (
+</span></span><span style=display:flex><span>	<span style=color:#e6db74>&#34;context&#34;</span>
+</span></span><span style=display:flex><span>	<span style=color:#e6db74>&#34;fmt&#34;</span>
+</span></span><span style=display:flex><span>	<span style=color:#e6db74>&#34;time&#34;</span>
+</span></span><span style=display:flex><span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>func</span> <span style=color:#a6e22e>main</span>() {
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>ctx</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>context</span>.<span style=color:#a6e22e>Background</span>()
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>ctx</span> = <span style=color:#a6e22e>context</span>.<span style=color:#a6e22e>WithValue</span>(<span style=color:#a6e22e>ctx</span>, string(<span style=color:#e6db74>&#34;example&#34;</span>), <span style=color:#e6db74>&#34;testing&#34;</span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>testStr</span>, <span style=color:#a6e22e>ok</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>ctx</span>.<span style=color:#a6e22e>Value</span>(string(<span style=color:#e6db74>&#34;example&#34;</span>)).(<span style=color:#66d9ef>string</span>)
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>if</span> !<span style=color:#a6e22e>ok</span> {
+</span></span><span style=display:flex><span>    panic(<span style=color:#e6db74>&#34;no ticket..&#34;</span>)
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span>
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>fmt</span>.<span style=color:#a6e22e>Println</span>(<span style=color:#a6e22e>testStr</span>)
+</span></span><span style=display:flex><span> }
+</span></span></code></pre></div><p>So nothing very exciting, however you can see that you can set a value to context and refer to it later. Again, any variable would work with the above example. Its when you start mixing in go routines that it begins to make more sense</p><blockquote><p>oh small note, context.Background(), like what is that?!? Background is reference to &lsquo;root&rsquo;, but just think of it like a blank object awaiting context.</p></blockquote><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#f92672>package</span> <span style=color:#a6e22e>main</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>import</span> (
+</span></span><span style=display:flex><span>	<span style=color:#e6db74>&#34;context&#34;</span>
+</span></span><span style=display:flex><span>	<span style=color:#e6db74>&#34;fmt&#34;</span>
+</span></span><span style=display:flex><span>	<span style=color:#e6db74>&#34;log&#34;</span>
+</span></span><span style=display:flex><span>	<span style=color:#e6db74>&#34;time&#34;</span>
+</span></span><span style=display:flex><span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>func</span> <span style=color:#a6e22e>main</span>() {
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>ctx</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>context</span>.<span style=color:#a6e22e>Background</span>()
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>ctx</span> = <span style=color:#a6e22e>context</span>.<span style=color:#a6e22e>WithValue</span>(<span style=color:#a6e22e>ctx</span>, string(<span style=color:#e6db74>&#34;counter&#34;</span>), <span style=color:#ae81ff>0</span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>for</span> <span style=color:#a6e22e>i</span> <span style=color:#f92672>:=</span> <span style=color:#ae81ff>0</span>; <span style=color:#a6e22e>i</span> &lt; <span style=color:#ae81ff>10</span>; <span style=color:#a6e22e>i</span><span style=color:#f92672>++</span> {
+</span></span><span style=display:flex><span>		<span style=color:#66d9ef>go</span> <span style=color:#a6e22e>simpleCount</span>(<span style=color:#a6e22e>ctx</span>, <span style=color:#a6e22e>i</span>)
+</span></span><span style=display:flex><span>	}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>time</span>.<span style=color:#a6e22e>Sleep</span>(<span style=color:#ae81ff>10</span> <span style=color:#f92672>*</span> <span style=color:#a6e22e>time</span>.<span style=color:#a6e22e>Second</span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>testCtr</span>, <span style=color:#a6e22e>ok</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>ctx</span>.<span style=color:#a6e22e>Value</span>(string(<span style=color:#e6db74>&#34;counter&#34;</span>)).(<span style=color:#66d9ef>int</span>)
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>if</span> !<span style=color:#a6e22e>ok</span> {
+</span></span><span style=display:flex><span>		<span style=color:#a6e22e>log</span>.<span style=color:#a6e22e>Println</span>(<span style=color:#e6db74>&#34;didnt find counter in map&#34;</span>)
+</span></span><span style=display:flex><span>	}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>log</span>.<span style=color:#a6e22e>Println</span>(<span style=color:#e6db74>&#34;what is counter from root?&#34;</span>, <span style=color:#a6e22e>testCtr</span>)
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>func</span> <span style=color:#a6e22e>simpleCount</span>(<span style=color:#a6e22e>ctx</span> <span style=color:#a6e22e>context</span>.<span style=color:#a6e22e>Context</span>, <span style=color:#a6e22e>i</span> <span style=color:#66d9ef>int</span>) {
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>uniqKey</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>fmt</span>.<span style=color:#a6e22e>Sprintf</span>(<span style=color:#e6db74>&#34;counter-%d&#34;</span>, <span style=color:#a6e22e>i</span>)
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>ctr</span>, <span style=color:#a6e22e>ok</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>ctx</span>.<span style=color:#a6e22e>Value</span>(string(<span style=color:#e6db74>&#34;counter&#34;</span>)).(<span style=color:#66d9ef>int</span>)
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>if</span> !<span style=color:#a6e22e>ok</span> {
+</span></span><span style=display:flex><span>		<span style=color:#a6e22e>log</span>.<span style=color:#a6e22e>Println</span>(<span style=color:#e6db74>&#34;didnt find counter in map&#34;</span>)
+</span></span><span style=display:flex><span>	}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>ctx</span> = <span style=color:#a6e22e>context</span>.<span style=color:#a6e22e>WithValue</span>(<span style=color:#a6e22e>ctx</span>, string(<span style=color:#e6db74>&#34;counter&#34;</span>), <span style=color:#a6e22e>ctr</span><span style=color:#f92672>+</span><span style=color:#ae81ff>1</span>)
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>ctx</span> = <span style=color:#a6e22e>context</span>.<span style=color:#a6e22e>WithValue</span>(<span style=color:#a6e22e>ctx</span>, string(<span style=color:#a6e22e>uniqKey</span>), <span style=color:#a6e22e>ctr</span><span style=color:#f92672>+</span><span style=color:#ae81ff>1</span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>uniqCtr</span>, <span style=color:#a6e22e>ok</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>ctx</span>.<span style=color:#a6e22e>Value</span>(string(<span style=color:#a6e22e>uniqKey</span>)).(<span style=color:#66d9ef>int</span>)
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>if</span> !<span style=color:#a6e22e>ok</span> {
+</span></span><span style=display:flex><span>		<span style=color:#a6e22e>log</span>.<span style=color:#a6e22e>Println</span>(<span style=color:#e6db74>&#34;didnt find counter in map&#34;</span>)
+</span></span><span style=display:flex><span>	}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>again</span>, <span style=color:#a6e22e>ok</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>ctx</span>.<span style=color:#a6e22e>Value</span>(string(<span style=color:#e6db74>&#34;counter&#34;</span>)).(<span style=color:#66d9ef>int</span>)
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>if</span> !<span style=color:#a6e22e>ok</span> {
+</span></span><span style=display:flex><span>		<span style=color:#a6e22e>log</span>.<span style=color:#a6e22e>Println</span>(<span style=color:#e6db74>&#34;didnt find counter in map&#34;</span>)
+</span></span><span style=display:flex><span>	}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>log</span>.<span style=color:#a6e22e>Println</span>(<span style=color:#e6db74>&#34;hi! im runner:&#34;</span>, <span style=color:#a6e22e>i</span>, <span style=color:#e6db74>&#34;and the counter was&#34;</span>, <span style=color:#a6e22e>ctr</span>, <span style=color:#e6db74>&#34;and now is&#34;</span>, <span style=color:#a6e22e>ctr</span><span style=color:#f92672>+</span><span style=color:#ae81ff>1</span>, <span style=color:#e6db74>&#34;with uniq being&#34;</span>, <span style=color:#a6e22e>uniqCtr</span>, <span style=color:#e6db74>&#34;again?&#34;</span>, <span style=color:#a6e22e>again</span>)
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>return</span>
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>So the reason I made this convaluated sample is to explain two constraints around setting the context namely</p><ol><li>Context isn&rsquo;t a pointer, so adding to the value isnt going to be referenced elsewhere</li><li>Order is random, and context isn&rsquo;t going to solve that</li></ol><p>However you can rewrite the above</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#f92672>package</span> <span style=color:#a6e22e>main</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>import</span> (
+</span></span><span style=display:flex><span>	<span style=color:#e6db74>&#34;context&#34;</span>
+</span></span><span style=display:flex><span>	<span style=color:#e6db74>&#34;fmt&#34;</span>
+</span></span><span style=display:flex><span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>func</span> <span style=color:#a6e22e>slapIt</span>(<span style=color:#a6e22e>ctx</span> <span style=color:#a6e22e>context</span>.<span style=color:#a6e22e>Context</span>, <span style=color:#a6e22e>i</span> <span style=color:#66d9ef>int</span>) <span style=color:#66d9ef>error</span> {
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>counter</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>ctx</span>.<span style=color:#a6e22e>Value</span>(<span style=color:#e6db74>&#34;counter-shop&#34;</span>).(<span style=color:#66d9ef>int</span>)
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>nextValue</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>counter</span> <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>newCtx</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>context</span>.<span style=color:#a6e22e>WithValue</span>(<span style=color:#a6e22e>ctx</span>, <span style=color:#e6db74>&#34;counter-shop&#34;</span>, <span style=color:#a6e22e>nextValue</span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>fmt</span>.<span style=color:#a6e22e>Println</span>(<span style=color:#a6e22e>i</span>, <span style=color:#e6db74>&#34;) had&#34;</span>, <span style=color:#a6e22e>counter</span>, <span style=color:#e6db74>&#34;which is now&#34;</span>, <span style=color:#a6e22e>nextValue</span>, <span style=color:#e6db74>&#34;in the counter shop&#34;</span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>if</span> <span style=color:#a6e22e>i</span> <span style=color:#f92672>&gt;=</span> <span style=color:#ae81ff>2</span> {
+</span></span><span style=display:flex><span>		<span style=color:#66d9ef>return</span> <span style=color:#66d9ef>nil</span>
+</span></span><span style=display:flex><span>	}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>return</span> <span style=color:#a6e22e>slapIt</span>(<span style=color:#a6e22e>newCtx</span>, <span style=color:#a6e22e>i</span><span style=color:#f92672>+</span><span style=color:#ae81ff>1</span>)
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>func</span> <span style=color:#a6e22e>main</span>() {
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>ctx</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>context</span>.<span style=color:#a6e22e>WithValue</span>(<span style=color:#a6e22e>context</span>.<span style=color:#a6e22e>Background</span>(), <span style=color:#e6db74>&#34;counter-shop&#34;</span>, <span style=color:#ae81ff>0</span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>if</span> <span style=color:#a6e22e>err</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>slapIt</span>(<span style=color:#a6e22e>ctx</span>, <span style=color:#ae81ff>0</span>); <span style=color:#a6e22e>err</span> <span style=color:#f92672>!=</span> <span style=color:#66d9ef>nil</span> {
+</span></span><span style=display:flex><span>		<span style=color:#a6e22e>fmt</span>.<span style=color:#a6e22e>Println</span>(<span style=color:#e6db74>&#34;Error:&#34;</span>, <span style=color:#a6e22e>err</span>)
+</span></span><span style=display:flex><span>		<span style=color:#66d9ef>return</span>
+</span></span><span style=display:flex><span>	}
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>resulting in</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback><span style=display:flex><span>0 ) had 0 which is now 1 in the counter shop
+</span></span><span style=display:flex><span>1 ) had 1 which is now 2 in the counter shop
+</span></span><span style=display:flex><span>2 ) had 2 which is now 3 in the counter shop
+</span></span></code></pre></div><p>So now we have order and we are setting things and passing the context around. But not using goroutines. So since we are using go routines and also don&rsquo;t want to use timeouts, lets use a wait group. Which I realize is mean to toss out there, but think of a wait group like a fancy paints timeout, just more professional. It works like a jukebox, where wg.Add to add a new song (go routines run) and once your your songs over you say wg.Done usually done in a defer, after all the songs are over the jukebox turns off.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#f92672>package</span> <span style=color:#a6e22e>main</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>import</span> (
+</span></span><span style=display:flex><span>	<span style=color:#e6db74>&#34;context&#34;</span>
+</span></span><span style=display:flex><span>	<span style=color:#e6db74>&#34;fmt&#34;</span>
+</span></span><span style=display:flex><span>	<span style=color:#e6db74>&#34;sync&#34;</span>
+</span></span><span style=display:flex><span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>func</span> <span style=color:#a6e22e>slapIt</span>(<span style=color:#a6e22e>ctx</span> <span style=color:#a6e22e>context</span>.<span style=color:#a6e22e>Context</span>, <span style=color:#a6e22e>wg</span> <span style=color:#f92672>*</span><span style=color:#a6e22e>sync</span>.<span style=color:#a6e22e>WaitGroup</span>, <span style=color:#a6e22e>i</span> <span style=color:#66d9ef>int</span>) {
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>defer</span> <span style=color:#a6e22e>wg</span>.<span style=color:#a6e22e>Done</span>()
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>counter</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>ctx</span>.<span style=color:#a6e22e>Value</span>(<span style=color:#e6db74>&#34;counter-shop&#34;</span>).(<span style=color:#66d9ef>int</span>)
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>nextValue</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>counter</span> <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>newCtx</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>context</span>.<span style=color:#a6e22e>WithValue</span>(<span style=color:#a6e22e>ctx</span>, <span style=color:#e6db74>&#34;counter-shop&#34;</span>, <span style=color:#a6e22e>nextValue</span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>fmt</span>.<span style=color:#a6e22e>Println</span>(<span style=color:#a6e22e>i</span>, <span style=color:#e6db74>&#34;) had&#34;</span>, <span style=color:#a6e22e>counter</span>, <span style=color:#e6db74>&#34;which is now&#34;</span>, <span style=color:#a6e22e>nextValue</span>, <span style=color:#e6db74>&#34;in the counter shop&#34;</span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>if</span> <span style=color:#a6e22e>i</span> &lt; <span style=color:#ae81ff>2</span> { <span style=color:#75715e>//slightly different here, we keep going until 2
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>		<span style=color:#a6e22e>wg</span>.<span style=color:#a6e22e>Add</span>(<span style=color:#ae81ff>1</span>)
+</span></span><span style=display:flex><span>		<span style=color:#66d9ef>go</span> <span style=color:#a6e22e>slapIt</span>(<span style=color:#a6e22e>newCtx</span>, <span style=color:#a6e22e>wg</span>, <span style=color:#a6e22e>i</span><span style=color:#f92672>+</span><span style=color:#ae81ff>1</span>)
+</span></span><span style=display:flex><span>	}
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>func</span> <span style=color:#a6e22e>main</span>() {
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>ctx</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>context</span>.<span style=color:#a6e22e>WithValue</span>(<span style=color:#a6e22e>context</span>.<span style=color:#a6e22e>Background</span>(), <span style=color:#e6db74>&#34;counter-shop&#34;</span>, <span style=color:#ae81ff>0</span>)
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>var</span> <span style=color:#a6e22e>wg</span> <span style=color:#a6e22e>sync</span>.<span style=color:#a6e22e>WaitGroup</span>
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>wg</span>.<span style=color:#a6e22e>Add</span>(<span style=color:#ae81ff>1</span>) <span style=color:#75715e>// first song in the mix
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>go</span> <span style=color:#a6e22e>slapIt</span>(<span style=color:#a6e22e>ctx</span>, <span style=color:#f92672>&amp;</span><span style=color:#a6e22e>wg</span>, <span style=color:#ae81ff>0</span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>wg</span>.<span style=color:#a6e22e>Wait</span>()
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>which results in</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback><span style=display:flex><span>0 ) had 0 which is now 1 in the counter shop
+</span></span><span style=display:flex><span>1 ) had 1 which is now 2 in the counter shop
+</span></span><span style=display:flex><span>2 ) had 2 which is now 3 in the counter shop
+</span></span></code></pre></div><p>So while this post mainly focused on the withValue use case, which honestly should be used sparingly, but which is neat. I do want to try and explain the other methods from the documentation and give a small example for each</p><ul><li>Use <code>context.WithCancel</code> when you need to manually cancel an operation from another part of your program.</li></ul><p>This took me awhile to grasp, so the easiest example I could think of is just launching an isolated go routine and showing how to kill it manually. Think of like timeboxing an activity, you want to make sure that the go routine will run forever so your
+setting some safeguards.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#f92672>package</span> <span style=color:#a6e22e>main</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>import</span> (
+</span></span><span style=display:flex><span>	<span style=color:#e6db74>&#34;context&#34;</span>
+</span></span><span style=display:flex><span>	<span style=color:#e6db74>&#34;fmt&#34;</span>
+</span></span><span style=display:flex><span>	<span style=color:#e6db74>&#34;time&#34;</span>
+</span></span><span style=display:flex><span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>func</span> <span style=color:#a6e22e>longRunner</span>(<span style=color:#a6e22e>ctx</span> <span style=color:#a6e22e>context</span>.<span style=color:#a6e22e>Context</span>) <span style=color:#66d9ef>error</span> {
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>for</span> { <span style=color:#75715e>// for loop that doesnt end my friend
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>		<span style=color:#66d9ef>select</span> {
+</span></span><span style=display:flex><span>		<span style=color:#66d9ef>case</span> <span style=color:#f92672>&lt;-</span><span style=color:#a6e22e>ctx</span>.<span style=color:#a6e22e>Done</span>(): <span style=color:#75715e>// cleanup here
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>			<span style=color:#a6e22e>fmt</span>.<span style=color:#a6e22e>Println</span>(<span style=color:#e6db74>&#34;RIP&#34;</span>)
+</span></span><span style=display:flex><span>			<span style=color:#66d9ef>return</span> <span style=color:#a6e22e>ctx</span>.<span style=color:#a6e22e>Err</span>()
+</span></span><span style=display:flex><span>		<span style=color:#66d9ef>default</span>: <span style=color:#75715e>// do all your work here
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>			<span style=color:#a6e22e>fmt</span>.<span style=color:#a6e22e>Println</span>(<span style=color:#e6db74>&#34;weee&#34;</span>) 
+</span></span><span style=display:flex><span>			<span style=color:#a6e22e>time</span>.<span style=color:#a6e22e>Sleep</span>(<span style=color:#ae81ff>1</span> <span style=color:#f92672>*</span> <span style=color:#a6e22e>time</span>.<span style=color:#a6e22e>Second</span>)
+</span></span><span style=display:flex><span>		}
+</span></span><span style=display:flex><span>	}
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>func</span> <span style=color:#a6e22e>reaper</span>(<span style=color:#a6e22e>c</span> <span style=color:#a6e22e>context</span>.<span style=color:#a6e22e>CancelFunc</span>) {
+</span></span><span style=display:flex><span>		<span style=color:#a6e22e>time</span>.<span style=color:#a6e22e>Sleep</span>(<span style=color:#ae81ff>5</span> <span style=color:#f92672>*</span> <span style=color:#a6e22e>time</span>.<span style=color:#a6e22e>Second</span>)
+</span></span><span style=display:flex><span>		<span style=color:#a6e22e>c</span>() <span style=color:#75715e>// Cancel the context after 5 seconds
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>func</span> <span style=color:#a6e22e>main</span>() {
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>ctx</span>, <span style=color:#a6e22e>cancel</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>context</span>.<span style=color:#a6e22e>WithCancel</span>(<span style=color:#a6e22e>context</span>.<span style=color:#a6e22e>Background</span>())
+</span></span><span style=display:flex><span>	<span style=color:#66d9ef>go</span> <span style=color:#a6e22e>reaper</span>(<span style=color:#a6e22e>cancel</span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>	<span style=color:#a6e22e>longRunner</span>(<span style=color:#a6e22e>ctx</span>)
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>should result in</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback><span style=display:flex><span>weee
+</span></span><span style=display:flex><span>weee
+</span></span><span style=display:flex><span>weee
+</span></span><span style=display:flex><span>weee
+</span></span><span style=display:flex><span>weee
+</span></span><span style=display:flex><span>weee
+</span></span><span style=display:flex><span>RIP
+</span></span></code></pre></div><ul><li>Use context.WithDeadline or context.WithTimeout when you have a specific time limit for an operation to complete</li></ul><p>This works just like WithCancel, but rather then making your own reaper, the reaper is built-in!</p><blockquote><p>oh one more note, you may see context.TODO rather than context.Background in your adventures. Don&rsquo;t Panic.
+Its &lsquo;basically&rsquo; the same thing as background except its meant to be temporary. Where background is there for the long haul, todo, is more placeholder in nature
+So it can be indicitive of a test or just a placeholder.</p></blockquote><p>Anyhow, hope these examples help you and I know ill reference them for myself later. So for now, thanks for reading.</p><h3 id=sources>Sources</h3><ol><li><a href=https://pkg.go.dev/context>golang docs</a></li><li><a href=https://www.educative.io/blog/understanding-contexts-in-go>educative</a></li></ol></section><hr>### comments
+<script src=https://utteranc.es/client.js repo=bneil/bneil.github.io issue-term=pathname theme=preferred-color-scheme crossorigin=anonymous async></script><hr>### webmention section<div class=manual-webmention><p>Have you written a <a href=https://indieweb.org/responses>response</a> to this post? Put the url here:</p><form id=manual-webmention action=https://webmention.io/bneil.me/webmention method=post><input type=url name=source>
+<input type=hidden name=target value=https://bneil.me/posts/2024-06-01-golang-ctx/>
+<input type=submit name=submit value=Comment></form></form></div><br><div></div><small>permalink: <a class=u-url href=https://bneil.me/posts/2024-06-01-golang-ctx/>https://bneil.me/posts/2024-06-01-golang-ctx/</a></small><div class=post-tags><nav class="nav tags"><ul class=tags><li>&nbsp;<a href=/tags/notes>notes</a></li><li>&nbsp;<a href=/tags/golang>golang</a></li></ul></nav></div></article></main><hr class=halloween-hr style=width:100%><footer style=border-top:0><a class=soc rel=me href=https://github.com/bneil title=Github><i data-feather=github></i></a>|<a class=soc rel=me href=https://twitter.com/benneil/ title=Twitter><i data-feather=twitter></i></a>|<a class=soc rel=me href=https://www.linkedin.com/in/readyplayer1/ title=LinkedIn><i data-feather=linkedin></i></a>|<a class=soc rel=me href=mailto:ben@neil-concepts.com title=Email><i data-feather=mail></i></a>|<a class=soc rel=me href=https://coderwall.com/bneil title=Coderwall><i data-feather=code></i></a>|<a class=soc rel=me href=https://medium.com/@bneil/about title=Medium><i data-feather=book></i></a>|<a class=soc rel=me href=https://bneil.me/index.xml title=rss><i data-feather=rss></i></a>|⚡️
+2024 © bneil | site was last updated: Jun 1, 2024</footer><link rel=webmention href=https://webmention.io/bneil.me/webmention><link rel=pingback href=https://webmention.io/bneil.me/xmlrpc><div class=h-card style=display:none><span class=p-name>Ben Neil</span>
+<span class=p-given-name>Ben</span>
+<abbr class=p-additional-name>E.</abbr>
+<span class=p-family-name>Neil</span>
+<span class=p-nickname>bneil</span> (IRC)
+<img class=u-photo src=https://bneil.me/images/avatar.gif>
+<a class=u-url href=acct:bneil@bneil.me></a><a class=u-email href=mailto:ben@neil-concepts.com>e</a><div class=p-category>programmer</div><div class=p-note>Automation Mechanic</div><a class="u-url u-uid" href=https://bneil.me/></a></div><script defer src=https://static.cloudflareinsights.com/beacon.min.js data-cf-beacon='{"token": "cc4d2eca67bc471d83269a9e66e60551"}'></script><script>var clicky_site_ids=clicky_site_ids||[];clicky_site_ids.push(101323590)</script><script async src=//static.getclicky.com/js></script><noscript><p><img alt=Clicky width=1 height=1 src=//in.getclicky.com/101323590ns.gif></p></noscript><script async src=https://analytics.umami.is/script.js data-website-id=438d75f5-c8b9-4507-b617-9c4e1f8cdbe1></script><script>feather.replace()</script><div class=stars><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div><div class=star></div></div></div></body></html>
