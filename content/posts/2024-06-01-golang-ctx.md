@@ -146,7 +146,10 @@ resulting in
 2 ) had 2 which is now 3 in the counter shop
 ```
 
-So now we have order and we are setting things and passing the context around. But not using goroutines. So since we are using go routines and also don't want to use timeouts, lets use a wait group. Which I realize is mean to toss out there, but think of a wait group like a fancy paints timeout, just more professional. It works like a jukebox, where wg.Add to add a new song (go routines run) and once your your songs over you say wg.Done usually done in a defer, after all the songs are over the jukebox turns off.
+So now we have order and we are setting things and passing the context around. But not using goroutines. So since we are using go routines and also don't want to use timeouts, lets use a wait group. Which I realize is mean to toss out there, but think of a wait group like a fancy paints timeout, just more professional. 
+
+It works like a jukebox, where wg.Add to adds a new song and once your your songs over you say wg.Done (usually done in a defer). To play another song you do the same thing. 
+Once all songs are done, the code beneath wg.Wait, will be run. Usually, this is done at the end of program unless your creating some interesting state machine. But lets look at the example
 
 ```go
 package main
