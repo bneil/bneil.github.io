@@ -2,6 +2,10 @@
 
 
 
+
+  
+</p>
+
 I've used the context package alot with basically little thought, so I figured it would be helpful to have a few notes on the use and reason behind it for later reference. So hopefully this can help future devs and myself later on if I forget.
 
 The way I remember context, is that its a wrapper around information you want to pass all around your program. You have special switches to kill the context and forget it ever existed. But really its a way to keep 'context' of an action or series of actions. 
@@ -35,7 +39,7 @@ func main() {
 
 So nothing very exciting, however you can see that you can set a value to context and refer to it later. Again, any variable would work with the above example. Its when you start mixing in go routines that it begins to make more sense
 
-> oh small note, context.Background(), like what is that?!? Background is reference to 'root', but just think of it like a blank object awaiting context. 
+> oh small note, context.Background(), like what is that?!? Background is reference to 'root', but just think of it like a blank context object 
 
 ```go
 package main
