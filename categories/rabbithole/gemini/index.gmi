@@ -3,4 +3,5 @@
 
 Pages in this section:
 
+=> /posts/2024-04-29-lessons-learned-from-rebric/index.gmi 2024-04-30 lessons-learned-from-rebric
 => /posts/2023-09-15-2023-09-15-atacama-the-hidden-web/index.gmi 2023-09-15 Atacama - A very very new social platform
