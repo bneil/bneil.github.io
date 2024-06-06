@@ -13,7 +13,7 @@ tags: ["meetings","offchest", "planning"]
 </p>
 
 The last month, April 2024, has been a sobering time of calling friends, reaching out, networking,
-and generally trying to find some space and some security. While not all of my endevours were successful, with the help of a friend, was able to get some groundwork laid for staying afloat. So since, I do have a bit of a break, I thought id just reflect and write down my thoughts. Just some observations really from the last few years.
+and generally trying to find some space and some security. While not all of my endeavors were successful, with the help of a friend, was able to get some groundwork laid for staying afloat. So since, I do have a bit of a break, I thought id just reflect and write down my thoughts. Just some observations really from the last few years.
 
 So, to start, I don't blame anyone. I believe most people work and act to the achieve the best results for themselves and for the projects they care the most about. In fact, its how I usually try and find folks to  work with. I find the people like me, care alot about technology and getting things done. Who care alot about people and want to create a humane place to get that work done.
 
