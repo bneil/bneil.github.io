@@ -23,8 +23,7 @@ culture once, and out of seven years, I think that is a win.
 Now no startup is perfect, some things I found this month on reflection were:
 
 * We didn't have a north star for what we built, even three years in you couldn't figure out what we did well. Whenever we did find that tagline or phrase, it changed. 
-* The whole of the organization didn't have a hierarchy, we had hired it like a flat hierarchy and that was wrong. Once we tried to pivot on that design, we got a lot of
-push back from the organization. Like it was a power grab, which wasn't great.
+* The whole of the organization didn't have a hierarchy.
 * The sales pipeline was a mess, top of funnel was never a priority.
 * The company was losing money on the team, which is what we expected in a VC backed startup, but it was a death sentence.
 * The CEO directly made commitments that other c-level suite folks disagreed with and weren't aware of until they were promised. You haven't felt more powerless until you hear what you're on the hook for.
@@ -55,7 +54,7 @@ So is it the most important, no. But it helps keep all departments rowing the sa
 
 ### Organizational structure
 
-So I think this article] from Jose Gorch, did a fantastic job in outlining the issues I saw with
+So I think this article from Jose Gorch, did a fantastic job in outlining the issues I saw with
 => https://www.linkedin.com/pulse/building-software-product-democracy-jose-r-gorchs/ article
 
 the flat structure. Now mind you, thats just how folks work in engineering. We hold ourselves to the things we know best and trust product to do what they do best. So in essence by
