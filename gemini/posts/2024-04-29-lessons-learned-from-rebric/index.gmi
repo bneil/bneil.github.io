@@ -40,6 +40,8 @@ I realize that comparing yourself to Nike, IMAX, etc is not what you do as a sta
 
 So is it the most important, no. But it helps keep all departments rowing the same direction. Something we really needed every day it was missing.
 
+To that end, I think what I could have done better here, in shepherding the consensus and driving it home with investors. If we believe that our special sauce is X, then the board should agree so they don't have any surprises. Because I think half the time what we spoke about internally was in stark difference towards the expectations of others. Or even if it wasn't the CTO's duty, I should have made more of an effort to hold the management group to consensus.
+
 ### Organizational structure
 
 So I think this article from Jose Gorch, did a fantastic job in outlining the issues I saw with the flat structure. Now mind you, thats just how folks work in engineering. We hold ourselves to the things we know best and trust product to do what they do best. So in essence by trusting each other, we naturally achieve great things. However, this can breakdown. It does so when the people creating the product are second and third guessed by upper management. That means, to be clear. You either hire someone as a product manager and let them deliver what their vision is. That when you tell them something needs to happen and it does or doesn't
@@ -50,6 +52,8 @@ you hold them accountable. Or yourself and remove the position and just do that 
 It was painful for this lesson in particular. To see the inability for one team member to express, given all the process we put in place, to be successful. To time and time again hear, we didn't deliver on the promises we made. That gutted me and it gutted the team and it really rubbed me raw because the only thing in life we have is time. Wasting it is  a travesty, mostly for me. But also because I/we could have focused on something better
 
 So is this about org structure, kinda. Its about communicating as an org, but its about leadership and what happens when that fails. I think flat orgs can work. But I don't think it works when the people involved don't understand the bottom line. If its not clear from either top or bottom, you build the wrong thing. Thats the failure.
+
+So I think this one was more of a lesson learned. Should have pumped the breaks on the consensus and gave people roles and expectations from day one. Namely that the upper management runs the show and that we are responsible if the company sinks. So setting expectations with the team, day one, on what happens when we miss goals and releases. We did "try" this a few times, but should have been consistent in holding people accountable to their KPI's. Like that should have been the measure and we didn't keep it consistent. 
 
 ### Sales
 
