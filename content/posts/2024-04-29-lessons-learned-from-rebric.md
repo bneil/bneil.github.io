@@ -61,7 +61,7 @@ So is it the most important, no. But it helps keep all departments rowing the sa
 
 ### Organizational structure
 
-So I think this [article](https://www.linkedin.com/pulse/building-software-product-democracy-jose-r-gorchs/)] from Jose Gorch, did a fantastic job in outlining the issues I saw with
+So I think this [article](https://www.linkedin.com/pulse/building-software-product-democracy-jose-r-gorchs/) from Jose Gorch, did a fantastic job in outlining the issues I saw with
 the flat structure. Now mind you, thats just how folks work in engineering. We hold ourselves to the things we know best and trust product to do what they do best. So in essence by
 trusting each other, we naturally achieve great things. However, this can breakdown. It does so when the people creating the product are second and third guessed by upper management.
 That means, to be clear. You either hire someone as a product manager and let them deliver what their vision is. That when you tell them something needs to happen and it does or doesn't
