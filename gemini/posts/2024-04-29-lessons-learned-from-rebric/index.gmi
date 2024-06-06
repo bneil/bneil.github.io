@@ -40,7 +40,7 @@ I realize that comparing yourself to Nike, IMAX, etc is not what you do as a sta
 
 So is it the most important, no. But it helps keep all departments rowing the same direction. Something we really needed every day it was missing.
 
-To that end, I think what I could have done better here, in shepherding the consensus and driving it home with investors. If we believe that our special sauce is X, then the board should agree so they don't have any surprises. Because I think half the time what we spoke about internally was in stark difference towards the expectations of others. Or even if it wasn't the CTO's duty, I should have made more of an effort to hold the management group to consensus.
+To that end, I think what I could have done better here, was in shepherding the consensus and driving it home with investors. If we believe that our special sauce is X, then the board should agree so they don't have any surprises. Because I think half the time what we spoke about internally was in stark difference towards the expectations of others. Even if it wasn't the CTO's duty, I should have made more of an effort to hold the management group to consensus. Because that's our job, brand the message.
 
 ### Organizational structure
 
@@ -53,7 +53,7 @@ It was painful for this lesson in particular. To see the inability for one team 
 
 So is this about org structure, kinda. Its about communicating as an org, but its about leadership and what happens when that fails. I think flat orgs can work. But I don't think it works when the people involved don't understand the bottom line. If its not clear from either top or bottom, you build the wrong thing. Thats the failure.
 
-So I think this one was more of a lesson learned. Should have pumped the breaks on the consensus and gave people roles and expectations from day one. Namely that the upper management runs the show and that we are responsible if the company sinks. So setting expectations with the team, day one, on what happens when we miss goals and releases. We did "try" this a few times, but should have been consistent in holding people accountable to their KPI's. Like that should have been the measure and we didn't keep it consistent. 
+So I think this one was more of a lesson learned. Should have pumped the breaks on the consensus and gave people roles and expectations from day one. Namely that the upper management runs the show and that we are responsible if the company sinks. So setting expectations with the team, day one, on what happens when we miss goals and releases. We did "try" this a few times, but should have been consistent in holding people accountable to their KPI's. Like that should have been _the_ measure and we didn't keep it consistent. 
 
 ### Sales
 
@@ -63,6 +63,8 @@ Which means knowing how to sell your product, who is going to sell it and making
 
 More than that, you can't expect those sales to be 100% corp to corp. Or all enterprise, your sales strategy should be varied and there should be strategy. Or if not strategy a group of people
 dedicated to out hustling your competition.
+
+But as a CTO, I should have rolled up my sleeves more and gotten into those sales calls. For much to long I spent my time on the sidelines getting feedback from everyone sattelite to the revenue generating process and that wasn't helpful to the bottom line. By being more proactive, it would have lent some weight to my suggestions. By taking on a client or two, it would have made me feel more involved in that area of the buisness and even if I wasn't the one driving the sale, I could have at least sat in and been able to give a perspective from closer inspection. Much of my time, was as an arbiter and while its a great muscle to help resolve disputes, it would have been helpful, I think, for sales had I just applied myself more to that.
 
 ### Surprise, we are letting half the company go but you'll get a raise in December
 
@@ -74,7 +76,9 @@ Because people listen to you as leadership.
 
 They hold you higher for what you say than a co-worker. 
 
-Things shouldn't suprise your co-founders or your c-suite. They should all be up on the table and discussed. Because at the end of the day, its a team effort that keeps employee's around. If your making promises that I know don't match revenue, it is a problem. Even if you 'believe' the money will materialize, its not an ethical place to steer from. Tell people, that we are doing everything but don't make promises. 
+Things shouldn't surprise your co-founders or your c-suite. They should all be up on the table and discussed. Because at the end of the day, its a team effort that keeps employee's around. If your making promises that I know don't match revenue, it is a problem. Even if you 'believe' the money will materialize, its not an ethical place to steer from. Tell people, that we are doing everything but don't make promises. 
+
+So I should have quit. I should have recognized that this was a pattern and quit. I don't think you can come back from this breach of trust, I just don't. If you don't want to be made to be blamed for what someone is saying then you can't remain complicit after they have said it. It was no ones fault but my own, and of course a fear of losing my job when countless times I heard things that didn't align with what I knew to be true at the company. Whether that was to staff or to anyone. Its my own responsibility to be accountable when anyone says things that I don't agree with. So, it was a big red flag. Because at the end of the day, if a person knowingly continues to say things that are in disagreement with what you agree to say or do. Then its just them being them and you should do you.
 
 ### Pointless meetings
 
@@ -88,12 +92,13 @@ nothing else, I really appreciated the idea, of not treating meetings like bagga
 
 You don't waste that time on pointless rehashings, you spend them with your team figuring out how to make hay into gold.
 
+So thinking more about this, I think going forward, I will be more consistent in keeping an agenda, keeping people engaged through active participation and really get better at treating a meeting like work. For more redundant conversations, I should have taken more time in hitting the gavel and taking stock of what was said and figure out if we were just kicking the can. If we were, take those steps to re-focus the meeting to some new piece of information or strategy and if not, embrace the new. So really, its all about agency in those meetings, finding my own voice and being consistent in using it.
 
 ### Final thoughts
 
 So, just to reiterate, I had a lot of fun in my last adventure. Looking for new ones all the time. Feeling a bit older now and feeling like I know better how to act professionally when the world around me isn't. How my strengths in listening, and in empathizing with people are getting stronger. But also realizing, that it takes adventures like the one ive had to become a more rounded person. So the bullets I wrote out definitely weren't all my learnings, but I felt that writing those thoughts up would be better served out of me then in. So in the end, hope you enjoyed the read and if you find one of those bullets that resonates with you leave a comment. Or just bookmark. 
 
-take from it what makes you stronger and leave behind anything doesn't serve you.
+take from this what makes you stronger and leave behind anything doesn't serve you anymore.
 
 Have a nice day.
 
