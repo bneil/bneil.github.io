@@ -29,8 +29,7 @@ culture once, and out of seven years, I think that is a win.
 Now no startup is perfect, some things I found this month on reflection were:
 
 1. We didn't have a north star for what we built, even three years in you couldn't figure out what we did well. Whenever we did find that tagline or phrase, it changed. 
-1. The whole of the organization didn't have a hierarchy, we had hired it like a flat hierarchy and that was wrong. Once we tried to pivot on that design, we got a lot of
-push back from the organization. Like it was a power grab, which wasn't great.
+1. The whole of the organization didn't have a hierarchy.
 1. The sales pipeline was a mess, top of funnel was never a priority.
 1. The company was losing money on the team, which is what we expected in a VC backed startup, but it was a death sentence.
 1. The CEO directly made commitments that other c-level suite folks disagreed with and weren't aware of until they were promised. You haven't felt more powerless until you hear what you're on the hook for.
