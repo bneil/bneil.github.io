@@ -107,8 +107,8 @@ You don't waste that time on pointless rehashings, you spend them with your team
 
 ### Final thoughts
 
-So, just to reiterate, I had a lot of fun in my last adventure. Looking for new ones all the time. Feeling a bit older now and feeling like I know better how to act professionally when the world around me isn't. How my strengths in listening, and in empathizing with people are getting stronger. But also realizing, that it takes adventures like the one ive had to become a more rounded person. So the bullets I wrote out definitely weren't all my learnings, but they would be better served out of me then in. So hope you enjoyed the read and if you find one that resonates with you leave a comment. Or just bookmark, 
+So, just to reiterate, I had a lot of fun in my last adventure. Looking for new ones all the time. Feeling a bit older now and feeling like I know better how to act professionally when the world around me isn't. How my strengths in listening, and in empathizing with people are getting stronger. But also realizing, that it takes adventures like the one ive had to become a more rounded person. So the bullets I wrote out definitely weren't all my learnings, but I felt that writing those thoughts up would be better served out of me then in. So in the end, hope you enjoyed the read and if you find one of those bullets that resonates with you leave a comment. Or just bookmark. 
 
-take what makes you stronger and leave behind what makes you weak. 
+take from it what makes you stronger and leave behind anything doesn't serve you.
 
 Have a nice day.
