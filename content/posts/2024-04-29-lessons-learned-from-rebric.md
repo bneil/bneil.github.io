@@ -69,9 +69,9 @@ dedicated to out hustling your competition.
 
 But as a CTO, I should have rolled up my sleeves more and gotten into those sales calls. For much to long I spent my time on the sidelines getting feedback from everyone sattelite to the revenue generating process and that wasn't helpful to the bottom line. By being more proactive, it would have lent some weight to my suggestions. By taking on a client or two, it would have made me feel more involved in that area of the buisness and even if I wasn't the one driving the sale, I could have at least sat in and been able to give a perspective from closer inspection. Much of my time, was as an arbiter and while its a great muscle to help resolve disputes, it would have been helpful, I think, for sales had I just applied myself more to that.
 
-### Surprise, we are letting half the company go but you'll get a raise in December
+### Surprises during all-hands
 
-Again, this one is another no brainer. Your c-level suite, needs to be involved in all the debate. Got it? Great. Now, what do you do after spending 3+ hours in a meeting pitching devils advocat. Finding consensus, going back to the drawing board, etc etc. What you don't do is take all that strategy and throw it out the window the first chance you get. 
+Again, this one is another no brainer. Your c-level suite, needs to be involved in all the debate. Got it? Great. Now, what do you do after spending 3+ hours in a meeting pitching devils advocate. Finding consensus, going back to the drawing board, etc etc. What you don't do is take all that strategy and throw it out the window the first chance you get. 
 
 As the face for the company.  You don't hit all the points your c-suite told you not to. You don't 'read the room' and tell them them anyway. 
 
