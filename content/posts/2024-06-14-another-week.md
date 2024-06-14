@@ -8,6 +8,10 @@ tags: ["update"]
 categories: ["general"]
 ---
 
+<p style="text-align:center">
+  <img class="thumbnail" src="/images/see-saw-768.jpg" width="520" />
+</p>
+
 ## Reaching Out but Hitting Dead Ends
 
 This week in trying to drum up work, I've been focused on expanding my client base. It's been a bit of a rollercoaster ride - some promising leads, but a lot of dead ends as well.
