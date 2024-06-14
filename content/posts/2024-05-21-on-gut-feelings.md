@@ -10,6 +10,7 @@ categories: ['update']
 <p style="text-align:center">
   <img class="thumbnail" src="/images/unfeathered-768.jpg" width="520" />
 </p>
+
 ## Trusting Your Gut: The Key to Fulfilling Work
 _or how to stop attending meetings that make you feel sick_
 
