@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Sat, 01 Jun 2024 19:23:59 +0000</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>golang-ctx</title><link>https://bneil.me/posts/2024-06-01-golang-ctx/</link><pubDate>Sat, 01 Jun 2024 19:23:59 +0000</pubDate><guid>https://bneil.me/posts/2024-06-01-golang-ctx/</guid><description> I&amp;rsquo;ve used the context package alot with basically little thought, so I figured it would be helpful to have a few notes on the use and reason behind it for later reference. So hopefully this can help future devs and myself later on if I forget.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Fri, 14 Jun 2024 18:32:32 +0000</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>cloudflare-whiteboard</title><link>https://bneil.me/notes/2024-06-14-cloudflare-whiteboard/</link><pubDate>Fri, 14 Jun 2024 18:32:32 +0000</pubDate><guid>https://bneil.me/notes/2024-06-14-cloudflare-whiteboard/</guid><description> I&amp;rsquo;m feeling stressed, so I thought building a little toy project might make me feel better
+Setup Go ahead and install rust, via rustup. Then grab cargo-generate. Once those are installed you can run the skeleton setup by using $ cargo generate cloudflare/workers-rs. I chose the axum skeleton, just because the routing is a little more structured than the raw http examples.
+Verify the setup by using npx wrangler build or install via npm install wrangler@latest</description><content:encoded><![CDATA[ <p>I&rsquo;m feeling stressed, so I thought building a little toy project might make me feel better</p>
+<h1 id="setup">Setup</h1>
+<p>Go ahead and install rust, via <a href="https://www.rust-lang.org/tools/install">rustup</a>. Then grab <a href="https://github.com/cargo-generate/cargo-generate">cargo-generate</a>. Once those are installed you can run the skeleton
+setup by using <code>$ cargo generate cloudflare/workers-rs</code>. I chose the axum skeleton, just because the routing is a little more structured than
+the raw http examples.</p>
+<p>Verify the setup by using <code>npx wrangler build</code> or install via <code>npm install wrangler@latest</code></p>
+<p>You should be able to hit &lsquo;b&rsquo; to open in browser</p>
+<h1 id="starting">Starting</h1>
+<p>So let&rsquo;s dig into the lib.rs folder, start by adding a pattern for handling multiple routes.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-rust" data-lang="rust"><span style="display:flex;"><span><span style="color:#66d9ef">use</span> axum::{routing::get, Router, response::IntoResponse};
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">use</span> tower_service::Service;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">use</span> worker::<span style="color:#f92672">*</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">pub</span> <span style="color:#66d9ef">async</span> <span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">root</span>() -&gt; <span style="color:#66d9ef">&amp;</span>&#39;static <span style="color:#66d9ef">str</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;Hello Axum!&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">health</span>() -&gt; <span style="color:#a6e22e">impl</span> IntoResponse {
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">r</span><span style="color:#e6db74">#&#34;{&#34;Ok&#34;}&#34;#</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">pub</span> <span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">app_router</span>() -&gt; <span style="color:#a6e22e">Router</span> {
+</span></span><span style="display:flex;"><span>    Router::new()
+</span></span><span style="display:flex;"><span>        .route(<span style="color:#e6db74">&#34;/&#34;</span>, get(root))
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">health_router</span>() -&gt; <span style="color:#a6e22e">Router</span> {
+</span></span><span style="display:flex;"><span>    Router::new() 
+</span></span><span style="display:flex;"><span>        .route(<span style="color:#e6db74">&#34;/health&#34;</span>, get(health))
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">router</span>() -&gt; <span style="color:#a6e22e">Router</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">let</span> routes <span style="color:#f92672">=</span>
+</span></span><span style="display:flex;"><span>        Router::new()
+</span></span><span style="display:flex;"><span>            .merge(app_router())
+</span></span><span style="display:flex;"><span>            .merge(health_router());
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> routes
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#[event(fetch)]</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">fetch</span>(
+</span></span><span style="display:flex;"><span>    req: <span style="color:#a6e22e">HttpRequest</span>,
+</span></span><span style="display:flex;"><span>    _env: <span style="color:#a6e22e">Env</span>,
+</span></span><span style="display:flex;"><span>    _ctx: <span style="color:#a6e22e">Context</span>,
+</span></span><span style="display:flex;"><span>) -&gt; Result<span style="color:#f92672">&lt;</span>axum::http::Response<span style="color:#f92672">&lt;</span>axum::body::Body<span style="color:#f92672">&gt;&gt;</span> {
+</span></span><span style="display:flex;"><span>    console_error_panic_hook::set_once();
+</span></span><span style="display:flex;"><span>    Ok(router().call(req).<span style="color:#66d9ef">await</span><span style="color:#f92672">?</span>)
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Obviously its just a start. Going to revisit later</p>
+]]></content:encoded><webmention/></item><item><title>another-week</title><link>https://bneil.me/posts/2024-06-14-another-week/</link><pubDate>Fri, 14 Jun 2024 15:15:26 +0000</pubDate><guid>https://bneil.me/posts/2024-06-14-another-week/</guid><description> Reaching Out but Hitting Dead Ends This week in trying to drum up work, I&amp;rsquo;ve been focused on expanding my client base. It&amp;rsquo;s been a bit of a rollercoaster ride - some promising leads, but a lot of dead ends as well.
+Early in the week, I reached out to a few companies I thought could really benefit from my technical expertise. Had a great initial call with the CEO of a fintech startup, and they seemed really interested in working with me.</description><content:encoded><![CDATA[ <h2 id="reaching-out-but-hitting-dead-ends">Reaching Out but Hitting Dead Ends</h2>
+<p>This week in trying to drum up work, I&rsquo;ve been focused on expanding my client base. It&rsquo;s been a bit of a rollercoaster ride - some promising leads, but a lot of dead ends as well.</p>
+<p>Early in the week, I reached out to a few companies I thought could really benefit from my technical expertise. Had a great initial call with the CEO of a fintech startup, and they seemed really interested in working with me. We discussed their pain points in depth and I outlined how our team could help streamline their engineering processes and infrastructure. But after following up multiple times, I haven&rsquo;t heard back. It&rsquo;s frustrating when you feel like you&rsquo;ve made a real connection, only to have the trail go cold.</p>
+<p>I had a similar experience with a retail company exploring a major digital transformation. The VP of IT was enthusiastic about my capabilities and we had a productive brainstorming session. They were looking to increase the use of Terraform but when it came time to get a proposal together, all communication suddenly stopped. I&rsquo;m not sure if budget constraints, a change in leadership, or just general inertia got in the way, but it&rsquo;s disheartening to put in that initial effort only to have the opportunity slip away.</p>
+<h2 id="lessons-learned">Lessons Learned</h2>
+<p>Through these setbacks, I&rsquo;ve learned that persistence are key. Just because an opportunity didn&rsquo;t pan out doesn&rsquo;t mean it&rsquo;s dead forever. I&rsquo;m making a note to follow up with those leads again in a few months - priorities and decision-makers can shift quickly in the startup world.</p>
+<p>I&rsquo;ve also realized the importance of networking and referrals. Many of my most fruitful client relationships have come through warm introductions from existing contacts. So I&rsquo;m redoubling my efforts to expand my professional network. So we&rsquo;ll see how that goes next week.</p>
+<p>In conclusion, it&rsquo;s been a challenging week, but I know these kinds of setbacks are all part of the job. Onward and upward.</p>
+]]></content:encoded><webmention/></item><item><title>golang-ctx</title><link>https://bneil.me/posts/2024-06-01-golang-ctx/</link><pubDate>Sat, 01 Jun 2024 19:23:59 +0000</pubDate><guid>https://bneil.me/posts/2024-06-01-golang-ctx/</guid><description> I&amp;rsquo;ve used the context package alot with basically little thought, so I figured it would be helpful to have a few notes on the use and reason behind it for later reference. So hopefully this can help future devs and myself later on if I forget.
 The way I remember context, is that its a wrapper around information you want to pass all around your program. You have special switches to kill the context and forget it ever existed.</description><content:encoded><![CDATA[ <p style="text-align:center">
   <img class="thumbnail" src="https://bneil.me/images/each-finger-pointed.jpg" width="520" />
 </p>

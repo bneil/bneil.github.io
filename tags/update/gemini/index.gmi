@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /posts/2024-06-14-another-week/index.gmi 2024-06-14 another-week
 => /posts/2023-11-26-weekly-writeup/index.gmi 2023-11-27 weekly-writeup
 => /posts/2023-11-19-weekly-writeup/index.gmi 2023-11-19 weekly-writeup
 => /posts/2023-11-12-weekly-writeup/index.gmi 2023-11-12 weekly-writeup (week 2 of Nov 2023)

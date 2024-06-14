@@ -3,4 +3,5 @@
 
 Pages in this section:
 
+=> /notes/2024-06-14-cloudflare-whiteboard/index.gmi 2024-06-14 cloudflare-whiteboard
 => /posts/wasm/index.gmi 2021-04-15 WASM and Webmentions

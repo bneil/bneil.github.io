@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /notes/2024-06-14-cloudflare-whiteboard/index.gmi 2024-06-14 cloudflare-whiteboard
 => /posts/2024-06-01-golang-ctx/index.gmi 2024-06-01 golang-ctx
 => /posts/2023-10-02-to-fix-or-wait/index.gmi 2023-10-03 To Fix or .. to wait
 => /posts/2023-04-04-building-crud-with-htmx/index.gmi 2023-04-05 Building CRUD with htmx
