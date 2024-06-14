@@ -8,26 +8,23 @@ tags: ['meetings','offchest']
 categories: ['update']
 ---
 
-## On trusting your gut
+## Trusting Your Gut: The Key to Fulfilling Work
 _or how to stop attending meetings that make you feel sick_
 
-This is more of a personal article, so if that isn't your cup of tea, go checkout some other fun articles!
+Have you ever found yourself dreading a meeting, only to leave it feeling completely drained and uninspired? I've been there, and it's not a pleasant experience. In fact, it's one of the main reasons I recently stepped down from my last role.
 
-I've wanted to write about this subject for awhile, mainly because I feel its something I avoided so long while working at Compliable. 
-I would get these terrible feelings of dread and anxiousness after meetings. The feeling of something like existential dread mixed with this
-belief that whatever I was preparing to work on just wasn't what would benefit the startup the most at the time. It would often make me
-upset to the point id lose at least a few pomodoro's trying to rationalize the feeling. Usually by saying that its ok to go into everyday
-and have meeting after meeting. When I think, deep down, I know im not a person that likes working in that way. I derive value in my work
-by the amount of effort I put in and no matter how many times a coworker would say 'meetings are work', deep down, I don't believe it.
+Working in an environment with an endless stream of mandatory meetings was slowly sucking the life out of me. I would get this terrible feeling of anxiety and existential dread leading up to these gatherings, and no matter how much I tried to rationalize it, I just couldn't shake the belief that they weren't serving me or the company well.
 
-A meeting can be a fine thing when used occationally to address an issue in process, fill out an OKR, do a myriad of other things. But having
-an abnormal amount of meetings everyday, didn't make me "feel" like I am useful. So my gut was right in a way. After I stepped down earlier
-this month and noticed that as ive been working with other clients and haven't been forced to attend an endless stream of baby sitting meetings.
+The thing is, I'm someone who derives a deep sense of purpose and fulfillment from the work I put in, not just from attending endless meetings. And while my coworkers would insist that "meetings are work," I could never fully convince myself of that. In my gut, I knew there had to be a better way.
 
-I feel better, but also realize that I should have set better boundries or stopped attending those meetings. Sometimes I think rather then
-communicating just how awful those meetings were making me feel, I kept attending. I kept allowing those situations to drain me and leave me
-to feel that anxious bristling feeling. 
+So when I started feeling that same knot in my stomach while working with certain consulting clients, I knew I had to make a change. I realized that I needed to start trusting my instincts and setting better boundaries - even if it meant cutting ties with a client sooner rather than later.
 
-Recently, ive also been noticing that same gut feelings for these clients ive been taking on via consulting. Some, make me feel super invigorated while
-others give me that very specific feeling of dread. I can't really explain it except to say, I think ill be cutting a few out sooner rather than later.
-Because I can't keep going with this pit in my stomach. I just can't.
+Because here's the thing: that gut feeling, that intuitive sense of unease, is often trying to tell us something important. It's a signal that the situation at hand may not be aligned with our values, our strengths, or our overall well-being. And when we ignore those signals, we end up feeling drained, anxious, and resentful.
+
+But when we listen to our gut and make decisions accordingly, something magical happens. We start to feel more invigorated, more inspired, and more fulfilled in our work. We're able to pour our energy into the things that truly matter, rather than wasting it on meetings and tasks that leave us feeling empty.
+
+So if you're someone who constantly finds yourself dreading certain work obligations, I'd encourage you to pause and really tune in to that gut feeling. What is it trying to tell you? Is this situation truly serving you, or is it time to set some boundaries and make a change?
+
+It may feel uncomfortable at first, but I can assure you that the payoff is well worth it. By trusting your intuition and aligning your work with what energizes you, you'll not only be more productive and effective, but you'll also experience a newfound sense of joy and purpose in what you do.
+
+And isn't that what we all want, at the end of the day?
