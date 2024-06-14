@@ -10,6 +10,12 @@ Early in the week, I reached out to a few companies I thought could really benef
 
 I had a similar experience with a retail company exploring a major digital transformation. The VP of IT was enthusiastic about my capabilities and we had a productive brainstorming session. They were looking to increase the use of Terraform but when it came time to get a proposal together, all communication suddenly stopped. I'm not sure if budget constraints, a change in leadership, or just general inertia got in the way, but it's disheartening to put in that initial effort only to have the opportunity slip away.
 
+## Searching for a Full-Time Role
+
+In addition to my fractional CTO work, I've also been actively searching for a full-time CTO position. I've applied to a number of promising openings, and have had some encouraging initial conversations. However, I'm finding that the interview process can be quite drawn out, with multiple rounds of discussions and assessments.
+
+I recently made it through to the final stages for a solutions architect role at a promising AI startup, only to be told that they've decided to postpone the hire indefinitely due to funding uncertainty. It was disappointing, but a good reminder that these kinds of decisions can be out of my control.
+
 ## Lessons Learned
 
 Through these setbacks, I've learned that persistence are key. Just because an opportunity didn't pan out doesn't mean it's dead forever. I'm making a note to follow up with those leads again in a few months - priorities and decision-makers can shift quickly in the startup world.
