@@ -54,16 +54,22 @@ So is this about org structure, kinda. Its about communicating as an org, but it
 
 So I think this one was more of a lesson learned. Should have pumped the breaks on the consensus and gave people roles and expectations from day one. Namely that the upper management runs the show and that we are responsible if the company sinks. So setting expectations with the team, day one, on what happens when we miss goals and releases. We did "try" this a few times, but should have been consistent in holding people accountable to their KPI's. Like that should have been _the_ measure and we didn't keep it consistent. 
 
+### On using VC Money
+
+One of the key things I've learned over the years is that losing money on a team is often par for the course, especially in the early stages of a VC-backed startups. In fact, it's typically a sign that the founders are investing heavily in building out their core operations and infrastructure.  However, when that loss starts to become a "death sentence" for the company, that's a red flag that needs to be addressed quickly. As CTO, I found it incredibly hard to see the runway shrinking and literally doing everything I could to keep the team aligned on where I believed we could strike out for the most value.
+
+But at the end of the day, revenue is what drives growth. So as a CTO watching burn rate and cash reserves became a think I was looking at everyday. The big thing for me, that I felt I did well was regardless of those financial challenges, I kept the focus on delivering value to our customers. Made sure that the things we were building and promising were tracked and that we communicated to the org why we were doing the things we were doing.
+
+It really feels like a catch-22. When you have a vc backed company, you expect the vc's to bail you out. But if you can't float or show more growth in the industry, they aren't going to toss you a life raft. So the real lesson learned for me, was just slower growth. Because no amount of sweat can make other departments more effective. Given enough time, things can work out, but at a startup money is the only measure of success. 
+
+
 ### Sales
 
-If building software is the track, the train (company) runs on money. Sales are the proud folks moving that rock into the stack. They, maybe more so than anyone is able to keep the lights on and keep things going. This. Its my only point and aside from growing the company to fast feels like the biggest sin in a startup. You have no top of funnel, you have no next sales, you really have no company because all the features in the world aren't going to give you a sale on a silver platter.
+If building software is the core of your business, then revenue is the lifeblood that keeps it running. Sales are the champions who move that revenue into your company's coffers. They may be the single most important factor in keeping the lights on and things moving forward. This is a critical point - growing too fast without a solid sales strategy can be the downfall of a startup.
 
-Which means knowing how to sell your product, who is going to sell it and making that process repeatable to give to the next sales person.
+You can't expect sales to just magically happen. You need to know how to effectively sell your product, who the right sales folks are, and a repeatable sales process to hand off to new hires. Your sales strategy shouldn't rely on 100% enterprise or corporate deals either - it needs to be multi-faceted to stay ahead of the competition.
 
-More than that, you can't expect those sales to be 100% corp to corp. Or all enterprise, your sales strategy should be varied and there should be strategy. Or if not strategy a group of people
-dedicated to out hustling your competition.
-
-But as a CTO, I should have rolled up my sleeves more and gotten into those sales calls. For much to long I spent my time on the sidelines getting feedback from everyone sattelite to the revenue generating process and that wasn't helpful to the bottom line. By being more proactive, it would have lent some weight to my suggestions. By taking on a client or two, it would have made me feel more involved in that area of the buisness and even if I wasn't the one driving the sale, I could have at least sat in and been able to give a perspective from closer inspection. Much of my time, was as an arbiter and while its a great muscle to help resolve disputes, it would have been helpful, I think, for sales had I just applied myself more to that.
+As the CTO, I should have been more involved in the sales process early on. Spending too much time gathering feedback from peripheral team members, while valuable, doesn't directly impact the bottom line. Being more hands-on with sales calls and even taking on a client or two myself would have given me better insight and allowed me to provide more informed guidance. Even if I wasn't driving sales, just observing and offering a technical perspective would have been hugely beneficial. 
 
 ### Surprises during all-hands
 
@@ -102,7 +108,7 @@ Take from this what makes you stronger and leave behind anything doesn't serve y
 Have a nice day.
 
 ---
-updated: 13 June 2024.
+updated: 18 June 2024.
 
 => / to the Index
 => https://bneil.me/posts/2024-04-29-lessons-learned-from-rebric/ / html
