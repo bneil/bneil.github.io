@@ -90,18 +90,17 @@ Things shouldn't surprise your co-founders or your c-suite. They should all be u
 So I should have quit. I should have recognized that this was a pattern and quit. I don't think you can come back from this breach of trust, I just don't. If you don't want to be made to be blamed for what someone is saying then you can't remain complicit after they have said it. It was no ones fault but my own, and of course a fear of losing my job when countless times I heard things that didn't align with what I knew to be true at the company. Whether that was to staff or to anyone. Its my own responsibility to be accountable when anyone says things that I don't agree with. So, it was a big red flag. Because at the end of the day, if a person knowingly continues to say things that are in disagreement with what you agree to say or do. Then its just them being them and you should do you.
 
 ### Pointless meetings
-
 I could write a novel on the amount of meetings that could have been an email. It's a trope at this point. But for some reason, they got so much worse near the end. Just the same meeting really.
-A rehashing of the same dried bones melting in the tea. Doesn't matter how many times you look. The writing is on the wall. So why are we having this meeting.
+A rehashing of the same dried leaves . Doesn't matter how many times you look. The writing is on the wall. So why are we having this meeting?
 
-A good friend once told me that, meetings are work. They are worth looking into the camera, taking physical notes and listening proactively. To engage in the meeting, because it's important. So
+A good friend once told me that, meetings are working. They are worth looking into the camera, taking physical notes, and listening proactively. To engage in the meeting, because it's important. So
 you know, I really liked that. For someone who, for years, didn't pay attention that much in meetings, I did. Which wasn't a light switch but it was good practice. To just keep my fingers off the
 keyboard and try to paraphrase what the speaker is saying. Repeat it back and ask questions, even if they seem dumb, it never felt like the team made it out like I was saying something done. So if
 nothing else, I really appreciated the idea, of not treating meetings like baggage but like something that is a formality of doing deep work.
 
-You don't waste that time on pointless rehashing, you spend them with your team figuring out how to make hay into gold.
+You don't waste that time on pointless rehashing, you spend it with your team figuring out how to make hay into gold.
 
-So thinking more about this, I think going forward, I will be more consistent in keeping an agenda, keeping people engaged through active participation and really get better at treating a meeting like work. For more redundant conversations, I should have taken the time to bang the gavel, take stock of what was said and figure out if we are just kicking the can. If we are, take those steps to re-focus the meeting and if not, embrace the new. So really, its all about agency in those meetings, finding my own voice and being consistent in using it to drive work forward.
+So thinking more about this, I think going forward, I will be more consistent in keeping an agenda, keeping people engaged through active participation, and really get better at treating a meeting like work. For more redundant conversations, I should have taken the time to bang the gavel, take stock of what was said, and figure out if we were just kicking the can. If we are, take those steps to re-focus the meeting and if not, embrace the new. So really, it's all about agency in those meetings, finding my own voice, and being consistent in using it to drive work forward.
 
 ### Final thoughts
 
