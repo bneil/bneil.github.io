@@ -1,0 +1,60 @@
+# what-vibes
+
+
+
+
+  
+</p>
+
+Recently, I wrote about an article on gut feelings and wanted to talk about things that ive been looking at that for some reason really resonate with me in terms of excitement. Like, while reading up on this technology I got into flow and was starting to hunt for companies doing work like this. 
+=> {{}} "on gut feelings" on gut feelings
+
+
+* 0data apps I went to this site a long time back. It's where I first learned about the solid protocol as a data store. 
+=> https://0data.app/ 0data apps
+
+* remote storage - per-user storage, who doesn't want to own their data
+=> https://remotestorage.io remote storage
+
+* rss... because I love rss
+    - https://ooh.directory/ is a recent directory I heard of
+=> https://ooh.directory/ https://ooh.directory/
+
+    - [https://indieweb.org/directory](https://indieweb.org/directory)
+    - http://superkuh.com/2023-02-02-feedlist.opml [http://superkuh.com/feeds10.html](http://superkuh.com/feeds10.html)
+=> http://superkuh.com/2023-02-02-feedlist.opml http://superkuh.com/2023-02-02-feedlist.opml
+
+    - like del.icio.us except it's feeds instead of bookmarks
+=> http://del.icio.us/ del.icio.us
+
+    - [https://personalsit.es/](https://personalsit.es/ "PersonalSit.es")
+    - https://searchmysite.net/search/?q=this+too <- search engine of bloggers, talk about 'finding the others'
+=> https://searchmysite.net/search/?q=this+too https://searchmysite.net/search/?q=this+too
+
+* FediForum Its for people who move the fediverse forward
+=> https://fediforum.org/ FediForum
+
+
+There is something with Nostr and ActivityPub. I want to start coding something using these technologies. 
+
+## Quotes
+
+_“Stop creating a life that you need a vacation from. Instead move to where you want to live, do what you want to do, start what you want to start and create the life you want today. This isn’t rehearsal people. This is YOUR life.”_
+~Dale Patridge
+
+_Nobody writes anything; all we do is translate._ 
+~Ashton Kutcher as Quentin Sellers - Vengeance
+
+_Seeing yourself get better at something is its own reward and forces into a virtuous cycle_
+~Can't attribute, forgot 🤕
+
+## Thanks
+
+End really fun dump of links
+
+---
+updated: 20 June 2024.
+
+=> / to the Index
+=> https://bneil.me/posts/2024-06-20-what-vibes/ / html
+

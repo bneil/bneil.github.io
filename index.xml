@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Fri, 14 Jun 2024 18:32:32 +0000</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>cloudflare-whiteboard</title><link>https://bneil.me/notes/2024-06-14-cloudflare-whiteboard/</link><pubDate>Fri, 14 Jun 2024 18:32:32 +0000</pubDate><guid>https://bneil.me/notes/2024-06-14-cloudflare-whiteboard/</guid><description> I&amp;rsquo;m feeling stressed, so I thought building a little toy project might make me feel better
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Thu, 20 Jun 2024 16:01:46 +0000</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>what-vibes</title><link>https://bneil.me/posts/2024-06-20-what-vibes/</link><pubDate>Thu, 20 Jun 2024 16:01:46 +0000</pubDate><guid>https://bneil.me/posts/2024-06-20-what-vibes/</guid><description> Recently, I wrote about an article on gut feelings and wanted to talk about things that ive been looking at that for some reason really resonate with me in terms of excitement. Like, while reading up on this technology I got into flow and was starting to hunt for companies doing work like this.
+0data apps I went to this site a long time back. It&amp;rsquo;s where I first learned about the solid protocol as a data store.</description><content:encoded><![CDATA[ <p style="padding:10px">
+  <img class="thumbnail" src="https://bneil.me/images/study-hour-768.jpg" width="220" align="right" />
+</p>
+<p>Recently, I wrote about an article <a href="https://bneil.me/posts/2024-05-21-on-gut-feelings/" title="on gut feelings">on gut feelings</a> and wanted to talk about things that ive been looking at that for some reason really resonate with me in terms of excitement. Like, while reading up on this technology I got into flow and was starting to hunt for companies doing work like this.</p>
+<ul>
+<li><a href="https://0data.app/">0data apps</a> I went to this site a long time back. It&rsquo;s where I first learned about the solid protocol as a data store.</li>
+<li><a href="https://remotestorage.io">remote storage</a> - per-user storage, who doesn&rsquo;t want to own their data</li>
+<li>rss&hellip; because I love rss
+<ul>
+<li><a href="https://ooh.directory/">https://ooh.directory/</a> is a recent directory I heard of</li>
+<li><a href="https://indieweb.org/directory">https://indieweb.org/directory</a></li>
+<li><a href="http://superkuh.com/2023-02-02-feedlist.opml">http://superkuh.com/2023-02-02-feedlist.opml</a> <a href="http://superkuh.com/feeds10.html">http://superkuh.com/feeds10.html</a></li>
+<li>like <a href="http://del.icio.us/">del.icio.us</a> except it&rsquo;s feeds instead of bookmarks</li>
+<li><a href="https://personalsit.es/" title="PersonalSit.es">https://personalsit.es/</a></li>
+<li><a href="https://searchmysite.net/search/?q=this+too">https://searchmysite.net/search/?q=this+too</a> &lt;- search engine of bloggers, talk about &lsquo;finding the others&rsquo;</li>
+</ul>
+</li>
+<li><a href="https://fediforum.org/">FediForum</a> Its for people who move the fediverse forward</li>
+</ul>
+<p>There is something with Nostr and ActivityPub. I want to start coding something using these technologies.</p>
+<h2 id="quotes">Quotes</h2>
+<p><em>“Stop creating a life that you need a vacation from. Instead move to where you want to live, do what you want to do, start what you want to start and create the life you want today. This isn’t rehearsal people. This is YOUR life.”</em>
+~Dale Patridge</p>
+<p><em>Nobody writes anything; all we do is translate.</em>
+~Ashton Kutcher as Quentin Sellers - Vengeance</p>
+<p><em>Seeing yourself get better at something is its own reward and forces into a virtuous cycle</em>
+~Can&rsquo;t attribute, forgot 🤕</p>
+<h2 id="thanks">Thanks</h2>
+<p>End really fun dump of links</p>
+]]></content:encoded><webmention/></item><item><title>cloudflare-whiteboard</title><link>https://bneil.me/notes/2024-06-14-cloudflare-whiteboard/</link><pubDate>Fri, 14 Jun 2024 18:32:32 +0000</pubDate><guid>https://bneil.me/notes/2024-06-14-cloudflare-whiteboard/</guid><description> I&amp;rsquo;m feeling stressed, so I thought building a little toy project might make me feel better
 Setup Go ahead and install rust, via rustup. Then grab cargo-generate. Once those are installed you can run the skeleton setup by using $ cargo generate cloudflare/workers-rs. I chose the axum skeleton, just because the routing is a little more structured than the raw http examples.
 Verify the setup by using npx wrangler build or install via npm install wrangler@latest</description><content:encoded><![CDATA[ <p>I&rsquo;m feeling stressed, so I thought building a little toy project might make me feel better</p>
 <h1 id="setup">Setup</h1>

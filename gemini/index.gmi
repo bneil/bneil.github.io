@@ -42,8 +42,8 @@ Happy Fall Y'all
 
 ## by major subject
 
-=> gemini://shiny.bneil.me/categories/coding/gemini/index.gmi Coding
 => gemini://shiny.bneil.me/categories/general/gemini/index.gmi General
+=> gemini://shiny.bneil.me/categories/coding/gemini/index.gmi Coding
 => gemini://shiny.bneil.me/categories/update/gemini/index.gmi Update
 => gemini://shiny.bneil.me/categories/rabbithole/gemini/index.gmi Rabbithole
 => gemini://shiny.bneil.me/categories/review/gemini/index.gmi Review
@@ -59,6 +59,9 @@ Happy Fall Y'all
 
 ## by tag
 
+=> gemini://shiny.bneil.me/tags/fun/gemini/index.gmi Fun
+=> gemini://shiny.bneil.me/tags/link_dump/gemini/index.gmi Link_dump
+=> gemini://shiny.bneil.me/tags/whimsy/gemini/index.gmi Whimsy
 => gemini://shiny.bneil.me/tags/notes/gemini/index.gmi Notes
 => gemini://shiny.bneil.me/tags/rust/gemini/index.gmi Rust
 => gemini://shiny.bneil.me/tags/wasm/gemini/index.gmi Wasm
@@ -91,7 +94,6 @@ Happy Fall Y'all
 => gemini://shiny.bneil.me/tags/nextjs/gemini/index.gmi Nextjs
 => gemini://shiny.bneil.me/tags/indieweb/gemini/index.gmi Indieweb
 => gemini://shiny.bneil.me/tags/webmentions/gemini/index.gmi Webmentions
-=> gemini://shiny.bneil.me/tags/fun/gemini/index.gmi Fun
 => gemini://shiny.bneil.me/tags/writing/gemini/index.gmi Writing
 => gemini://shiny.bneil.me/tags/development/gemini/index.gmi Development
 
