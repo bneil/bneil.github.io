@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /posts/2024-06-21-racing-to-the-bottom/index.gmi 2024-06-21 racing to the bottom
 => /posts/2024-06-20-what-vibes/index.gmi 2024-06-20 what-vibes
 => /posts/2024-06-14-another-week/index.gmi 2024-06-14 another-week
 => /posts/2023-11-26-weekly-writeup/index.gmi 2023-11-27 weekly-writeup

@@ -59,6 +59,8 @@ Happy Fall Y'all
 
 ## by tag
 
+=> gemini://shiny.bneil.me/tags/ai/gemini/index.gmi Ai
+=> gemini://shiny.bneil.me/tags/philosophy/gemini/index.gmi Philosophy
 => gemini://shiny.bneil.me/tags/fun/gemini/index.gmi Fun
 => gemini://shiny.bneil.me/tags/link_dump/gemini/index.gmi Link_dump
 => gemini://shiny.bneil.me/tags/whimsy/gemini/index.gmi Whimsy
@@ -74,7 +76,6 @@ Happy Fall Y'all
 => gemini://shiny.bneil.me/tags/nablopomo2023/gemini/index.gmi NaBloPoMo2023
 => gemini://shiny.bneil.me/tags/gemini/gemini/index.gmi Gemini
 => gemini://shiny.bneil.me/tags/humor/gemini/index.gmi Humor
-=> gemini://shiny.bneil.me/tags/ai/gemini/index.gmi Ai
 => gemini://shiny.bneil.me/tags/decentralized/gemini/index.gmi Decentralized
 => gemini://shiny.bneil.me/tags/htmx/gemini/index.gmi Htmx
 => gemini://shiny.bneil.me/tags/seedling/gemini/index.gmi Seedling
