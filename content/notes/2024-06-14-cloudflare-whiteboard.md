@@ -70,3 +70,8 @@ async fn fetch(
 ```
 
 Obviously its just a start. Going to revisit later
+
+# Sources
+https://spacedimp.com/blog/using-rust-axum-postgresql-and-tokio-to-build-a-blog/
+https://docs.rs/tower-serve-static/latest/tower_serve_static/index.html <- no go using wasm
+https://github.com/cloudflare/workers-rs?tab=readme-ov-file
