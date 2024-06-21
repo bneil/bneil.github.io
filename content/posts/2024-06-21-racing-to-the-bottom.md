@@ -55,7 +55,7 @@ So at this point, your probably wondering, what? this hasn't been a rant on AI. 
 
 Well, its here and its not. AI as ive used it so far, which is just the beginning, can do some basic programming tasks. However as of this date, using claude, chatgpt, and gemini - hasn't resulted in very much 'good' code. Its mostly sloppy and it doesn't know what its talking about. However, its taking that barrier to entry for anyone non technical and moved the bar. Making it seem like you can get away with a much smaller work force. 
 
-AI lies impressively and the prompts ive seen are very good at creating error filled code with a lot fo confidence. 
+AI lies impressively and the prompts ive seen are very good at creating error filled code with a lot of confidence. 
 
 Its kinda terrible.
 
