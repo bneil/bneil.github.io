@@ -71,3 +71,15 @@ There are so many societal considerations to take into account and things id lov
 I personally am thinking those over but wanted to get them on paper first because its interesting how often they seem to bubble up in conversation.
 
 Thanks for reading
+
+UPDATE
+
+After speaking with a friend, he reminded me of this fun xkcd graphic
+
+<p style="padding:10px; text-align:center">
+  <a href="https://xkcd.com/2347/" target="_new"><img class="thumbnail" src="/images/dependecy.png" height="150"  /></a>
+</p>
+
+Which had me thinking more on the parallels between AI and OSS, namely that the rise of large tech companies dominating the AI landscape bears striking similarities to the early days of the open-source software movement. Just as OSS was built upon the collaborative efforts of a global community of volunteer developers, much of the foundational research and training data powering contemporary AI systems has its roots in publicly-funded academic and government research. However, rather than this knowledge remaining in the public domain, tech giants have increasingly privatized and commercialized these AI capabilities, reaping the rewards of the public's intellectual labor. 
+
+This dynamic mirrors the way in which corporations have historically capitalized on OSS projects, incorporating open-source components into proprietary software while limiting the ability of the public to fully access and build upon these foundational technologies. 
