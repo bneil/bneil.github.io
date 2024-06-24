@@ -77,5 +77,5 @@ UPDATE
 After speaking with a friend, he reminded me of this fun xkcd graphic
 
 <p style="padding:10px; text-align:center">
-  <a href="https://xkcd.com/2347/" target="_new"><img class="thumbnail" src="/images/dependency.png" height="150"  /></a>
+  <a href="https://xkcd.com/2347/" target="_new"><img class="thumbnail" src="/images/dependency.png" /></a>
 </p>
