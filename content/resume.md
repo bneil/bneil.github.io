@@ -37,11 +37,34 @@ noComment = true
 
 @keyframes rocket {
   0% {
-    transform: translateX(-100%); /* Start off-screen */
+    transform: translateX(-100%);
   }
   100% {
-    transform: translateX(calc(100vw + 100%)); /* Move off-screen on the right */
+    transform: translateX(calc(100vw + 100%)); 
   }
+}
+
+.retro-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #6b00b3;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.retro-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.retro-button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 
@@ -72,6 +95,10 @@ But most importantly im able <br/>
 **Clouds:** AWS, GCP, Fly.io<br/>
 
 <i>Ive left alot off this list in the hopes it wouldn't be distracting. Lots of technology has come and gone over the past twenty years</i>
+
+<p style="text-align:center">
+<button onclick="window.open('/resume.pdf', '_new')" class="retro-button" onclick="savePDF()">TAKE A COPY OF MY RESUME TOGO</button>
+</p>
 
 ------
 <div class="spaceship-container"></div>
