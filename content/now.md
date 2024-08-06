@@ -10,9 +10,7 @@ _Last Updated: {{< updated >}}_
 
 <img class="thumbnail" src="/images/lived-merrily.jpg" width="320" align="right" /><p/>
 
-Month of June is really go by fast. Already half way through. Spent a nice weekend away at Pogosa Springs and took in some nice hiking. Was thinking about how to get more clients for the majority of the time. Its really surprising just how much I think about work now that I have to drum up all the work to keep myself employed. 
-
-
+August already. Been spending a lot of time at the current gig helping a company work through their automation and flutter build systems. Been really fun getting to try out Flutter and Firebase. Didn't realize that tech stack existed so its been a lot of fun to dig in.
 
 👋 If you are reading this, maybe head over to my [resume]({{< ref "resume.md" >}}) if you want to play some basic space invaders and maybe we can collab sometime 😊
 
