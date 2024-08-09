@@ -1,0 +1,6 @@
+# Tmux
+
+
+Pages in this section:
+
+=> /notes/2024-08-08-tmux-status-line-margin/index.gmi 2024-08-08 cloudflare-whiteboard

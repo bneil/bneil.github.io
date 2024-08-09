@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /notes/2024-08-08-tmux-status-line-margin/index.gmi 2024-08-08 cloudflare-whiteboard
 => /notes/2024-06-14-cloudflare-whiteboard/index.gmi 2024-06-14 cloudflare-whiteboard
 => /posts/2024-06-01-golang-ctx/index.gmi 2024-06-01 golang-ctx
 => /notes/2023-09-18-hugo-vs-the-ai/index.gmi 2023-09-18 Hugo vs The AI
