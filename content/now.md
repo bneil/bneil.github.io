@@ -10,12 +10,12 @@ _Last Updated: {{< updated >}}_
 
 <img class="thumbnail" src="/images/lived-merrily.jpg" width="320" align="right" /><p/>
 
-August already. Been spending a lot of time at the current gig helping a company work through their automation and flutter build systems. Been really fun getting to try out Flutter and Firebase. Didn't realize that tech stack existed so its been a lot of fun to dig in.
+Long week, glad to have a weekend ahead of me. Really happy to be working on a project and grateful to be working with people that genuinely are try to get to the finish line.  Got a week to get this infra into a good place, so focused on trying to have some time with the family before things get crunchy.
 
 👋 If you are reading this, maybe head over to my [resume]({{< ref "resume.md" >}}) if you want to play some basic space invaders and maybe we can collab sometime 😊
 
 ## Reading
-- Three circles book
+- [seveneves](https://www.wikiwand.com/en/articles/Seveneves)
 
 ## Listening To
 - Lots of lofi must at [youtube](https://www.youtube.com/watch?v=4xDzrJKXOOY)
