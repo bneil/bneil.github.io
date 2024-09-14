@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /posts/2024-09-14-postsgoing-through-areas/index.gmi 2024-09-14 obsidian-quick-trick
 => /notes/2023-09-18-hugo-vs-the-ai/index.gmi 2023-09-18 Hugo vs The AI
 => /notes/note_connecting_to_rds/index.gmi 2021-06-01 Connecting/Migrations in RDS
 => /notes/dynamodb_pages/index.gmi 2021-05-25 Dynamo DB Pages
