@@ -1,10 +1,36 @@
-# 
+# merge-threeway
 
 
 
+# Description
+
+
+enable this:
+```
+git config --global merge.conflictstyle diff3
+```
+
+git config output:
+```
+[diff]
+    tool = meld
+[difftool]
+    prompt = false
+[difftool "meld"]
+    trustExitCode = true
+    cmd = open -W -a Meld --args \"$LOCAL\" \"$PWD/$REMOTE\"
+[merge]
+    tool = meld
+        conflictstyle = diff3
+[mergetool]
+    prompt = false
+[mergetool "meld"]
+    trustExitCode = true
+    cmd = open -W -a Meld --args --auto-merge "$PWD/$LOCAL" "$PWD/$BASE" "$PWD/$REMOTE" --output "$PWD/$MERGED"
+```
 
 ---
-updated: 8 September 2024.
+updated: 14 September 2024.
 
 => / to the Index
 => https://bneil.me/notes/2024-08-26-meld-three-way/ / html

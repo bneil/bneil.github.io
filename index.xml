@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Thu, 08 Aug 2024 18:32:32 +0000</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>cloudflare-whiteboard</title><link>https://bneil.me/notes/2024-08-08-tmux-status-line-margin/</link><pubDate>Thu, 08 Aug 2024 18:32:32 +0000</pubDate><guid>https://bneil.me/notes/2024-08-08-tmux-status-line-margin/</guid><description><![CDATA[ <h1 id="description">Description</h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Mon, 26 Aug 2024 18:32:32 +0000</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>merge-threeway</title><link>https://bneil.me/notes/2024-08-26-meld-three-way/</link><pubDate>Mon, 26 Aug 2024 18:32:32 +0000</pubDate><guid>https://bneil.me/notes/2024-08-26-meld-three-way/</guid><description><![CDATA[ <h1 id="description">Description</h1>
+<p>enable this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>git config --global merge.conflictstyle diff3
+</span></span></code></pre></div><p>git config output:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>[diff]
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">tool</span> <span style="color:#f92672">=</span> meld
+</span></span><span style="display:flex;"><span>[difftool]
+</span></span><span style="display:flex;"><span>    prompt <span style="color:#f92672">=</span> false
+</span></span><span style="display:flex;"><span>[difftool <span style="color:#e6db74">&#34;meld&#34;</span>]
+</span></span><span style="display:flex;"><span>    trustExitCode <span style="color:#f92672">=</span> true
+</span></span><span style="display:flex;"><span>    cmd <span style="color:#f92672">=</span> open <span style="color:#f92672">-</span>W <span style="color:#f92672">-</span>a Meld <span style="color:#f92672">--</span>args \<span style="color:#e6db74">&#34;$LOCAL</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74"> </span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">$PWD/$REMOTE</span><span style="color:#ae81ff">\&#34;</span>
+</span></span><span style="display:flex;"><span>[merge]
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">tool</span> <span style="color:#f92672">=</span> meld
+</span></span><span style="display:flex;"><span>        conflictstyle <span style="color:#f92672">=</span> diff3
+</span></span><span style="display:flex;"><span>[mergetool]
+</span></span><span style="display:flex;"><span>    prompt <span style="color:#f92672">=</span> false
+</span></span><span style="display:flex;"><span>[mergetool <span style="color:#e6db74">&#34;meld&#34;</span>]
+</span></span><span style="display:flex;"><span>    trustExitCode <span style="color:#f92672">=</span> true
+</span></span><span style="display:flex;"><span>    cmd <span style="color:#f92672">=</span> open <span style="color:#f92672">-</span>W <span style="color:#f92672">-</span>a Meld <span style="color:#f92672">--</span>args <span style="color:#f92672">--</span>auto<span style="color:#f92672">-</span>merge <span style="color:#e6db74">&#34;$PWD/$LOCAL&#34;</span> <span style="color:#e6db74">&#34;$PWD/$BASE&#34;</span> <span style="color:#e6db74">&#34;$PWD/$REMOTE&#34;</span> <span style="color:#f92672">--</span>output <span style="color:#e6db74">&#34;$PWD/$MERGED&#34;</span>
+</span></span></code></pre></div>]]></description><content:encoded><![CDATA[ <h1 id="description">Description</h1>
+<p>enable this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>git config --global merge.conflictstyle diff3
+</span></span></code></pre></div><p>git config output:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>[diff]
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">tool</span> <span style="color:#f92672">=</span> meld
+</span></span><span style="display:flex;"><span>[difftool]
+</span></span><span style="display:flex;"><span>    prompt <span style="color:#f92672">=</span> false
+</span></span><span style="display:flex;"><span>[difftool <span style="color:#e6db74">&#34;meld&#34;</span>]
+</span></span><span style="display:flex;"><span>    trustExitCode <span style="color:#f92672">=</span> true
+</span></span><span style="display:flex;"><span>    cmd <span style="color:#f92672">=</span> open <span style="color:#f92672">-</span>W <span style="color:#f92672">-</span>a Meld <span style="color:#f92672">--</span>args \<span style="color:#e6db74">&#34;$LOCAL</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74"> </span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">$PWD/$REMOTE</span><span style="color:#ae81ff">\&#34;</span>
+</span></span><span style="display:flex;"><span>[merge]
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">tool</span> <span style="color:#f92672">=</span> meld
+</span></span><span style="display:flex;"><span>        conflictstyle <span style="color:#f92672">=</span> diff3
+</span></span><span style="display:flex;"><span>[mergetool]
+</span></span><span style="display:flex;"><span>    prompt <span style="color:#f92672">=</span> false
+</span></span><span style="display:flex;"><span>[mergetool <span style="color:#e6db74">&#34;meld&#34;</span>]
+</span></span><span style="display:flex;"><span>    trustExitCode <span style="color:#f92672">=</span> true
+</span></span><span style="display:flex;"><span>    cmd <span style="color:#f92672">=</span> open <span style="color:#f92672">-</span>W <span style="color:#f92672">-</span>a Meld <span style="color:#f92672">--</span>args <span style="color:#f92672">--</span>auto<span style="color:#f92672">-</span>merge <span style="color:#e6db74">&#34;$PWD/$LOCAL&#34;</span> <span style="color:#e6db74">&#34;$PWD/$BASE&#34;</span> <span style="color:#e6db74">&#34;$PWD/$REMOTE&#34;</span> <span style="color:#f92672">--</span>output <span style="color:#e6db74">&#34;$PWD/$MERGED&#34;</span>
+</span></span></code></pre></div>]]></content:encoded><webmention/></item><item><title>cloudflare-whiteboard</title><link>https://bneil.me/notes/2024-08-08-tmux-status-line-margin/</link><pubDate>Thu, 08 Aug 2024 18:32:32 +0000</pubDate><guid>https://bneil.me/notes/2024-08-08-tmux-status-line-margin/</guid><description><![CDATA[ <h1 id="description">Description</h1>
 <p>Was using tmux dracula, and really wanted a little margin between the bottom of the prompt and where the tmux status line was. Found a few pages and put this together</p>
 <p><em>.tmux.conf</em></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>if -F &#39;#{!=:#{status},2}&#39; {
@@ -7,7 +45,7 @@
 </span></span><span style="display:flex;"><span>  set -g status-format[0] &#39;#[fill=black]&#39;
 </span></span><span style="display:flex;"><span>  set -g status 2
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pr]]></description><content:encoded><![CDATA[ <h1 id="description">Description</h1>
+</span></span></code></pre></div>]]></description><content:encoded><![CDATA[ <h1 id="description">Description</h1>
 <p>Was using tmux dracula, and really wanted a little margin between the bottom of the prompt and where the tmux status line was. Found a few pages and put this together</p>
 <p><em>.tmux.conf</em></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>if -F &#39;#{!=:#{status},2}&#39; {
@@ -426,7 +464,8 @@ So it can be indicitive of a test or just a placeholder.</p>
 </p>
 <h2 id="trusting-your-gut-the-key-to-fulfilling-work">Trusting Your Gut: The Key to Fulfilling Work</h2>
 <p><em>or how to stop attending meetings that make you feel sick</em></p>
-<p>Have you ever found yourself dreading a meeting, only to leave it feeling completely drained and uninspired? I&rsquo;ve been there, and it&rsquo;s not a pleasant experience. In fact, it&rsquo;s one of the main reasons I recently stepped down from my last role.</p>]]></description><content:encoded><![CDATA[ <p style="text-align:center">
+<p>Have you ever found yourself dreading a meeting, only to leave it feeling completely drained and uninspired? I&rsquo;ve been there, and it&rsquo;s not a pleasant experience. In fact, it&rsquo;s one of the main reasons I recently stepped down from my last role.</p>
+<p>Working in an environment with an endless stream of mandatory meetings was slowly sucking the life out of me. I would get this terrible feeling of anxiety and existential dread leading up to these gatherings, and no matter how much I tried to rationalize it, I just couldn&rsquo;t shake the belief that they weren&rsquo;t serving me or the company well.</p>]]></description><content:encoded><![CDATA[ <p style="text-align:center">
   <img class="thumbnail" src="https://bneil.me/images/unfeathered-768.jpg" width="520" />
 </p>
 <h2 id="trusting-your-gut-the-key-to-fulfilling-work">Trusting Your Gut: The Key to Fulfilling Work</h2>
@@ -653,7 +692,7 @@ get a very vivid tale. Def made me look up pictures of the world fair and next t
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>    });
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pr]]></description><content:encoded><![CDATA[ <p>Started thinking that I wanted to have an explosion after someone signs up for an email. So I started researching how one would create an explosion. Found some code similar code for jquery that seems like it may work. Like much of my actual css/javascript experience when working with particles, so much feels like a hail mary.</p>
+</span></span></code></pre></div><p>looks like the css is something like this</p>]]></description><content:encoded><![CDATA[ <p>Started thinking that I wanted to have an explosion after someone signs up for an email. So I started researching how one would create an explosion. Found some code similar code for jquery that seems like it may work. Like much of my actual css/javascript experience when working with particles, so much feels like a hail mary.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">randomInt</span>(<span style="color:#a6e22e">min</span>, <span style="color:#a6e22e">max</span>) {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> Math.<span style="color:#a6e22e">floor</span>(Math.<span style="color:#a6e22e">random</span>() <span style="color:#f92672">*</span> (<span style="color:#a6e22e">max</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">min</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>)) <span style="color:#f92672">+</span> <span style="color:#a6e22e">min</span>;
 </span></span><span style="display:flex;"><span>}
@@ -779,7 +818,7 @@ If. You know the right words to use.</p>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>[screen]
 </span></span><span style="display:flex;"><span>  clear_on_rebuild = false
-</span></span></code></pr]]></description><content:encoded><![CDATA[ <p>Continuing on, lets go ahead and add <a href="https://github.com/cosmtrek/air">air</a> because doing reloads is lame. Also going to add a makefile because I feel like those two go together like beer and skittles.</p>
+</span></span></code></pre></div><p>Now we can add in a simple Makefile, ive used <a href="https://github.com/go-task/task">Taskfile</a> as an alternative, but really didn&rsquo;t get much out of it other then having everything in golang. Which is great but not really a requirement for this project. So here is the Makfile magic:</p>]]></description><content:encoded><![CDATA[ <p>Continuing on, lets go ahead and add <a href="https://github.com/cosmtrek/air">air</a> because doing reloads is lame. Also going to add a makefile because I feel like those two go together like beer and skittles.</p>
 <p>First lets make a bin directory</p>
 <p><code>mkdir bin</code></p>
 <p>Then lets add the <code>.air.toml</code> file</p>
@@ -1606,7 +1645,7 @@ of ease of mind. Totally worth the investment.</p>
 </span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;obsidian-outliner&#34;</span>,
 </span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;obsidian-projects&#34;</span>
 </span></span><span style="display:flex;"><span>]
-</span></span></code></pr]]></description><content:encoded><![CDATA[ <h2 id="obsidian-plugins">Obsidian Plugins</h2>
+</span></span></code></pre></div>]]></description><content:encoded><![CDATA[ <h2 id="obsidian-plugins">Obsidian Plugins</h2>
 <p>As an update <a href="https://bneil.me/posts/2021-05-28_note-taking-apps/" title="Note Taking Apps">Note Taking Apps</a>
 I ended up biting the bullet and a now using obsidian sync. Just in terms
 of ease of mind. Totally worth the investment.</p>
@@ -1783,7 +1822,10 @@ that want to reconnect.</p>
 <p>It was, at this point, my investiment into the crew of the Rocinate
 was tested. I didn&rsquo;t want these characters to leave. To explore their
 own backstories. But they did.</p>
-<p>Then rocks fell and all shit went haywire. It was glorius.</p>]]></description><content:encoded><![CDATA[ <h2 id="never-break-the-party">Never break the party</h2>
+<p>Then rocks fell and all shit went haywire. It was glorius.</p>
+<p>Naomi&rsquo;s character ark in particular was so spectacular that I had on occasion
+just had to stop gushing. She is the opposite of a character in a horror story.
+She would literally stop playing and shoot the bad guy in the head.</p>]]></description><content:encoded><![CDATA[ <h2 id="never-break-the-party">Never break the party</h2>
 <p>It&rsquo;s been really interesting in other expanse novels, the close
 releationships. The comradery. Then here, you see people. People
 that want to reconnect.</p>
@@ -1879,7 +1921,7 @@ as Holden is defined by his upbringing on Earth.</p>
 </span></span></code></pre></div><h2 id="psql--rds">PSQL / RDS</h2>
 <p>I didnt have a default database created, so I needed to psql into it - summoning psql via docker container</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>docker run -it --rm jbergknoff/postgresql-client postgresql://postgres:<span style="color:#e6db74">${</span>PROD_PGPASS<span style="color:#e6db74">}</span>@database.rds.amazonaws.com:5432
-</span></span></code></pr]]></description><content:encoded><![CDATA[ <h2 id="goose">Goose</h2>
+</span></span></code></pre></div>]]></description><content:encoded><![CDATA[ <h2 id="goose">Goose</h2>
 <p>Since goose uses pq under the hood, to hit remote urls</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#a6e22e">goose</span> <span style="color:#a6e22e">postgres</span> <span style="color:#e6db74">&#34;user=postgres password=${PROD_PGPASS} dbname=test sslmode=disable host=database.rds.amazonaws.com&#34;</span> <span style="color:#a6e22e">status</span>
 </span></span></code></pre></div><h2 id="psql--rds">PSQL / RDS</h2>
@@ -1897,7 +1939,9 @@ obsidian.md -&gt; sourcehut -&gt; all mobile devices</p>
 <p>When I started to think more critically about how interactions would work inside
 dynamodb for auditing I quickly learned about pain. Lots and lots of pain. Including
 the fact id probably end up having to use dynamodb streams and couple that with elasticsearch.
-So im not going to even entertain that idea and am going down the ol trusty sql route.</p>]]></description><content:encoded><![CDATA[ <h1 id="audit-service-or-round-2-fight">Audit Service or Round 2 Fight</h1>
+So im not going to even entertain that idea and am going down the ol trusty sql route.</p>
+<h1 id="creating-the-database">Creating the database</h1>
+<p>Im still on an older version of terraform, so public shamming for being on 0.12.6.</p>]]></description><content:encoded><![CDATA[ <h1 id="audit-service-or-round-2-fight">Audit Service or Round 2 Fight</h1>
 <h2 id="description">Description</h2>
 <p>When I started to think more critically about how interactions would work inside
 dynamodb for auditing I quickly learned about pain. Lots and lots of pain. Including
@@ -2023,7 +2067,10 @@ on here.</p>
 <p>Decided that I wanted an audit db and service to help keep track of user behaviors.
 Since I already have some in Redis, and some in Postgres I thought this might be a useful exercise.
 The main thing id like to accomplish with this code is going to be a way to track events and break
-them down by week/month/year per user and per company.</p>]]></description><content:encoded><![CDATA[ <h1 id="audit-service">Audit Service</h1>
+them down by week/month/year per user and per company.</p>
+<p>Im having some self debate about creating tables for the tallies or if I should just be creating
+them on the fly using a query. I like the idea of the tally because it would be a place to easily
+look that information up. Although if some error occurs it could possibly be inaccurate.</p>]]></description><content:encoded><![CDATA[ <h1 id="audit-service">Audit Service</h1>
 <h2 id="description">Description</h2>
 <p>Decided that I wanted an audit db and service to help keep track of user behaviors.
 Since I already have some in Redis, and some in Postgres I thought this might be a useful exercise.
@@ -2079,7 +2126,7 @@ look that information up. Although if some error occurs it could possibly be ina
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">t</span>.<span style="color:#a6e22e">Fail</span>()
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pr]]></description><content:encoded><![CDATA[ <h2 id="dynamo-code-snippet">Dynamo code snippet</h2>
+</span></span></code></pre></div>]]></description><content:encoded><![CDATA[ <h2 id="dynamo-code-snippet">Dynamo code snippet</h2>
 <p>Recently got burned because we needed to do a recursive paging through dynamo</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">listOfThings</span> []<span style="color:#a6e22e">Whatever</span>
 </span></span><span style="display:flex;"><span>
@@ -2173,7 +2220,8 @@ installing both tailwind css and tailwind jit.</p>
 </span></span><span style="display:flex;"><span>λ&gt; yarn add -d tailwindcss@latest postcss@latest autoprefixer@latest
 </span></span><span style="display:flex;"><span>λ&gt; npx tailwindcss init -p
 </span></span><span style="display:flex;"><span>λ&gt; yarn add @tailwindcss/jit tailwindcss postcss
-</span></span></code></pr]]></description><content:encoded><![CDATA[ <h1 id="setup">Setup</h1>
+</span></span></code></pre></div><p>if you want to learn more about the &lsquo;why&rsquo; you should use the jit instead of
+using tailwind directly,</p>]]></description><content:encoded><![CDATA[ <h1 id="setup">Setup</h1>
 <p>So the gist of the below is that we are creating a starter nextjs application, typescript, converting to yarn and finally
 installing both tailwind css and tailwind jit.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>λ&gt; npx create-next-app nextjs-crud --use-npm --example <span style="color:#e6db74">&#34;https://github.com/vercel/next-learn-starter/tree/master/learn-starter&#34;</span>
@@ -2273,7 +2321,10 @@ underpinnings done by creating a dynamo store</p>
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">primaryKey</span> <span style="color:#66d9ef">string</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">store</span>      <span style="color:#f92672">*</span><span style="color:#a6e22e">dynamodb</span>.<span style="color:#a6e22e">DynamoDB</span>
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pr]]></description><content:encoded><![CDATA[ <h2 id="another-store-getting-migrated">Another store getting migrated</h2>
+</span></span></code></pre></div><p>The funny thing is that im basically treating dynamo in
+the same way I was treating redis. Which is as primarily
+a key value  store. <em>sigh</em></p>
+<p>factory</p>]]></description><content:encoded><![CDATA[ <h2 id="another-store-getting-migrated">Another store getting migrated</h2>
 <p>Today&rsquo;s pivotal tasks are all related towards moving things
 away from redis and into dynamo. So far ive gotten the
 underpinnings done by creating a dynamo store</p>
@@ -2483,7 +2534,19 @@ about those implementations here.</p>
 <li><a href="https://developerdeathmarch.com/">Developer Death March</a> - A blog about developer horror stories and funny content</li>
 </ul>
 <h2 id="things-in-progress">Things in progress</h2>
-<p>Go checkout my <a href="https://bneil.me/now/" title="NOW">NOW</a> page, it has all the things im working on well, right now!</p>]]></description><content:encoded><![CDATA[ <h1 id="publications">Publications</h1>
+<p>Go checkout my <a href="https://bneil.me/now/" title="NOW">NOW</a> page, it has all the things im working on well, right now!</p>
+<h2 id="random-trivia">Random Trivia</h2>
+<p>Some fun facts about this site and me:</p>
+<ul>
+<li>The first program I made was a Mortal Kombat Trivia game</li>
+<li>I used to run a BBS called &ldquo;Serious Games&rdquo; using Wildcat! BBS</li>
+<li>My favorite DOOR game was &ldquo;Legend of the Red Dragon&rdquo;</li>
+<li>Hugo&rsquo;s House of Horrors is my favorite adventure game - followed by Monkey Island and Loom</li>
+<li>The longest ive been awake coding / releasing software was just over three days.</li>
+<li>I really like using the tomato timer to segregate work sessions</li>
+<li>This site was coded in <a href="http://vim.org">Vim</a> using lots of plugins mentioned at <a href="http://vim.spf13.com/">spf13-vim</a></li>
+</ul>
+<p>Have questions or suggestions? Feel free to <a href="https://twitter.com/benneil">ask me on Twitter</a>.</p>]]></description><content:encoded><![CDATA[ <h1 id="publications">Publications</h1>
 <p>Recently (well in 2016) I co-authored a book called <a href="http://www.wrox.com/WileyCDA/WroxTitle/Professional-Scala.productCd-1119267226.html">Professional Scala</a>, it was an exciting experience and I really enjoyed the feedback from the scala community.</p>
 <h2 id="other-blogs">Other Blogs</h2>
 <ul>
@@ -2756,10 +2819,11 @@ function createSpaceships(count) {
 createSpaceships(5);
 
 </script>
-]]></content:encoded><webmention/></item><item><title>now</title><link>https://bneil.me/now/</link><pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate><guid>https://bneil.me/now/</guid><description><![CDATA[ <p><em>Last Updated: Aug 24, 2024</em></p>
-<p>Long week, glad to have a weekend ahead of me. Really happy to be working on a project and grateful to be working with people that genuinely are try to get to the finish line.  Got a week to get this infra into a good place, so focused on trying to have some time with the family before things get crunchy.</p>
-<p>👋 If you are reading this, maybe head over to my <a href="https://bneil.me/resume/">resume</a> if you want to play some basic space invaders and maybe we can collab sometime 😊</p>]]></description><content:encoded><![CDATA[ <p><em>Last Updated: Aug 24, 2024</em></p>
-<p>Long week, glad to have a weekend ahead of me. Really happy to be working on a project and grateful to be working with people that genuinely are try to get to the finish line.  Got a week to get this infra into a good place, so focused on trying to have some time with the family before things get crunchy.</p>
+]]></content:encoded><webmention/></item><item><title>now</title><link>https://bneil.me/now/</link><pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate><guid>https://bneil.me/now/</guid><description><![CDATA[ <p><em>Last Updated: Sep 14, 2024</em></p>
+<p>Hello September, its always hard letting go of summer, it might just be that kid in me but its hard to feel the weather shift. To accept that its another end to a wonderful season. I love the warmness and general happiness, of people actually taking time off for family that doesn&rsquo;t feel forced. But, it is what it is. So far this month ive been focused on Flutter, on firebase functions and in creating some day 2 operations for some fine clients. Im very grateful for the work and excited to be coding.</p>]]></description><content:encoded><![CDATA[ <p><em>Last Updated: Sep 14, 2024</em></p>
+<p>Hello September, its always hard letting go of summer, it might just be that kid in me but its hard to feel the weather shift. To accept that its another end to a wonderful season. I love the warmness and general happiness, of people actually taking time off for family that doesn&rsquo;t feel forced. But, it is what it is. So far this month ive been focused on Flutter, on firebase functions and in creating some day 2 operations for some fine clients. Im very grateful for the work and excited to be coding.</p>
+<p>This has also been the first time ive been using AI to aid in development. I&rsquo;ve been pressured to use &lsquo;cursor&rsquo; but haven&rsquo;t yet. It&rsquo;s really interesting to be kinda pushed towards using this new tech and im excited to see if &lsquo;cursor&rsquo; is able to do the job. The more cynacially part of me, expects lots or rework. But who knows. maybe its getting better. I&rsquo;m excited to try.</p>
+<p>Cheers to octoberfest! 🍻</p>
 <p>👋 If you are reading this, maybe head over to my <a href="https://bneil.me/resume/">resume</a> if you want to play some basic space invaders and maybe we can collab sometime 😊</p>
 <h2 id="reading">Reading</h2>
 <ul>
@@ -2793,4 +2857,4 @@ the host machine for the proper resources.</p>
 <h3 id="next">Next&hellip;</h3>
 <p>So, the search begins for finding some more information around foreign layers and how to specify them within a manifest,
 dockerfile or registry&hellip;</p>
-]]></content:encoded><webmention/></item><item><title/><link>https://bneil.me/notes/2024-08-26-meld-three-way/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bneil.me/notes/2024-08-26-meld-three-way/</guid><description> </description><content:encoded> </content:encoded><webmention/></item></channel></rss>
+]]></content:encoded><webmention/></item></channel></rss>

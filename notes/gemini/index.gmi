@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /notes/2024-08-26-meld-three-way/index.gmi 2024-08-26 merge-threeway
 => /notes/2024-08-08-tmux-status-line-margin/index.gmi 2024-08-08 cloudflare-whiteboard
 => /notes/2024-06-14-cloudflare-whiteboard/index.gmi 2024-06-14 cloudflare-whiteboard
 => /notes/2023-09-18-hugo-vs-the-ai/index.gmi 2023-09-18 Hugo vs The AI
@@ -10,4 +11,3 @@ Pages in this section:
 => /notes/dynamodb_pages/index.gmi 2021-05-25 Dynamo DB Pages
 => /notes/2021-05-06-mfa-aws/index.gmi 2021-05-06 Using MFA with AWS CLI
 => /notes/2021-04-19-taking-notes/index.gmi 2021-04-19 On Notes
-=> /notes/2024-08-26-meld-three-way/index.gmi 0001-01-01 

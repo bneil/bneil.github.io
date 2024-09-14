@@ -59,6 +59,7 @@ Happy Fall Y'all
 
 ## by tag
 
+=> gemini://shiny.bneil.me/tags/merge/gemini/index.gmi Merge
 => gemini://shiny.bneil.me/tags/notes/gemini/index.gmi Notes
 => gemini://shiny.bneil.me/tags/tmux/gemini/index.gmi Tmux
 => gemini://shiny.bneil.me/tags/ai/gemini/index.gmi Ai
