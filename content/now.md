@@ -8,7 +8,11 @@ noComment: true
 
 _Last Updated: {{< updated >}}_
 
-Long week, glad to have a weekend ahead of me. Really happy to be working on a project and grateful to be working with people that genuinely are try to get to the finish line.  Got a week to get this infra into a good place, so focused on trying to have some time with the family before things get crunchy.
+Hello September, its always hard letting go of summer, it might just be that kid in me but its hard to feel the weather shift. To accept that its another end to a wonderful season. I love the warmness and general happiness, of people actually taking time off for family that doesn't feel forced. But, it is what it is. So far this month ive been focused on Flutter, on firebase functions and in creating some day 2 operations for some fine clients. Im very grateful for the work and excited to be coding.
+
+This has also been the first time ive been using AI to aid in development. I've been pressured to use 'cursor' but haven't yet. It's really interesting to be kinda pushed towards using this new tech and im excited to see if 'cursor' is able to do the job. The more cynacially part of me, expects lots or rework. But who knows. maybe its getting better. I'm excited to try.
+
+Cheers to octoberfest! 🍻
 
 👋 If you are reading this, maybe head over to my [resume]({{< ref "resume.md" >}}) if you want to play some basic space invaders and maybe we can collab sometime 😊
 
