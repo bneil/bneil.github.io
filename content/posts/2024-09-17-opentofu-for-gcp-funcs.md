@@ -12,6 +12,12 @@ categories: ["infra", "practice"]
 
 Had a few minutes so thought id see how to deploy a function using open tofu. 
 
+for this example, please use the alias
+
+```
+alias tf='tofu'
+```
+
 The directories should look like
 
 ```
