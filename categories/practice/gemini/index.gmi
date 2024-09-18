@@ -1,0 +1,6 @@
+# Practice
+
+
+Pages in this section:
+
+=> /posts/2024-09-17-opentofu-for-gcp-funcs/index.gmi 2024-09-18 opentofu-for-gcp-funcs

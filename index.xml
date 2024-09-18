@@ -1,4 +1,171 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Sat, 14 Sep 2024 20:05:34 +0000</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>obsidian-quick-trick</title><link>https://bneil.me/posts/2024-09-14-postsgoing-through-areas/</link><pubDate>Sat, 14 Sep 2024 20:05:34 +0000</pubDate><guid>https://bneil.me/posts/2024-09-14-postsgoing-through-areas/</guid><description><![CDATA[ <h2 id="creating-a-quick-lookup-of-this-months-articles">Creating a quick lookup of this months articles</h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Wed, 18 Sep 2024 04:17:59 +0000</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>opentofu-for-gcp-funcs</title><link>https://bneil.me/posts/2024-09-17-opentofu-for-gcp-funcs/</link><pubDate>Wed, 18 Sep 2024 04:17:59 +0000</pubDate><guid>https://bneil.me/posts/2024-09-17-opentofu-for-gcp-funcs/</guid><description><![CDATA[ <h2 id="opentofu-and-gcp-functions">OpenTofu and GCP Functions</h2>
+<p>Had a few minutes so thought id see how to deploy a function using open tofu.</p>
+<p>The directories should look like</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>main.tf
+</span></span><span style="display:flex;"><span>function/main.tf
+</span></span></code></pre></div><p>Setting up the main.tf file. I left things in one file and also forgo&rsquo;d the variables file.
+Again, just wanted to get some timings around deployments</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="color:#75715e"># Configure your gcp </span>
+</span></span><span style="display:flex;"><span>provider <span style="color:#e6db74">&#34;google&#34;</span> {
+</span></span><span style="display:flex;"><span>  project <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;YOUR_PROJECT_ID_HERE&#34;</span>
+</span></span><span style="display:flex;"><span>  region  <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;us-central1&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>resource <span style="color:#e6db74">&#34;google_storage_bucket&#34;</span> <span style="color:#e6db74">&#34;sandbox_bucket&#34;</span> {
+</span></span><span style="display:flex;"><span>  name     <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;UNIQUE_BUCKET_NAME&#34;</span>
+</span></span><span style="display:flex;"><span>  location <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;US&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Makes the zip file</span>
+</span></span><span style="display:flex;"><span>data <span style="color:#e6db74">&#34;archive_file&#34;</span> <span style="color:#e6db74">&#34;function_zip&#34;</span> {
+</span></span><span style="display:flex;"><span>  type        <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;zip&#34;</span>
+</span></span><span style="display:flex;"><span>  source_dir  <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;${path.module}/function&#34;</span>
+</span></span><span style="display:flex;"><span>  output_path <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;${path.module}/function.zip&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Uploads</span>
+</span></span><span style="display:flex;"><span>resource <span style="color:#e6db74">&#34;google_storage_bucket_object&#34;</span> <span style="color:#e6db74">&#34;function_zip&#34;</span> {
+</span></span><span style="display:flex;"><span>  name   <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;function-${data.archive_file.function_zip.output_md5}.zip&#34;</span>
+</span></span><span style="display:flex;"><span>  bucket <span style="color:#f92672">=</span> google_storage_bucket<span style="color:#f92672">.</span>sandbox_bucket<span style="color:#f92672">.</span>name
+</span></span><span style="display:flex;"><span>  source <span style="color:#f92672">=</span> data<span style="color:#f92672">.</span>archive_file<span style="color:#f92672">.</span>function_zip<span style="color:#f92672">.</span>output_path
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Generates the cloud function</span>
+</span></span><span style="display:flex;"><span>resource <span style="color:#e6db74">&#34;google_cloudfunctions_function&#34;</span> <span style="color:#e6db74">&#34;function&#34;</span> {
+</span></span><span style="display:flex;"><span>  name        <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;ping&#34;</span>
+</span></span><span style="display:flex;"><span>  description <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;the ping is real&#34;</span>
+</span></span><span style="display:flex;"><span>  runtime     <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;go116&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  available_memory_mb   <span style="color:#f92672">=</span> <span style="color:#ae81ff">128</span>
+</span></span><span style="display:flex;"><span>  source_archive_bucket <span style="color:#f92672">=</span> google_storage_bucket<span style="color:#f92672">.</span>sandbox_bucket<span style="color:#f92672">.</span>name
+</span></span><span style="display:flex;"><span>  source_archive_object <span style="color:#f92672">=</span> google_storage_bucket_object<span style="color:#f92672">.</span>function_zip<span style="color:#f92672">.</span>name
+</span></span><span style="display:flex;"><span>  trigger_http          <span style="color:#f92672">=</span> true
+</span></span><span style="display:flex;"><span>  entry_point           <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Ping&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># IAM entry for all users to invoke the function</span>
+</span></span><span style="display:flex;"><span>resource <span style="color:#e6db74">&#34;google_cloudfunctions_function_iam_member&#34;</span> <span style="color:#e6db74">&#34;invoker&#34;</span> {
+</span></span><span style="display:flex;"><span>  project        <span style="color:#f92672">=</span> google_cloudfunctions_function<span style="color:#f92672">.</span>function<span style="color:#f92672">.</span>project
+</span></span><span style="display:flex;"><span>  region         <span style="color:#f92672">=</span> google_cloudfunctions_function<span style="color:#f92672">.</span>function<span style="color:#f92672">.</span>region
+</span></span><span style="display:flex;"><span>  cloud_function <span style="color:#f92672">=</span> google_cloudfunctions_function<span style="color:#f92672">.</span>function<span style="color:#f92672">.</span>name
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  role   <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;roles/cloudfunctions.invoker&#34;</span>
+</span></span><span style="display:flex;"><span>  member <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;allUsers&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>output <span style="color:#e6db74">&#34;function_url&#34;</span> {
+</span></span><span style="display:flex;"><span>  description <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Curl to test&#34;</span>
+</span></span><span style="display:flex;"><span>  value       <span style="color:#f92672">=</span> google_cloudfunctions_function<span style="color:#f92672">.</span>function<span style="color:#f92672">.</span>https_trigger_url
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>The test golang file looks like this:</p>]]></description><content:encoded><![CDATA[ <h2 id="opentofu-and-gcp-functions">OpenTofu and GCP Functions</h2>
+<p>Had a few minutes so thought id see how to deploy a function using open tofu.</p>
+<p>The directories should look like</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>main.tf
+</span></span><span style="display:flex;"><span>function/main.tf
+</span></span></code></pre></div><p>Setting up the main.tf file. I left things in one file and also forgo&rsquo;d the variables file.
+Again, just wanted to get some timings around deployments</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="color:#75715e"># Configure your gcp </span>
+</span></span><span style="display:flex;"><span>provider <span style="color:#e6db74">&#34;google&#34;</span> {
+</span></span><span style="display:flex;"><span>  project <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;YOUR_PROJECT_ID_HERE&#34;</span>
+</span></span><span style="display:flex;"><span>  region  <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;us-central1&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>resource <span style="color:#e6db74">&#34;google_storage_bucket&#34;</span> <span style="color:#e6db74">&#34;sandbox_bucket&#34;</span> {
+</span></span><span style="display:flex;"><span>  name     <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;UNIQUE_BUCKET_NAME&#34;</span>
+</span></span><span style="display:flex;"><span>  location <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;US&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Makes the zip file</span>
+</span></span><span style="display:flex;"><span>data <span style="color:#e6db74">&#34;archive_file&#34;</span> <span style="color:#e6db74">&#34;function_zip&#34;</span> {
+</span></span><span style="display:flex;"><span>  type        <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;zip&#34;</span>
+</span></span><span style="display:flex;"><span>  source_dir  <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;${path.module}/function&#34;</span>
+</span></span><span style="display:flex;"><span>  output_path <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;${path.module}/function.zip&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Uploads</span>
+</span></span><span style="display:flex;"><span>resource <span style="color:#e6db74">&#34;google_storage_bucket_object&#34;</span> <span style="color:#e6db74">&#34;function_zip&#34;</span> {
+</span></span><span style="display:flex;"><span>  name   <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;function-${data.archive_file.function_zip.output_md5}.zip&#34;</span>
+</span></span><span style="display:flex;"><span>  bucket <span style="color:#f92672">=</span> google_storage_bucket<span style="color:#f92672">.</span>sandbox_bucket<span style="color:#f92672">.</span>name
+</span></span><span style="display:flex;"><span>  source <span style="color:#f92672">=</span> data<span style="color:#f92672">.</span>archive_file<span style="color:#f92672">.</span>function_zip<span style="color:#f92672">.</span>output_path
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Generates the cloud function</span>
+</span></span><span style="display:flex;"><span>resource <span style="color:#e6db74">&#34;google_cloudfunctions_function&#34;</span> <span style="color:#e6db74">&#34;function&#34;</span> {
+</span></span><span style="display:flex;"><span>  name        <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;ping&#34;</span>
+</span></span><span style="display:flex;"><span>  description <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;the ping is real&#34;</span>
+</span></span><span style="display:flex;"><span>  runtime     <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;go116&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  available_memory_mb   <span style="color:#f92672">=</span> <span style="color:#ae81ff">128</span>
+</span></span><span style="display:flex;"><span>  source_archive_bucket <span style="color:#f92672">=</span> google_storage_bucket<span style="color:#f92672">.</span>sandbox_bucket<span style="color:#f92672">.</span>name
+</span></span><span style="display:flex;"><span>  source_archive_object <span style="color:#f92672">=</span> google_storage_bucket_object<span style="color:#f92672">.</span>function_zip<span style="color:#f92672">.</span>name
+</span></span><span style="display:flex;"><span>  trigger_http          <span style="color:#f92672">=</span> true
+</span></span><span style="display:flex;"><span>  entry_point           <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Ping&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># IAM entry for all users to invoke the function</span>
+</span></span><span style="display:flex;"><span>resource <span style="color:#e6db74">&#34;google_cloudfunctions_function_iam_member&#34;</span> <span style="color:#e6db74">&#34;invoker&#34;</span> {
+</span></span><span style="display:flex;"><span>  project        <span style="color:#f92672">=</span> google_cloudfunctions_function<span style="color:#f92672">.</span>function<span style="color:#f92672">.</span>project
+</span></span><span style="display:flex;"><span>  region         <span style="color:#f92672">=</span> google_cloudfunctions_function<span style="color:#f92672">.</span>function<span style="color:#f92672">.</span>region
+</span></span><span style="display:flex;"><span>  cloud_function <span style="color:#f92672">=</span> google_cloudfunctions_function<span style="color:#f92672">.</span>function<span style="color:#f92672">.</span>name
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  role   <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;roles/cloudfunctions.invoker&#34;</span>
+</span></span><span style="display:flex;"><span>  member <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;allUsers&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>output <span style="color:#e6db74">&#34;function_url&#34;</span> {
+</span></span><span style="display:flex;"><span>  description <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Curl to test&#34;</span>
+</span></span><span style="display:flex;"><span>  value       <span style="color:#f92672">=</span> google_cloudfunctions_function<span style="color:#f92672">.</span>function<span style="color:#f92672">.</span>https_trigger_url
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>The test golang file looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>package function
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>import (
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;encoding/json&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;net/http&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;time&#34;</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">//</span> Response represents the JSON structure we<span style="color:#e6db74">&#39;ll return</span>
+</span></span><span style="display:flex;"><span>type Response struct {
+</span></span><span style="display:flex;"><span>	Message   string    <span style="color:#960050;background-color:#1e0010">`</span>json:<span style="color:#e6db74">&#34;message&#34;</span><span style="color:#960050;background-color:#1e0010">`</span>
+</span></span><span style="display:flex;"><span>	Timestamp time<span style="color:#f92672">.</span>Time <span style="color:#960050;background-color:#1e0010">`</span>json:<span style="color:#e6db74">&#34;timestamp&#34;</span><span style="color:#960050;background-color:#1e0010">`</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">//</span> Ping is an HTTP Cloud Function that returns a JSON response<span style="color:#f92672">.</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> Ping(w http<span style="color:#f92672">.</span>ResponseWriter, r <span style="color:#f92672">*</span>http<span style="color:#f92672">.</span>Request) {
+</span></span><span style="display:flex;"><span>	response :<span style="color:#f92672">=</span> Response{
+</span></span><span style="display:flex;"><span>		Message:   <span style="color:#e6db74">&#34;pong&#34;</span>,
+</span></span><span style="display:flex;"><span>		Timestamp: time<span style="color:#f92672">.</span>Now(),
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	w<span style="color:#f92672">.</span>Header()<span style="color:#f92672">.</span>Set(<span style="color:#e6db74">&#34;Content-Type&#34;</span>, <span style="color:#e6db74">&#34;application/json&#34;</span>)
+</span></span><span style="display:flex;"><span>	json<span style="color:#f92672">.</span>NewEncoder(w)<span style="color:#f92672">.</span>Encode(response)
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>The actual deployment wan&rsquo;t bad.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>tf init
+</span></span><span style="display:flex;"><span>tf plan
+</span></span></code></pre></div><p>then the famous <code>tf apply</code>. I ran into some issues</p>
+<ol>
+<li>needed to use <code>gcloud auth application-default login</code> to set my email to the right one</li>
+<li>needed to enable artifactorregistry? <code>gcloud services enable artifactregistry.googleapis.com</code></li>
+</ol>
+<p>But once those were done, the first run wasn&rsquo;t bad, just under 2m.</p>
+<p>Verified using the fantastic httpie:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>➜  http https://MYSTERY.cloudfunctions.net/ping
+</span></span><span style="display:flex;"><span>HTTP/1.1 200 OK
+</span></span><span style="display:flex;"><span>Alt-Svc: h3=&#34;:443&#34;; ma=2592000,h3-29=&#34;:443&#34;; ma=2592000
+</span></span><span style="display:flex;"><span>Content-Length: 64
+</span></span><span style="display:flex;"><span>Content-Type: application/json
+</span></span><span style="display:flex;"><span>Date: Wed, 18 Sep 2024 04:53:29 GMT
+</span></span><span style="display:flex;"><span>Function-Execution-Id: 50gjuelrir3x
+</span></span><span style="display:flex;"><span>Server: Google Frontend
+</span></span><span style="display:flex;"><span>X-Cloud-Trace-Context: 5e1195a6f11deb78f851265f4a8ea913;o=1
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    &#34;message&#34;: &#34;pong&#34;,
+</span></span><span style="display:flex;"><span>    &#34;timestamp&#34;: &#34;2024-09-18T04:53:29.562205302Z&#34;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>]]></content:encoded><webmention/></item><item><title>obsidian-quick-trick</title><link>https://bneil.me/posts/2024-09-14-postsgoing-through-areas/</link><pubDate>Sat, 14 Sep 2024 20:05:34 +0000</pubDate><guid>https://bneil.me/posts/2024-09-14-postsgoing-through-areas/</guid><description><![CDATA[ <h2 id="creating-a-quick-lookup-of-this-months-articles">Creating a quick lookup of this months articles</h2>
 <p>One thing I like to have in my workbench is a nice list of articles ive been updating I do that via this script in dataview:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>LIST
 </span></span><span style="display:flex;"><span>WHERE file.day &gt;= date(2024-09-01) and file.day &lt; date(2024-09-30)

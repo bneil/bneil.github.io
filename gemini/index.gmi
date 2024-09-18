@@ -42,6 +42,8 @@ Happy Fall Y'all
 
 ## by major subject
 
+=> gemini://shiny.bneil.me/categories/infra/gemini/index.gmi Infra
+=> gemini://shiny.bneil.me/categories/practice/gemini/index.gmi Practice
 => gemini://shiny.bneil.me/categories/notes/gemini/index.gmi Notes
 => gemini://shiny.bneil.me/categories/productivity/gemini/index.gmi Productivity
 => gemini://shiny.bneil.me/categories/coding/gemini/index.gmi Coding
@@ -59,6 +61,8 @@ Happy Fall Y'all
 
 ## by tag
 
+=> gemini://shiny.bneil.me/tags/golang/gemini/index.gmi Golang
+=> gemini://shiny.bneil.me/tags/opentofu/gemini/index.gmi Opentofu
 => gemini://shiny.bneil.me/tags/notes/gemini/index.gmi Notes
 => gemini://shiny.bneil.me/tags/obsidian/gemini/index.gmi Obsidian
 => gemini://shiny.bneil.me/tags/merge/gemini/index.gmi Merge
@@ -71,7 +75,6 @@ Happy Fall Y'all
 => gemini://shiny.bneil.me/tags/rust/gemini/index.gmi Rust
 => gemini://shiny.bneil.me/tags/wasm/gemini/index.gmi Wasm
 => gemini://shiny.bneil.me/tags/update/gemini/index.gmi Update
-=> gemini://shiny.bneil.me/tags/golang/gemini/index.gmi Golang
 => gemini://shiny.bneil.me/tags/meetings/gemini/index.gmi Meetings
 => gemini://shiny.bneil.me/tags/offchest/gemini/index.gmi Offchest
 => gemini://shiny.bneil.me/tags/planning/gemini/index.gmi Planning
