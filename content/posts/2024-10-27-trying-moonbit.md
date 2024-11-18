@@ -3,7 +3,7 @@ title: trying-moonbit
 description: "Trying out moonbit, really novice stuff"
 date: 2024-10-27T22:25:41.978Z
 preview: ""
-draft: falst
+draft: false
 tags: ['moonbit']
 categories: ['practice']
 ---
