@@ -19,7 +19,7 @@
 {{ $num_mentions_max := 200 }}
 
 {{ $finalUrl := printf "%sapi/mentions?%s&per-page=%d&page=0" .endpoint $wm_targets $num_mentions_max }}
-{{ $webmentions_rcv := getJSON  $finalUrl}}
+{{ $webmentions_rcv := resources.GetRemote $finalUrl}}
 
 {{ $like_cnt := 0 }}
 {{ $repost_cnt := 0 }}
