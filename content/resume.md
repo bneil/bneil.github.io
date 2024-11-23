@@ -1,7 +1,7 @@
 +++
 title = "Resume"
 slug = "resume"
-date = "2020-10-20"
+date = "2024-02-20"
 description = "resume"
 noComment = true
 +++
@@ -77,7 +77,6 @@ noComment = true
 
 <img class="thumbnail" src="/images/wild-report.jpg" width="320" align="left" /><p/>
 
-
 Over a decade of experience in spearheading cutting-edge technological solutions, bridging the gap between business objectives and technical excellence. A technical leader with a proven track record of architecting scalable, resilient, and high-performance systems that drive innovation and propel growth.
 
 With a deep passion for continuous learning and an unwavering commitment to staying ahead of the curve, I thrive in dynamic environments where challenges are met with creative problem-solving and a relentless pursuit of excellence.
@@ -88,11 +87,11 @@ But most importantly im able <br/>
 
 ### Technology Summary
 
-**Frontend:** Vue.js, Next.js/React, Backbone.js (yeah ive been at this awhile)<br/>
-**Backend:** Go, Rust, Scala, Akka, Java, Thrift/Protobuf, NATS<br/>
-**DevOps:** Docker, Kubernetes, Jenkins, Drone, GitLab, Ambassador, OpenFaaS<br/>
-**Databases:** PostgreSQL, MySQL, Redis, Cassandra, Turso, Pocketbase<br/>
-**Clouds:** AWS, GCP, Fly.io<br/>
+**Frontend:** Vue.js, Next.js/React, Flutter/Dart, Backbone.js (yeah ive been at this awhile)<br/>
+**Backend:** Go, TypeScript, Rust, Scala, Akka, Java, Thrift/Protobuf, NATS<br/>
+**DevOps:** Docker, Kubernetes, Terraform, GitHub Actions, GitLab CI, Vault, Helm<br/>
+**Databases:** PostgreSQL, SQLite, Redis, DynamoDB, Elasticsearch, Kafka<br/>
+**Clouds:** AWS, GCP, Fly.io, Firebase<br/>
 
 <i>Ive left alot off this list in the hopes it wouldn't be distracting. Lots of technology has come and gone over the past twenty years</i>
 
@@ -105,32 +104,36 @@ But most importantly im able <br/>
 
 ### Experience
 
-**Compliable** *CTO Co-Founder* __Sept 2020 to Present__<br/>
+**Modernize** *Consultant* __July 2024 to Present__<br/>
 
-Same role just now with a new name!
+As a Senior Application Architect for ProWallet, I've been:
+- Leading the charge on Infrastructure as Code with Terraform
+- Building out mobile deployment pipelines with CodeMagic.io
+- Spearheading Flutter/Dart mobile app development
+- Making friends with Plaid, Treasury Prime, and Incomm for all things financial
+- Transforming legacy code into shiny new TypeScript services via Firebase
+- Helping folks move from Microsoft 365 to Google Suite (because why not?)
 
-**Technical Toolset** Docker, Aws Stack, Go
+**Compliable** *CTO Co-Founder* __Feb 2020 to July 2024__<br/>
 
-**REBRIC** *Chief Technical Officer* __Nov 2016 to Sept 2020__ <br/>
+- Co-founded the company and helped secure $3M in initial investment (yeah, that was pretty cool!)
+- Built and led awesome Platform, Infrastructure, and Product teams
+- Developed the company's foundation from the ground up
+- Mentored a stellar team of 8 engineers, 2 product folks, and 1 infrastructure wizard
+- Balanced the fun stuff (innovation) with the necessary stuff (SDLC efficiency)
+- Wore the security officer hat and got us that sweet SOC 2 Type 2 compliance
+- Sat on the board and kept everyone in the loop about our tech adventures
 
-- Lead the long-term technical strategy development and tactical execution of those strategies at Rebric
-- Directed technical teams and resources in solutions for design, development and delivery services to benefit the buisness
-- Developed a road map to optimize the rollout of the Rebric infrastructure
-- Launched development, testing and production environments for all Rebric infrastructure
-- Articulated a clear vision, to drive technical discussions throughout the SDLC lifecycle to be in parity with the buisness
+**Technical Toolset** Docker, AWS Stack, Go, Flutter, Firebase, Terraform
+
+**REBRIC** *CTO / Consultant* __Nov 2016 to Feb 2020__ <br/>
+
+- Started as CTO in the early days, building proof of concept apps to get VCs excited
+- Made it into TechStars 2019 Western Union Accelerator (pretty rad!)
+- Helped other companies modernize their tech while we figured out our own path
+- Specialized in making DevOps and AWS pipelines more approachable for established companies
 
 **Technical Toolset** Docker, Jenkins, Ambassador, Play, Rust, Go Microservices, OpenFaas, GCP, AWS.
-
-**REBRIC** *Senior Consultant* __Nov 2016 to Feb 2020__<br/>
-
-- Working as a consultant to help companies modernize their architecture which includes evangelizing kubernetes, docker swarm mode, jenkins and general civil discourse
-- Contributed to a large shared groovy pipeline
-- Cordinated host upgrades within a very structured entrprise environment
-- Mentored and held brown bag session on containerization technology
-- Proposed, designed and implemented a realtime deployment tracker used by XLR
-- Created a custom alarm dashboard for quick diagnose of microservice issues
-
-**Technical Toolset** Docker, Jenkins, Bitbucket, Go
 
 ------
 **AppThis LLC** *Senior Fullstack Engineer* __Mar 2015 to Nov 2016__ <br/>
