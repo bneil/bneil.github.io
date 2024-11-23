@@ -14,7 +14,10 @@ pygmentscodefencesguesssyntax = true
 enableGitInfo = true
 enableInlineShortcodes= true
 
-paginate=3 # articles per page
+[pagination]
+  disableAliases = false
+  pagerSize = 3
+  path = 'page'
 
 [mediaTypes]
   [mediaTypes."application/rss+xml"]
@@ -42,20 +45,28 @@ paginate=3 # articles per page
     [markup.goldmark.renderer]
       unsafe = true
 
-
 [outputs]
   home = ["html", "rss", "gemini","gemini_rss"]
   page = ["html", "gemini"]
   section = ["html","gemini"]
   term = ["gemini", "html"]
-  taxanomy = ["gemini", "html"]
-
+  taxonomy = ["gemini", "html"]
 
 [params]
   mode="toggle" # color-mode → light,dark,toggle or auto
   useCDN=true
   subtitle = "learnings from a professional automation mechanic"
   geminiBaseUrl = "gemini://shiny.bneil.me"
+
+# IndieWeb Configuration
+[params.indieweb]
+  domain = "bneil.me" 
+  [params.indieweb.webmention]
+    endpoint = "https://webmention.io/api"  
+    token = "" 
+  [params.indieweb.resources]
+    allowRemote = true  
+    timeout = "30s"
 
 # Social Tags
 [[params.social]]
@@ -87,18 +98,11 @@ paginate=3 # articles per page
     icon = "rss"
     url = "https://bneil.me/index.xml"
 
-[params.indieweb]
-    domain = "https://bneil.me"
-    webmention = { endpoint = "https://webmention.io/" }
-
-
 # Main menu Items
-
 [[menu.main]]
     name = "Home"
     url = "/"
     weight = 1
-
 
 [[menu.main]]
     name = "Contact"
