@@ -114,6 +114,8 @@ As a Senior Application Architect for ProWallet, I've been:
 - Transforming legacy code into shiny new TypeScript services via Firebase
 - Helping folks move from Microsoft 365 to Google Suite (because why not?)
 
+------
+
 **Compliable** *CTO Co-Founder* __Feb 2020 to July 2024__<br/>
 
 - Co-founded the company and helped secure $3M in initial investment (yeah, that was pretty cool!)
