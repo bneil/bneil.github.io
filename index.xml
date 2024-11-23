@@ -818,6 +818,255 @@ Just felt magical, like witnessing the seeds of small aspects of American cultur
 <p>What else can I say. If you have ever wanted to hear real life stories of people in the 1890&rsquo;s, a time where cars weren&rsquo;t a thing. Where people were easily
 missed and it was common place to accidentally die by trolly its a wild ride. Mix that with the audacious killings that Holmes performs and you
 get a very vivid tale. Def made me look up pictures of the world fair and next time im in Chicago, id like to see if that little island is still around.</p>
+]]></content:encoded><webmention/></item><item><title>Resume</title><link>https://bneil.me/resume/</link><pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate><guid>https://bneil.me/resume/</guid><description><![CDATA[ <style>
+ .thumbnail {
+   max-width: 200px;
+   border-radius: 8px;
+   transition: filter 0.3s ease;
+   margin-right:10px;
+ }
+
+ .thumbnail:hover {
+   filter: brightness(1.2) saturate(1.2);
+ }
+
+.spaceship-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.spaceship {
+  position: absolute;
+  font-size: 2.5rem;
+  transform: translateX(-100%);
+  animation: rocket 30s linear infinite;
+  cursor: crosshair;
+  opacity: .88;
+  z-index: 99;
+}
+
+
+@keyframes rocket {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(calc(100vw + 100%)); 
+  }
+}
+
+.retro-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #6b00b3;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.retro-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.retro-button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+
+</style>
+<h2 id="driven-technologist-transforming-visions-into-realities">Driven Technologist: Transforming Visions into Realities</h2>
+<p>&hellip;also an avid bug remover! 🚫👾</p>]]></description><content:encoded><![CDATA[ <style>
+ .thumbnail {
+   max-width: 200px;
+   border-radius: 8px;
+   transition: filter 0.3s ease;
+   margin-right:10px;
+ }
+
+ .thumbnail:hover {
+   filter: brightness(1.2) saturate(1.2);
+ }
+
+.spaceship-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.spaceship {
+  position: absolute;
+  font-size: 2.5rem;
+  transform: translateX(-100%);
+  animation: rocket 30s linear infinite;
+  cursor: crosshair;
+  opacity: .88;
+  z-index: 99;
+}
+
+
+@keyframes rocket {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(calc(100vw + 100%)); 
+  }
+}
+
+.retro-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #6b00b3;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.retro-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.retro-button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+
+</style>
+<h2 id="driven-technologist-transforming-visions-into-realities">Driven Technologist: Transforming Visions into Realities</h2>
+<p>&hellip;also an avid bug remover! 🚫👾</p>
+<p><img class="thumbnail" src="https://bneil.me/images/wild-report.jpg" width="320" align="left" /><p/></p>
+<p>Over a decade of experience in spearheading cutting-edge technological solutions, bridging the gap between business objectives and technical excellence. A technical leader with a proven track record of architecting scalable, resilient, and high-performance systems that drive innovation and propel growth.</p>
+<p>With a deep passion for continuous learning and an unwavering commitment to staying ahead of the curve, I thrive in dynamic environments where challenges are met with creative problem-solving and a relentless pursuit of excellence.</p>
+<p>But most importantly im able <br/></p>
+<p>🚀👩‍💻🔥 to use 💻⚡️🌟 emojis 🏆⌨️💪 for great good! 🥳🎉</p>
+<h3 id="technology-summary">Technology Summary</h3>
+<p><strong>Frontend:</strong> Vue.js, Next.js/React, Flutter/Dart, Backbone.js (yeah ive been at this awhile)<br/>
+<strong>Backend:</strong> Go, TypeScript, Rust, Scala, Akka, Java, Thrift/Protobuf, NATS<br/>
+<strong>DevOps:</strong> Docker, Kubernetes, Terraform, GitHub Actions, GitLab CI, Vault, Helm<br/>
+<strong>Databases:</strong> PostgreSQL, SQLite, Redis, DynamoDB, Elasticsearch, Kafka<br/>
+<strong>Clouds:</strong> AWS, GCP, Fly.io, Firebase<br/></p>
+<p><i>Ive left alot off this list in the hopes it wouldn&rsquo;t be distracting. Lots of technology has come and gone over the past twenty years</i></p>
+<p style="text-align:center">
+<button onclick="window.open('/resume.pdf', '_new')" class="retro-button" onclick="savePDF()">TAKE A COPY OF MY RESUME TOGO</button>
+</p>
+<hr>
+<div class="spaceship-container"></div>
+<h3 id="experience">Experience</h3>
+<p><strong>Modernize</strong> <em>Consultant</em> <strong>July 2024 to Present</strong><br/></p>
+<p>As a Senior Application Architect for ProWallet, I&rsquo;ve been:</p>
+<ul>
+<li>Leading the charge on Infrastructure as Code with Terraform</li>
+<li>Building out mobile deployment pipelines with CodeMagic.io</li>
+<li>Spearheading Flutter/Dart mobile app development</li>
+<li>Making friends with Plaid, Treasury Prime, and Incomm for all things financial</li>
+<li>Transforming legacy code into shiny new TypeScript services via Firebase</li>
+<li>Helping folks move from Microsoft 365 to Google Suite (because why not?)</li>
+</ul>
+<p><strong>Compliable</strong> <em>CTO Co-Founder</em> <strong>Feb 2020 to July 2024</strong><br/></p>
+<ul>
+<li>Co-founded the company and helped secure $3M in initial investment (yeah, that was pretty cool!)</li>
+<li>Built and led awesome Platform, Infrastructure, and Product teams</li>
+<li>Developed the company&rsquo;s foundation from the ground up</li>
+<li>Mentored a stellar team of 8 engineers, 2 product folks, and 1 infrastructure wizard</li>
+<li>Balanced the fun stuff (innovation) with the necessary stuff (SDLC efficiency)</li>
+<li>Wore the security officer hat and got us that sweet SOC 2 Type 2 compliance</li>
+<li>Sat on the board and kept everyone in the loop about our tech adventures</li>
+</ul>
+<p><strong>Technical Toolset</strong> Docker, AWS Stack, Go, Flutter, Firebase, Terraform</p>
+<p><strong>REBRIC</strong> <em>CTO / Consultant</em> <strong>Nov 2016 to Feb 2020</strong> <br/></p>
+<ul>
+<li>Started as CTO in the early days, building proof of concept apps to get VCs excited</li>
+<li>Made it into TechStars 2019 Western Union Accelerator (pretty rad!)</li>
+<li>Helped other companies modernize their tech while we figured out our own path</li>
+<li>Specialized in making DevOps and AWS pipelines more approachable for established companies</li>
+</ul>
+<p><strong>Technical Toolset</strong> Docker, Jenkins, Ambassador, Play, Rust, Go Microservices, OpenFaas, GCP, AWS.</p>
+<hr>
+<p><strong>AppThis LLC</strong> <em>Senior Fullstack Engineer</em> <strong>Mar 2015 to Nov 2016</strong> <br/></p>
+<ul>
+<li>Primary sysadmin / devops lead for the entirety of the AppThis infrastructure</li>
+<li>Created a monitoring platform that integrates applications written in python, node, scala and php using ganglia/graphana as a front.</li>
+<li>Created a &ldquo;link-validator&rdquo; that is able to validate every offer in the AppThis system through a world wide proxy which has generated millions in revenue by removing broken ads and cultivating more responsive networks</li>
+<li>Contributed in creating a video platform that was able to serve 2k requests per second on all major mobile phone devices</li>
+<li>Developed a real time log aggregation pipeline that spans each aws region that incorporates a resilient pub/sub consumer application which can self heal during any downtime that AppThis experiences</li>
+<li>Gave programming sessions on diverse topics including advanced functional programming using Scala/Erlang</li>
+</ul>
+<p><strong>Technical Toolset</strong> Scala, Akka, RabbitMQ, AWS, ScalaTest, SaltStack</p>
+<hr>
+<p><strong>Dire Wolf Digital</strong> <em>Senior Engineer</em> <strong>Jul 2011 to Mar 2015</strong> <br/></p>
+<ul>
+<li>Tasked with adapting and expanding the DWD infrastructure to meet the goals of internal and external stake holders.</li>
+<li>Customized Chef recipes/cookbooks for use in deployment to Amazon EC2 and automated control through RunDeck</li>
+<li>Produce modules to support ejabberd chat, which is used in all public facing DWD games</li>
+<li>Developed scripts used to migrate large amounts of information from expiring games to new database infrastructure. (75 million rows converted under twenty minutes)</li>
+<li>Designed and implemented internal tools utilized by all projects at DWD</li>
+</ul>
+<p><strong>Technical Toolset</strong> Scala, Akka, Bootstrap, Backbone.js, Thrift/Protobuf, Cassandra, Postgres</p>
+<hr>
+<p><strong>Sony Online Entertainment</strong> <em>Lead Developer</em> <strong>May 2006 to Jul 2011</strong> <br/></p>
+<ul>
+<li>Lead, manage and mentor a team of web developers to align strategic goals of the company</li>
+<li>Work closely with artists and producers on projects with short changing deadlines; develop feature-rich websites and applications.</li>
+<li>Create and maintain high volume websites and work towards the success of many projects for both the marketing and platform departments.</li>
+<li>Developed SOE frameworks for Facebook and helped build out strategies for client and server-side technologies to meet those growing ends.</li>
+<li>Designed, maintained and worked with every website at SOE and contributed to the success of many titles for the company.</li>
+<li>Trained consistently on new technologies to adapt to current and future projects to create the best scalable web frameworks for SOE and partners.</li>
+</ul>
+<p><strong>Technical Toolset</strong> Java, Dojo, Prototype, Velocity, Tomcat, Perforce</p>
+<hr>
+<h3 id="education">Education</h3>
+<p><strong>Bachelor of Computer Information Systems</strong> <strong>2000 to 2003</strong>
+DeVry University, Phoenix, Arizona</p>
+<h3 id="lets-collaborate">Let&rsquo;s Collaborate</h3>
+<p>Are you seeking a seasoned technologist to drive innovation and unlock new possibilities for your organization? Let&rsquo;s connect and explore how we can join forces to bring your vision to life.</p>
+<h4 id="contact-me">Contact Me</h4>
+<ul>
+<li>Email: <a href="mailto:ben@neil-concepts.com">ben@neil-concepts.com</a></li>
+</ul>
+<hr>
+<script>
+function explodeSpaceship(event) {
+  const spaceship = event.target;
+  spaceship.textContent = '💥';
+
+  setTimeout(() => {
+    spaceship.remove();
+  }, 1000);
+}
+
+function createSpaceships(count) {
+  const container = document.querySelector('.spaceship-container');
+
+  for (let i = 0; i < count; i++) {
+    const spaceship = document.createElement('div');
+    spaceship.className = 'spaceship';
+    spaceship.textContent = '👾';
+    container.appendChild(spaceship);
+
+    spaceship.style.top = `${Math.random() * 80}vh`;
+    spaceship.style.animationDelay = `${Math.random() * 10}s`;
+
+    spaceship.addEventListener('click', explodeSpaceship);
+  }
+}
+
+
+createSpaceships(5);
+
+</script>
 ]]></content:encoded><webmention/></item><item><title>last-day-of-NaBloPoMo2023</title><link>https://bneil.me/posts/2023-11-30-last-day-of-nablopomo2023/</link><pubDate>Fri, 01 Dec 2023 03:49:07 +0000</pubDate><guid>https://bneil.me/posts/2023-11-30-last-day-of-nablopomo2023/</guid><description><![CDATA[ <h1 id="wrapping-up-nablopomo2023">Wrapping up NaBloPoMo2023</h1>
 <p>Doing thirty days of blog posts was a lot harder than I thought. The last couple days especially felt difficult, since I didn&rsquo;t have time to continue coding up any htmx examples or alpinejs or really much golang. Since, typically for those projects I spend a few hours coding and writing the steps back to the blog. But even more, finding things that I wanted to write about was difficult. So I&rsquo;m really glad that this is over and im happy that I tried.</p>]]></description><content:encoded><![CDATA[ <h1 id="wrapping-up-nablopomo2023">Wrapping up NaBloPoMo2023</h1>
 <p>Doing thirty days of blog posts was a lot harder than I thought. The last couple days especially felt difficult, since I didn&rsquo;t have time to continue coding up any htmx examples or alpinejs or really much golang. Since, typically for those projects I spend a few hours coding and writing the steps back to the blog. But even more, finding things that I wanted to write about was difficult. So I&rsquo;m really glad that this is over and im happy that I tried.</p>
@@ -2826,248 +3075,6 @@ about those implementations here.</p>
 <li>if you have keybase you can <a href="https://keybase.io/trugrok">follow me</a> and im usually on the messaging app</li>
 <li><a href="https://twitter.com/benneil">reach out on Twitter</a></li>
 </ul>
-]]></content:encoded><webmention/></item><item><title>Resume</title><link>https://bneil.me/resume/</link><pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate><guid>https://bneil.me/resume/</guid><description><![CDATA[ <style>
- .thumbnail {
-   max-width: 200px;
-   border-radius: 8px;
-   transition: filter 0.3s ease;
-   margin-right:10px;
- }
-
- .thumbnail:hover {
-   filter: brightness(1.2) saturate(1.2);
- }
-
-.spaceship-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.spaceship {
-  position: absolute;
-  font-size: 2.5rem;
-  transform: translateX(-100%);
-  animation: rocket 30s linear infinite;
-  cursor: crosshair;
-  opacity: .88;
-  z-index: 99;
-}
-
-
-@keyframes rocket {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(calc(100vw + 100%)); 
-  }
-}
-
-.retro-button {
-  padding: 15px 30px;
-  font-size: 18px;
-  font-weight: bold;
-  color: #fff;
-  background-color: #6b00b3;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.retro-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.08);
-}
-
-.retro-button:active {
-  transform: translateY(0);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
-}
-
-
-</style>
-<h2 id="driven-technologist-transforming-visions-into-realities">Driven Technologist: Transforming Visions into Realities</h2>
-<p>&hellip;also an avid bug remover! 🚫👾</p>]]></description><content:encoded><![CDATA[ <style>
- .thumbnail {
-   max-width: 200px;
-   border-radius: 8px;
-   transition: filter 0.3s ease;
-   margin-right:10px;
- }
-
- .thumbnail:hover {
-   filter: brightness(1.2) saturate(1.2);
- }
-
-.spaceship-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.spaceship {
-  position: absolute;
-  font-size: 2.5rem;
-  transform: translateX(-100%);
-  animation: rocket 30s linear infinite;
-  cursor: crosshair;
-  opacity: .88;
-  z-index: 99;
-}
-
-
-@keyframes rocket {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(calc(100vw + 100%)); 
-  }
-}
-
-.retro-button {
-  padding: 15px 30px;
-  font-size: 18px;
-  font-weight: bold;
-  color: #fff;
-  background-color: #6b00b3;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.retro-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.08);
-}
-
-.retro-button:active {
-  transform: translateY(0);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
-}
-
-
-</style>
-<h2 id="driven-technologist-transforming-visions-into-realities">Driven Technologist: Transforming Visions into Realities</h2>
-<p>&hellip;also an avid bug remover! 🚫👾</p>
-<p><img class="thumbnail" src="https://bneil.me/images/wild-report.jpg" width="320" align="left" /><p/></p>
-<p>Over a decade of experience in spearheading cutting-edge technological solutions, bridging the gap between business objectives and technical excellence. A technical leader with a proven track record of architecting scalable, resilient, and high-performance systems that drive innovation and propel growth.</p>
-<p>With a deep passion for continuous learning and an unwavering commitment to staying ahead of the curve, I thrive in dynamic environments where challenges are met with creative problem-solving and a relentless pursuit of excellence.</p>
-<p>But most importantly im able <br/></p>
-<p>🚀👩‍💻🔥 to use 💻⚡️🌟 emojis 🏆⌨️💪 for great good! 🥳🎉</p>
-<h3 id="technology-summary">Technology Summary</h3>
-<p><strong>Frontend:</strong> Vue.js, Next.js/React, Backbone.js (yeah ive been at this awhile)<br/>
-<strong>Backend:</strong> Go, Rust, Scala, Akka, Java, Thrift/Protobuf, NATS<br/>
-<strong>DevOps:</strong> Docker, Kubernetes, Jenkins, Drone, GitLab, Ambassador, OpenFaaS<br/>
-<strong>Databases:</strong> PostgreSQL, MySQL, Redis, Cassandra, Turso, Pocketbase<br/>
-<strong>Clouds:</strong> AWS, GCP, Fly.io<br/></p>
-<p><i>Ive left alot off this list in the hopes it wouldn&rsquo;t be distracting. Lots of technology has come and gone over the past twenty years</i></p>
-<p style="text-align:center">
-<button onclick="window.open('/resume.pdf', '_new')" class="retro-button" onclick="savePDF()">TAKE A COPY OF MY RESUME TOGO</button>
-</p>
-<hr>
-<div class="spaceship-container"></div>
-<h3 id="experience">Experience</h3>
-<p><strong>Compliable</strong> <em>CTO Co-Founder</em> <strong>Sept 2020 to Present</strong><br/></p>
-<p>Same role just now with a new name!</p>
-<p><strong>Technical Toolset</strong> Docker, Aws Stack, Go</p>
-<p><strong>REBRIC</strong> <em>Chief Technical Officer</em> <strong>Nov 2016 to Sept 2020</strong> <br/></p>
-<ul>
-<li>Lead the long-term technical strategy development and tactical execution of those strategies at Rebric</li>
-<li>Directed technical teams and resources in solutions for design, development and delivery services to benefit the buisness</li>
-<li>Developed a road map to optimize the rollout of the Rebric infrastructure</li>
-<li>Launched development, testing and production environments for all Rebric infrastructure</li>
-<li>Articulated a clear vision, to drive technical discussions throughout the SDLC lifecycle to be in parity with the buisness</li>
-</ul>
-<p><strong>Technical Toolset</strong> Docker, Jenkins, Ambassador, Play, Rust, Go Microservices, OpenFaas, GCP, AWS.</p>
-<p><strong>REBRIC</strong> <em>Senior Consultant</em> <strong>Nov 2016 to Feb 2020</strong><br/></p>
-<ul>
-<li>Working as a consultant to help companies modernize their architecture which includes evangelizing kubernetes, docker swarm mode, jenkins and general civil discourse</li>
-<li>Contributed to a large shared groovy pipeline</li>
-<li>Cordinated host upgrades within a very structured entrprise environment</li>
-<li>Mentored and held brown bag session on containerization technology</li>
-<li>Proposed, designed and implemented a realtime deployment tracker used by XLR</li>
-<li>Created a custom alarm dashboard for quick diagnose of microservice issues</li>
-</ul>
-<p><strong>Technical Toolset</strong> Docker, Jenkins, Bitbucket, Go</p>
-<hr>
-<p><strong>AppThis LLC</strong> <em>Senior Fullstack Engineer</em> <strong>Mar 2015 to Nov 2016</strong> <br/></p>
-<ul>
-<li>Primary sysadmin / devops lead for the entirety of the AppThis infrastructure</li>
-<li>Created a monitoring platform that integrates applications written in python, node, scala and php using ganglia/graphana as a front.</li>
-<li>Created a &ldquo;link-validator&rdquo; that is able to validate every offer in the AppThis system through a world wide proxy which has generated millions in revenue by removing broken ads and cultivating more responsive networks</li>
-<li>Contributed in creating a video platform that was able to serve 2k requests per second on all major mobile phone devices</li>
-<li>Developed a real time log aggregation pipeline that spans each aws region that incorporates a resilient pub/sub consumer application which can self heal during any downtime that AppThis experiences</li>
-<li>Gave programming sessions on diverse topics including advanced functional programming using Scala/Erlang</li>
-</ul>
-<p><strong>Technical Toolset</strong> Scala, Akka, RabbitMQ, AWS, ScalaTest, SaltStack</p>
-<hr>
-<p><strong>Dire Wolf Digital</strong> <em>Senior Engineer</em> <strong>Jul 2011 to Mar 2015</strong> <br/></p>
-<ul>
-<li>Tasked with adapting and expanding the DWD infrastructure to meet the goals of internal and external stake holders.</li>
-<li>Customized Chef recipes/cookbooks for use in deployment to Amazon EC2 and automated control through RunDeck</li>
-<li>Produce modules to support ejabberd chat, which is used in all public facing DWD games</li>
-<li>Developed scripts used to migrate large amounts of information from expiring games to new database infrastructure. (75 million rows converted under twenty minutes)</li>
-<li>Designed and implemented internal tools utilized by all projects at DWD</li>
-</ul>
-<p><strong>Technical Toolset</strong> Scala, Akka, Bootstrap, Backbone.js, Thrift/Protobuf, Cassandra, Postgres</p>
-<hr>
-<p><strong>Sony Online Entertainment</strong> <em>Lead Developer</em> <strong>May 2006 to Jul 2011</strong> <br/></p>
-<ul>
-<li>Lead, manage and mentor a team of web developers to align strategic goals of the company</li>
-<li>Work closely with artists and producers on projects with short changing deadlines; develop feature-rich websites and applications.</li>
-<li>Create and maintain high volume websites and work towards the success of many projects for both the marketing and platform departments.</li>
-<li>Developed SOE frameworks for Facebook and helped build out strategies for client and server-side technologies to meet those growing ends.</li>
-<li>Designed, maintained and worked with every website at SOE and contributed to the success of many titles for the company.</li>
-<li>Trained consistently on new technologies to adapt to current and future projects to create the best scalable web frameworks for SOE and partners.</li>
-</ul>
-<p><strong>Technical Toolset</strong> Java, Dojo, Prototype, Velocity, Tomcat, Perforce</p>
-<hr>
-<h3 id="education">Education</h3>
-<p><strong>Bachelor of Computer Information Systems</strong> <strong>2000 to 2003</strong>
-DeVry University, Phoenix, Arizona</p>
-<h3 id="lets-collaborate">Let&rsquo;s Collaborate</h3>
-<p>Are you seeking a seasoned technologist to drive innovation and unlock new possibilities for your organization? Let&rsquo;s connect and explore how we can join forces to bring your vision to life.</p>
-<h4 id="contact-me">Contact Me</h4>
-<ul>
-<li>Email: <a href="mailto:ben@neil-concepts.com">ben@neil-concepts.com</a></li>
-</ul>
-<hr>
-<script>
-function explodeSpaceship(event) {
-  const spaceship = event.target;
-  spaceship.textContent = '💥';
-
-  setTimeout(() => {
-    spaceship.remove();
-  }, 1000);
-}
-
-function createSpaceships(count) {
-  const container = document.querySelector('.spaceship-container');
-
-  for (let i = 0; i < count; i++) {
-    const spaceship = document.createElement('div');
-    spaceship.className = 'spaceship';
-    spaceship.textContent = '👾';
-    container.appendChild(spaceship);
-
-    spaceship.style.top = `${Math.random() * 80}vh`;
-    spaceship.style.animationDelay = `${Math.random() * 10}s`;
-
-    spaceship.addEventListener('click', explodeSpaceship);
-  }
-}
-
-
-createSpaceships(5);
-
-</script>
 ]]></content:encoded><webmention/></item><item><title>now</title><link>https://bneil.me/now/</link><pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate><guid>https://bneil.me/now/</guid><description><![CDATA[ <p><em>Last Updated: Nov 18, 2024</em></p>
 <p>November. Had to take a little time off from posting on the ol blog. Was very occupied with getting a company going for the past few months. Its been so quick, that this breather has come as a welcome respite even though I still have to line up something new. Oh, in social media news, ive been trying out mastadon on the indieweb.social site, blue sky and threads. So far blue sky is definatly got that old twitter feel. Now, as usually is the problem, I don&rsquo;t know what to post. lol. Anyway, happy November!</p>]]></description><content:encoded><![CDATA[ <p><em>Last Updated: Nov 18, 2024</em></p>
 <p>November. Had to take a little time off from posting on the ol blog. Was very occupied with getting a company going for the past few months. Its been so quick, that this breather has come as a welcome respite even though I still have to line up something new. Oh, in social media news, ive been trying out mastadon on the indieweb.social site, blue sky and threads. So far blue sky is definatly got that old twitter feel. Now, as usually is the problem, I don&rsquo;t know what to post. lol. Anyway, happy November!</p>
