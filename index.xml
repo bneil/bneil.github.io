@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Wed, 18 Sep 2024 04:17:59 +0000</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>opentofu-for-gcp-funcs</title><link>https://bneil.me/posts/2024-09-17-opentofu-for-gcp-funcs/</link><pubDate>Wed, 18 Sep 2024 04:17:59 +0000</pubDate><guid>https://bneil.me/posts/2024-09-17-opentofu-for-gcp-funcs/</guid><description><![CDATA[ <h2 id="opentofu-and-gcp-functions">OpenTofu and GCP Functions</h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Sun, 27 Oct 2024 22:25:41 +0000</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>trying-moonbit</title><link>https://bneil.me/posts/2024-10-27-trying-moonbit/</link><pubDate>Sun, 27 Oct 2024 22:25:41 +0000</pubDate><guid>https://bneil.me/posts/2024-10-27-trying-moonbit/</guid><description><![CDATA[ <p>Another Sunday, which means another great day to try out a new language. Today, as the day would have it, im going to be installing and trying out this language called &lsquo;Moonbit&rsquo;. The docs state, &lsquo;MoonBit is an end-to-end programming language toolchain for cloud and edge computing using WebAssembly&rsquo;. So that seems like an exciting thing to try out.</p>
+<p>Installation was simple, they use this integration with vs code, following this link <a href="https://www.moonbitlang.com/download/">here</a> got me up and running fairly quickly.</p>]]></description><content:encoded><![CDATA[ <p>Another Sunday, which means another great day to try out a new language. Today, as the day would have it, im going to be installing and trying out this language called &lsquo;Moonbit&rsquo;. The docs state, &lsquo;MoonBit is an end-to-end programming language toolchain for cloud and edge computing using WebAssembly&rsquo;. So that seems like an exciting thing to try out.</p>
+<p>Installation was simple, they use this integration with vs code, following this link <a href="https://www.moonbitlang.com/download/">here</a> got me up and running fairly quickly.</p>
+<p>After install, I used the command <code>moon new hello-moon</code>, which quickly made a new folder with all the stuffings. Here is the layout:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>.
+</span></span><span style="display:flex;"><span>├── LICENSE
+</span></span><span style="display:flex;"><span>├── README.md
+</span></span><span style="display:flex;"><span>├── moon.mod.json
+</span></span><span style="display:flex;"><span>├── src
+</span></span><span style="display:flex;"><span>│   ├── lib
+</span></span><span style="display:flex;"><span>│   │   ├── hello.mbt
+</span></span><span style="display:flex;"><span>│   │   ├── hello_test.mbt
+</span></span><span style="display:flex;"><span>│   │   └── moon.pkg.json
+</span></span><span style="display:flex;"><span>│   └── main
+</span></span><span style="display:flex;"><span>│       ├── main.mbt
+</span></span><span style="display:flex;"><span>│       └── moon.pkg.json
+</span></span><span style="display:flex;"><span>└── target
+</span></span><span style="display:flex;"><span>    └── wasm-gc
+</span></span><span style="display:flex;"><span>        └── release
+</span></span><span style="display:flex;"><span>            ├── build
+</span></span><span style="display:flex;"><span>            │   └── moon.db
+</span></span><span style="display:flex;"><span>            └── check
+</span></span><span style="display:flex;"><span>                ├── check.moon_db
+</span></span><span style="display:flex;"><span>                ├── check.output
+</span></span><span style="display:flex;"><span>                ├── lib
+</span></span><span style="display:flex;"><span>                │   ├── lib.blackbox_test.mi
+</span></span><span style="display:flex;"><span>                │   └── lib.mi
+</span></span><span style="display:flex;"><span>                ├── main
+</span></span><span style="display:flex;"><span>                │   └── main.mi
+</span></span><span style="display:flex;"><span>                ├── moon.db
+</span></span><span style="display:flex;"><span>                └── packages.json
+</span></span></code></pre></div><p>Running was also easy, just ran <code>moon run src/main</code>. Which resulted in an expected:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>➜ moon run src/main
+</span></span><span style="display:flex;"><span>Hello, world!
+</span></span></code></pre></div><p>So now to dig into what the template had already created. It looks like the <code>src/main</code> has a main file. Which looks to be importing a hello library. So like that we already have some good examples of imports. Without having to immediatly resort to the documentation. Which for its maintainers, good job! Was happy to see the examples at <a href="https://moonbitlang.github.io/moon/">https://moonbitlang.github.io/moon/</a> which made the initial look into this language a breeze.</p>
+<p>So to just putze around in the language a little. I always like to check out the structs and types and get an understanding of what thats about. So after some playing around I just got a loop and here is the output. Nothing much, but its something for a little but of work.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>struct PersonalInfo { name: String; age: Int }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>pub fn hello() -&gt; String {
+</span></span><span style="display:flex;"><span>  &#34;Hello, world!&#34;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>let infos: @immut/list.T[PersonalInfo] = 
+</span></span><span style="display:flex;"><span>  Cons( {name: &#34;Alice&#34;, age: 30},  
+</span></span><span style="display:flex;"><span>  Cons( {name: &#34;Farts&#34;, age: 30},
+</span></span><span style="display:flex;"><span>  Cons( {name: &#34;George&#34;, age: 30},
+</span></span><span style="display:flex;"><span>  Cons( {name: &#34;Bob&#34;, age: 25}, 
+</span></span><span style="display:flex;"><span>  Nil)))
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>pub fn testing() -&gt; String {
+</span></span><span style="display:flex;"><span>  for x in infos{
+</span></span><span style="display:flex;"><span>    println(x.name)
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  match infos {
+</span></span><span style="display:flex;"><span>    Cons(first, _) =&gt; &#34;\{first.name} \{first.age}!&#34;
+</span></span><span style="display:flex;"><span>    Nil =&gt; &#34;Empty list&#34;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Then made a small update to main</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>fn main {
+</span></span><span style="display:flex;"><span>  println(@lib.hello())
+</span></span><span style="display:flex;"><span>  println(@lib.testing())
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>]]></content:encoded><webmention/></item><item><title>opentofu-for-gcp-funcs</title><link>https://bneil.me/posts/2024-09-17-opentofu-for-gcp-funcs/</link><pubDate>Wed, 18 Sep 2024 04:17:59 +0000</pubDate><guid>https://bneil.me/posts/2024-09-17-opentofu-for-gcp-funcs/</guid><description><![CDATA[ <h2 id="opentofu-and-gcp-functions">OpenTofu and GCP Functions</h2>
 <p>Had a few minutes so thought id see how to deploy a function using open tofu.</p>
 <p>for this example, please use the alias</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>alias tf=&#39;tofu&#39;
@@ -3003,11 +3068,9 @@ function createSpaceships(count) {
 createSpaceships(5);
 
 </script>
-]]></content:encoded><webmention/></item><item><title>now</title><link>https://bneil.me/now/</link><pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate><guid>https://bneil.me/now/</guid><description><![CDATA[ <p><em>Last Updated: Sep 14, 2024</em></p>
-<p>Hello September, its always hard letting go of summer, it might just be that kid in me but its hard to feel the weather shift. To accept that its another end to a wonderful season. I love the warmness and general happiness, of people actually taking time off for family that doesn&rsquo;t feel forced. But, it is what it is. So far this month ive been focused on Flutter, on firebase functions and in creating some day 2 operations for some fine clients. Im very grateful for the work and excited to be coding.</p>]]></description><content:encoded><![CDATA[ <p><em>Last Updated: Sep 14, 2024</em></p>
-<p>Hello September, its always hard letting go of summer, it might just be that kid in me but its hard to feel the weather shift. To accept that its another end to a wonderful season. I love the warmness and general happiness, of people actually taking time off for family that doesn&rsquo;t feel forced. But, it is what it is. So far this month ive been focused on Flutter, on firebase functions and in creating some day 2 operations for some fine clients. Im very grateful for the work and excited to be coding.</p>
-<p>This has also been the first time ive been using AI to aid in development. I&rsquo;ve been pressured to use &lsquo;cursor&rsquo; but haven&rsquo;t yet. It&rsquo;s really interesting to be kinda pushed towards using this new tech and im excited to see if &lsquo;cursor&rsquo; is able to do the job. The more cynacially part of me, expects lots or rework. But who knows. maybe its getting better. I&rsquo;m excited to try.</p>
-<p>Cheers to octoberfest! 🍻</p>
+]]></content:encoded><webmention/></item><item><title>now</title><link>https://bneil.me/now/</link><pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate><guid>https://bneil.me/now/</guid><description><![CDATA[ <p><em>Last Updated: Nov 18, 2024</em></p>
+<p>November. Had to take a little time off from posting on the ol blog. Was very occupied with getting a company going for the past few months. Its been so quick, that this breather has come as a welcome respite even though I still have to line up something new. Oh, in social media news, ive been trying out mastadon on the indieweb.social site, blue sky and threads. So far blue sky is definatly got that old twitter feel. Now, as usually is the problem, I don&rsquo;t know what to post. lol. Anyway, happy November!</p>]]></description><content:encoded><![CDATA[ <p><em>Last Updated: Nov 18, 2024</em></p>
+<p>November. Had to take a little time off from posting on the ol blog. Was very occupied with getting a company going for the past few months. Its been so quick, that this breather has come as a welcome respite even though I still have to line up something new. Oh, in social media news, ive been trying out mastadon on the indieweb.social site, blue sky and threads. So far blue sky is definatly got that old twitter feel. Now, as usually is the problem, I don&rsquo;t know what to post. lol. Anyway, happy November!</p>
 <p>👋 If you are reading this, maybe head over to my <a href="https://bneil.me/resume/">resume</a> if you want to play some basic space invaders and maybe we can collab sometime 😊</p>
 <h2 id="reading">Reading</h2>
 <ul>

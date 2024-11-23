@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /posts/2024-10-27-trying-moonbit/index.gmi 2024-10-27 trying-moonbit
 => /posts/2024-09-17-opentofu-for-gcp-funcs/index.gmi 2024-09-18 opentofu-for-gcp-funcs
 => /posts/2024-09-14-postsgoing-through-areas/index.gmi 2024-09-14 obsidian-quick-trick
 => /posts/2024-06-21-racing-to-the-bottom/index.gmi 2024-06-21 racing to the bottom

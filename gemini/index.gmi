@@ -42,8 +42,8 @@ Happy Fall Y'all
 
 ## by major subject
 
-=> gemini://shiny.bneil.me/categories/infra/gemini/index.gmi Infra
 => gemini://shiny.bneil.me/categories/practice/gemini/index.gmi Practice
+=> gemini://shiny.bneil.me/categories/infra/gemini/index.gmi Infra
 => gemini://shiny.bneil.me/categories/notes/gemini/index.gmi Notes
 => gemini://shiny.bneil.me/categories/productivity/gemini/index.gmi Productivity
 => gemini://shiny.bneil.me/categories/coding/gemini/index.gmi Coding
@@ -61,6 +61,7 @@ Happy Fall Y'all
 
 ## by tag
 
+=> gemini://shiny.bneil.me/tags/moonbit/gemini/index.gmi Moonbit
 => gemini://shiny.bneil.me/tags/golang/gemini/index.gmi Golang
 => gemini://shiny.bneil.me/tags/opentofu/gemini/index.gmi Opentofu
 => gemini://shiny.bneil.me/tags/notes/gemini/index.gmi Notes
