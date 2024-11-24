@@ -74,9 +74,9 @@ enableInlineShortcodes= true
     icon = "github"
     url = "https://github.com/bneil"
 [[params.social]]
-    name = "Twitter"
-    icon = "twitter"
-    url = "https://twitter.com/benneil/"
+    name = "IndieWeb Social"
+    icon = "user-check"
+    url = "https://indieweb.social/@bneil"
 [[params.social]]
     name = "LinkedIn"
     icon = "linkedin"
