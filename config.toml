@@ -105,37 +105,31 @@ enableInlineShortcodes= true
     weight = 1
 
 [[menu.main]]
-    name = "Contact"
-    identifier = "contact"
-    weight = 2
-    url = "/contact"
-
-[[menu.main]]
     name = "Resume"
     identifier = "resume"
-    weight = 3
+    weight = 2
     url = "/resume"
 
 [[menu.main]]
     name = "About"
     identifier = "about"
-    weight = 4
+    weight = 3
     url = "/about"
 
 [[menu.main]]
     name = "Blog"
     identifier = "blog"
-    weight = 5
+    weight = 4
     url  = "/posts"
 
 [[menu.main]]
     name = "Notes"
     identifier = "notes"
-    weight = 6
+    weight = 5
     url  = "/tags/notes"
 
 [[menu.main]]
     name = "Now"
     identifier = "now"
-    weight = 7
+    weight = 6
     url  = "/now"
