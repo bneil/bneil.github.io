@@ -1,5 +1,5 @@
 ---
-title: BaaS Pocketbase Fu
+title: on-firebase-pocketbase-etc
 description: "Pocketbase is a great little library"
 date: 2024-11-27T23:47:22.469Z
 preview: ""
