@@ -1,0 +1,6 @@
+# Pocketbase
+
+
+Pages in this section:
+
+=> /notes/2024-11-27-pocketbase-client-golang/index.gmi 2024-11-28 pocketbase-client-golang

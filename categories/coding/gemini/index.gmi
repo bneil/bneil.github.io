@@ -3,6 +3,8 @@
 
 Pages in this section:
 
+=> /notes/2024-11-27-pocketbase-client-golang/index.gmi 2024-11-28 pocketbase-client-golang
+=> /posts/2024-11-27-pocketbase-primer/index.gmi 2024-11-27 pocketbase-primer
 => /notes/2024-08-26-meld-three-way/index.gmi 2024-08-26 merge-threeway
 => /notes/2024-08-08-tmux-status-line-margin/index.gmi 2024-08-08 cloudflare-whiteboard
 => /notes/2024-06-14-cloudflare-whiteboard/index.gmi 2024-06-14 cloudflare-whiteboard
