@@ -1,4 +1,4 @@
-# BaaS Pocketbase Fu
+# on-firebase-pocketbase-etc
 
 
 
@@ -31,5 +31,5 @@ jk jk, honestly been fun trying out Pocketbase and enjoyed the Firebase experien
 updated: 27 November 2024.
 
 => / to the Index
-=> https://bneil.me/posts/2024-11-27-pocketbase-primer/ / html
+=> https://bneil.me/posts/2024-11-27-on-firebase-pocketbase-etc/ / html
 

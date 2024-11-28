@@ -4,7 +4,7 @@
 Pages in this section:
 
 => /notes/2024-11-27-pocketbase-client-golang/index.gmi 2024-11-28 pocketbase-client-golang
-=> /posts/2024-11-27-pocketbase-primer/index.gmi 2024-11-27 BaaS Pocketbase Fu
+=> /posts/2024-11-27-on-firebase-pocketbase-etc/index.gmi 2024-11-27 on-firebase-pocketbase-etc
 => /posts/2024-09-17-opentofu-for-gcp-funcs/index.gmi 2024-09-18 opentofu-for-gcp-funcs
 => /posts/2024-06-01-golang-ctx/index.gmi 2024-06-01 golang-ctx
 => /posts/2023-04-04-building-crud-with-htmx/index.gmi 2023-04-05 Building CRUD with htmx
