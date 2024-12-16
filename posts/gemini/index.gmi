@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /posts/2024-12-16-estimates-for-why/index.gmi 2024-12-16 estimates-for-why
 => /posts/2024-11-27-on-firebase-pocketbase-etc/index.gmi 2024-11-27 on-firebase-pocketbase-etc
 => /posts/2024-10-27-trying-moonbit/index.gmi 2024-10-27 trying-moonbit
 => /posts/2024-09-17-opentofu-for-gcp-funcs/index.gmi 2024-09-18 opentofu-for-gcp-funcs

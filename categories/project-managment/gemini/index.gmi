@@ -1,0 +1,6 @@
+# Project Managment
+
+
+Pages in this section:
+
+=> /posts/2024-12-16-estimates-for-why/index.gmi 2024-12-16 estimates-for-why

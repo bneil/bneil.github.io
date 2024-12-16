@@ -4,27 +4,29 @@
 
 _Last Updated: {{}}_
 
-November. Had to take a little time off from posting on the ol blog. Was very occupied with getting a company going for the past few months. Its been so quick, that this breather has come as a welcome respite even though I still have to line up something new. Oh, in social media news, ive been trying out mastadon on the indieweb.social site, blue sky and threads. So far blue sky is definatly got that old twitter feel. Now, as usually is the problem, I don't know what to post. lol. Anyway, happy November!
+December. Been a long month of not much work consulting wise. Ended up having to really focus in on some new paths forward because im not going into January without something lined up. So with that nervous energy I ended up making a silly emoji finding game called Emojihunter. I plan on making some more improvments to it and add a blog article. but its been a fun aside. Anyway, back to hunting for work and finding emojis. Happy holidays!
+=> https://emojihunt.fly.dev/ Emojihunter
+
 
 👋 If you are reading this, maybe head over to my resume if you want to play some basic space invaders and maybe we can collab sometime 😊
 => {{}} resume
 
 
 ## Reading
-* [seveneves](https://www.wikiwand.com/en/articles/Seveneves)
+* [Thinking fast and slow](https://www.wikiwand.com/en/articles/Thinking,_Fast_and_Slow)
 
 ## Listening To
 * Lots of lofi must at [youtube](https://www.youtube.com/watch?v=4xDzrJKXOOY)
 
 ## Watching
-* Anime
+* Anime, so much anime.... why so good
 
 This page is following best practice as defined from
 [@NowNowNow](https://twitter.com/NowNowNow)
 
 
 ---
-updated: 18 November 2024.
+updated: 16 December 2024.
 
 => / to the Index
 => https://bneil.me/now/ / html

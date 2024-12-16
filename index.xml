@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Thu, 28 Nov 2024 00:14:18 +0000</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>pocketbase-client-golang</title><link>https://bneil.me/notes/2024-11-27-pocketbase-client-golang/</link><pubDate>Thu, 28 Nov 2024 00:14:18 +0000</pubDate><guid>https://bneil.me/notes/2024-11-27-pocketbase-client-golang/</guid><description><![CDATA[ <h3 id="pocketbase">Pocketbase</h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Mon, 16 Dec 2024 21:21:18 +0000</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>estimates-for-why</title><link>https://bneil.me/posts/2024-12-16-estimates-for-why/</link><pubDate>Mon, 16 Dec 2024 21:21:18 +0000</pubDate><guid>https://bneil.me/posts/2024-12-16-estimates-for-why/</guid><description><![CDATA[ <p style="padding:10px; text-align:center">
+  <img class="thumbnail" src="/images/aggstein.jpg" />
+</p>
+<p>As a developer with close to twenty years of experience, I&rsquo;ve been asked to estimate work time and again. The primary method for estimation has been using Agile methodologies, which most in the tech industry understand all too well. You pick a t-shirt size, Fibonacci score, etc., to essentially say, &ldquo;This task is going to take an hour, a day, a week, or a few months.&rdquo; As I was writing about this subject on an email chain recently, I wanted to expand on it here. Namely, to answer the question: Is estimation bullshit?</p>]]></description><content:encoded><![CDATA[ <p style="padding:10px; text-align:center">
+  <img class="thumbnail" src="https://bneil.me/images/aggstein.jpg" />
+</p>
+<p>As a developer with close to twenty years of experience, I&rsquo;ve been asked to estimate work time and again. The primary method for estimation has been using Agile methodologies, which most in the tech industry understand all too well. You pick a t-shirt size, Fibonacci score, etc., to essentially say, &ldquo;This task is going to take an hour, a day, a week, or a few months.&rdquo; As I was writing about this subject on an email chain recently, I wanted to expand on it here. Namely, to answer the question: Is estimation bullshit?</p>
+<p><strong>TL;DR: Yes, they are bullshit. But that doesn&rsquo;t mean it&rsquo;s not valuable bullshit.</strong></p>
+<p>It&rsquo;s easy to dismiss estimates outright. They are for project managers who, at the end of the day, are supposed to be protecting the team. The team needs to have some skin in the game, namely, some expert opinion on how long a task is going to take. So that the timeline can be communicated up the chain of command.</p>
+<p>While this might seem very &ldquo;work 1.0,&rdquo; where you&rsquo;d have a factory line, and this newer work is more knowledge-based, it doesn&rsquo;t really matter. At the end of the day, a project manager needs to be able to let organizations know how long an effort is going to take. But since this is my blog and I love diverting to Socratic self-dialogue, let&rsquo;s dive in.</p>
+<blockquote>
+<p>Why? Why does it matter how long a thing takes?</p>
+</blockquote>
+<p>Well, I&rsquo;d say, it matters because someone is paying a premium for that &rsquo;thing&rsquo; to be created.</p>
+<blockquote>
+<p>Exactly, so that &rsquo;thing&rsquo; needs to be tied to either a revenue-generating feature or a quality-of-life improvement.
+So is that saying anything that doesn&rsquo;t give value back to the user is not worthwhile?</p>
+</blockquote>
+<p>I think that depends on whether a feature creates novelty to attract attention.</p>
+<blockquote>
+<p>So attention or revenue?</p>
+</blockquote>
+<p>Sure, estimates are required because anything of value takes time. People need to eat, and an organization needs money to provide itself the time to grow.</p>
+<blockquote>
+<p>So it&rsquo;s an ouroboros.</p>
+</blockquote>
+<p>Yes.</p>
+<h3 id="random-thought">Random Thought:</h3>
+<p>Since Cory Doctorow won the word of the year award for &rsquo;enshitification&rsquo; <a href="https://pluralistic.net/2024/04/04/teach-me-how-to-shruggie/#kagi">from this article</a>, I&rsquo;d say that anything that gives value to the end user, as a developer or PM, should be aiming for. This relates to estimates as well, you should be aiming to do the most good for the most people on your platform, which means having a gist of an idea for how long something is going to take. Then implementing.</p>
+<h3 id="back-on-target">Back on Target</h3>
+<p>So, are estimates bullshit? Let&rsquo;s try and break it down pro and con.</p>
+<p><strong>Pro</strong>:</p>
+<ol>
+<li>You are stating, given your professional judgment, how long a task should take.</li>
+<li>You are not committing to anyone.</li>
+<li>Things can and will go wrong.</li>
+</ol>
+<p><strong>Con</strong>:</p>
+<ol>
+<li>It feels like you are committing to someone.</li>
+<li>You are setting false expectations.</li>
+<li>Things will go wrong, and then it&rsquo;s your fault.</li>
+</ol>
+<p>So again, this is mostly self-socratic thoughts, but I keep thinking about non-knowledge worker jobs. For example, you can get a new bathroom installed and have a contractor come over and estimate the amount of effort that it&rsquo;s going to take. Assuming they have done similar work, it&rsquo;s going to be around the same idea.</p>
+<ol>
+<li>Look at the job site.</li>
+<li>Compare the parts/labor to the expected result.</li>
+<li>Estimate and if things change, communicate with the stakeholder/client.</li>
+</ol>
+<p>People use contractors all the time, so using them in sprints shouldn&rsquo;t feel like bullshit. Since you are also working with diverse teams, it&rsquo;s not so much installing a new bathroom but installing a whole Willy Wonka factory sometimes. So you need to know when what features are going to drop.</p>
+<p>However, are they bullshit? I still think so, but it&rsquo;s the same as deadlines. Things can happen, but that doesn&rsquo;t mean you shouldn&rsquo;t strive to meet them. They give you a north star or something to shoot for, and at the end of the day, in software engineering, isn&rsquo;t that a good thing?</p>
+]]></content:encoded><webmention/></item><item><title>pocketbase-client-golang</title><link>https://bneil.me/notes/2024-11-27-pocketbase-client-golang/</link><pubDate>Thu, 28 Nov 2024 00:14:18 +0000</pubDate><guid>https://bneil.me/notes/2024-11-27-pocketbase-client-golang/</guid><description><![CDATA[ <h3 id="pocketbase">Pocketbase</h3>
 <p>So I didn&rsquo;t see a golang sdk for hooking up oauth for pocketbase, so I hammered out this based on example sdk&rsquo;s.
 A big help was the built in documentation in the user collection in pocketbase.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">OAuthProvider</span> <span style="color:#66d9ef">string</span> <span style="color:#75715e">// type alias ftw
@@ -3456,13 +3507,13 @@ about those implementations here.</p>
 <p>Have questions or suggestions? Feel free to <a href="https://twitter.com/benneil">ask me on Twitter</a>.</p>
 <div style="font-size: 19.5px !important;width: 150px;height: 200px;padding: 10px;border: solid #dc9dba 2px;background: conic-gradient( var(--fg) 0%, var(--fg) 5%, transparent 5%, transparent 10%, var(--fg) 10%, var(--fg) 15%, transparent 15%, transparent 20%, var(--fg) 20%, var(--fg) 25%, transparent 25%, transparent 30%, var(--fg) 30%, var(--fg) 35%, transparent 35%, transparent 40%, var(--fg) 40%, var(--fg) 45%, transparent 45%, transparent 50%, var(--fg) 50%, var(--fg) 55%, transparent 55%, transparent 60%, var(--fg) 60%, var(--fg) 65%, transparent 65%, transparent 70%, var(--fg) 70%, var(--fg) 75%, transparent 75%, transparent 80%, var(--fg) 80%, var(--fg) 85%, transparent 85%, transparent 90%, var(--fg) 90%, var(--fg) 95%, transparent 95%, transparent 100%);background-color: var(--bg);color: #4e290b;font-size: 20px;line-height: 1.2;text-align: center;--fg: hsl(353deg 93% 57%);--bg: hsl(40deg 39% 79%);"><strong>You are BUN MCCOOL.</strong><br><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAA5JJREFUeJztmr9vEzEUx78pAZT+AxFDu6UdqkydQrscY8TAgIpUVerWLl1Qhs6MHaoyZAkbEmJAjMgjERI0UkWm6obSrVSinSoxFBEUHUPr4Dg+/zj7frT4I0XJ3fl+vK/fe36OD/B4PB6Px+Px/J+URDsXG0FEf/d7XWGb28KYcazhPKwQeytLo3bP33250QKV6Q+Z8fR4v9ct7a0sRc3mAnsouskilAG18ZTFRhA1mzXrmxbJg6ZkBx8uP57Yt9o5troh9SD6YcXIg1gBqPFpiFAkhALwRrsSIe/eFiEUYP/zB+k2xUQE1vVZ8g6D2BCgRtNvkRcAwJvv91J4rOyQJkHe+DgRdEeRIiIVgMJ7g4gkIsytdzC33jE9zSlTgF65KzOestgIIvpx8GyZMKoE+71uyeWDs9damxlMJD+eVrU+ar97fphZcVRmN1yLYEJQGf7byFCMMr+DhkOebiwSIy0hJgSgsHmhEGJU61EaImiNAmszA3zd/4i3m/YToaQElSFa1XrkumiK9YA4eBGynhdcJ1NnU3BjAXhEXsGLohoBTHEpgrUAIkxC5eWz5aty+kEV7++exLZrH01ja/4S7e0eNnYazkTQygFFxcVESukBdBb37fWmzX20ePpnFi9+nBudY+sJN9oDKDaeIPUAwR+gzljtHAOdRwDynU6nkgRtWJj9LdzfPZqWnpc0FGJDIM3eLxKFygGyYVCHJLnAKAQICSdu6KItYG+8CJ31ByMBms2FCcN0z1MRntxXtmkr8gCL7gqWMARk8W+aF+LaJ5lYjU2TJZjkr0SjgM7F80ygJveeECDL7M96ASEDnH76OXac7/HurzvOn6FQdcDW/OXYdvtoekyEoDJUiiDqPELC2CRoNQzyCTFJgoyDNz4trDyAHxVchY5L42W9DzgohKjRRTGe7RCV8YDAA65PyLQMJiTEk7MzqfE0/jd2GlrXA/RevrBOgoSEo1BIKprKeADaxgNmb50IBTDxAtsQICTEaUYJT0SsB2QRCoSEqB1coFaRtzPpfVOUrkInFC6FoDFaO7hQtjUxXifp8ShzAHNBZwsSuoZngdVfyq1qPRKVq2xFl2RYS+LySXofSKEUDirDsWlrXslNF+uVFZEXAFe9mMT4LHsfcOABu+eHJXY9n7Kx08Cr7Z7t5ZXYGA848ACKaBptWhzptmfLXdulMafr7Vm975f3+8Uej8fjuS38BRm0sa7G41GmAAAAAElFTkSuQmCC"><br><a href="https://yesterweb.neocities.org/zine/issue-01/" target="_blank" style="color: #4e290b !important;">Hall-O-Zine 2021</a></div>
 <p>Thanks for reading!</p>
-]]></content:encoded><webmention/></item><item><title>now</title><link>https://bneil.me/now/</link><pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate><guid>https://bneil.me/now/</guid><description><![CDATA[ <p><em>Last Updated: Nov 18, 2024</em></p>
-<p>November. Had to take a little time off from posting on the ol blog. Was very occupied with getting a company going for the past few months. Its been so quick, that this breather has come as a welcome respite even though I still have to line up something new. Oh, in social media news, ive been trying out mastadon on the indieweb.social site, blue sky and threads. So far blue sky is definatly got that old twitter feel. Now, as usually is the problem, I don&rsquo;t know what to post. lol. Anyway, happy November!</p>]]></description><content:encoded><![CDATA[ <p><em>Last Updated: Nov 18, 2024</em></p>
-<p>November. Had to take a little time off from posting on the ol blog. Was very occupied with getting a company going for the past few months. Its been so quick, that this breather has come as a welcome respite even though I still have to line up something new. Oh, in social media news, ive been trying out mastadon on the indieweb.social site, blue sky and threads. So far blue sky is definatly got that old twitter feel. Now, as usually is the problem, I don&rsquo;t know what to post. lol. Anyway, happy November!</p>
+]]></content:encoded><webmention/></item><item><title>now</title><link>https://bneil.me/now/</link><pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate><guid>https://bneil.me/now/</guid><description><![CDATA[ <p><em>Last Updated: Dec 16, 2024</em></p>
+<p>December. Been a long month of not much work consulting wise. Ended up having to really focus in on some new paths forward because im not going into January without something lined up. So with that nervous energy I ended up making a silly emoji finding game called <a href="https://emojihunt.fly.dev/">Emojihunter</a>. I plan on making some more improvments to it and add a blog article. but its been a fun aside. Anyway, back to hunting for work and finding emojis. Happy holidays!</p>]]></description><content:encoded><![CDATA[ <p><em>Last Updated: Dec 16, 2024</em></p>
+<p>December. Been a long month of not much work consulting wise. Ended up having to really focus in on some new paths forward because im not going into January without something lined up. So with that nervous energy I ended up making a silly emoji finding game called <a href="https://emojihunt.fly.dev/">Emojihunter</a>. I plan on making some more improvments to it and add a blog article. but its been a fun aside. Anyway, back to hunting for work and finding emojis. Happy holidays!</p>
 <p>👋 If you are reading this, maybe head over to my <a href="https://bneil.me/resume/">resume</a> if you want to play some basic space invaders and maybe we can collab sometime 😊</p>
 <h2 id="reading">Reading</h2>
 <ul>
-<li><a href="https://www.wikiwand.com/en/articles/Seveneves">seveneves</a></li>
+<li><a href="https://www.wikiwand.com/en/articles/Thinking,_Fast_and_Slow">Thinking fast and slow</a></li>
 </ul>
 <h2 id="listening-to">Listening To</h2>
 <ul>
@@ -3470,7 +3521,7 @@ about those implementations here.</p>
 </ul>
 <h2 id="watching">Watching</h2>
 <ul>
-<li>Anime</li>
+<li>Anime, so much anime&hellip;. why so good</li>
 </ul>
 <p>This page is following best practice as defined from
 <a href="https://twitter.com/NowNowNow">@NowNowNow</a></p>
