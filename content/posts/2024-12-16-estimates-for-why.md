@@ -8,6 +8,10 @@ categories: ['project managment']
 tags: ['etc']
 ---
 
+<p style="padding:10px; text-align:center">
+  <img class="thumbnail" src="/images/aggstein.jpg" />
+</p>
+
 As a developer with close to twenty years of experience, I've been asked to estimate work time and again. The primary method for estimation has been using Agile methodologies, which most in the tech industry understand all too well. You pick a t-shirt size, Fibonacci score, etc., to essentially say, "This task is going to take an hour, a day, a week, or a few months." As I was writing about this subject on an email chain recently, I wanted to expand on it here. Namely, to answer the question: Is estimation bullshit?
 
 **TL;DR: Yes, they are bullshit. But that doesn't mean it's not valuable bullshit.**
