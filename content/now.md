@@ -21,6 +21,12 @@ January, Glad to start a new year, was a bit of a stretch at end of December. Ho
 ## Watching
 - Squid Games Season 2 (started Jan 2025)
 
+## Writing
+- [Recursion Review]({{< ref "recursion.md" >}})
+- [Dark Matter Review]({{< ref "dark_matter.md" >}})
+- [I Who Have Never Known Men Review]({{< ref "i_who_have_never_known_men.md" >}})
+
+
 This page is following best practice as defined from
 [@NowNowNow](https://twitter.com/NowNowNow)
 
