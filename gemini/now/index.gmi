@@ -19,6 +19,12 @@ January, Glad to start a new year, was a bit of a stretch at end of December. Ho
 ## Watching
 * Squid Games Season 2 (started Jan 2025)
 
+## Writing
+* [Recursion Review]({{}})
+* [Dark Matter Review]({{}})
+* [I Who Have Never Known Men Review]({{}})
+
+
 This page is following best practice as defined from
 [@NowNowNow](https://twitter.com/NowNowNow)
 
@@ -41,7 +47,7 @@ December. Been a long month of not much work consulting wise. Ended up having to
 * Traitors UK
 
 ---
-updated: 3 January 2025.
+updated: 21 January 2025.
 
 => / to the Index
 => https://bneil.me/now/ / html

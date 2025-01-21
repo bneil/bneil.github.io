@@ -3,6 +3,9 @@
 
 Pages in this section:
 
+=> /review/books/i_who_have_never_known_men/index.gmi 2025-01-19 I Who Have Never Known Men Review
+=> /review/books/recursion/index.gmi 2025-01-15 Recursion Review
+=> /review/books/dark_matter/index.gmi 2025-01-13 Dark Matter Review
 => /review/books/2024-02-27-devil-in-white-city/index.gmi 2024-02-28 devil in the white city
 => /review/books/klara/index.gmi 2022-08-01 Klara and the sun
 => /review/books/good_indians/index.gmi 2022-01-22 The Only Good Indians
