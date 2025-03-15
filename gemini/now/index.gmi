@@ -4,7 +4,13 @@
 
 _Last Updated: {{}}_
 
-January, Glad to start a new year, was a bit of a stretch at end of December. However got to see some family and its hard not to enjoy the holidays. Just something special about that time. So since its the new year, going to make it a year long commitment to adding a few articles here a month on something relevant im learning or reading about. 
+March, Been a quick few weeks, and as usual that means I just forget to update this section of my life. Its funny how I look forward to writing on here
+and then never have time for it. But in anycase, been doing lots of bike rides since the weather has been more amenable as of late. Also been trying this
+"vibe" coding, which if im honest is more or progress quest simulator. Its a unique way of coding that I really enjoy to some extent, I like the boilerplate
+being done for me. Much in the same way ive always worked to metaprogram, but now it feels the AI is helping me come up with more sophisticated ways at getting
+rid of repetitive tasks.
+
+So its fun. Been trying to do more art and just get out for more walks. 
 
 👋 If you are reading this, maybe head over to my resume if you want to play some basic space invaders and maybe we can collab sometime 😊
 => {{}} resume
@@ -12,42 +18,21 @@ January, Glad to start a new year, was a bit of a stretch at end of December. Ho
 
 ## Reading
 * [Thinking fast and slow](https://www.wikiwand.com/en/articles/Thinking,_Fast_and_Slow)
+* [Nightbitch](https://app.thestorygraph.com/books/7ffddb4f-af8f-467f-ac24-325524d39258)
+* A book a friend wrote
 
 ## Listening To
-* Lots of lofi must at [youtube](https://www.youtube.com/watch?v=4xDzrJKXOOY)
+* [This Perfect Day](https://app.thestorygraph.com/books/13b932fa-cc67-4911-8699-ac43530384ed)
 
 ## Watching
-* Squid Games Season 2 (started Jan 2025)
-
-## Writing
-* [Recursion Review]({{}})
-* [Dark Matter Review]({{}})
-* [I Who Have Never Known Men Review]({{}})
-
+* Severance
+* Murders in the Building
 
 This page is following best practice as defined from
 [@NowNowNow](https://twitter.com/NowNowNow)
 
-
-
-## Archive
-
-### Last Update
-December. Been a long month of not much work consulting wise. Ended up having to really focus in on some new paths forward because im not going into January without something lined up. So with that nervous energy I ended up making a silly emoji finding game called Emojihunter. I plan on making some more improvments to it and add a blog article. but its been a fun aside. Anyway, back to hunting for work and finding emojis. Happy holidays!
-=> https://emojihunt.fly.dev/ Emojihunter
-
-
-### Finished Reading
-* [LangChain Crash Course: Build OpenAI LLM powered Apps: Fast track to building OpenAI LLM powered Apps using Python](https://www.goodreads.com/book/show/198671257-langchain-crash-course)
-
-### Finished Listening
-* Exactly What to Say, Phil M. Jones
- 
-### Finished Watching
-* Traitors UK
-
 ---
-updated: 21 January 2025.
+updated: 14 March 2025.
 
 => / to the Index
 => https://bneil.me/now/ / html
