@@ -1,7 +1,12 @@
 <hr class="halloween-hr" style="width:100%;" />
 <footer style="border-top:0px">
 {{- range $index, $key := .Site.Params.Social -}}
-<a class="soc" rel="me" href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>|
+{{- if hasPrefix $key.icon "simple:" -}}
+<a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}"><i class="si si-{{ substr $key.icon 7 }}"></i></a>
+{{- else -}}
+<a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}">{{ template "feathericon" (dict "Icon" $key.icon "UseCDN" .Site.Params.useCDN) }}</a>
+{{- end -}}
+<a class="border"></a>
 {{- end -}} ⚡️
 	{{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }}  |  {{ end }}site was last updated: {{ .Site.Lastmod.Format "Jan 2, 2006" }}
 </footer>
