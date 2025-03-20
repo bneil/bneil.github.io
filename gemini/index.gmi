@@ -42,11 +42,12 @@ Happy Fall Y'all
 
 ## by major subject
 
+=> gemini://shiny.bneil.me/categories/coding/gemini/index.gmi Coding
+=> gemini://shiny.bneil.me/categories/infra/gemini/index.gmi Infra
+=> gemini://shiny.bneil.me/categories/project-management/gemini/index.gmi Project Management
 => gemini://shiny.bneil.me/categories/review/gemini/index.gmi Review
 => gemini://shiny.bneil.me/categories/project-managment/gemini/index.gmi Project Managment
-=> gemini://shiny.bneil.me/categories/coding/gemini/index.gmi Coding
 => gemini://shiny.bneil.me/categories/practice/gemini/index.gmi Practice
-=> gemini://shiny.bneil.me/categories/infra/gemini/index.gmi Infra
 => gemini://shiny.bneil.me/categories/notes/gemini/index.gmi Notes
 => gemini://shiny.bneil.me/categories/productivity/gemini/index.gmi Productivity
 => gemini://shiny.bneil.me/categories/general/gemini/index.gmi General
@@ -62,6 +63,10 @@ Happy Fall Y'all
 
 ## by tag
 
+=> gemini://shiny.bneil.me/tags/ai/gemini/index.gmi Ai
+=> gemini://shiny.bneil.me/tags/claude/gemini/index.gmi Claude
+=> gemini://shiny.bneil.me/tags/development/gemini/index.gmi Development
+=> gemini://shiny.bneil.me/tags/mcp-server/gemini/index.gmi Mcp Server
 => gemini://shiny.bneil.me/tags/book/gemini/index.gmi Book
 => gemini://shiny.bneil.me/tags/etc/gemini/index.gmi Etc
 => gemini://shiny.bneil.me/tags/golang/gemini/index.gmi Golang
@@ -72,7 +77,6 @@ Happy Fall Y'all
 => gemini://shiny.bneil.me/tags/obsidian/gemini/index.gmi Obsidian
 => gemini://shiny.bneil.me/tags/merge/gemini/index.gmi Merge
 => gemini://shiny.bneil.me/tags/tmux/gemini/index.gmi Tmux
-=> gemini://shiny.bneil.me/tags/ai/gemini/index.gmi Ai
 => gemini://shiny.bneil.me/tags/philosophy/gemini/index.gmi Philosophy
 => gemini://shiny.bneil.me/tags/fun/gemini/index.gmi Fun
 => gemini://shiny.bneil.me/tags/link_dump/gemini/index.gmi Link_dump
@@ -106,7 +110,6 @@ Happy Fall Y'all
 => gemini://shiny.bneil.me/tags/indieweb/gemini/index.gmi Indieweb
 => gemini://shiny.bneil.me/tags/webmentions/gemini/index.gmi Webmentions
 => gemini://shiny.bneil.me/tags/writing/gemini/index.gmi Writing
-=> gemini://shiny.bneil.me/tags/development/gemini/index.gmi Development
 
 ```
 :::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\
