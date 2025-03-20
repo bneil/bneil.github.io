@@ -8,7 +8,11 @@ tags: ["development", "ai", "mcp server", "claude"]
 categories: ["Coding", "Project Management", "Infra"]
 ---
 
-## From Flat File to PouchDB: A Little Database Upgrade 
+<p style="padding:10px; text-align:center">
+  <img class="thumbnail" src="/images/fox-and-crow-768.jpg" />
+</p>
+
+### From Flat File to PouchDB: A Little Database Upgrade 
 
 Since the [MCP Protocol](https://modelcontextprotocol.io/introduction) has been getting alot of traction online recently. I thought id take a stab at making my own mcp server. Given that one of the first things I ran into was context/memory between chat sessions with claude desktop (the mcp client im currently trying out) this article is about my adventures improving mcp memory.
 
