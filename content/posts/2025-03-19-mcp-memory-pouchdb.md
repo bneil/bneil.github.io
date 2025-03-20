@@ -1,5 +1,5 @@
 ---
-title: "Upgrading an MCP Memory Server to PouchDB"
+title: "upgrading-mcp-server-to-pouchdb"
 description: "A technical journey modernizing an MCP Protocol memory server with PouchDB"
 date: 2025-03-20T03:19:58.947Z
 preview: ""
