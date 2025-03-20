@@ -3,5 +3,5 @@
 
 Pages in this section:
 
-=> /posts/2025-03-20-2025-03-19-mcp-memory-pouchdb/index.gmi 2025-03-20 Upgrading an MCP Memory Server to PouchDB
+=> /posts/2025-03-19-mcp-memory-pouchdb/index.gmi 2025-03-20 upgrading-mcp-server-to-pouchdb
 => /posts/2024-09-17-opentofu-for-gcp-funcs/index.gmi 2024-09-18 opentofu-for-gcp-funcs

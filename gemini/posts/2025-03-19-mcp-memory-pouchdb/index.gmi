@@ -1,4 +1,4 @@
-# Upgrading an MCP Memory Server to PouchDB
+# upgrading-mcp-server-to-pouchdb
 
 
 
@@ -255,5 +255,5 @@ Still want to move some of the functionality out of the prompt itself and into t
 updated: 19 March 2025.
 
 => / to the Index
-=> https://bneil.me/posts/2025-03-20-2025-03-19-mcp-memory-pouchdb/ / html
+=> https://bneil.me/posts/2025-03-19-mcp-memory-pouchdb/ / html
 
