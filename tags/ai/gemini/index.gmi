@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /posts/2025-04-25-mcp-colly-scrapper/index.gmi 2025-04-25 mcp-colly-scrapper
 => /posts/2025-03-19-mcp-memory-pouchdb/index.gmi 2025-03-20 upgrading-mcp-server-to-pouchdb
 => /posts/2024-06-21-racing-to-the-bottom/index.gmi 2024-06-21 racing to the bottom
 => /notes/2023-09-18-hugo-vs-the-ai/index.gmi 2023-09-18 Hugo vs The AI

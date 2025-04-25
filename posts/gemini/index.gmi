@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /posts/2025-04-25-mcp-colly-scrapper/index.gmi 2025-04-25 mcp-colly-scrapper
 => /posts/2025-03-19-mcp-memory-pouchdb/index.gmi 2025-03-20 upgrading-mcp-server-to-pouchdb
 => /posts/2024-12-16-estimates-for-why/index.gmi 2024-12-16 estimates-for-why
 => /posts/2024-11-27-on-firebase-pocketbase-etc/index.gmi 2024-11-27 on-firebase-pocketbase-etc
