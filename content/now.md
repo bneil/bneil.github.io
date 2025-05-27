@@ -8,7 +8,7 @@ noComment: true
 
 _Last Updated: {{< updated >}}_
 
-Onto April, March went quick, ended up celebrating the month with a really long bike ride. May end up writing about it just because it was weird. The whole idea of hitting a wall was so familiar to me when running but this was the first time while biking I felt that wall. Also general exhaustion. heh. So im looking forward to playing with more AI stuff this month. Like I said last month, metaprogramming. Its all about how well its able to create skeletons for things I have already specified. idk, just a real monkey wrench on my old way of doing things. 
+Its, almost June. Its crazy how fast the days are rolling by... cheers!
 
 So its fun. Been trying to do more art and just get out for more walks. 
 
