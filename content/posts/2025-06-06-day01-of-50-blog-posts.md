@@ -7,7 +7,11 @@ draft: false
 tags: ["blog-challenge"]
 categories: ["writing", "fun"]
 ---
-Each beat of your story needs to cause or be disrupted by the next one
+
+<p align="center">
+  <img src="/images/gold-bug-768.jpg" style="float:right;margin:15px;width:50%" />
+</p>
+
 
 ## Introduction
 
