@@ -1,7 +1,16 @@
 # day01-of-50-blog-posts
 
 
-Each beat of your story needs to cause or be disrupted by the next one
+
+
+  <img 
+  src="/images/gold-bug-768.jpg" 
+  class="title-image"
+  onmouseover="this.style.filter='brightness(110%)'"
+  onmouseout="this.style.filter='brightness(1)'" />
+
+
+
 
 ## Introduction
 
@@ -34,6 +43,14 @@ It was nice to escape and get closer to the family. It'st those little moments, 
 
 Somehow, it all gets wrapped into a 'nice' memory, with a little ice cream, offset with puffy clouds and an orange sunset. 
 
+
+
+.title-image {
+    float: right;
+    margin:15px;
+    width: 50%;
+}
+</style>
 
 ---
 updated: 5 June 2025.
