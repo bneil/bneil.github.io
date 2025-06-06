@@ -9,8 +9,13 @@ categories: ["writing", "fun"]
 ---
 
 <p align="center">
-  <img src="/images/gold-bug-768.jpg" style="float:right;margin:15px;width:50%" />
+  <img 
+  src="/images/gold-bug-768.jpg" 
+  class="title-image"
+  onmouseover="this.style.filter='brightness(110%)'"
+  onmouseout="this.style.filter='brightness(1)'" />
 </p>
+
 
 
 ## Introduction
@@ -37,3 +42,12 @@ I remember staring off and being happy.
 It was nice to escape and get closer to the family. It'st those little moments, like grabbing breakfast, missing a turn or losing your mind at kids abusing whistles. 
 
 Somehow, it all gets wrapped into a 'nice' memory, with a little ice cream, offset with puffy clouds and an orange sunset. 
+
+
+<style>
+.title-image {
+    float: right;
+    margin:15px;
+    width: 50%;
+}
+</style>
