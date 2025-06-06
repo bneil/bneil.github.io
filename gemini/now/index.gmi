@@ -4,31 +4,36 @@
 
 _Last Updated: {{}}_
 
-Its, almost June. Its crazy how fast the days are rolling by... cheers!
+Its June. Its been really rainy but I've been excited to get out on the bike and enjoy the greenery. Found this amazing trail near the platte that's absolutely lush right now - all that rain has turned everything into this vibrant green. Been taking my phone along to capture some of those misty morning rides when the sun breaks through the clouds. Even got caught in a downpour last weekend, going to the store and came home completely soaked but couldn't stop smiling. There's something about that post-rain petrichor smell that makes the whole experience worth it.
 
-So its fun. Been trying to do more art and just get out for more walks. 
+So iz fun. Been trying to do more art and just get out for more walks. Recently started doing some watercolor of the wildflowers I've spotted on my bike routes - they're popping up everywhere after all this rain.
 
 👋 If you are reading this, maybe head over to my resume if you want to play some basic space invaders and maybe we can collab sometime 😊
 => {{}} resume
 
 
 ## Reading
+* [The Measure](https://app.thestorygraph.com/books)
 * [Thinking fast and slow](https://www.wikiwand.com/en/articles/Thinking,_Fast_and_Slow)
-* [Nightbitch](https://app.thestorygraph.com/books/7ffddb4f-af8f-467f-ac24-325524d39258)
 * A book a friend wrote
 
+### Recently Finished
+* [Dungeon Crawler Carl](https://app.thestorygraph.com/books)
+
 ## Listening To
-* [This Perfect Day](https://app.thestorygraph.com/books/13b932fa-cc67-4911-8699-ac43530384ed)
+* [Gravities Rainbow](https://app.thestorygraph.com/books)
 
 ## Watching
-* Severance
-* Murders in the Building
+* Pokerface
+* Love, Death & Robots
+
 
 This page is following best practice as defined from
 [@NowNowNow](https://twitter.com/NowNowNow)
 
+
 ---
-updated: 26 May 2025.
+updated: 5 June 2025.
 
 => / to the Index
 => https://bneil.me/now/ / html
