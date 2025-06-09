@@ -1,6 +1,6 @@
 ---
 title: day01-of-50-blog-posts
-description: ""
+description: "Day 1, A road trip you've taken that was memorable"
 date: 2025-06-06T04:13:09.327Z
 preview: ""
 draft: false

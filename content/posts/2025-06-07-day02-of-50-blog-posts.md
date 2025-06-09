@@ -1,6 +1,6 @@
 ---
 title: day02-of-50-blog-posts
-description: ""
+description: "Day 2, On what subjects are you outspoken and on what subjects are you mostly mute?"
 date: 2025-06-07T04:28:40.981Z
 preview: ""
 draft: false

@@ -40,13 +40,24 @@
 
 
       <h2>Most Recently Modified Posts</h2>
-      <ul>
-        {{ range ( where .Site.RegularPages "Type" "posts" | first 5 ).ByLastmod.Reverse }}
-        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-        {{end}}
-      </ul>
+      <table border="0" cellspacing="0" cellpadding="0">
+          <thead>
+            <tr>
+              <td style="font-weight: bold;">Article</td>
+              <td style="font-weight: bold;">About</td>
+            </tr>
+          </thead>
+          <tbody>
+          {{ range ( where .Site.RegularPages "Type" "posts" | first 5 ).ByLastmod.Reverse }}
+            <tr>
+              <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+              <td>{{.Description}}</td>
+            </tr>
+          {{end}}
+          </tbody>
+      </table>
 
-      <div>
+      <div style="padding-top:25px">
         <img src="/images/talking-head-768.jpg" />
       </div>
 
