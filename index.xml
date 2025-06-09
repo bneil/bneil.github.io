@@ -35,7 +35,8 @@
     margin:15px;
     width: 50%;
 }
-</style>]]></content:encoded><webmention/></item><item><title>mcp-colly-scrapper</title><link>https://bneil.me/posts/2025-04-25-mcp-colly-scrapper/</link><pubDate>Fri, 25 Apr 2025 04:05:14 +0000</pubDate><guid>https://bneil.me/posts/2025-04-25-mcp-colly-scrapper/</guid><description><![CDATA[ <h1 id="building-a-web-scrapper">Building a web scrapper&hellip;</h1>
+</style>
+]]></content:encoded><webmention/></item><item><title>mcp-colly-scrapper</title><link>https://bneil.me/posts/2025-04-25-mcp-colly-scrapper/</link><pubDate>Fri, 25 Apr 2025 04:05:14 +0000</pubDate><guid>https://bneil.me/posts/2025-04-25-mcp-colly-scrapper/</guid><description><![CDATA[ <h1 id="building-a-web-scrapper">Building a web scrapper&hellip;</h1>
 <p>You know what&rsquo;s fascinating about building a web scraping solution? It&rsquo;s not just about extracting data - its about abusing local resources on your laptop to crawl information and make you mcp client of choice do your bidding.</p>
 <p>When I first started this project, I wanted to find something that would be like firecrawl but wouldn&rsquo;t cost me any money. So I chose to, lol, go with Go along with the Colly framework for my scraping needs - and that decision has paid off in spades. Colly gave me the perfect balance of power and simplicity, allowing me to focus on what really mattered: getting the data.</p>]]></description><content:encoded><![CDATA[ <h1 id="building-a-web-scrapper">Building a web scrapper&hellip;</h1>
 <p>You know what&rsquo;s fascinating about building a web scraping solution? It&rsquo;s not just about extracting data - its about abusing local resources on your laptop to crawl information and make you mcp client of choice do your bidding.</p>
