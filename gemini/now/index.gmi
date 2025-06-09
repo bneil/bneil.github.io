@@ -12,8 +12,8 @@ So iz fun. Been trying to do more art and just get out for more walks. Recently 
 => {{}} resume
 
 
-latest picture i put on pixelfeed
-<img src="https://pxscdn.com/public/m/_v2/795114395599828067/4f692c7f1-e20d1b/ZYgCW2WogkVw/zhGYFPIzzwqSh47lZkSMmW3lVngNPWgDMXJnFp96.jpg" alt="Description of the image" style="height: 25%;">
+latest picture i put on [pixelfeed](https://pixelfed.social/bneil)
+<img src="https://pxscdn.com/public/m/_v2/795114395599828067/4f692c7f1-e20d1b/ZYgCW2WogkVw/zhGYFPIzzwqSh47lZkSMmW3lVngNPWgDMXJnFp96.jpg" alt="A bike against the plains" style="height: 25%;width:25%">
 
 ## Reading
 * [The Measure](https://app.thestorygraph.com/books)
