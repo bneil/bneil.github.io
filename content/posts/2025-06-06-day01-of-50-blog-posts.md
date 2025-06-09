@@ -4,7 +4,7 @@ description: ""
 date: 2025-06-06T04:13:09.327Z
 preview: ""
 draft: false
-tags: ["blog-challenge"]
+tags: ["blog-challenge","50of50"]
 categories: ["writing", "fun"]
 ---
 
