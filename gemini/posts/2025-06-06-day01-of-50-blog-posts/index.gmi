@@ -53,7 +53,7 @@ Somehow, it all gets wrapped into a 'nice' memory, with a little ice cream, offs
 </style>
 
 ---
-updated: 5 June 2025.
+updated: 8 June 2025.
 
 => / to the Index
 => https://bneil.me/posts/2025-06-06-day01-of-50-blog-posts/ / html
