@@ -13,7 +13,8 @@ So iz fun. Been trying to do more art and just get out for more walks. Recently 
 
 
 latest picture i put on [pixelfeed](https://pixelfed.social/bneil)
-<img src="https://pxscdn.com/public/m/_v2/795114395599828067/4f692c7f1-e20d1b/ZYgCW2WogkVw/zhGYFPIzzwqSh47lZkSMmW3lVngNPWgDMXJnFp96.jpg" alt="A bike against the plains" style="height: 50%;width:50%">
+
+
 
 ## Reading
 * [The Measure](https://app.thestorygraph.com/books)
@@ -36,7 +37,7 @@ This page is following best practice as defined from
 
 
 ---
-updated: 9 June 2025.
+updated: 11 June 2025.
 
 => / to the Index
 => https://bneil.me/now/ / html
