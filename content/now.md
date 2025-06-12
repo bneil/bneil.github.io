@@ -14,7 +14,7 @@ So iz fun. Been trying to do more art and just get out for more walks. Recently 
 
 👋 If you are reading this, maybe head over to my [resume]({{< ref "resume.md" >}}) if you want to play some basic space invaders and maybe we can collab sometime 😊
 
-<small>latest picture i put on [pixelfeed](https://pixelfed.social/bneil)</small>
+<small>latest picture i put on [pixelfeed](https://pixelfed.social/bneil)</small><br/>
 <img src="https://pxscdn.com/public/m/_v2/795114395599828067/4f692c7f1-e20d1b/ZYgCW2WogkVw/zhGYFPIzzwqSh47lZkSMmW3lVngNPWgDMXJnFp96.jpg" alt="A bike against the plains" style="height: 50%;width:50%">
 
 ## Reading
