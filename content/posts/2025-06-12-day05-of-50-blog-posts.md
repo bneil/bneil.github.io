@@ -1,6 +1,6 @@
 ---
 title: day05-of-50-blog-posts
-description: "What is the most memorable job you've held?"
+description: "Day 5, What is the most memorable job you've held?"
 date: 2025-06-12T02:49:02.186Z
 preview: ""
 draft: false
