@@ -14,7 +14,7 @@ When I was younger I thought it was pretty good. But I'll be honest, once I'd mo
 
 Looking back, I think there's something to be said for the patience they showed me when I was still figuring things out. Maybe it's easier to appreciate that now, with some distance and perspective. These weren't people trying to be my friends or impress me – they were just doing their jobs, sharing, living their lives, and somehow making space for a younger person who probably thought they knew more than they did. There's a certain steadiness to that generation that I find myself missing sometimes, especially in professional settings where everything feels like it needs to be disrupted or optimized.
 
-I do hold fast that I don't think everyone was ready for the internet. 
+On a slight tangent, I will say, I don't think *everyone* was ready for the internet. 
 
 Ready for echo chambers. Ready for the dissolving of classical media. I've personally tried to help, and point people towards RSS and other pieces of the small web, rather than pushing people towards more complex and toxic social media. I mean, not everyone needs to be exposed to, how did Bo Burnham say it, 'Anything and everything. All of the time.'
 
