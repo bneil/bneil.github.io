@@ -17,3 +17,7 @@ It's this weird modern anxiety - looking at a perfectly sunny day but knowing th
 I still need to mow the lawn, the dog still needs walks, and honestly, being cooped up inside for days on end because the air is unhealthy just adds this layer of claustrophobia to summer that didn't used to exist. Or reminds me of keeping inside during the pandemic (which did it officially end? I don't know if that was ever called). 
 
 It makes me realize how much we take clean air for granted until it's not there. Which is also kinda funny given that I just heard Space Balls 2 is coming out in a year or so.
+
+<center>
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWgwa3Zra21qcm12N3M1OTF3Y3BhM3ZlNTBneGJ6ZmlvaXE2d3ZuMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aAZZc2qTzYbKIDLRkD/giphy.gif" />
+</center>
