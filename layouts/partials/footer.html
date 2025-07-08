@@ -1,32 +1,46 @@
 <hr class="halloween-hr" style="width:100%;" />
 <footer style="border-top:0px">
-{{- range $index, $key := .Site.Params.Social -}}
-{{- if hasPrefix $key.icon "simple:" -}}
-<a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}"><i class="si si-{{ substr $key.icon 7 }}"></i></a>
-{{- else -}}
-<a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}">{{ template "feathericon" (dict "Icon" $key.icon "UseCDN" .Site.Params.useCDN) }}</a>
-{{- end -}}
-<a class="border"></a>
-{{- end -}} ⚡️
-	{{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }}  |  {{ end }}site was last updated: {{ .Site.Lastmod.Format "Jan 2, 2006" }}
-<p></p>
-All content is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">BY-NC-ND 4.0</a>.
+    <div class="social-icons">
+        {{- range $index, $key := .Site.Params.Social -}}
+        {{- if hasPrefix $key.icon "simple:" -}}
+        <a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}"><i class="si si-{{ substr $key.icon 7 }}"></i></a>
+        {{- else -}}
+        <a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}">{{ template "feathericon" (dict "Icon" $key.icon "UseCDN" .Site.Params.useCDN) }}</a>
+        {{- end -}}
+        <a class="border"></a>
+        {{- end -}} ⚡️
+    </div>
+    
+    <div class="copyright-info">
+        {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }}site was last updated: {{ .Site.Lastmod.Format "Jan 2, 2006" }}
+    </div>
+    
+    <div class="license-info">
+        All content is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">BY-NC-ND 4.0</a>.
+    </div>
+    
+    <div class="webring-info">
+        <a href="https://xn--sr8hvo.ws/previous">←</a>
+        An <a href="https://xn--sr8hvo.ws">IndieWeb Webring</a> 🕸💍
+        <a href="https://xn--sr8hvo.ws/next">→</a>
+    </div>
 </footer>
+
 <link rel="webmention" href="https://webmention.io/bneil.me/webmention" />
 <link rel="pingback" href="https://webmention.io/bneil.me/xmlrpc" />
 
 <div class="h-card" style="display:none">
-	<span class="p-name">Ben Neil</span>
-	<span class="p-given-name">Ben</span>
-	<abbr class="p-additional-name">E.</abbr>
-	<span class="p-family-name">Neil</span>
-	<span class="p-nickname">bneil</span> (IRC)
-	<img class="u-photo" src="https://bneil.me/images/avatar.gif"/>
-        <a class="u-url" href="acct:bneil@bneil.me"></a>
-	<a class="u-email" href="mailto:ben@neil-concepts.com">e</a>
-	<div class="p-category">programmer</div>
-	<div class="p-note">Automation Mechanic</div>
-        <a class="u-url u-uid" href="https://bneil.me/"></a>
+    <span class="p-name">Ben Neil</span>
+    <span class="p-given-name">Ben</span>
+    <abbr class="p-additional-name">E.</abbr>
+    <span class="p-family-name">Neil</span>
+    <span class="p-nickname">bneil</span> (IRC)
+    <img class="u-photo" src="https://bneil.me/images/avatar.gif"/>
+    <a class="u-url" href="acct:bneil@bneil.me"></a>
+    <a class="u-email" href="mailto:ben@neil-concepts.com">e</a>
+    <div class="p-category">programmer</div>
+    <div class="p-note">Automation Mechanic</div>
+    <a class="u-url u-uid" href="https://bneil.me/"></a>
 </div>
 
 {{ if not hugo.IsServer }}

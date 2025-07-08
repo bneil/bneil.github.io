@@ -57,6 +57,7 @@ enableInlineShortcodes= true
   useCDN=true
   subtitle = "learnings from a professional automation mechanic"
   geminiBaseUrl = "gemini://shiny.bneil.me"
+  customCSS = ["css/extra.css"]
 
 # IndieWeb Configuration
 [params.indieweb]
