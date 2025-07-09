@@ -8,9 +8,7 @@ noComment: true
 
 _Last Updated: {{< updated >}}_
 
-Its June. Its been really rainy but I've been excited to get out on the bike and enjoy the greenery. Found this amazing trail near the platte that's absolutely lush right now - all that rain has turned everything into this vibrant green. Been taking my phone along to capture some of those misty morning rides when the sun breaks through the clouds. Even got caught in a downpour last weekend, going to the store and came home completely soaked but couldn't stop smiling. There's something about that post-rain petrichor smell that makes the whole experience worth it.
-
-So iz fun. Been trying to do more art and just get out for more walks. Recently started doing some watercolor of the wildflowers I've spotted on my bike routes - they're popping up everywhere after all this rain.
+Its July. Been getting out on some bikes rides and generally enjoying the heat. 
 
 👋 If you are reading this, maybe head over to my [resume]({{< ref "resume.md" >}}) if you want to play some basic space invaders and maybe we can collab sometime 😊
 
