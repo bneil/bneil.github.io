@@ -14,6 +14,10 @@ pygmentscodefencesguesssyntax = true
 enableGitInfo = true
 enableInlineShortcodes= true
 
+[security]
+  [security.funcs]
+    getenv = ['^HUGO_', '^CI', '^BUILD_DATE$']
+
 [pagination]
   disableAliases = false
   pagerSize = 3

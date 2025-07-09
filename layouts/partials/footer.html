@@ -12,7 +12,7 @@
     </div>
     
     <div class="copyright-info">
-        {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }}site was last updated: {{ .Site.Lastmod.Format "Jan 2, 2006" }}
+        {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }}site was last updated: {{ dateFormat "Jan 2, 2006" (getenv "BUILD_DATE" | default now) }}
     </div>
     
     <div class="license-info">

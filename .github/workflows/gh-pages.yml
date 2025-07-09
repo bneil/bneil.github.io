@@ -8,6 +8,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    env:
+      BUILD_DATE: ${{ github.event.head_commit.timestamp }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -22,6 +24,8 @@ jobs:
 
       - name: Build
         run: hugo --minify
+        env:
+          BUILD_DATE: ${{ env.BUILD_DATE }}
 
       - name: Deploy To Github
         uses: peaceiris/actions-gh-pages@v3
