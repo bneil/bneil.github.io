@@ -1,5 +1,5 @@
 ---
-title: 2025-07-11-day15-of-50-blog-posts
+title: day15-of-50-blog-posts
 description: "Day 15, Are you an early or late adopter of technology?"
 date: 2025-07-12T03:31:36.157Z
 preview: ""
@@ -22,4 +22,6 @@ I’ve said it a lot over the years: I didn’t think in the early 90’s that t
 
 And yet, here we are. The cycle continues. I’m still chasing the rush of trying new tech, something that might not work, something that might vanish in a year. Maybe it’s the thrill of the unknown, or maybe I’m just addicted to tinkering. 
 
-Either way, I can’t wait to see what great towers rise and fall over the coming decades. Fragmented sentences aside, I’m grateful RSS is still around, heh, proof that some tech doesn’t need to much to survive. It just takes root.
+Either way, I can’t wait to see what great towers rise and fall over the coming decades. 
+
+Fragmented sentences aside, I’m grateful RSS is still around, heh, proof that some tech doesn’t need to much to survive. It just takes root.
