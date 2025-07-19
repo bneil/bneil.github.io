@@ -18,7 +18,7 @@ sitemap:
 DisableComments: true
 ---
 
-## My Collection
+## Behold, your findings!
 
 Welcome, seeker of knowledge and secrets. Here are the badges you've earned on your journey through this site.
 
@@ -94,7 +94,6 @@ Welcome, seeker of knowledge and secrets. Here are the badges you've earned on y
 </style>
 
 <script>
-// This script will run on the badges page to display the earned badges.
 document.addEventListener('DOMContentLoaded', function() {
     // Wait for badges.js to load and expose the badges
     function displayBadges() {
