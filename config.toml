@@ -66,12 +66,12 @@ enableInlineShortcodes= true
 
 # IndieWeb Configuration
 [params.indieweb]
-  domain = "bneil.me" 
+  domain = "bneil.me"
   [params.indieweb.webmention]
-    endpoint = "https://webmention.io/api"  
-    token = "" 
+    endpoint = "https://webmention.io/api"
+    token = ""
   [params.indieweb.resources]
-    allowRemote = true  
+    allowRemote = true
     timeout = "30s"
 
 # Social Tags
@@ -103,6 +103,10 @@ enableInlineShortcodes= true
     name = "rss"
     icon = "rss"
     url = "https://bneil.me/index.xml"
+[[params.social]]
+    name = "award"
+    icon = "award"
+    url = "https://bneil.me/badges"
 
 # Main menu Items
 [[menu.main]]
