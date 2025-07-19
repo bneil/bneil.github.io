@@ -159,6 +159,17 @@ noComment = true
 ## Taking Systems From Complex to Automated
 ...and an avid bug squisher 🚫👾 wherever they popup
 
+<div id="game-container" style="position: relative; height: 120px; border: 1px solid #ccc; overflow: hidden; margin-bottom: 20px;">
+  <div class="spaceship-container"></div>
+  <div id="game-controls" style="position: absolute; top: 10px; left: 10px; z-index: 100;">
+    <button id="start-button" class="retro-button">Start Game</button>
+    <button id="restart-button" class="retro-button" style="display: none;">Restart</button>
+    <div id="score" style="margin-top: 10px; font-size: 1.4em; font-weight: bold; color: #00ff41; text-shadow: 0 0 10px #00ff41; transition: all 0.3s ease;">Score: 0</div>
+  </div>
+</div>
+
+## About me...
+
 <img class="thumbnail" src="/images/wild-report.jpg" width="320" align="left" /><p/>
 
 Over a decade of experience in developing cutting-edge technological solutions, bridging the gap between business objectives and technical excellence. A technical leader with a proven track record of architecting scalable, resilient, and high-performance systems that drive innovation and propel growth.
@@ -180,7 +191,43 @@ But most importantly im able <br/>
 <i>Ive left alot off this list in the hopes it wouldn't be distracting. Lots of technology has come and gone over the past twenty years</i>
 
 ------
-<div class="spaceship-container"></div>
+
+<style>
+  .spaceship.explosion {
+    animation: boom 0.5s ease-out forwards;
+    transform-origin: center;
+  }
+
+  @keyframes boom {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(5);
+      opacity: 0;
+    }
+  }
+
+  @keyframes scoreBoost {
+    0% {
+      transform: scale(1);
+      color: #00ff41;
+      text-shadow: 0 0 10px #00ff41;
+    }
+    50% {
+      transform: scale(1.3);
+      color: #ffff00;
+      text-shadow: 0 0 20px #ffff00;
+    }
+    100% {
+      transform: scale(1);
+      color: #00ff41;
+      text-shadow: 0 0 10px #00ff41;
+    }
+  }
+</style>
+
 
 ### Experience
 
@@ -271,19 +318,51 @@ I'm passionate about driving technological innovation and creating impactful sol
 ---
 
 <script>
-function explodeSpaceship(event) {
-  const spaceship = event.target;
-  spaceship.textContent = '💥';
-
-  setTimeout(() => {
-    spaceship.remove();
-  }, 1000);
-}
-
-function createSpaceships(count) {
+document.addEventListener('DOMContentLoaded', () => {
+  const startButton = document.getElementById('start-button');
+  const restartButton = document.getElementById('restart-button');
+  const scoreElement = document.getElementById('score');
   const container = document.querySelector('.spaceship-container');
+  let score = 0;
+  let gameInterval;
 
-  for (let i = 0; i < count; i++) {
+  function updateScore() {
+    scoreElement.textContent = `Score: ${score}`;
+    // Trigger score animation
+    scoreElement.style.animation = 'none';
+    setTimeout(() => {
+      scoreElement.style.animation = 'scoreBoost 0.5s ease-out';
+    }, 10);
+  }
+
+  function explodeSpaceship(event) {
+    const spaceship = event.target;
+    
+    // Get current position and stop the rocket animation
+    const rect = spaceship.getBoundingClientRect();
+    const containerRect = container.getBoundingClientRect();
+    
+    spaceship.style.animation = 'none';
+    spaceship.style.left = (rect.left - containerRect.left + rect.width/2 - 6) + 'px';
+    spaceship.style.top = (rect.top - containerRect.top + rect.height/2 - 20) + 'px';
+    spaceship.style.position = 'absolute';
+    
+    // Change to explosion and animate
+    spaceship.textContent = '💥';
+    spaceship.classList.add('explosion');
+    
+    // Remove click listener to prevent multiple clicks
+    spaceship.removeEventListener('click', explodeSpaceship);
+    
+    score++;
+    updateScore();
+
+    setTimeout(() => {
+      spaceship.remove();
+    }, 500);
+  }
+
+  function createSpaceship() {
     const spaceship = document.createElement('div');
     spaceship.className = 'spaceship';
     spaceship.textContent = '👾';
@@ -294,7 +373,24 @@ function createSpaceships(count) {
 
     spaceship.addEventListener('click', explodeSpaceship);
   }
-}
 
-createSpaceships(5);
+  function startGame() {
+    startButton.style.display = 'none';
+    restartButton.style.display = 'inline-block';
+    score = 0;
+    updateScore();
+    container.innerHTML = '';
+
+    for (let i = 0; i < 15; i++) {
+        createSpaceship()
+    }
+  }
+
+  function restartGame() {
+    startGame();
+  }
+
+  startButton.addEventListener('click', startGame);
+  restartButton.addEventListener('click', restartGame);
+});
 </script>
