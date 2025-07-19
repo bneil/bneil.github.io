@@ -27,45 +27,69 @@ Welcome, seeker of knowledge and secrets. Here are the badges you've earned on y
 </div>
 
 <style>
+/* Gruvbox Light Theme */
 .badge {
-  border: 1px solid #ccc;
+  border: 1px solid #bdae93;
   border-radius: 8px;
   padding: 15px;
   width: 200px;
   text-align: center;
-  background-color: #f9f9f9;
-  transition: transform 0.2s;
+  background-color: #fbf1c7;
+  color: #3c3836;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 .badge:hover {
   transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 .badge.earned {
-  border-color: #28a745;
-  background-color: #e9f5ec;
+  border-color: #79740e;
+  background-color: #b8bb26;
+  color: #282828;
 }
 .badge-icon {
   font-size: 48px;
+  margin-bottom: 10px;
+  margin-top:10px;
 }
 .badge h3 {
   margin: 10px 0 5px 0;
   font-size: 1.1em;
+  font-weight: bold;
+  color: inherit;
 }
 .badge p {
   font-size: 0.9em;
-  color: #555;
+  color: #504945;
+  margin: 5px 0;
 }
+.badge small {
+  opacity: 0.7;
+  font-size: 0.8em;
+  color: #665c54;
+}
+
+/* Gruvbox Dark Theme */
 .dark .badge {
-    background-color: #2d2d2d;
-    border-color: #444;
-    color: #f1f1f1;
+  background-color: #3c3836;
+  border-color: #504945;
+  color: #ebdbb2;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+.dark .badge:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
 }
 .dark .badge.earned {
-    background-color: #1e3a2e;
-    border-color: #28a745;
-    color: #f1f1f1;
+  background-color: #b8bb26;
+  border-color: #79740e;
+  color: #282828;
 }
 .dark .badge p {
-    color: #ccc;
+  color: #a89984;
+}
+.dark .badge small {
+  color: #928374;
 }
 </style>
 
@@ -77,18 +101,18 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('Checking for window.badger...', !!window.badger);
         console.log('localStorage available:', typeof(Storage) !== "undefined");
         console.log('Raw localStorage userBadges:', localStorage.getItem('userBadges'));
-        
+
         if (!window.badger || !window.badger.getAllBadges) {
             // Give up after 50 attempts (5 seconds) to prevent infinite loop
             if (!displayBadges.attempts) displayBadges.attempts = 0;
             displayBadges.attempts++;
-            
+
             if (displayBadges.attempts > 50) {
                 console.error('Failed to load badges.js after 5 seconds');
                 document.getElementById('badge-container').innerHTML = '<p>Error: Badge system failed to load.</p>';
                 return;
             }
-            
+
             console.log('Waiting for badges.js to load...');
             setTimeout(displayBadges, 100);
             return;
