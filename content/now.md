@@ -3,7 +3,7 @@ title: "now"
 slug: "now"
 date: "2020-04-20"
 description: "now"
-noComment: true
+DisableComments: true
 ---
 
 _Last Updated: {{< updated >}}_

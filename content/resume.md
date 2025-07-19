@@ -3,7 +3,7 @@ title = "Resume"
 slug = "resume"
 date = "2024-02-20"
 description = "resume"
-noComment = true
+DisableComments = true
 +++
 <style>
 .tech {
@@ -319,10 +319,12 @@ I'm passionate about driving technological innovation and creating impactful sol
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
+  console.log('Resume game script loading...');
   const startButton = document.getElementById('start-button');
   const restartButton = document.getElementById('restart-button');
   const scoreElement = document.getElementById('score');
   const container = document.querySelector('.spaceship-container');
+  console.log('Elements found:', { startButton, restartButton, scoreElement, container });
   let score = 0;
   let gameInterval;
 
@@ -375,6 +377,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function startGame() {
+    console.log('Starting game...');
     startButton.style.display = 'none';
     restartButton.style.display = 'inline-block';
     score = 0;
@@ -382,7 +385,7 @@ document.addEventListener('DOMContentLoaded', () => {
     container.innerHTML = '';
 
     for (let i = 0; i < 15; i++) {
-        createSpaceship()
+        setTimeout(() => createSpaceship(), i * 200);
     }
   }
 
@@ -390,7 +393,12 @@ document.addEventListener('DOMContentLoaded', () => {
     startGame();
   }
 
-  startButton.addEventListener('click', startGame);
-  restartButton.addEventListener('click', restartGame);
+  if (startButton && restartButton) {
+    console.log('Game buttons found, attaching event listeners');
+    startButton.addEventListener('click', startGame);
+    restartButton.addEventListener('click', restartGame);
+  } else {
+    console.error('Game buttons not found:', { startButton, restartButton });
+  }
 });
 </script>

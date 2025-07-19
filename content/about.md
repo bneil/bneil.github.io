@@ -3,7 +3,7 @@ title = "About Me"
 slug = "about"
 date = "2020-10-20"
 description = "about"
-noComment = true
+DisableComments = true
 +++
 
 # Publications
