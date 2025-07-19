@@ -1,0 +1,305 @@
+/* Gruvbox Light Theme - Override main.css */
+:root {
+  --maincolor: #79740e;
+  --bordercl: #bdae93;
+  --callouctcolor: #076678;
+  --hovercolor: #79740e;
+  --darkMaincolor: #79740e;
+  --text-color: #3c3836;
+  --post-title-color: #3c3836;
+  --list-color: #3c3836;
+  --code-color: #af3a03;
+  --code-background-color: #f2e5bc;
+  --moon-sun-color: #3c3836;
+  --moon-sun-background-color: #ebdbb2;
+  --sidebar-bg-color: #f2e5bc;
+  --sidebar-img-border-color: #bdae93;
+  --sidebar-socials-color: #427b58;
+  --date-color: #928374;
+}
+
+body {
+  background: #fbf1c7;
+  color: #3c3836;
+  min-height: 100vh;
+}
+
+@media (min-width: 48em) {
+    .bullet {
+        margin-left: 1em;
+        text-decoration-line: underline;
+        text-decoration-style: dotted;
+        text-decoration-thickness: 1%;
+    }
+    .sub-heading {
+        margin-left: 1em;
+    }
+    .btn-light-dark svg {
+        margin: auto;
+        width: 20px;
+        height: 20px;
+        color: #3c3836;
+    }
+}
+
+@media (max-width: 48em) {
+    .heading {
+        font-weight: 400;
+    }
+    .entries {
+        padding-left: 0em;
+    }
+    .btn-light-dark svg {
+        margin: auto;
+        width: 20px;
+        height: 20px;
+        color: #3c3836;
+    }
+}
+
+/* Light theme variables */
+:root {
+  --text-color: #3c3836;
+  --post-title-color: #3c3836;
+  --list-color: #3c3836;
+  --code-color: #af3a03;
+  --code-background-color: #f2e5bc;
+  --moon-sun-color: #3c3836;
+  --moon-sun-background-color: #ebdbb2;
+  --sidebar-bg-color: #f2e5bc;
+  --sidebar-img-border-color: #bdae93;
+  --sidebar-socials-color: #427b58;
+  --date-color: #928374;
+  --darkMaincolor: #79740e;
+}
+
+/* Light theme styles */
+body {
+  color: #3c3836;
+  background-color: #fbf1c7;
+}
+
+::-moz-selection {
+  background: #d79921;
+  color: #fbf1c7;
+  text-shadow: none;
+}
+
+::selection {
+  background: #d79921;
+  color: #fbf1c7;
+  text-shadow: none;
+}
+
+hr {
+  border-top: 3px dotted #bdae93;
+}
+
+code {
+  background-color: #f2e5bc;
+  color: #af3a03;
+  text-decoration: bold;
+  padding: 0.1em 0.2em;
+}
+
+pre {
+  background-color: #f2e5bc;
+  line-height: 1.4;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+blockquote {
+  border-color: #bdae93;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #3c3836;
+}
+
+h1::before {
+  color: #79740e;
+  content: "# ";
+}
+
+h2::before {
+  color: #79740e;
+  content: "## ";
+}
+
+h3::before {
+  color: #79740e;
+  content: "### ";
+}
+
+h4::before {
+  color: #79740e;
+  content: "#### ";
+}
+
+h5::before {
+  color: #79740e;
+  content: "##### ";
+}
+
+h6::before {
+  color: #79740e;
+  content: "###### ";
+}
+
+a {
+  border-bottom: 3px solid #79740e;
+  color: inherit;
+}
+
+a:hover {
+  background-color: #79740e;
+  color: #fbf1c7;
+}
+
+.site-description a {
+  color: #3c3836;
+}
+
+.site-description a:hover {
+  color: #fbf1c7;
+}
+
+.tags a {
+  border-bottom: 3px solid #79740e;
+}
+
+.tags a:hover {
+  background-color: #79740e;
+  color: #fbf1c7;
+}
+
+.site-title a {
+  color: #3c3836;
+  text-decoration: none !important;
+}
+
+.header nav,
+.footer {
+  border-color: #d5c4a1;
+}
+
+.highlight {
+  background-color: #f2e5bc;
+}
+
+.soc:hover {
+  color: #fbf1c7;
+}
+
+.draft-label {
+  color: #79740e;
+  background-color: #b57614;
+}
+
+.highlight pre code[class=language-javaScript]::before,
+.highlight pre code[class="language-js"]::before {
+  content: "js";
+  background: #f7df1e;
+  color: #3c3836;
+}
+
+.highlight pre code[class*='language-yml']::before,
+.highlight pre code[class*='language-yaml']::before {
+  content: 'yaml';
+  background: #f71e6a;
+  color: #fbf1c7;
+}
+
+.highlight pre code[class*='language-shell']::before,
+.highlight pre code[class*='language-bash']::before,
+.highlight pre code[class*='language-sh']::before {
+  content: 'shell';
+  background: #79740e;
+  color: #fbf1c7;
+}
+
+.highlight pre code[class*='language-json']::before{
+  content: 'json';
+  background: #076678;
+  color: #fbf1c7;
+}
+
+.highlight pre code[class*='language-python']::before,
+.highlight pre code[class*='language-py']::before {
+  content: 'py';
+  background: #427b58;
+  color: #fbf1c7;
+}
+
+.highlight pre code[class*='language-css']::before{
+  content: 'css';
+  background: #8ec07c;
+  color: #3c3836;
+}
+
+.highlight pre code[class*='language-go']::before{
+  content: 'Go';
+  background: #8ec07c;
+  color: #427b58;
+}
+
+.highlight pre code[class*='language-md']::before,
+.highlight pre code[class*='language-md']::before{
+  content: 'Markdown';
+  background: #076678;
+  color: #fbf1c7;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+p {
+  line-height: 2.0;
+  font-size: 12pt;
+}
+
+/* Light mode specific overrides */
+.content pre code {
+  color: #3c3836;
+  white-space: pre;
+}
+
+/* Ensure light theme for social icons and other elements */
+.social-icons .soc {
+  color: #427b58;
+}
+
+.social-icons .soc:hover {
+  color: #79740e;
+}
+
+/* Light theme for footer elements */
+footer {
+  color: #3c3836;
+}
+
+.copyright-info,
+.license-info,
+.webring-info {
+  color: #5c4b3a;
+}
+
+/* Light theme for buttons */
+.btn-light-dark {
+  background-color: #ebdbb2;
+  color: #3c3836;
+}
+
+.btn-light-dark:hover {
+  background-color: #d5c4a1;
+}

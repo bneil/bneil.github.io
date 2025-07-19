@@ -109,3 +109,9 @@ footer {
 .defensive-magic {
     color: transparent;
 }
+
+.homepage-head img {
+  filter: sepia(75%);
+  display: block;
+  margin: auto;
+}
