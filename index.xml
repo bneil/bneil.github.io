@@ -1813,6 +1813,15 @@ get a very vivid tale. Def made me look up pictures of the world fair and next t
 </p>
 <h2 id="taking-systems-from-complex-to-automated">Taking Systems From Complex to Automated</h2>
 <p>&hellip;and an avid bug squisher 🚫👾 wherever they popup</p>
+<div id="game-container" style="position: relative; height: 120px; border: 1px solid #ccc; overflow: hidden; margin-bottom: 20px;">
+  <div class="spaceship-container"></div>
+  <div id="game-controls" style="position: absolute; top: 10px; left: 10px; z-index: 100;">
+    <button id="start-button" class="retro-button">Start Game</button>
+    <button id="restart-button" class="retro-button" style="display: none;">Restart</button>
+    <div id="score" style="margin-top: 10px; font-size: 1.4em; font-weight: bold; color: #00ff41; text-shadow: 0 0 10px #00ff41; transition: all 0.3s ease;">Score: 0</div>
+  </div>
+</div>
+<h2 id="about-me">About me&hellip;</h2>
 <p><img class="thumbnail" src="https://bneil.me/images/wild-report.jpg" width="320" align="left" /><p/></p>
 <p>Over a decade of experience in developing cutting-edge technological solutions, bridging the gap between business objectives and technical excellence. A technical leader with a proven track record of architecting scalable, resilient, and high-performance systems that drive innovation and propel growth.</p>
 <p>With a deep passion for continuous learning and an unwavering commitment to staying ahead of the curve, I thrive in dynamic environments where challenges are met with creative problem-solving and technical innovation.</p>
@@ -1826,7 +1835,41 @@ get a very vivid tale. Def made me look up pictures of the world fair and next t
 <strong>Clouds:</strong> <span class="tech">AWS</span>, <span class="tech">GCP</span>, <span class="tech">Fly.io</span>, <span class="tech">Firebase</span><br/></p>
 <p><i>Ive left alot off this list in the hopes it wouldn&rsquo;t be distracting. Lots of technology has come and gone over the past twenty years</i></p>
 <hr>
-<div class="spaceship-container"></div>
+<style>
+  .spaceship.explosion {
+    animation: boom 0.5s ease-out forwards;
+    transform-origin: center;
+  }
+
+  @keyframes boom {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(5);
+      opacity: 0;
+    }
+  }
+
+  @keyframes scoreBoost {
+    0% {
+      transform: scale(1);
+      color: #00ff41;
+      text-shadow: 0 0 10px #00ff41;
+    }
+    50% {
+      transform: scale(1.3);
+      color: #ffff00;
+      text-shadow: 0 0 20px #ffff00;
+    }
+    100% {
+      transform: scale(1);
+      color: #00ff41;
+      text-shadow: 0 0 10px #00ff41;
+    }
+  }
+</style>
 <h3 id="experience">Experience</h3>
 <p><strong>Modernize</strong> <em>Consultant</em> <strong>July 2024 to Present</strong><br/></p>
 <p>As a Senior Application Architect for ProWallet, I&rsquo;ve focused on:</p>
@@ -1902,19 +1945,51 @@ DeVry University, Phoenix, Arizona</p>
 </ul>
 <hr>
 <script>
-function explodeSpaceship(event) {
-  const spaceship = event.target;
-  spaceship.textContent = '💥';
-
-  setTimeout(() => {
-    spaceship.remove();
-  }, 1000);
-}
-
-function createSpaceships(count) {
+document.addEventListener('DOMContentLoaded', () => {
+  const startButton = document.getElementById('start-button');
+  const restartButton = document.getElementById('restart-button');
+  const scoreElement = document.getElementById('score');
   const container = document.querySelector('.spaceship-container');
+  let score = 0;
+  let gameInterval;
 
-  for (let i = 0; i < count; i++) {
+  function updateScore() {
+    scoreElement.textContent = `Score: ${score}`;
+    // Trigger score animation
+    scoreElement.style.animation = 'none';
+    setTimeout(() => {
+      scoreElement.style.animation = 'scoreBoost 0.5s ease-out';
+    }, 10);
+  }
+
+  function explodeSpaceship(event) {
+    const spaceship = event.target;
+    
+    // Get current position and stop the rocket animation
+    const rect = spaceship.getBoundingClientRect();
+    const containerRect = container.getBoundingClientRect();
+    
+    spaceship.style.animation = 'none';
+    spaceship.style.left = (rect.left - containerRect.left + rect.width/2 - 6) + 'px';
+    spaceship.style.top = (rect.top - containerRect.top + rect.height/2 - 20) + 'px';
+    spaceship.style.position = 'absolute';
+    
+    // Change to explosion and animate
+    spaceship.textContent = '💥';
+    spaceship.classList.add('explosion');
+    
+    // Remove click listener to prevent multiple clicks
+    spaceship.removeEventListener('click', explodeSpaceship);
+    
+    score++;
+    updateScore();
+
+    setTimeout(() => {
+      spaceship.remove();
+    }, 500);
+  }
+
+  function createSpaceship() {
     const spaceship = document.createElement('div');
     spaceship.className = 'spaceship';
     spaceship.textContent = '👾';
@@ -1925,9 +2000,26 @@ function createSpaceships(count) {
 
     spaceship.addEventListener('click', explodeSpaceship);
   }
-}
 
-createSpaceships(5);
+  function startGame() {
+    startButton.style.display = 'none';
+    restartButton.style.display = 'inline-block';
+    score = 0;
+    updateScore();
+    container.innerHTML = '';
+
+    for (let i = 0; i < 15; i++) {
+        createSpaceship()
+    }
+  }
+
+  function restartGame() {
+    startGame();
+  }
+
+  startButton.addEventListener('click', startGame);
+  restartButton.addEventListener('click', restartGame);
+});
 </script>]]></content:encoded><webmention/></item><item><title>last-day-of-NaBloPoMo2023</title><link>https://bneil.me/posts/2023-11-30-last-day-of-nablopomo2023/</link><pubDate>Fri, 01 Dec 2023 03:49:07 +0000</pubDate><guid>https://bneil.me/posts/2023-11-30-last-day-of-nablopomo2023/</guid><description><![CDATA[ <h1 id="wrapping-up-nablopomo2023">Wrapping up NaBloPoMo2023</h1>
 <p>Doing thirty days of blog posts was a lot harder than I thought. The last couple days especially felt difficult, since I didn&rsquo;t have time to continue coding up any htmx examples or alpinejs or really much golang. Since, typically for those projects I spend a few hours coding and writing the steps back to the blog. But even more, finding things that I wanted to write about was difficult. So I&rsquo;m really glad that this is over and im happy that I tried.</p>]]></description><content:encoded><![CDATA[ <h1 id="wrapping-up-nablopomo2023">Wrapping up NaBloPoMo2023</h1>
 <p>Doing thirty days of blog posts was a lot harder than I thought. The last couple days especially felt difficult, since I didn&rsquo;t have time to continue coding up any htmx examples or alpinejs or really much golang. Since, typically for those projects I spend a few hours coding and writing the steps back to the blog. But even more, finding things that I wanted to write about was difficult. So I&rsquo;m really glad that this is over and im happy that I tried.</p>
