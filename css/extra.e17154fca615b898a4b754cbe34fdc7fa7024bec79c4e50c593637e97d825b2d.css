@@ -1,0 +1,111 @@
+/* =============================================================================
+Badge Notification System
+============================================================================= */
+
+.badge-notification {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+  border-left: 5px solid #28a745;
+  border-radius: 8px;
+  padding: 15px 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  transform: translateX(calc(100% + 30px));
+  transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.badge-notification.show {
+  transform: translateX(0);
+}
+
+.badge-notification-icon {
+  font-size: 32px;
+  margin-right: 15px;
+}
+
+.badge-notification-content strong {
+  font-size: 1.1em;
+  display: block;
+  margin-bottom: 2px;
+}
+
+.badge-notification-content p {
+  margin: 0;
+  color: #555;
+}
+
+/* Dark Mode Styles */
+.dark .badge-notification {
+    background-color: #2d2d2d;
+    color: #f1f1f1;
+    border-color: #444;
+    border-left-color: #28a745;
+}
+
+.dark .badge-notification-content p {
+    color: #ccc;
+}
+
+/* =============================================================================
+Footer Styling
+============================================================================= */
+
+footer {
+    margin-top: 40px;
+    padding: 20px 0;
+    display: block;
+    text-align: center;
+}
+
+.social-icons {
+    text-align: center;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+
+.social-icons .soc {
+    margin: 0 5px;
+}
+
+.social-icons .border {
+    margin: 0 3px;
+}
+
+.copyright-info,
+.license-info,
+.webring-info {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 0.9em;
+}
+
+.buttons-88x31 {
+    text-align: center;
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.buttons-88x31 img {
+    width: 88px;
+    height: 31px;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}
+
+.defensive-magic {
+    color: transparent;
+}
