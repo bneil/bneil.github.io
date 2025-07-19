@@ -4,11 +4,13 @@
 
 _Last Updated: {{}}_
 
-Its July. Been getting out on some bikes rides and generally enjoying the heat. 
+Its the end of July. Been enjoying the summer with bike rides and a trip to the Fun Expo (Denver Comic Con). Looking forward to the Ren Faire this weekend. It's also been a heavy month, processing the loss of an friend. A true rollercoaster.
 
 👋 If you are reading this, maybe head over to my resume if you want to play some basic space invaders and maybe we can collab sometime 😊
 => {{}} resume
 
+
+.miss ya turing.
 
 latest picture i put on [pixelfeed](https://pixelfed.social/bneil)
 
@@ -20,6 +22,7 @@ latest picture i put on [pixelfeed](https://pixelfed.social/bneil)
 * A book a friend wrote
 
 ### Recently Finished
+* [Hyperion](https://app.thestorygraph.com/books/b9aa7918-bb4b-4c6a-9443-8d33734a9a53)
 * [Dungeon Crawler Carl](https://app.thestorygraph.com/books)
 
 ## Listening To
@@ -35,7 +38,7 @@ This page is following best practice as defined from
 
 
 ---
-updated: 9 July 2025.
+updated: 18 July 2025.
 
 => / to the Index
 => https://bneil.me/now/ / html
