@@ -1,12 +1,17 @@
 function setTheme(mode) {
     localStorage.setItem("theme-storage", mode);
     var e = document.querySelector("#dark-mode-toggle > .feather > use")
+    var darkStyle = document.getElementById("darkModeStyle");
+    var lightStyle = document.getElementById("lightModeStyle");
+    
     if (mode === "dark") {
-        document.getElementById("darkModeStyle").disabled=false;
-	e.href.baseVal = e.href.baseVal.replace(/#.*$/, "#sun")
+        if (darkStyle) darkStyle.disabled = false;
+        if (lightStyle) lightStyle.disabled = true;
+        e.href.baseVal = e.href.baseVal.replace(/#.*$/, "#sun")
     } else if (mode === "light") {
-        document.getElementById("darkModeStyle").disabled=true;
-	e.href.baseVal = e.href.baseVal.replace(/#.*$/, "#moon")
+        if (darkStyle) darkStyle.disabled = true;
+        if (lightStyle) lightStyle.disabled = false;
+        e.href.baseVal = e.href.baseVal.replace(/#.*$/, "#moon")
     }
 }
 
