@@ -39,6 +39,14 @@
     -->
 
 
+      <h2>Latest Blog Challenge</h2>
+      <ul>
+        {{ $fiftyPost := .Site.GetPage "posts/2025-07-22-50-of-50" }}
+        {{ if $fiftyPost }}
+        <li><a href="{{ $fiftyPost.RelPermalink }}">{{ $fiftyPost.Title }}</a></li>
+        {{ end }}
+      </ul>
+
       <h2>Most Recently Modified Posts</h2>
       <ul>
         {{ range ( where .Site.RegularPages "Type" "posts" | first 7 ).ByLastmod.Reverse }}
