@@ -1,0 +1,7 @@
+<ul>
+{{ range (where .Site.Pages "Params.tags" "intersect" (slice "50of50")).ByDate }}
+{{ if ne .Title "50 Blog Posts in 50 Days (ish)" }}
+<li style="margin-bottom: 10px;"><a href="{{ .RelPermalink }}">{{ .Title }}</a> - {{ .Description }}</li>
+{{ end }}
+{{ end }}
+</ul>
