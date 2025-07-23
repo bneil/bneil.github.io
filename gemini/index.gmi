@@ -67,6 +67,7 @@ Happy Fall Y'all
 
 => gemini://shiny.bneil.me/tags/50of50/gemini/index.gmi 50of50
 => gemini://shiny.bneil.me/tags/blog-challenge/gemini/index.gmi Blog-Challenge
+=> gemini://shiny.bneil.me/tags/meta/gemini/index.gmi Meta
 => gemini://shiny.bneil.me/tags/ai/gemini/index.gmi Ai
 => gemini://shiny.bneil.me/tags/claude/gemini/index.gmi Claude
 => gemini://shiny.bneil.me/tags/development/gemini/index.gmi Development
