@@ -27,4 +27,4 @@ Honorable Mentions
 2. The this: Could have gone with john dies at the end but make 'the this' just sticks in my soul
 3. This perfect day: It was a good day. jk. Again, like the drug induced population vs human nature.
 
-So many good books. I could recommend more but really, it depends.  
+So many good books. I could recommend more but really, it depends. 
