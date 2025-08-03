@@ -3,9 +3,9 @@ title: day20-of-50-blog-posts
 description: "Day 20, How do you like to watch movies? Are you a theater goer, a streamer, or do you like physical media?"
 date: 2025-08-01T03:54:45.542Z
 preview: ""
-draft: true
-tags: []
-categories: []
+draft: false
+tags: ["blog-challenge","50of50"]
+categories: ["writing", "fun"]
 ---
 
 ## Day 20: How do you like to watch movies? Are you a theater goer, a streamer, or do you like physical media?
