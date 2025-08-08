@@ -1,0 +1,30 @@
+---
+title: day23-of-50-blog-posts
+description: "Day 23, What words of wisdom would you give to your younger self?"
+date: 2025-08-08T03:52:13.939Z
+preview: ""
+draft: false
+tags: ["blog-challenge","50of50"]
+categories: ["writing", "fun"]
+---
+
+## Day 23, What words of wisdom would you give to your younger self?
+
+What wisdom would I give myself that wasn't earned? I think my younger self would laugh. 
+
+Like he always did at his parents and at the world. He didn't think much of idle words, he learned best via action. But if I could catch his ear, if I could get him to listen for a few moments. I would tell him that his world would shake him more than he ever believe it could.
+
+I would tell him that death isn't just a foreign concept, that it happens to everyone. It happens all the time, to those we love - those we cherish and worst those we take (or in my case), took—for granted. I'd tell him to continue to enjoy his life and his existing purview. But to think some on those he may be taking for granted. To call them and stretch himself a little.
+
+Life goes by so quickly, especially after 18. It's one part narcissism, one part survival and sprinkles of routine becoming a tapestry of experience.
+
+I would hope my younger self would listen, but if I'm being honest. 
+
+Dude, was a psychonaut, loved playing starcraft, programming and writing short stories. 
+
+Also, had a crazy infatuation with his eventual wife. 
+
+I love him and I don't think he ever, really, saw life coming. 
+I wouldn't want to take anything away from his experience. 
+
+But damn, speaking as the elder here, I think we would agree. Hindsight is a privilege and kind of a bitch.
