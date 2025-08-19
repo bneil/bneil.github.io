@@ -26,6 +26,6 @@ With you
 
 This still speaks to me. The "got no cure for misery" brings me back to being a teen, where you want to help, but you've reached a point where you realize you can't. It's impossible to fix someone else's problems, despite your earnest want.
 
-For me, helping others was paramount, and with the line that "I'll get messed up too," it felt right—helping friends meant getting tracked into their drama and their pull.
+For me, helping others was paramount, and with the line that "I'll get messed up too," it felt right—helping friends meant getting dragged into their drama and their pull.
 
 That's it. Fun prompt. 
