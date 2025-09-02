@@ -8,7 +8,7 @@ DisableComments: true
 
 _Last Updated: {{< updated >}}_
 
-Its the end of July. Been enjoying the summer with bike rides and a trip to the Fun Expo (Denver Comic Con). Looking forward to the Ren Faire this weekend. It's also been a heavy month, processing the loss of an friend. A true rollercoaster.
+Its the start of September. Been a quick couple of weeks, and im enjoying coding and getting into the end of summer and grabbing some fall colors. 
 
 👋 If you are reading this, maybe head over to my [resume]({{< ref "resume.md" >}}) if you want to play some basic space invaders and maybe we can collab sometime 😊
 
