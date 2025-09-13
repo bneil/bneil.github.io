@@ -1,6 +1,10 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ dateFormat .Date "2-1-2006" }}
+title: {{ .Name }}
+description: ""
+date: {{ .Date }}
+preview: ""
 draft: true
+tags: []
+categories: []
 ---
 
