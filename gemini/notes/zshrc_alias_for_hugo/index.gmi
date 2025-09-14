@@ -1,0 +1,27 @@
+# zshrc_alias_for_hugo
+
+
+
+## New aliases for the blog
+
+Create the new post and pop open vim
+
+```
+hpost() {
+  hugo new content content/posts/$1
+  vim content/posts/$1
+}
+
+hnote() {
+  hugo new content content/notes/$1
+  vim content/notes/$1
+}
+```
+
+
+---
+updated: 14 September 2025.
+
+=> / to the Index
+=> https://bneil.me/notes/zshrc_alias_for_hugo/ / html
+

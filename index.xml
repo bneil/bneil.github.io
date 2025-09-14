@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Sun, 14 Sep 2025 11:50:06 -0600</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>biking-to-weecasa</title><link>https://bneil.me/posts/2025-09-14-biking-to-weecasa/</link><pubDate>Sun, 14 Sep 2025 11:50:06 -0600</pubDate><guid>https://bneil.me/posts/2025-09-14-biking-to-weecasa/</guid><description> &lt;h2 id="decided-to-take-off-for-a-little-trip-last-weekend">Decided to take off for a little trip last weekend&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Sun, 14 Sep 2025 12:23:45 -0600</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>zshrc_alias_for_hugo</title><link>https://bneil.me/notes/zshrc_alias_for_hugo/</link><pubDate>Sun, 14 Sep 2025 12:23:45 -0600</pubDate><guid>https://bneil.me/notes/zshrc_alias_for_hugo/</guid><description><![CDATA[ <h2 id="new-aliases-for-the-blog">New aliases for the blog</h2>
+<p>Create the new post and pop open vim</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>hpost() {
+</span></span><span style="display:flex;"><span>  hugo new content content/posts/$1
+</span></span><span style="display:flex;"><span>  vim content/posts/$1
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>hnote() {
+</span></span><span style="display:flex;"><span>  hugo new content content/notes/$1
+</span></span><span style="display:flex;"><span>  vim content/notes/$1
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>]]></description><content:encoded><![CDATA[ <h2 id="new-aliases-for-the-blog">New aliases for the blog</h2>
+<p>Create the new post and pop open vim</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>hpost() {
+</span></span><span style="display:flex;"><span>  hugo new content content/posts/$1
+</span></span><span style="display:flex;"><span>  vim content/posts/$1
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>hnote() {
+</span></span><span style="display:flex;"><span>  hugo new content content/notes/$1
+</span></span><span style="display:flex;"><span>  vim content/notes/$1
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>]]></content:encoded><webmention/></item><item><title>biking-to-weecasa</title><link>https://bneil.me/posts/2025-09-14-biking-to-weecasa/</link><pubDate>Sun, 14 Sep 2025 11:50:06 -0600</pubDate><guid>https://bneil.me/posts/2025-09-14-biking-to-weecasa/</guid><description> &lt;h2 id="decided-to-take-off-for-a-little-trip-last-weekend">Decided to take off for a little trip last weekend&lt;/h2>
 &lt;p>So for my birthday this year, after watching a bike tubber, I decided to emulate this
 persons tradition. Riding the number of miles you are turning. For me, that was a pretty
 tall ask. However, after getting in some early spring rides, I did ok. I also lucked out
