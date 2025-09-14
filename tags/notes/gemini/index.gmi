@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /notes/avatar_test/index.gmi 2025-09-14 avatar_test
 => /notes/zshrc_alias_for_hugo/index.gmi 2025-09-14 zshrc_alias_for_hugo
 => /notes/2024-11-27-pocketbase-client-golang/index.gmi 2024-11-28 pocketbase-client-golang
 => /posts/2024-09-14-postsgoing-through-areas/index.gmi 2024-09-14 obsidian-quick-trick

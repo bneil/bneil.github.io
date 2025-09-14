@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /notes/avatar_test/index.gmi 2025-09-14 avatar_test
 => /notes/zshrc_alias_for_hugo/index.gmi 2025-09-14 zshrc_alias_for_hugo
 => /posts/2025-04-25-mcp-colly-scrapper/index.gmi 2025-04-25 mcp-colly-scrapper
 => /posts/2025-03-19-mcp-memory-pouchdb/index.gmi 2025-03-20 upgrading-mcp-server-to-pouchdb

@@ -1,0 +1,42 @@
+# avatar_test
+
+
+
+## Testing out an avatar from a gist
+
+Wild! Found this code snippet [here](https://gist.github.com/win3zz/e2e8f9d43035d8378e35065ec4c5dd97)
+
+How neat. Giant Umaru for me thanks to live2d
+=> https://himoutoumaru-chan.fandom.com/wiki/Umaru_Doma Umaru
+
+
+
+</script>
+
+
+L2Dwidget.init({
+  "model": {
+    //"jsonPath": "https://cdn.jsdelivr.net/gh/evrstr/live2d-widget-models/live2d_evrstr/koharu/model.json"
+    "jsonPath": "https://cdn.jsdelivr.net/gh/evrstr/live2d-widget-models/live2d_evrstr/umaru/model.json"
+  },
+  "display": {
+    "position": "right",
+    "width": 400,
+    "height": 750,
+    "hOffset": 60
+  },
+  "mobile": {
+    "show": true,
+    "scale": 0.3,
+    "motion": true
+  }
+});
+
+
+
+---
+updated: 14 September 2025.
+
+=> / to the Index
+=> https://bneil.me/notes/avatar_test/ / html
+
