@@ -8,7 +8,7 @@ menu:
     weight: -1
     params:
       hidden: true
-_build:
+build:
   list: false
 sitemap:
   changefreq: "monthly"
