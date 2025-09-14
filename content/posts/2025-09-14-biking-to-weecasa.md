@@ -47,8 +47,8 @@ Took a couple of pictures
 I have to admit, I was pretty good up until I accidently forgot about refilling my water
 so that wasn't fun. Also I didn't realize the last ten miles or so would be at a 2-4%
 grade. That combination of dehydration and hills, made me super happy to find a circle
-K on the way into Lyons. Ended up buying a gallon of water and dumping a quarter on my
-head.
+K on the way into Lyons. Ended up buying a gallon of water and dumping a quarter of it
+on my head.
 
 So lesson learned about that. When I finally started feeling better, I kept on.
 
