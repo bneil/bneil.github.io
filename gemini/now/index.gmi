@@ -4,13 +4,12 @@
 
 _Last Updated: {{}}_
 
-Its the start of September. Been a quick couple of weeks, and im enjoying coding and getting into the end of summer and grabbing some fall colors. 
+Its the start of September. Been a quick couple of weeks, and
+im enjoying coding and getting into the end of summer and grabbing some fall colors.
 
-👋 If you are reading this, maybe head over to my resume if you want to play some basic space invaders and maybe we can collab sometime 😊
-=> {{}} resume
+Been really getting into Manjaro linux since I moved away from using debian. Its
+been fun using i3 again and trying out qutebrowser.
 
-
-.miss ya turing.
 
 latest picture i put on [pixelfeed](https://pixelfed.social/bneil)
 
@@ -37,8 +36,11 @@ This page is following best practice as defined from
 [@NowNowNow](https://twitter.com/NowNowNow)
 
 
+☮ miss ya turing.
+
+
 ---
-updated: 2 September 2025.
+updated: 14 September 2025.
 
 => / to the Index
 => https://bneil.me/now/ / html
