@@ -1,5 +1,5 @@
 ---
-title: 2025-09-19-day27-of-50-blog-posts
+title: day27-of-50-blog-posts
 description: "Day 27, What kind of decorations do you have in your workspace? What do they mean to you?"
 date: 2025-09-19T22:47:37-06:00
 preview: ""
