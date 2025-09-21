@@ -1,0 +1,27 @@
+---
+title: 2025-09-19-day27-of-50-blog-posts
+description: "Day 27, What kind of decorations do you have in your workspace? What do they mean to you?"
+date: 2025-09-19T22:47:37-06:00
+preview: ""
+draft: false
+tags: ["blog-challenge","50of50"]
+categories: ["writing", "fun"]
+---
+
+## What kind of decorations do you have in your workspace? What do they mean to you?
+
+I have a mix of old linux cd's from the 90s (got to prove ive got old af xwindows that didnt give an f about your screen refresh).
+Pieces of different cubicles from early in my career. Books. All the books. I find that when your on a zoom/meet call, one has to
+have some books to prove you are locked in to the game. Im joking mostly, I really like those books. But my background has lots of
+stuff and my desk has very little. On the old desk, its just
+- a really kewl spinner thing
+- my old zelda pin from 1984
+- two test phones
+- the kiddos mousepad (clutch)
+- a bullet journal
+
+I think like most workspaces, you try to find what makes the most sense. For me, the two main things I need to have are the bullet journal. Since I try
+not to use obsidian.md when im in meetings. Feels better to transcribe thoughts afterwards. The second, is just having a clean desk. If im not careful
+the ol desk gets busy with random stuff. So I try to keep it clean.
+
+Hope that answers todays fun question.

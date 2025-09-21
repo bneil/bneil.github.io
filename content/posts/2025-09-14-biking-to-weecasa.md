@@ -58,5 +58,11 @@ Finally got to the tiny house
 
 <img src="https://pxscdn.com/public/m/_v2/795114395599828067/9c67e908a-279c2f/bsFAzhO0MFvt/WOqs2rBAL3hhZHwDf23yX7yUN3wfjWv5iOKcBpC0.jpg" />
 
-It was a really fun trip, dehydration aside. Think ill try it again.
+It was a really fun trip, dehydration aside and the county roads weren't nearly as scary as id anticipated.
+
+<p style="text-align:center">
+    <img src="/images/2025-09-14-bike.jpeg" width="50%"/>
+</p>
+
+
 
