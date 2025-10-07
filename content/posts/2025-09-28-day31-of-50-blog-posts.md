@@ -1,5 +1,5 @@
 ---
-title: day30-of-50-blog-posts
+title: day31-of-50-blog-posts
 description: "Day 31, Is there a particular country other than your own that fascinates you? Why?"
 date: 2025-09-28T15:04:58-06:00
 preview: ""
