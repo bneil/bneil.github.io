@@ -1,4 +1,4 @@
-# day30-of-50-blog-posts
+# day31-of-50-blog-posts
 
 
 
@@ -17,7 +17,7 @@ get on a plane.
 
 
 ---
-updated: 28 September 2025.
+updated: 6 October 2025.
 
 => / to the Index
 => https://bneil.me/posts/2025-09-28-day31-of-50-blog-posts/ / html
