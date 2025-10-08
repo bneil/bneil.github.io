@@ -1,5 +1,5 @@
 ---
-title: 2025-10-06-day33-of-50-blog-posts
+title: day33-of-50-blog-posts
 description: "Day 33, What are five issues that have affected your political life?"
 date: 2025-10-06T22:32:31-06:00
 preview: ""

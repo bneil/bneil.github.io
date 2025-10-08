@@ -1,0 +1,36 @@
+---
+title: day34-of-50-blog-posts
+description: "Day 34, Write a book review of the last book you couldn't put down."
+date: 2025-10-07T20:51:33-06:00
+preview: ""
+draft: false
+tags: ["blog-challenge","50of50"]
+categories: ["writing", "fun"]
+---
+
+## Write a book review of the last book you couldn't put down.
+
+How to Sell a Haunted House, by Grady Hendrix
+
+I don't want to give anything away from this book. Just read it,
+because its one of these horror stories that is so well written.
+Its better than horror. Its god damn interesting.
+
+I think what I liked most was just the feelings of 'yeah, this character
+has every right to dislike their brother.' Then at the turn of a hat.
+
+ooooooooooo
+oooo
+oo
+
+damn.
+
+The book takes turns at break neck speeds and its amazing to go along for the ride.
+
+Also creepy. So damn creepy. But at the same time, funny as all hell. That special
+place in my genre where Chucky lives and runs wild.
+
+So yeah, if you want to read a story about a women who recently lost her parents.
+Who gets to catch up with her younger bro and learn about her moms strange obsession with a special little doll.
+
+You can't go wrong with this exceptionally odd, fun and well written novel
