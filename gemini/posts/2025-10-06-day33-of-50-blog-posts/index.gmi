@@ -1,4 +1,4 @@
-# 2025-10-06-day33-of-50-blog-posts
+# day33-of-50-blog-posts
 
 
 
@@ -30,7 +30,7 @@ even have the ambience of a thankgiving turkey.
 
 
 ---
-updated: 6 October 2025.
+updated: 7 October 2025.
 
 => / to the Index
 => https://bneil.me/posts/2025-10-06-day33-of-50-blog-posts/ / html
