@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /posts/2025-10-08-day35-of-50-blog-posts/index.gmi 2025-10-08 day35-of-50-blog-posts
 => /posts/2025-10-06-day34-of-50-blog-posts/index.gmi 2025-10-07 day34-of-50-blog-posts
 => /posts/2025-10-06-day33-of-50-blog-posts/index.gmi 2025-10-06 day33-of-50-blog-posts
 => /posts/2025-09-29-day32-of-50-blog-posts/index.gmi 2025-09-29 day32-of-50-blog-posts
