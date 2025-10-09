@@ -1,0 +1,53 @@
+---
+title: day35-of-50-blog-posts
+description: "Day 35, What is your typical day like from the time you wake up until you go to bed?"
+date: 2025-10-08T20:21:06-06:00
+preview: ""
+draft: false
+tags: ["blog-challenge","50of50"]
+categories: ["writing", "fun"]
+---
+
+## Day 35, What is your typical day like from the time you wake up until you go to bed?
+
+Days vary depending on personal energy levels in the morning... lol
+
+Alarm goes off at 6:30
+- brush teeth
+- wake up the kids
+- read or just want in circles listening to audio book
+- 7:30 to 8:00 is my dedicated waste time
+  - NYT puzzles
+  - Review RSS Feeds
+  - Just something fun!
+- 8:00 to 8:30 walk the pup
+- 8:30 to 9:00 prep for work
+  - very privledged to work from home so, i really take advantage
+
+work day is on a pomodoro times, 25m on 5m off. That 5m off is a mix of
+- read from kindle
+- pushup
+- pullup / hang
+- quick meditation
+
+_meetings are the worse as that means pomodoros end_
+
+I wasn't a huge fan of atomic habits, but one thing that the author nailed
+was micro habits and having the things you need in the area around you. So
+thats what ive tried to do.
+
+1st work ends around 5-5:30
+
+5:45 - 6:00 is yoga or meditation (alternating)
+
+Then dinner and family time. I harass the kids as much as possible whenever
+I can.
+
+After dinner, chores, and journaling, its usually 8:00 or so.
+
+After 8:00, its watching shows, anime, etc. I like having the laptop out
+since this is when I research tech I want to try and try to use different
+tools. Nothing crazy this is all just sharpening the saw time.
+
+Getting ready for bed is 10:30, just the usual of shutting things down and getting ready to get
+after it again.
