@@ -1,0 +1,35 @@
+---
+title: day36-of-50-blog-posts
+description: "Day 36, What do you remember about your first computer and learning to use it?"
+date: 2025-10-20T20:21:06-06:00
+preview: ""
+draft: false
+tags: ["blog-challenge","50of50"]
+categories: ["writing", "fun"]
+---
+
+## Day 36, What do you remember about your first computer and learning to use it?
+
+So the first computer, was a 'zx spectrum' that you hooked into a television. It
+came with a book of basic and a cassette drive. It was amazing, I was however very
+young, so i couldn't read the words, and basically copied verbatum the symbols in
+the book of basic to the keyboard letters. Very hunt and peck. But such is the fun
+coding before you can read. I did have some success, like I was able to get a person
+walking across a screen. Some very simple graphics, like fireworks, etc.
+
+Later, I got into batch programming. Which might sound weird, but the help function
+in ms dos was addictive. I could read the help, find commands, like CHOICE and start
+creating tiny programs. So like a gateway drug, I started using it to create tui dialogs
+and make fake screens using ansi graphics. Like faking programs I had no idea how to make.
+Then after I got into pascal started making those real.
+
+Was a really good time. I miss just geeking out on technical books with only a bbs or email
+to get help. It was amazingly frustrating. I always wanted to learn more, to make more.
+
+Those first few years, were incrediable rewarding in just how humbling the journey is.
+
+Batch programming!?! come on.
+
+Hell, I spent a few months in high school learning 'Hypercard' just to try and be something
+close to seventh guest or myst. Just a little bit. But like I said, humbling and at the time
+you just didn't know what you didn't know outside what you have access to.
