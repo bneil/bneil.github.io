@@ -1,0 +1,35 @@
+---
+title: day38-of-50-blog-posts
+description: "Day 38, How do you feel about writing? Is it often cathartic, fun, a chore?"
+date: 2025-10-29T21:08:25-06:00
+preview: ""
+draft: false
+tags: ["blog-challenge","50of50"]
+categories: ["writing", "fun"]
+---
+
+## Day 38, How do you feel about writing? Is it often cathartic, fun, a chore?
+
+I really enjoy writing. It's cathartic and fun, probably the most rewarding experence
+ive had outside of my own inner monologue. Outside that, its an escape, I still
+remember when I was in school. I used to write in my notebook for hours, pretending
+to take notes while just writing stories or poems.
+
+Grammer and whatnot be damned. Just writing has its own beautiful benefits.
+
+Sometimes I wonder if I could draw better if I would have felt the same way I do about writing.
+It's not as high a watermark. But, then ive read some terrible writing. Honestly, I don't
+know how the majority of mine ends up. But I feel my writing could be worse.
+
+So I have that going for me.
+
+On an aside, I did often think after years of coding. That the introduction of so
+much disjointed logic statements would infect the majority of how I wrote. But so
+far, it appears a lifetime spent coding has mostly just impacted the way I speak,
+and not the way I write.
+
+On another aside, I think its pretty interesting when reading LLM written articles.
+Have you all noticed the use of the 'Subject isn't just this, its this' kinda pattern?
+Feel like im seeing alot more of that on medium.
+
+Cheers.
