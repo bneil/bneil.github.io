@@ -8,11 +8,9 @@ DisableComments: true
 
 _Last Updated: {{< updated >}}_
 
-Its the start of September. Been a quick couple of weeks, and
-im enjoying coding and getting into the end of summer and grabbing some fall colors.
-
-Been really getting into Manjaro linux since I moved away from using debian. Its
-been fun using i3 again and trying out qutebrowser.
+Its the start of November, lots of leaves on the ground. Been enjoying the colder weather.
+The time change has been pretty good this year. Horrible for walking after work but great
+for taking the dog out and seeing the sunrise.
 
 
 <small>latest picture i put on [pixelfeed](https://pixelfed.social/bneil)</small><br/>
