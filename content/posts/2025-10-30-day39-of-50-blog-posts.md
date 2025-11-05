@@ -1,5 +1,5 @@
 ---
-title: 2025-10-30-day39-of-50-blog-posts
+title: day39-of-50-blog-posts
 description: "Day 39, What do you like to read? Books, newsletters, doomscrolling, blogs, paper magazines?"
 date: 2025-10-30T19:45:09-06:00
 preview: ""
