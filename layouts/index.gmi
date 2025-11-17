@@ -41,7 +41,7 @@ Happy Fall Y'all
 ```
 ## latest posts or updates
 {{ range ( where .Site.RegularPages "Type" "posts" | first 7 ).ByLastmod.Reverse }}
-   => {{ replace .Permalink "gemini://" "gemini://shiny." 1}} {{ .Title }}{{end}}
+=> {{ replace .Permalink "gemini://" "gemini://shiny." 1}} {{ .Title }}{{end}}
  
 ```
   .--.      .-'.      .--.      .--.      .--.      .--.      .`-.      .--.
