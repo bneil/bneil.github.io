@@ -19,6 +19,7 @@
         {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }}site was last updated: {{ dateFormat "Jan 2, 2006" (getenv "BUILD_DATE" | default now) }}
     </div>
 
+
     <div class="license-info">
         All content is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">BY-NC-ND 4.0</a>.
     </div>
@@ -28,7 +29,9 @@
         An <a href="https://xn--sr8hvo.ws">IndieWeb Webring</a> 🕸💍
         <a href="https://xn--sr8hvo.ws/next">→</a>
     </div>
-
+    <div>
+       <danq-beige-buttons />
+    </div>
     <div class="buttons-88x31">
         <img src="/images/88x31/anydamn_2.gif" alt="Use whateva browser ya want" />
         <img src="/images/88x31/blog.gif" alt="Its a blog" />
