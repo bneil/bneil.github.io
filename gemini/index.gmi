@@ -41,13 +41,13 @@ Happy Fall Y'all
 ```
 ## latest posts or updates
 
+=> gemini://shiny.bneil.me/gemini/posts/2025-11-18-day41-of-50-blog-posts/index.gmi day41-of-50-blog-posts
 => gemini://shiny.bneil.me/gemini/posts/2025-11-04-day40-of-50-blog-posts/index.gmi day40-of-50-blog-posts
 => gemini://shiny.bneil.me/gemini/posts/2025-10-30-day39-of-50-blog-posts/index.gmi day39-of-50-blog-posts
 => gemini://shiny.bneil.me/gemini/posts/2025-10-29-day38-of-50-blog-posts/index.gmi day38-of-50-blog-posts
 => gemini://shiny.bneil.me/gemini/posts/2025-10-23-day37-of-50-blog-posts/index.gmi day37-of-50-blog-posts
 => gemini://shiny.bneil.me/gemini/posts/2025-10-20-day36-of-50-blog-posts/index.gmi day36-of-50-blog-posts
 => gemini://shiny.bneil.me/gemini/posts/2025-10-08-day35-of-50-blog-posts/index.gmi day35-of-50-blog-posts
-=> gemini://shiny.bneil.me/gemini/posts/2025-10-06-day34-of-50-blog-posts/index.gmi day34-of-50-blog-posts
  
 ```
   .--.      .-'.      .--.      .--.      .--.      .--.      .`-.      .--.
