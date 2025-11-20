@@ -24,3 +24,9 @@ really enjoyed the gun barrel person.  Also generally feels like a good person.
 - Mat Ryer (Go Time) - https://changelog.com/gotime - Who doesn't love learning more go! Really great podcast.
 
 - Courtland Allen (Indie Hackers) - https://www.indiehackers.com/ - Really have enjoyed this content over the years. Good find.
+
+- https://ellesho.me/ - Really amazing website and content!
+
+- https://tvsimulator.com/ - I mean its super fun
+
+- https://five.sh/ - I don't know how I found this site, but its a trip
