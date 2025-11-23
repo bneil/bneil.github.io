@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /review/books/2025-11-23-parable-of-the-talents/index.gmi 2025-11-23 parable-of-the-talents
 => /review/books/i_who_have_never_known_men/index.gmi 2025-01-19 I Who Have Never Known Men Review
 => /review/books/recursion/index.gmi 2025-01-15 Recursion Review
 => /review/books/dark_matter/index.gmi 2025-01-13 Dark Matter Review

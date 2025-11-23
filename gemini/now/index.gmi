@@ -4,21 +4,20 @@
 
 _Last Updated: {{}}_
 
-Its the start of November, lots of leaves on the ground. Been enjoying the colder weather.
-The time change has been pretty good this year. Horrible for walking after work but great
-for taking the dog out and seeing the sunrise.
-
+Dang November, Chill! Feels like this month is going by way to fast. Im doing the usual
+getting in bikerides (which is really weird for this time of year), writing and using
+all the crazy new technologies I can get my heands on.
 
 latest picture i put on [pixelfeed](https://pixelfed.social/bneil)
 
 
 
-## Reading
-* [The Measure](https://app.thestorygraph.com/books)
-* [Thinking fast and slow](https://www.wikiwand.com/en/articles/Thinking,_Fast_and_Slow)
-* A book a friend wrote
+## Reading (or JUST JUST finished )
+* [Parble of the Talents]({{}})
 
 ### Recently Finished
+* [The Measure](https://app.thestorygraph.com/books)
+* [Thinking fast and slow](https://www.wikiwand.com/en/articles/Thinking,_Fast_and_Slow)
 * [Hyperion](https://app.thestorygraph.com/books/b9aa7918-bb4b-4c6a-9443-8d33734a9a53)
 * [Dungeon Crawler Carl](https://app.thestorygraph.com/books)
 
@@ -38,7 +37,7 @@ This page is following best practice as defined from
 
 
 ---
-updated: 4 November 2025.
+updated: 23 November 2025.
 
 => / to the Index
 => https://bneil.me/now/ / html
