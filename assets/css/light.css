@@ -103,7 +103,7 @@ code {
 }
 
 pre {
-  background-color: #f2e5bc;
+  background-color: #f2e5bc !important;
   line-height: 1.4;
   overflow-x: auto;
   padding: 1em;
@@ -190,7 +190,7 @@ a:hover {
 }
 
 .highlight {
-  background-color: #f2e5bc;
+  background-color: #f2e5bc !important;
 }
 
 .soc:hover {
@@ -272,6 +272,15 @@ p {
 .content pre code {
   color: #3c3836;
   white-space: pre;
+}
+
+/* Override Chroma inline styles in light mode */
+.highlight pre[style] {
+  background-color: #f2e5bc !important;
+}
+
+.highlight pre[style] code {
+  color: #3c3836 !important;
 }
 
 /* Ensure light theme for social icons and other elements */
