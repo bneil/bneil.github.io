@@ -1,5 +1,6 @@
 ---
 title: parable-of-the-talents
+description: "Parable of the Talents Book Review"
 date: 2025-11-23T11:04:47-07:00
 draft: false
 tags: ["book"]

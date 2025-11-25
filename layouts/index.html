@@ -49,7 +49,7 @@
 
       <h2>Most Recently Modified Posts</h2>
       <ul>
-        {{ range ( where .Site.RegularPages "Type" "posts" | first 7 ).ByLastmod.Reverse }}
+        {{ range ( first 7 .Site.RegularPages ).ByLastmod.Reverse }}
           <li><a href="{{ .Permalink }}">{{ .Description }}</a></li>
         {{end}}
       </ul>
