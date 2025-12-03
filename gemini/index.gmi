@@ -41,13 +41,13 @@ Happy Fall Y'all
 ```
 ## latest posts or updates
 
+=> gemini://shiny.bneil.me/gemini/posts/2025-11-28-day43-of-50-blog-posts/index.gmi day43-of-50-blog-posts
 => gemini://shiny.bneil.me/gemini/posts/2025-11-19-day42-of-50-blog-posts/index.gmi 2025-11-19-day42-of-50-blog-posts
 => gemini://shiny.bneil.me/gemini/posts/2025-11-18-day41-of-50-blog-posts/index.gmi day41-of-50-blog-posts
 => gemini://shiny.bneil.me/gemini/posts/2025-11-04-day40-of-50-blog-posts/index.gmi day40-of-50-blog-posts
 => gemini://shiny.bneil.me/gemini/posts/2025-10-30-day39-of-50-blog-posts/index.gmi day39-of-50-blog-posts
 => gemini://shiny.bneil.me/gemini/posts/2025-10-29-day38-of-50-blog-posts/index.gmi day38-of-50-blog-posts
 => gemini://shiny.bneil.me/gemini/posts/2025-10-23-day37-of-50-blog-posts/index.gmi day37-of-50-blog-posts
-=> gemini://shiny.bneil.me/gemini/posts/2025-10-20-day36-of-50-blog-posts/index.gmi day36-of-50-blog-posts
  
 ```
   .--.      .-'.      .--.      .--.      .--.      .--.      .`-.      .--.
@@ -56,9 +56,9 @@ Happy Fall Y'all
 
 ## by major subject
 
-=> gemini://shiny.bneil.me/categories/review/gemini/index.gmi Review
 => gemini://shiny.bneil.me/categories/fun/gemini/index.gmi Fun
 => gemini://shiny.bneil.me/categories/writing/gemini/index.gmi Writing
+=> gemini://shiny.bneil.me/categories/review/gemini/index.gmi Review
 => gemini://shiny.bneil.me/categories/coding/gemini/index.gmi Coding
 => gemini://shiny.bneil.me/categories/infra/gemini/index.gmi Infra
 => gemini://shiny.bneil.me/categories/project-management/gemini/index.gmi Project Management
@@ -79,9 +79,9 @@ Happy Fall Y'all
 
 ## by tag
 
-=> gemini://shiny.bneil.me/tags/book/gemini/index.gmi Book
 => gemini://shiny.bneil.me/tags/50of50/gemini/index.gmi 50of50
 => gemini://shiny.bneil.me/tags/blog-challenge/gemini/index.gmi Blog-Challenge
+=> gemini://shiny.bneil.me/tags/book/gemini/index.gmi Book
 => gemini://shiny.bneil.me/tags/notes/gemini/index.gmi Notes
 => gemini://shiny.bneil.me/tags/biking/gemini/index.gmi Biking
 => gemini://shiny.bneil.me/tags/meta/gemini/index.gmi Meta
