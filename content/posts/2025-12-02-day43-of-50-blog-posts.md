@@ -1,7 +1,7 @@
 ---
 title: day43-of-50-blog-posts
 description: "Day 43, What's the last trip you took?"
-date: 2025-11-28T20:10:26-07:00
+date: 2025-12-02T20:10:26-07:00
 preview: ""
 draft: false
 tags: ["blog-challenge","50of50"]
