@@ -10,6 +10,7 @@ categories: ["writing", "fun"]
 
 ## Day 43, What's the last trip you took? Was it fun? Why or why not.
 
+
 The last trip I took was a bucket list trip, to the 'House on the Rock' in
 Wisconsin. Not to get too into it, but it's a trip I'd wanted to take since I'd
 first heard of this tourist trap of a destination.
@@ -22,6 +23,12 @@ As for the why, I can't get into that without going into the trip as a whole.
 So if you wan't to stick around for me clicking the projector ( or slide projector?
 I haven't seen one in a looong time), and listening to the whole trip. Then hey!
 Pull up a chair and check it.
+
+<div style="text-align: center;">
+<img
+  src="https://kagi.com/proxy/5772768554_c6c188ae4b_b.jpg?c=ku7SFIUNyzScXcKVCiVtiC8rkI_FIr_5XSb73vAoNEIaROYuWJIyr1IC978oW9_P9vs8f4floO2FlVyQ4hCAAf7PW83uFJY0L1hjAmqJnj4%3D"
+  width="80%" />
+</div>
 
 For one, we decided to drive from Colorado to Wisconsin and that was a very long
 and interesting drive (Nebraska, you are a cool state to drive through). We also
