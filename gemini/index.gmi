@@ -41,7 +41,7 @@ Happy Fall Y'all
 ```
 ## latest posts or updates
 
-=> gemini://shiny.bneil.me/gemini/posts/2025-11-28-day43-of-50-blog-posts/index.gmi day43-of-50-blog-posts
+=> gemini://shiny.bneil.me/gemini/posts/2025-12-02-day43-of-50-blog-posts/index.gmi day43-of-50-blog-posts
 => gemini://shiny.bneil.me/gemini/posts/2025-11-19-day42-of-50-blog-posts/index.gmi 2025-11-19-day42-of-50-blog-posts
 => gemini://shiny.bneil.me/gemini/posts/2025-11-18-day41-of-50-blog-posts/index.gmi day41-of-50-blog-posts
 => gemini://shiny.bneil.me/gemini/posts/2025-11-04-day40-of-50-blog-posts/index.gmi day40-of-50-blog-posts
