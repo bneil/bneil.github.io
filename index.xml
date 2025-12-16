@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Fri, 12 Dec 2025 21:39:23 -0700</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>day45-of-50-blog-posts</title><link>https://bneil.me/posts/2025-12-03-day45-of-50-blog-posts/</link><pubDate>Fri, 12 Dec 2025 21:39:23 -0700</pubDate><guid>https://bneil.me/posts/2025-12-03-day45-of-50-blog-posts/</guid><description><![CDATA[ <h2 id="what-do-you-remember-being-a-big-deal-to-adults-during-your-childhood-or-teenaged-years">What do you remember being a big deal to adults during your childhood or teenaged years?</h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Mon, 15 Dec 2025 21:37:55 -0700</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>day46-of-50-blog-posts</title><link>https://bneil.me/posts/2025-12-15-day46-of-50-blog-posts/</link><pubDate>Mon, 15 Dec 2025 21:37:55 -0700</pubDate><guid>https://bneil.me/posts/2025-12-15-day46-of-50-blog-posts/</guid><description><![CDATA[ <h2 id="day-46-what-is-your-all-time-favorite-story-to-tell-from-all-the-jobs-youve-held">Day 46: What is your all-time favorite story to tell from all the jobs you&rsquo;ve held?</h2>
+<p>The one story that I like to tell was when I was working for Sony Online Entertainment.
+They were the kewl kids that worked on EverQuest and EverQuest 2. It was a really big
+deal for me, even though I was only working for the platform and marketing teams. But
+that disclaimer aside, my favorite story was during a big refactor of the eq2 players website.</p>]]></description><content:encoded><![CDATA[ <h2 id="day-46-what-is-your-all-time-favorite-story-to-tell-from-all-the-jobs-youve-held">Day 46: What is your all-time favorite story to tell from all the jobs you&rsquo;ve held?</h2>
+<p>The one story that I like to tell was when I was working for Sony Online Entertainment.
+They were the kewl kids that worked on EverQuest and EverQuest 2. It was a really big
+deal for me, even though I was only working for the platform and marketing teams. But
+that disclaimer aside, my favorite story was during a big refactor of the eq2 players website.</p>
+<p>It was around 2am, only my boss and a QA person was around. With me being on the first floor
+and QA being on the second floor. I was trying to fix this one javascript / jsp page, and
+for whatever reason, I couldn&rsquo;t figure it out. But before pushing anything to production,
+it had to pass QA on stage, which was taking about 10-15m via P4 and cruise control.</p>
+<p>The funny thing about it was my boss and the QA dude Derrick was done. It was probably the
+fifth time I promised it was &lsquo;fixed&rsquo;. Finally, after another push to P4, five minutes passed
+and I heard this scream, this stomp and &lsquo;DONT FUCKING TELL ME ITS FIXED, FIX IT&rsquo;. To be fair,
+they had hung out with me since 9pm and we were toasty. But for some reason, that frustration
+was just what I needed to stop pushing sphagetti and finish the work.</p>
+<p>Literally took me one more round and the stomp and cussing stopped, I apologized for not
+checking my work more and it was just one of those lessons. I needed to own my own fixes
+and not just force updates.</p>
+]]></content:encoded><webmention/></item><item><title>day45-of-50-blog-posts</title><link>https://bneil.me/posts/2025-12-03-day45-of-50-blog-posts/</link><pubDate>Fri, 12 Dec 2025 21:39:23 -0700</pubDate><guid>https://bneil.me/posts/2025-12-03-day45-of-50-blog-posts/</guid><description><![CDATA[ <h2 id="what-do-you-remember-being-a-big-deal-to-adults-during-your-childhood-or-teenaged-years">What do you remember being a big deal to adults during your childhood or teenaged years?</h2>
 <p>This is a tough prompt. I think as kids we are so in our own world, that understanding
 what is a &lsquo;big deal&rsquo; can be a little hard to comprehend. I remember, my parents stressing
 and telling me why, but those dots didn&rsquo;t always connect and especially decades later to
@@ -990,6 +1011,10 @@ I wouldn&rsquo;t want to take anything away from his experience.</p>
 
 
 <li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2025-12-03-day45-of-50-blog-posts/">day45-of-50-blog-posts</a> - Day 45, What do you remember being a big deal</li>
+
+
+
+<li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2025-12-15-day46-of-50-blog-posts/">day46-of-50-blog-posts</a> - Day 46, What is your all-time favorite story to tell from all the jobs you&#39;ve held?</li>
 
 
 </ul>
