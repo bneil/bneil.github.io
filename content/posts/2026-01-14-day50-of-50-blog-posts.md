@@ -1,0 +1,27 @@
+---
+title: day50-of-50-blog-posts
+description: "Day 50, Write about a news event from when you were still in school and how it made you feel."
+date: 2026-01-14T21:48:52-07:00
+preview: ""
+draft: false
+tags: ["blog-challenge","50of50"]
+categories: ["writing", "fun"]
+---
+
+## Day 50, Write about a news event from when you were still in school and how it made you feel.
+
+News events in the 90s were a little different than now. You didn't learn about them until you got home
+and turned on the news. Which is kinda slow. Probably the one event that impacted me the most, dating me
+a little, was just the horror of coming home one day and seeing the missile strikes from the television
+going into the start of 'Operation Desert Storm'.
+
+I remember hearing Bush senior on the television and seeing the missile strikes. The room was quiet, the
+smell of the old TV filling the air. There is something about seeing missiles, bombs, explosions, etc.
+That make you realize the only thing separating such massive destruction is where it's being done. I
+could feel the ground shake through the TV, I could imagine being there, life and concrete and road
+and routine, shifting.
+
+I remember feeling sick. Lost. Feeling that I should know more about the world. But they don't teach
+geopolitical ideas in schools. Why one country should be given 'democracy' or why oil is so precious. These
+are foreign concepts, if they aren't taught. But while I didn't see or understand the 'why' we, the USA,
+were bombing, I did for the first time see death on television. And that wasn't great.
