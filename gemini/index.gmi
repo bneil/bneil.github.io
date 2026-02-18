@@ -56,6 +56,7 @@ Happy Fall Y'all
 
 ## by major subject
 
+=> gemini://shiny.bneil.me/categories/mentions/gemini/index.gmi Mentions
 => gemini://shiny.bneil.me/categories/fun/gemini/index.gmi Fun
 => gemini://shiny.bneil.me/categories/writing/gemini/index.gmi Writing
 => gemini://shiny.bneil.me/categories/review/gemini/index.gmi Review
@@ -74,18 +75,18 @@ Happy Fall Y'all
 => gemini://shiny.bneil.me/categories/diagrams/gemini/index.gmi Diagrams
 => gemini://shiny.bneil.me/categories/reading/gemini/index.gmi Reading
 => gemini://shiny.bneil.me/categories/workflow/gemini/index.gmi Workflow
-=> gemini://shiny.bneil.me/categories/mentions/gemini/index.gmi Mentions
 => gemini://shiny.bneil.me/categories/gaming/gemini/index.gmi Gaming
 
 ## by tag
 
+=> gemini://shiny.bneil.me/tags/ai/gemini/index.gmi Ai
+=> gemini://shiny.bneil.me/tags/blogging/gemini/index.gmi Blogging
 => gemini://shiny.bneil.me/tags/50of50/gemini/index.gmi 50of50
 => gemini://shiny.bneil.me/tags/blog-challenge/gemini/index.gmi Blog-Challenge
 => gemini://shiny.bneil.me/tags/book/gemini/index.gmi Book
 => gemini://shiny.bneil.me/tags/notes/gemini/index.gmi Notes
 => gemini://shiny.bneil.me/tags/biking/gemini/index.gmi Biking
 => gemini://shiny.bneil.me/tags/meta/gemini/index.gmi Meta
-=> gemini://shiny.bneil.me/tags/ai/gemini/index.gmi Ai
 => gemini://shiny.bneil.me/tags/claude/gemini/index.gmi Claude
 => gemini://shiny.bneil.me/tags/development/gemini/index.gmi Development
 => gemini://shiny.bneil.me/tags/mcp-server/gemini/index.gmi Mcp Server
