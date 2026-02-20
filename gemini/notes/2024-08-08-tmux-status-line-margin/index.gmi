@@ -1,4 +1,4 @@
-# cloudflare-whiteboard
+# status-line-dracula
 
 
 
@@ -7,6 +7,7 @@
 Was using tmux dracula, and really wanted a little margin between the bottom of the prompt and where the tmux status line was. Found a few pages and put this together
 
 _.tmux.conf_
+
 ```
 if -F '#{!=:#{status},2}' {
   set -Fg 'status-format[1]' '#{status-format[0]}'
@@ -18,7 +19,7 @@ if -F '#{!=:#{status},2}' {
 
 
 ---
-updated: 8 August 2024.
+updated: 19 February 2026.
 
 => / to the Index
 => https://bneil.me/notes/2024-08-08-tmux-status-line-margin/ / html

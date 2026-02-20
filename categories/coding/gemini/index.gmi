@@ -10,7 +10,7 @@ Pages in this section:
 => /notes/2024-11-27-pocketbase-client-golang/index.gmi 2024-11-28 pocketbase-client-golang
 => /posts/2024-11-27-on-firebase-pocketbase-etc/index.gmi 2024-11-27 on-firebase-pocketbase-etc
 => /notes/2024-08-26-meld-three-way/index.gmi 2024-08-26 merge-threeway
-=> /notes/2024-08-08-tmux-status-line-margin/index.gmi 2024-08-08 cloudflare-whiteboard
+=> /notes/2024-08-08-tmux-status-line-margin/index.gmi 2024-08-08 status-line-dracula
 => /notes/2024-06-14-cloudflare-whiteboard/index.gmi 2024-06-14 cloudflare-whiteboard
 => /posts/2024-06-01-golang-ctx/index.gmi 2024-06-01 golang-ctx
 => /posts/2023-10-02-to-fix-or-wait/index.gmi 2023-10-03 To Fix or .. to wait
