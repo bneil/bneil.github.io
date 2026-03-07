@@ -1,6 +1,6 @@
 ---
 title: Takeaways from Red Rising
-description: "Needed to brain dump my thoughts from the series"
+description: "Red Rising; Thoughts on the Society"
 date: 2026-03-04T20:41:34-07:00
 preview: ""
 draft: false
