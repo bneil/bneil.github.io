@@ -41,13 +41,13 @@ Happy Fall Y'all
 ```
 ## latest posts or updates
 
+=> gemini://shiny.bneil.me/gemini/posts/2026-03-04-red-rising/index.gmi Takeaways from Red Rising
 => gemini://shiny.bneil.me/gemini/posts/2026-01-14-day50-of-50-blog-posts/index.gmi day50-of-50-blog-posts
 => gemini://shiny.bneil.me/gemini/posts/2026-01-12-day49-of-50-blog-posts/index.gmi day49-of-50-blog-posts
 => gemini://shiny.bneil.me/gemini/posts/2025-12-20-day48-of-50-blog-posts/index.gmi day48-of-50-blog-posts
 => gemini://shiny.bneil.me/gemini/posts/2025-12-19-day47-of-50-blog-posts/index.gmi day47-of-50-blog-posts
 => gemini://shiny.bneil.me/gemini/posts/2025-12-15-day46-of-50-blog-posts/index.gmi day46-of-50-blog-posts
 => gemini://shiny.bneil.me/gemini/posts/2025-12-03-day45-of-50-blog-posts/index.gmi day45-of-50-blog-posts
-=> gemini://shiny.bneil.me/gemini/posts/2025-12-03-day44-of-50-blog-posts/index.gmi day44-of-50-blog-posts
  
 ```
   .--.      .-'.      .--.      .--.      .--.      .--.      .`-.      .--.
@@ -56,9 +56,9 @@ Happy Fall Y'all
 
 ## by major subject
 
+=> gemini://shiny.bneil.me/categories/writing/gemini/index.gmi Writing
 => gemini://shiny.bneil.me/categories/mentions/gemini/index.gmi Mentions
 => gemini://shiny.bneil.me/categories/fun/gemini/index.gmi Fun
-=> gemini://shiny.bneil.me/categories/writing/gemini/index.gmi Writing
 => gemini://shiny.bneil.me/categories/review/gemini/index.gmi Review
 => gemini://shiny.bneil.me/categories/coding/gemini/index.gmi Coding
 => gemini://shiny.bneil.me/categories/infra/gemini/index.gmi Infra
@@ -79,11 +79,12 @@ Happy Fall Y'all
 
 ## by tag
 
+=> gemini://shiny.bneil.me/tags/book/gemini/index.gmi Book
+=> gemini://shiny.bneil.me/tags/philosophy/gemini/index.gmi Philosophy
 => gemini://shiny.bneil.me/tags/ai/gemini/index.gmi Ai
 => gemini://shiny.bneil.me/tags/blogging/gemini/index.gmi Blogging
 => gemini://shiny.bneil.me/tags/50of50/gemini/index.gmi 50of50
 => gemini://shiny.bneil.me/tags/blog-challenge/gemini/index.gmi Blog-Challenge
-=> gemini://shiny.bneil.me/tags/book/gemini/index.gmi Book
 => gemini://shiny.bneil.me/tags/notes/gemini/index.gmi Notes
 => gemini://shiny.bneil.me/tags/biking/gemini/index.gmi Biking
 => gemini://shiny.bneil.me/tags/meta/gemini/index.gmi Meta
@@ -98,7 +99,6 @@ Happy Fall Y'all
 => gemini://shiny.bneil.me/tags/obsidian/gemini/index.gmi Obsidian
 => gemini://shiny.bneil.me/tags/merge/gemini/index.gmi Merge
 => gemini://shiny.bneil.me/tags/tmux/gemini/index.gmi Tmux
-=> gemini://shiny.bneil.me/tags/philosophy/gemini/index.gmi Philosophy
 => gemini://shiny.bneil.me/tags/fun/gemini/index.gmi Fun
 => gemini://shiny.bneil.me/tags/link_dump/gemini/index.gmi Link_dump
 => gemini://shiny.bneil.me/tags/whimsy/gemini/index.gmi Whimsy

@@ -3,4 +3,5 @@
 
 Pages in this section:
 
+=> /posts/2026-03-04-red-rising/index.gmi 2026-03-04 Takeaways from Red Rising
 => /posts/2024-06-21-racing-to-the-bottom/index.gmi 2024-06-21 racing to the bottom
