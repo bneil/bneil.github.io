@@ -7,7 +7,7 @@ disableComments = true
 
 # Past Challenges
 
-A collection of completed blogging challenges.
+A collection of completed blogging challenges. Well so far one. lol.
 
 ## 50 Blog Posts in 50 Days
 
