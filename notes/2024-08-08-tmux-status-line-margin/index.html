@@ -5,6 +5,7 @@
 <a href=/posts>Blog</a>
 <a href=/tags/notes>Notes</a>
 <a href=/now>Now</a>
+<a href=/challenges>Challenges</a>
 | <span id=dark-mode-toggle onclick=toggleTheme()><svg class="feather"><use href="/feather-sprite.svg#sun"/></svg></span>
 <script src=https://bneil.me/js/themetoggle.js></script></nav></header><main><article class=h-entry><div class=title><h1 class="title p-name">status-line-dracula</h1><div class=meta>Posted on Aug 8, 2024</div><div class=meta><small>article is 54 words and should take 1 minutes to consume 👀</small></div></div><section class="body e-content"><h1 id=description>Description</h1><p>Was using tmux dracula, and really wanted a little margin between the bottom of the prompt and where the tmux status line was. Found a few pages and put this together</p><p><em>.tmux.conf</em></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback><span style=display:flex><span>if -F &#39;#{!=:#{status},2}&#39; {
 </span></span><span style=display:flex><span>  set -Fg &#39;status-format[1]&#39; &#39;#{status-format[0]}&#39;

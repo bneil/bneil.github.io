@@ -5,6 +5,7 @@
 <a href=/posts>Blog</a>
 <a href=/tags/notes>Notes</a>
 <a href=/now>Now</a>
+<a href=/challenges>Challenges</a>
 | <span id=dark-mode-toggle onclick=toggleTheme()><svg class="feather"><use href="/feather-sprite.svg#sun"/></svg></span>
 <script src=https://bneil.me/js/themetoggle.js></script></nav></header><main><article class=h-entry><div class=title><h1 class="title p-name">Using MFA with AWS CLI</h1><div class=meta>Posted on May 6, 2021</div><div class=meta><small>article is 96 words and should take 1 minutes to consume 👀</small></div></div><section class="body e-content"><h2 id=mfa-on-aws-cli>MFA on AWS Cli</h2><h3 id=description>Description</h3><p>Just writing down the steps ive been manually taken for updating my
 credentials to use ecr in aws from the cli.</p><ol><li>Check authy on phone and write down code</li><li>Check arn from aws and write that down</li><li>Issue this command <code>aws sts get-session-token --serial-number &lt;arn here> --token-code &lt;authy code></code></li><li>Take those values and plop the into <code>~/.aws/credentials</code></li><li>Ensure the profile is <code>[mfa]</code></li><li>Convert the json to the toml keys<ol><li>&ldquo;SecretAccessKey&rdquo;: aws_secret_access_key</li><li>&ldquo;SessionToken&rdquo;: aws_session_token</li><li>&ldquo;AccessKeyId&rdquo;: aws_access_key_id</li></ol></li><li>Issue the command <code>aws ecr get-login --profile mfa</code></li><li>ecr above can be replaced with any service</li></ol></section><hr>### comments

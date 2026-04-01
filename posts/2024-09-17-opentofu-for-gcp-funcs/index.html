@@ -5,6 +5,7 @@
 <a href=/posts>Blog</a>
 <a href=/tags/notes>Notes</a>
 <a href=/now>Now</a>
+<a href=/challenges>Challenges</a>
 | <span id=dark-mode-toggle onclick=toggleTheme()><svg class="feather"><use href="/feather-sprite.svg#sun"/></svg></span>
 <script src=https://bneil.me/js/themetoggle.js></script></nav></header><main><article class=h-entry><div class=title><h1 class="title p-name">opentofu-for-gcp-funcs</h1><div class=meta>Posted on Sep 18, 2024</div><div class=meta><small>article is 359 words and should take 2 minutes to consume 👀</small></div></div><section class="body e-content"><h2 id=opentofu-and-gcp-functions>OpenTofu and GCP Functions</h2><p>Had a few minutes so thought id see how to deploy a function using open tofu.</p><p>for this example, please use the alias</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback><span style=display:flex><span>alias tf=&#39;tofu&#39;
 </span></span></code></pre></div><p>The directories should look like</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback><span style=display:flex><span>main.tf
