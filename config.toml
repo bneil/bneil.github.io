@@ -143,3 +143,9 @@ enableInlineShortcodes= true
     identifier = "now"
     weight = 6
     url  = "/now"
+
+[[menu.main]]
+    name = "Challenges"
+    identifier = "challenges"
+    weight = 7
+    url  = "/challenges"
