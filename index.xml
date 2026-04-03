@@ -1,13 +1,95 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Tue, 31 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>Past Challenges</title><link>https://bneil.me/challenges/</link><pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate><guid>https://bneil.me/challenges/</guid><description><![CDATA[ <h1 id="past-challenges">Past Challenges</h1>
-<p>A collection of completed blogging challenges. Well so far one. lol.</p>
-<h2 id="50-blog-posts-in-50-days">50 Blog Posts in 50 Days</h2>
-<p>My completed 50of50 challenge - 50 blog posts written in ~50 days following prompts from <a href="https://louplummer.lol/50-ideas-for-blog-posts/">Lou Plummer&rsquo;s list</a>.</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Thu, 02 Apr 2026 20:39:22 -0600</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>2026-04-02-brainstorming</title><link>https://bneil.me/posts/2026-04-02-brainstorming/</link><pubDate>Thu, 02 Apr 2026 20:39:22 -0600</pubDate><guid>https://bneil.me/posts/2026-04-02-brainstorming/</guid><description><![CDATA[ <h2 id="b-is-for-brainstorming">B is for Brainstorming</h2>
 <blockquote>
-<p>&ldquo;Some are deep dives, some are quick thoughts, and some are just me rambling about whatever the prompt made me think about.&rdquo;</p>
+<p>Have you got &ldquo;hopes, dreams, and goals&rdquo; for your blog? If not, why are you doing this?</p>
 </blockquote>
-<p><strong><a href="/posts/2025-07-22-50-of-50/">Read the full retrospective →</a></strong></p>]]></description><content:encoded><![CDATA[ <h1 id="past-challenges">Past Challenges</h1>
-<p>A collection of completed blogging challenges. Well so far one. lol.</p>
-<h2 id="50-blog-posts-in-50-days">50 Blog Posts in 50 Days</h2>
+<p>Im doing this because its a challenge. The warning from this post was that writing for writing
+sake can cause burnout, but im not sure. Not writing causes burnout as well. Those thoughts and
+words never find there way to a medium and end up never being made. Thats a pretty sad fate. And
+a good reason to write. Self expression and all that.</p>]]></description><content:encoded><![CDATA[ <h2 id="b-is-for-brainstorming">B is for Brainstorming</h2>
+<blockquote>
+<p>Have you got &ldquo;hopes, dreams, and goals&rdquo; for your blog? If not, why are you doing this?</p>
+</blockquote>
+<p>Im doing this because its a challenge. The warning from this post was that writing for writing
+sake can cause burnout, but im not sure. Not writing causes burnout as well. Those thoughts and
+words never find there way to a medium and end up never being made. Thats a pretty sad fate. And
+a good reason to write. Self expression and all that.</p>
+<p>That said, I wouldn&rsquo;t mind taking more stabs at writing some more reviews on some books ive recently
+read. For instance, &lsquo;A short stay in hell&rsquo;, it was only a two hour audio book, but its one of the
+best expressions of hell ive ever read. The writing so tight and well done that ive listened to it twice
+and will probably end up buying the book. So good, and id love to break it down a bit more. Of course,
+ive been using a lot of libraries and frameworks lately, to help on the job. Even finished up an AI course.</p>
+<p>LLMs are controversial, especially in the communities I love. But take yesterday, I watched as the following
+happened:</p>
+<ol>
+<li>Claude code accidentally leaked its source map to npm</li>
+<li>People downloaded the src.zip</li>
+<li>Hackers created npm packages based off the names of the private packages named in the src.zip</li>
+<li>People accidentally using either LLMs to recreate the source map, use those public packages</li>
+<li>Supply chain attack</li>
+</ol>
+<p>I&rsquo;ve never seen anything like it. Like the axios leak, I could see. That was a pretty neat compromise. But
+sometimes the speed of these things are very intriguing. But this is all super niche, so I could just do some
+writeups about tv like Invincible or Survivor 50.</p>
+<p>heh, I don&rsquo;t know, but appreciate the brainstorming session.</p>
+]]></content:encoded><webmention/></item><item><title>A to Z 2026 Challenge</title><link>https://bneil.me/posts/2026-04-02-a-to-z-2026/</link><pubDate>Thu, 02 Apr 2026 08:00:00 +0000</pubDate><guid>https://bneil.me/posts/2026-04-02-a-to-z-2026/</guid><description><![CDATA[ <h2 id="the-a-to-z-challenge">The A to Z Challenge</h2>
+<p>I signed up for the <a href="http://www.a-to-zchallenge.com/2026/">April Blogging from A to Z Challenge</a>! The challenge is simple: blog every day in April, with each day corresponding to a letter of the alphabet.</p>
+<p>The theme this year is <strong>&ldquo;Aspirations: Blogging hopes, dreams, and goals&rdquo;</strong></p>
+<h2 id="the-complete-a-to-z-collection">The Complete A-to-Z Collection</h2>
+<p>Here&rsquo;s every post I&rsquo;ll write as part of this challenge. Enjoy the short or long exploration into my blogging aspirations.</p>]]></description><content:encoded><![CDATA[ <h2 id="the-a-to-z-challenge">The A to Z Challenge</h2>
+<p>I signed up for the <a href="http://www.a-to-zchallenge.com/2026/">April Blogging from A to Z Challenge</a>! The challenge is simple: blog every day in April, with each day corresponding to a letter of the alphabet.</p>
+<p>The theme this year is <strong>&ldquo;Aspirations: Blogging hopes, dreams, and goals&rdquo;</strong></p>
+<h2 id="the-complete-a-to-z-collection">The Complete A-to-Z Collection</h2>
+<p>Here&rsquo;s every post I&rsquo;ll write as part of this challenge. Enjoy the short or long exploration into my blogging aspirations.</p>
+<ul>
+
+
+
+</ul>
+
+<h2 id="why-im-doing-this">Why I&rsquo;m Doing This</h2>
+<p>After completing the 50of50 challenge, I wanted to try another blogging challenge. So I did a quick kagi search and the A-to-Z challenge came up. I love a good reason to write, so
+im excited to get after it.</p>
+<p>Check out the <a href="http://www.a-to-zchallenge.com/">official A-to-Z Challenge site</a>! And join up if its not to late</p>
+<p><small>wish me luck</small></p>
+]]></content:encoded><webmention/></item><item><title>2026-04-01-a-for-aspiration</title><link>https://bneil.me/posts/2026-04-01-aspiration/</link><pubDate>Wed, 01 Apr 2026 20:27:40 -0600</pubDate><guid>https://bneil.me/posts/2026-04-01-aspiration/</guid><description><![CDATA[ <h2 id="a-is-for-aspirations">A is for Aspirations</h2>
+<blockquote>
+<p>What are your blogging aspirations?</p>
+</blockquote>
+<p>For me blogging is a way to be creative. I don&rsquo;t have many aspirations about it except to
+share tidbits about books ive read or techniques ive learned. Thats it. I was personally
+inspired by people who learned and wrote in the open and even if this blog only becomes some
+chum for an LLM, thats fine so long as I reach a few people who enjoy or have enjoyed things
+ive written. So Cheers to Day 1 for this challenge!</p>]]></description><content:encoded><![CDATA[ <h2 id="a-is-for-aspirations">A is for Aspirations</h2>
+<blockquote>
+<p>What are your blogging aspirations?</p>
+</blockquote>
+<p>For me blogging is a way to be creative. I don&rsquo;t have many aspirations about it except to
+share tidbits about books ive read or techniques ive learned. Thats it. I was personally
+inspired by people who learned and wrote in the open and even if this blog only becomes some
+chum for an LLM, thats fine so long as I reach a few people who enjoy or have enjoyed things
+ive written. So Cheers to Day 1 for this challenge!</p>
+]]></content:encoded><webmention/></item><item><title>Challenges</title><link>https://bneil.me/challenges/</link><pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate><guid>https://bneil.me/challenges/</guid><description><![CDATA[ <h1 id="challenges">Challenges</h1>
+<p>A collection of blogging challenges I&rsquo;ve completed or am working on.</p>
+<h2 id="in-progress">In Progress</h2>
+<h3 id="a-to-z-2026-challenge">A to Z 2026 Challenge</h3>
+<p>I&rsquo;m currently doing the <a href="http://www.a-to-zchallenge.com/2026/">April Blogging from A to Z Challenge</a>! The theme this year is &ldquo;Aspirations: Blogging hopes, dreams, and goals.&rdquo;</p>
+<blockquote>
+<p>&ldquo;April is a great time of the year to think about these things.&rdquo;</p>
+</blockquote>
+<p><strong><a href="/posts/2026-04-02-a-to-z-2026/">Follow my A-to-Z journey →</a></strong></p>
+<h2 id="completed">Completed</h2>
+<h3 id="50-blog-posts-in-50-days">50 Blog Posts in 50 Days</h3>
+<p>My completed 50of50 challenge - 50 blog posts written in ~50 days following prompts from <a href="https://louplummer.lol/50-ideas-for-blog-posts/">Lou Plummer&rsquo;s list</a>.</p>]]></description><content:encoded><![CDATA[ <h1 id="challenges">Challenges</h1>
+<p>A collection of blogging challenges I&rsquo;ve completed or am working on.</p>
+<h2 id="in-progress">In Progress</h2>
+<h3 id="a-to-z-2026-challenge">A to Z 2026 Challenge</h3>
+<p>I&rsquo;m currently doing the <a href="http://www.a-to-zchallenge.com/2026/">April Blogging from A to Z Challenge</a>! The theme this year is &ldquo;Aspirations: Blogging hopes, dreams, and goals.&rdquo;</p>
+<blockquote>
+<p>&ldquo;April is a great time of the year to think about these things.&rdquo;</p>
+</blockquote>
+<p><strong><a href="https://bneil.me/posts/2026-04-02-a-to-z-2026/">Follow my A-to-Z journey →</a></strong></p>
+<h2 id="completed">Completed</h2>
+<h3 id="50-blog-posts-in-50-days">50 Blog Posts in 50 Days</h3>
 <p>My completed 50of50 challenge - 50 blog posts written in ~50 days following prompts from <a href="https://louplummer.lol/50-ideas-for-blog-posts/">Lou Plummer&rsquo;s list</a>.</p>
 <blockquote>
 <p>&ldquo;Some are deep dives, some are quick thoughts, and some are just me rambling about whatever the prompt made me think about.&rdquo;</p>
