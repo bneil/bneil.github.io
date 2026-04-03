@@ -4,7 +4,7 @@ description: "Letter A, Whats your aspiration"
 date: 2026-04-01T20:27:40-06:00
 preview: ""
 draft: false
-tags: ["blog-challenge","AtoZChallenge"]
+tags: ["blog-challenge","AtoZ"]
 categories: ["writing", "fun"]
 ---
 

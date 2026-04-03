@@ -4,7 +4,7 @@ description: "Letter B, What am I writing about"
 date: 2026-04-02T20:39:22-06:00
 preview: ""
 draft: false
-tags: ["blog-challenge","AtoZChallenge"]
+tags: ["blog-challenge","AtoZ"]
 categories: ["writing", "fun"]
 ---
 
