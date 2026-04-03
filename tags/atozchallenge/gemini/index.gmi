@@ -1,7 +1,0 @@
-# AtoZChallenge
-
-
-Pages in this section:
-
-=> /posts/2026-04-02-brainstorming/index.gmi 2026-04-02 2026-04-02-brainstorming
-=> /posts/2026-04-01-aspiration/index.gmi 2026-04-01 2026-04-01-a-for-aspiration

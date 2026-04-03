@@ -79,9 +79,8 @@ Happy Fall Y'all
 
 ## by tag
 
-=> gemini://shiny.bneil.me/tags/atozchallenge/gemini/index.gmi AtoZChallenge
-=> gemini://shiny.bneil.me/tags/blog-challenge/gemini/index.gmi Blog-Challenge
 => gemini://shiny.bneil.me/tags/atoz/gemini/index.gmi AtoZ
+=> gemini://shiny.bneil.me/tags/blog-challenge/gemini/index.gmi Blog-Challenge
 => gemini://shiny.bneil.me/tags/meta/gemini/index.gmi Meta
 => gemini://shiny.bneil.me/tags/book/gemini/index.gmi Book
 => gemini://shiny.bneil.me/tags/philosophy/gemini/index.gmi Philosophy
