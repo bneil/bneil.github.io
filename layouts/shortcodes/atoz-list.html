@@ -1,0 +1,7 @@
+<ul>
+{{ range (where .Site.Pages "Params.tags" "intersect" (slice "AtoZ")).ByDate }}
+{{ if ne .Title "A to Z 2026 Challenge" }}
+<li style="margin-bottom: 10px;"><a href="{{ .RelPermalink }}">{{ .Title }}</a> - {{ .Description }}</li>
+{{ end }}
+{{ end }}
+</ul>
