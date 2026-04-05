@@ -1,7 +1,7 @@
 ---
 title: 2026-04-03-creativity
 description: "Letter C, Getting creative"
-date: 2026-03-03T10:28:55-06:00
+date: 2026-04-03T10:28:55-06:00
 preview: ""
 draft: false
 tags: ["blog-challenge","AtoZ"]
