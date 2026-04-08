@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Mon, 06 Apr 2026 08:42:51 -0600</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>2026-04-06-events</title><link>https://bneil.me/posts/2026-04-06-events/</link><pubDate>Mon, 06 Apr 2026 08:42:51 -0600</pubDate><guid>https://bneil.me/posts/2026-04-06-events/</guid><description><![CDATA[ <h2 id="e-is-for-events">E is for Events</h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Tue, 07 Apr 2026 20:28:46 -0600</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>2026-04-07-frames</title><link>https://bneil.me/posts/2026-04-07-frames/</link><pubDate>Tue, 07 Apr 2026 20:28:46 -0600</pubDate><guid>https://bneil.me/posts/2026-04-07-frames/</guid><description><![CDATA[ <h2 id="f-is-for-frames">F is for Frames</h2>
+<p>Just some css fun collected from gists and adapted, feel free to grab and share. Resize your images though and don&rsquo;t use the width property, lol</p>
+<h3 id="le-classic-frame">Le Classic Frame</h3>
+<div class="frames-classic">
+<img src="/images/gold-bug-768.jpg" width="93%" alt="The Gold Bug" />
+</div>
+<h3 id="ornate-frame">Ornate Frame</h3>
+<div class="frames-ornate">
+  <div class="corner-tl"></div>
+  <div class="corner-tr"></div>
+  <div class="corner-bl"></div>
+  <div class="corner-br"></div>
+  <img src="/images/fox-and-crow-768.jpg" width="92%" alt="Fox and Crow" />
+</div>
+<h3 id="win-31-frame">Win 3.1 Frame</h3>
+<div class="frames-retro">
+  <div class="frames-retro-titlebar">
+    <span>Photo Viewer >_< </span>
+    <div class="frames-retro-buttons">
+      <button class="frames-retro-btn frames-retro-btn-minimize"></button>
+      <button class="frames-retro-btn frames-retro-btn-maximize"></button>
+      <button class="frames-retro-btn frames-retro-btn-close"></button>
+    </div>
+  </div>
+  <div class="frames-retro-content">
+    <img src="/images/hedgehog-stealing-apple-768.jpg" alt="Hedgehog" style="max-width: 100%;" />
+  </div>
+  <div class="frames-retro-statusbar">
+    C:\PHOTOS\SPRING2026\STEALING_APPLES.JPG
+  </div>
+</div>]]></description><content:encoded><![CDATA[ <h2 id="f-is-for-frames">F is for Frames</h2>
+<p>Just some css fun collected from gists and adapted, feel free to grab and share. Resize your images though and don&rsquo;t use the width property, lol</p>
+<h3 id="le-classic-frame">Le Classic Frame</h3>
+<div class="frames-classic">
+<img src="https://bneil.me/images/gold-bug-768.jpg" width="93%" alt="The Gold Bug" />
+</div>
+<h3 id="ornate-frame">Ornate Frame</h3>
+<div class="frames-ornate">
+  <div class="corner-tl"></div>
+  <div class="corner-tr"></div>
+  <div class="corner-bl"></div>
+  <div class="corner-br"></div>
+  <img src="https://bneil.me/images/fox-and-crow-768.jpg" width="92%" alt="Fox and Crow" />
+</div>
+<h3 id="win-31-frame">Win 3.1 Frame</h3>
+<div class="frames-retro">
+  <div class="frames-retro-titlebar">
+    <span>Photo Viewer >_< </span>
+    <div class="frames-retro-buttons">
+      <button class="frames-retro-btn frames-retro-btn-minimize"></button>
+      <button class="frames-retro-btn frames-retro-btn-maximize"></button>
+      <button class="frames-retro-btn frames-retro-btn-close"></button>
+    </div>
+  </div>
+  <div class="frames-retro-content">
+    <img src="https://bneil.me/images/hedgehog-stealing-apple-768.jpg" alt="Hedgehog" style="max-width: 100%;" />
+  </div>
+  <div class="frames-retro-statusbar">
+    C:\PHOTOS\SPRING2026\STEALING_APPLES.JPG
+  </div>
+</div>
+]]></content:encoded><webmention/></item><item><title>2026-04-06-events</title><link>https://bneil.me/posts/2026-04-06-events/</link><pubDate>Mon, 06 Apr 2026 08:42:51 -0600</pubDate><guid>https://bneil.me/posts/2026-04-06-events/</guid><description><![CDATA[ <h2 id="e-is-for-events">E is for Events</h2>
 <p>I wanted to write a small bit about Events, mainly the ones we choose to celebrate and ones we choose ignore.
 This is a little personal, so if you want to skip to another article, id go to that now.</p>
 <p>My old man hates his birthday. Or at least ive never known him to enjoy it. Same with Christmas and same with most holidays.</p>
@@ -179,6 +240,10 @@ ive written. So Cheers to Day 1 for this challenge!</p>
 
 
 <li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2026-04-06-events/">2026-04-06-events</a> - Letter E, Events</li>
+
+
+
+<li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2026-04-07-frames/">2026-04-07-frames</a> - Letter F, Frames</li>
 
 
 </ul>

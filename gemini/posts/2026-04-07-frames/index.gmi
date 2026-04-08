@@ -1,0 +1,50 @@
+# 2026-04-07-frames
+
+
+
+## F is for Frames
+
+Just some css fun collected from gists and adapted, feel free to grab and share. Resize your images though and don't use the width property, lol
+
+### Le Classic Frame
+
+
+<img src="/images/gold-bug-768.jpg" width="93%" alt="The Gold Bug" />
+
+
+### Ornate Frame
+
+
+  </div>
+  </div>
+  </div>
+  </div>
+  
+</div>
+
+### Win 3.1 Frame
+
+
+  
+    Photo Viewer >_
+    
+      </button>
+      </button>
+      </button>
+    
+  
+  
+    
+  
+  
+    C:\PHOTOS\SPRING2026\STEALING_APPLES.JPG
+  
+</div>
+
+
+---
+updated: 7 April 2026.
+
+=> / to the Index
+=> https://bneil.me/posts/2026-04-07-frames/ / html
+
