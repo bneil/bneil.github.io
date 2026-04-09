@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Tue, 07 Apr 2026 20:28:46 -0600</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>2026-04-07-frames</title><link>https://bneil.me/posts/2026-04-07-frames/</link><pubDate>Tue, 07 Apr 2026 20:28:46 -0600</pubDate><guid>https://bneil.me/posts/2026-04-07-frames/</guid><description><![CDATA[ <h2 id="f-is-for-frames">F is for Frames</h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Thu, 09 Apr 2026 20:49:17 -0600</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>2026-04-08-ghost</title><link>https://bneil.me/posts/2026-04-08-ghost/</link><pubDate>Wed, 08 Apr 2026 20:38:02 -0600</pubDate><guid>https://bneil.me/posts/2026-04-08-ghost/</guid><description> &lt;h2 id="g-is-for-ghost">G is for Ghost&lt;/h2>
+&lt;p>I was convinced my parents old house was haunted. It was built in the early 1900s, had faded and peeling wallpaper. Dilapidation
+and general neglect for the past eighty or so years was abundant. But what made me think it was haunted was the mirrors. My mom
+told me when we first moved in, when I was four, that the mirrors were placed the way they were because it was easier to see the
+back of your head when giving yourself a haircut. But every bathroom had infinity mirrors, due to not just ONE mirror in front and
+one behind, but one the left. Meaning if you angle the front mirror you get the rare, diagonal infinity fun house mirror effect.&lt;/p></description><content:encoded><![CDATA[ <h2 id="g-is-for-ghost">G is for Ghost</h2>
+<p>I was convinced my parents old house was haunted. It was built in the early 1900s, had faded and peeling wallpaper. Dilapidation
+and general neglect for the past eighty or so years was abundant. But what made me think it was haunted was the mirrors. My mom
+told me when we first moved in, when I was four, that the mirrors were placed the way they were because it was easier to see the
+back of your head when giving yourself a haircut. But every bathroom had infinity mirrors, due to not just ONE mirror in front and
+one behind, but one the left. Meaning if you angle the front mirror you get the rare, diagonal infinity fun house mirror effect.</p>
+<p>I can&rsquo;t tell you how weird it was, every time I brushed my teeth. I would just feel the infinity to my left and front and behind.
+Which again, by itself wasn&rsquo;t bad, but with the addition of the mealy falling apart stucco shamrock colored wall next to the shower.
+Would just freak me out.</p>
+<p>I do have stories associated with those mirrors, and I did play Bloody Mary with them, because everyones a teen a once. But yeah,
+thanks for letting me share.</p>
+]]></content:encoded><webmention/></item><item><title>2026-04-07-frames</title><link>https://bneil.me/posts/2026-04-07-frames/</link><pubDate>Tue, 07 Apr 2026 20:28:46 -0600</pubDate><guid>https://bneil.me/posts/2026-04-07-frames/</guid><description><![CDATA[ <h2 id="f-is-for-frames">F is for Frames</h2>
 <p>Just some css fun collected from gists and adapted, feel free to grab and share. Resize your images though and don&rsquo;t use the width property, lol</p>
 <h3 id="le-classic-frame">Le Classic Frame</h3>
 <div class="frames-classic">
@@ -244,6 +260,10 @@ ive written. So Cheers to Day 1 for this challenge!</p>
 
 
 <li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2026-04-07-frames/">2026-04-07-frames</a> - Letter F, Frames</li>
+
+
+
+<li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2026-04-08-ghost/">2026-04-08-ghost</a> - Letter G, Ghost</li>
 
 
 </ul>
