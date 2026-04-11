@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Thu, 09 Apr 2026 20:49:17 -0600</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>2026-04-08-ghost</title><link>https://bneil.me/posts/2026-04-08-ghost/</link><pubDate>Wed, 08 Apr 2026 20:38:02 -0600</pubDate><guid>https://bneil.me/posts/2026-04-08-ghost/</guid><description> &lt;h2 id="g-is-for-ghost">G is for Ghost&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Fri, 10 Apr 2026 14:41:18 -0600</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>2026-04-10-interesting</title><link>https://bneil.me/posts/2026-04-10-interesting/</link><pubDate>Fri, 10 Apr 2026 14:41:18 -0600</pubDate><guid>https://bneil.me/posts/2026-04-10-interesting/</guid><description><![CDATA[ <h2 id="i-is-for-interesting">I is for interesting</h2>
+<p>This article: <a href="https://nikola-breznjak.com/blog/devthink/productivity-paper-pomodoro-kanban-tracking-and-actually-showing-up/">https://nikola-breznjak.com/blog/devthink/productivity-paper-pomodoro-kanban-tracking-and-actually-showing-up/</a> which was a summary of the
+audio recording here: <a href="https://devth.ink/e002_productivity/">https://devth.ink/e002_productivity/</a></p>
+<p>Since I split my time daily between written notes and electronic ones. I found the conversation to be self satisfying and interesting. Again, mostly due
+to the overlap in my own system. I also use a pomodoro, and keep a small personal kanban board which I reflect in a large team based one for work. I also
+use pen/paper for thinking out issues and keeping track of what ive accomplished.</p>]]></description><content:encoded><![CDATA[ <h2 id="i-is-for-interesting">I is for interesting</h2>
+<p>This article: <a href="https://nikola-breznjak.com/blog/devthink/productivity-paper-pomodoro-kanban-tracking-and-actually-showing-up/">https://nikola-breznjak.com/blog/devthink/productivity-paper-pomodoro-kanban-tracking-and-actually-showing-up/</a> which was a summary of the
+audio recording here: <a href="https://devth.ink/e002_productivity/">https://devth.ink/e002_productivity/</a></p>
+<p>Since I split my time daily between written notes and electronic ones. I found the conversation to be self satisfying and interesting. Again, mostly due
+to the overlap in my own system. I also use a pomodoro, and keep a small personal kanban board which I reflect in a large team based one for work. I also
+use pen/paper for thinking out issues and keeping track of what ive accomplished.</p>
+<p>But what I really found interesting from the conversation was apps like RescueTime, I have not used those before. Ive seen things like waka time which could
+be used to keep track of activities or where your focusing on. But not that. So going to grab one of those apps and try it out.</p>
+]]></content:encoded><webmention/></item><item><title>2026-04-09-hobby</title><link>https://bneil.me/posts/2026-04-09-hobby/</link><pubDate>Thu, 09 Apr 2026 20:49:17 -0600</pubDate><guid>https://bneil.me/posts/2026-04-09-hobby/</guid><description><![CDATA[ <h2 id="h-is-for-hobby">H is for Hobby</h2>
+<p>Im back stealing topics from the main site! From <a href="http://www.a-to-zchallenge.com/2026/04/h-for-hobby.html">them</a>:</p>
+<blockquote>
+<p>Is blogging a full-time job for you? Something you do on the side, in addition to your full-time job? Or is it just a hobby,something you do for giggles? My guess is that, regardless of why you do it, you want to do it well. Based on everything I&rsquo;ve seen, you are living up to that standard. Keep it up!</p>]]></description><content:encoded><![CDATA[ <h2 id="h-is-for-hobby">H is for Hobby</h2>
+<p>Im back stealing topics from the main site! From <a href="http://www.a-to-zchallenge.com/2026/04/h-for-hobby.html">them</a>:</p>
+<blockquote>
+<p>Is blogging a full-time job for you? Something you do on the side, in addition to your full-time job? Or is it just a hobby,something you do for giggles? My guess is that, regardless of why you do it, you want to do it well. Based on everything I&rsquo;ve seen, you are living up to that standard. Keep it up!</p>
+</blockquote>
+<p>Blogging is a hobby for me. I would love to do it as a full time job if I could figure out a niche. For awhile I really wanted to
+start a podcast that went into the different fediverse technologies that were coming up, including the things I see a nostr. As I have
+a passion for open source and decentralized technologies. Which I realize isn&rsquo;t everyones focus but I would love to share those topics
+with others.</p>
+<p>Even with all the LLM stuff going on, I find some of the use cases fascinating. I don&rsquo;t love the hype
+cycle and I don&rsquo;t love the downstream environmental effects (im excited once we get good models on IoT (and not built for skynet levels of evil)),
+but I do think that user experiences could be better on the web. Even when I was doing my own startup gig at Compliable. One of the reasons me and
+my co-founder created that software was to make it easier for people to just fill out forms. Because the online gaming space, at least for people
+having to get licensed was an awful redundant experience of filling your name out across 5-10 forms per person.</p>
+<p>So that is all to say, I would love to get more into a blogging and speaking space for the technological trends that are taking off. Heh, its hard
+not to be envious. You get to talk about things your passionate about. Who wouldn&rsquo;t love doing that full time. Creative people doing creative things
+and all doing our best to raise each other up, most postgres plugin at a time.</p>
+]]></content:encoded><webmention/></item><item><title>2026-04-08-ghost</title><link>https://bneil.me/posts/2026-04-08-ghost/</link><pubDate>Wed, 08 Apr 2026 20:38:02 -0600</pubDate><guid>https://bneil.me/posts/2026-04-08-ghost/</guid><description> &lt;h2 id="g-is-for-ghost">G is for Ghost&lt;/h2>
 &lt;p>I was convinced my parents old house was haunted. It was built in the early 1900s, had faded and peeling wallpaper. Dilapidation
 and general neglect for the past eighty or so years was abundant. But what made me think it was haunted was the mirrors. My mom
 told me when we first moved in, when I was four, that the mirrors were placed the way they were because it was easier to see the
@@ -264,6 +297,14 @@ ive written. So Cheers to Day 1 for this challenge!</p>
 
 
 <li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2026-04-08-ghost/">2026-04-08-ghost</a> - Letter G, Ghost</li>
+
+
+
+<li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2026-04-09-hobby/">2026-04-09-hobby</a> - Letter H, Hobby</li>
+
+
+
+<li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2026-04-10-interesting/">2026-04-10-interesting</a> - Letter I, Interesting</li>
 
 
 </ul>

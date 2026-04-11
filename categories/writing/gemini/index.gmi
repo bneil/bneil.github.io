@@ -3,6 +3,8 @@
 
 Pages in this section:
 
+=> /posts/2026-04-10-interesting/index.gmi 2026-04-10 2026-04-10-interesting
+=> /posts/2026-04-09-hobby/index.gmi 2026-04-09 2026-04-09-hobby
 => /posts/2026-04-08-ghost/index.gmi 2026-04-08 2026-04-08-ghost
 => /posts/2026-04-07-frames/index.gmi 2026-04-07 2026-04-07-frames
 => /posts/2026-04-06-events/index.gmi 2026-04-06 2026-04-06-events
