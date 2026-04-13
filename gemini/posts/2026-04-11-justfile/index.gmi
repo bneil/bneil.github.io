@@ -1,0 +1,38 @@
+# 2026-04-11-justfile
+
+
+
+## J is for Justfile
+
+My coworker put me on to justfile a bit ago, and after wrestling with Makefiles for a few decades, its a nice upgrade.
+
+The justfile syntax is yaml with instructions that are in yaml for more credence towards earning my greatest title of 'yaml developer'.
+Not the biggest fan of using more yaml, all jokes aside, toml has been my goto recently, however that aside, its got some solid QoL built in.
+I haven't gotten any "missing separator" errors, and parameter passing uses {{variable}} syntax which does not require memorizing recursive
+expansion gotchas (been spending alot of time with golang style templating, so its a nice break in syntax) or escaping dollars with double $$ symbols.
+
+But all that said, justfile, makefiles, or my old fav Taskfiles (used them alot with my golang stacks and scala). It really comes down to technique.
+
+So run away now if you don't want to hear a rant.
+
+## Normalizing projects
+
+IMHO its a huge benefit to projects personal or professional to always have a 'make' or equivelent. Im digging the just syntax but I wanted to be clear. The technique
+is that projects should allow for the following:
+
+* just build
+* just test
+* just lint
+
+Thats it, then when using Dockerfiles, I include make or just and use those commands as well. That keeps the high level targets of a project always center stage.
+Plus, its just nice to know that whatever repo im in I can count on those commands being around.
+
+Anyhow, thats it for today, cheers!
+
+
+---
+updated: 12 April 2026.
+
+=> / to the Index
+=> https://bneil.me/posts/2026-04-11-justfile/ / html
+
