@@ -4,7 +4,7 @@
 
 _Last Updated: {{}}_
 
-Currently enjoying the start of April. Very excited for the month ahead and hopefully getting some articles in
+Currently enjoying the start of April. Started doing a new challenge, almost for got to update this
 
 latest picture i put on [pixelfeed](https://pixelfed.social/bneil)
 
@@ -12,21 +12,27 @@ latest picture i put on [pixelfeed](https://pixelfed.social/bneil)
 
 ## Reading
 
-* I have a lot on libby about to land
-* Knowing what we know
-
-### Recently Finished
-
-* Why we dream
-* FINISHED Lots of red rising
-
-## Listening To
-
-* A good number of podcasts, think ill start a currently listening page.
+* Knowing what we know (kindle)
+-
 
 ## Watching
 
 * Pluribus
+
+### Recently Finished
+
+### Books
+
+* Operation Bounce House
+* Why we dream
+
+### Shows
+
+* Shrinking
+
+## Listening To
+
+* A good number of podcasts, think ill start a currently listening page.
 
 This page is following best practice as defined from
 [@NowNowNow](https://twitter.com/NowNowNow)
@@ -37,7 +43,7 @@ This page is following best practice as defined from
 
 
 ---
-updated: 31 March 2026.
+updated: 12 April 2026.
 
 => / to the Index
 => https://bneil.me/now/ / html
