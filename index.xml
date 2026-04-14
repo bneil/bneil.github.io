@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Sun, 12 Apr 2026 20:50:03 -0600</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>2026-04-11-justfile</title><link>https://bneil.me/posts/2026-04-11-justfile/</link><pubDate>Sat, 11 Apr 2026 10:31:01 -0600</pubDate><guid>https://bneil.me/posts/2026-04-11-justfile/</guid><description><![CDATA[ <h2 id="j-is-for-justfile">J is for Justfile</h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Mon, 13 Apr 2026 20:43:21 -0600</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>2026-04-13-lazy</title><link>https://bneil.me/posts/2026-04-13-lazy/</link><pubDate>Mon, 13 Apr 2026 20:43:21 -0600</pubDate><guid>https://bneil.me/posts/2026-04-13-lazy/</guid><description><![CDATA[ <h2 id="l-is-for-lazy">L is for Lazy</h2>
+<p>Every now and then I remember a conversation I had with an friend and old coworker. Where, at the time, I was
+going on about some framework or programming thing. He had mentioned that not only he didn&rsquo;t like programming
+but that he was lazy. In that he found a way for a method to work and yeah, that was good enough. He didn&rsquo;t
+pollute his life with over work, and worked hard at not working.</p>]]></description><content:encoded><![CDATA[ <h2 id="l-is-for-lazy">L is for Lazy</h2>
+<p>Every now and then I remember a conversation I had with an friend and old coworker. Where, at the time, I was
+going on about some framework or programming thing. He had mentioned that not only he didn&rsquo;t like programming
+but that he was lazy. In that he found a way for a method to work and yeah, that was good enough. He didn&rsquo;t
+pollute his life with over work, and worked hard at not working.</p>
+<p>At the time I was floored. More to the fact, I believed, that programmers main skill was to not be lazy. That
+our primary core was to continue absorbing the endless content of the web. Take all of it, find new tactics,
+libraries or anything, to make our own coding worlds better.</p>
+<p>But lately, with so much of my professional work being AI. Ive come to realize, that spending almost 20 years
+of endless saw sharpening was probably a poor use of time. I just never saw LLMs getting nearly as good as they
+have gotten and idk, think im just having some feels at this point.</p>
+<p>I remember feeling hurt when my friend had said that he didn&rsquo;t really like programming. Because, honestly he
+is a great coder. It hurt that someone could code so well and not care as much as me. I really love/d to code
+by hand. To really think about large complex distributed systems and nerd out.</p>
+<p>But, yeah, its been a tough year for that. Even though I do like some of the AI outputs (depending on model).
+Most of the code ive seen is functional, but meh.</p>
+<p>What I will say, because I feel like this post is becoming a little bit of a bummer. I&rsquo;ve taken more swings at
+coding projects I never thought I had the time for. Ive spun them up, reviewed the code and been excited that
+I probably could have done the work, if id had the time. Kinda wild.</p>
+]]></content:encoded><webmention/></item><item><title>2026-04-11-justfile</title><link>https://bneil.me/posts/2026-04-11-justfile/</link><pubDate>Sat, 11 Apr 2026 10:31:01 -0600</pubDate><guid>https://bneil.me/posts/2026-04-11-justfile/</guid><description><![CDATA[ <h2 id="j-is-for-justfile">J is for Justfile</h2>
 <p>My coworker put me on to justfile a bit ago, and after wrestling with Makefiles for a few decades, its a nice upgrade.</p>
 <p>The justfile syntax is yaml with instructions that are in yaml for more credence towards earning my greatest title of &lsquo;yaml developer&rsquo;.
 Not the biggest fan of using more yaml, all jokes aside, toml has been my goto recently, however that aside, its got some solid QoL built in.
@@ -333,6 +356,10 @@ ive written. So Cheers to Day 1 for this challenge!</p>
 
 
 <li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2026-04-11-justfile/">2026-04-11-justfile</a> - Letter J, justfile</li>
+
+
+
+<li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2026-04-13-lazy/">2026-04-13-lazy</a> - Letter L, Lazy</li>
 
 
 </ul>
