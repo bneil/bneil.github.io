@@ -1,0 +1,57 @@
+# 2026-04-14-multitasking
+
+
+
+## M is for Multitasking
+
+Its funny. A few years back, I read that a person couldn't actually multitask. That it was infact just focusing on one thing and flipping to the next.
+That it wasnt healthy and that it was essentially feeding the same distraction brain rot that one could get from using social medias infinite scroll.
+So of course. I still do it. In fact readers I can say I have perfected multitasking, in so much that I believe someone can. Which again, is in fact
+doing only one thing at a time, but at a clip that makes it almost seem like your doing more than one thing.
+
+The basic idea, is a FIFO loop, a little LLM strat, pomodoro and obsidian.md.
+
+So starting with the obsidian and the pomodoro. Just make sure you setup the sessions to what makes sense for you. Personally I like 4 sessions at 25
+minutes with a five minute break. But the main thing is have a ringer or sound effect during the end and beginning of the session. Also, and I mean this
+setup your note in obsidian.md to a big h1 markdown tag of '#Now', then beneath in small letters, '## jobs done'. Because this my poor focus challenge friend,
+this is how we remember what we are working on while the rest of this distraction based technique is showed off.
+
+Because, you know how I mentioned the FIFO loop. This is what sets this multitasking strategy apart.
+
+WE EMBRACE THE DISTRACTION.
+
+I can go into a diatribe, but ill just say, distractions are your value in the now. So when you ignore coworkers or others and put your own focus time before
+them, your kinda being a bad steward of what they may need. Which I understand doesn't vibe with what people have said is the norm or how to software development
+but hear me out, this is the FIFO loop.
+
+Slack message -> Read It -> Pause
+
+While you have tmux, or other things going on. Flip to the now page, if now needs you to write an update, write it.
+
+Answer the slack message -> Perform task to help resolve that message.
+
+Note that usually a slack message is an interruption, or its a 'now' obstruction. So you should take a moment and help a coworker, or answer that question. Just
+do it. Then once its complete. Head back to your 'now' page and write what you did in done. With that, you have successfully captured the elusive 'unplanned work',
+good job! Now, read what you had last updated in Now and continue onward...
+
+So how is this multitasking I hear you ask. Well 'now' can contain as many tasks as you feel you can manage. Some days, for example 1 or two tasks at a time is my
+max, but some days. Well somedays im on it and two to four bullets are on there and that lofty goal is laughable but damn, feels good to try getting after it at that
+level.
+
+Usually, when I am attempting those upper rings, Ive leaned into using LLMs. Since sometimes I can have a bunch of smaller tasks, ive got my setup as such that
+Linear feeds into a vps which is able to read a repo and do some simple pi mono tasks. I have it updating and moving in linear and a final 'its done' key'd up
+to report to slack. But this allows me to have that running, while im doing the needful on other 'now' tasks.
+
+This strategy isn't perfect, but what i do like, is like a Pavlovian dog. Once that start session ding hits, I look again at my now page and remember what im doing
+so i can come back and make the next 25 minutes effective. Which again, is nice, because I get distracted with slack and with the internet in general so even in
+moments where ive lost my way, I can use that markdown file as a lodestone and come back to the task at hand.
+
+Is it adhd or just a developer in 2026, you be the judge! I hope you got something out of my workflow. cheers.
+
+
+---
+updated: 14 April 2026.
+
+=> / to the Index
+=> https://bneil.me/posts/2026-04-14-multitasking/ / html
+

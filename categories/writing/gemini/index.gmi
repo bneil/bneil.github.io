@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /posts/2026-04-14-multitasking/index.gmi 2026-04-14 2026-04-14-multitasking
 => /posts/2026-04-13-lazy/index.gmi 2026-04-13 2026-04-13-lazy
 => /posts/2026-04-11-justfile/index.gmi 2026-04-11 2026-04-11-justfile
 => /posts/2026-04-10-interesting/index.gmi 2026-04-10 2026-04-10-interesting

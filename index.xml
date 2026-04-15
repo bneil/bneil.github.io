@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Mon, 13 Apr 2026 20:43:21 -0600</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>2026-04-13-lazy</title><link>https://bneil.me/posts/2026-04-13-lazy/</link><pubDate>Mon, 13 Apr 2026 20:43:21 -0600</pubDate><guid>https://bneil.me/posts/2026-04-13-lazy/</guid><description><![CDATA[ <h2 id="l-is-for-lazy">L is for Lazy</h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Tue, 14 Apr 2026 20:41:19 -0600</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>2026-04-14-multitasking</title><link>https://bneil.me/posts/2026-04-14-multitasking/</link><pubDate>Tue, 14 Apr 2026 20:41:19 -0600</pubDate><guid>https://bneil.me/posts/2026-04-14-multitasking/</guid><description><![CDATA[ <h2 id="m-is-for-multitasking">M is for Multitasking</h2>
+<p>Its funny. A few years back, I read that a person couldn&rsquo;t actually multitask. That it was infact just focusing on one thing and flipping to the next.
+That it wasnt healthy and that it was essentially feeding the same distraction brain rot that one could get from using social medias infinite scroll.
+So of course. I still do it. In fact readers I can say I have perfected multitasking, in so much that I believe someone can. Which again, is in fact
+doing only one thing at a time, but at a clip that makes it almost seem like your doing more than one thing.</p>]]></description><content:encoded><![CDATA[ <h2 id="m-is-for-multitasking">M is for Multitasking</h2>
+<p>Its funny. A few years back, I read that a person couldn&rsquo;t actually multitask. That it was infact just focusing on one thing and flipping to the next.
+That it wasnt healthy and that it was essentially feeding the same distraction brain rot that one could get from using social medias infinite scroll.
+So of course. I still do it. In fact readers I can say I have perfected multitasking, in so much that I believe someone can. Which again, is in fact
+doing only one thing at a time, but at a clip that makes it almost seem like your doing more than one thing.</p>
+<p>The basic idea, is a FIFO loop, a little LLM strat, pomodoro and obsidian.md.</p>
+<p>So starting with the obsidian and the pomodoro. Just make sure you setup the sessions to what makes sense for you. Personally I like 4 sessions at 25
+minutes with a five minute break. But the main thing is have a ringer or sound effect during the end and beginning of the session. Also, and I mean this
+setup your note in obsidian.md to a big h1 markdown tag of &lsquo;#Now&rsquo;, then beneath in small letters, &lsquo;## jobs done&rsquo;. Because this my poor focus challenge friend,
+this is how we remember what we are working on while the rest of this distraction based technique is showed off.</p>
+<p>Because, you know how I mentioned the FIFO loop. This is what sets this multitasking strategy apart.</p>
+<p>WE EMBRACE THE DISTRACTION.</p>
+<p>I can go into a diatribe, but ill just say, distractions are your value in the now. So when you ignore coworkers or others and put your own focus time before
+them, your kinda being a bad steward of what they may need. Which I understand doesn&rsquo;t vibe with what people have said is the norm or how to software development
+but hear me out, this is the FIFO loop.</p>
+<p>Slack message -&gt; Read It -&gt; Pause</p>
+<p>While you have tmux, or other things going on. Flip to the now page, if now needs you to write an update, write it.</p>
+<p>Answer the slack message -&gt; Perform task to help resolve that message.</p>
+<p>Note that usually a slack message is an interruption, or its a &rsquo;now&rsquo; obstruction. So you should take a moment and help a coworker, or answer that question. Just
+do it. Then once its complete. Head back to your &rsquo;now&rsquo; page and write what you did in done. With that, you have successfully captured the elusive &lsquo;unplanned work&rsquo;,
+good job! Now, read what you had last updated in Now and continue onward&hellip;</p>
+<p>So how is this multitasking I hear you ask. Well &rsquo;now&rsquo; can contain as many tasks as you feel you can manage. Some days, for example 1 or two tasks at a time is my
+max, but some days. Well somedays im on it and two to four bullets are on there and that lofty goal is laughable but damn, feels good to try getting after it at that
+level.</p>
+<p>Usually, when I am attempting those upper rings, Ive leaned into using LLMs. Since sometimes I can have a bunch of smaller tasks, ive got my setup as such that
+Linear feeds into a vps which is able to read a repo and do some simple pi mono tasks. I have it updating and moving in linear and a final &lsquo;its done&rsquo; key&rsquo;d up
+to report to slack. But this allows me to have that running, while im doing the needful on other &rsquo;now&rsquo; tasks.</p>
+<p>This strategy isn&rsquo;t perfect, but what i do like, is like a Pavlovian dog. Once that start session ding hits, I look again at my now page and remember what im doing
+so i can come back and make the next 25 minutes effective. Which again, is nice, because I get distracted with slack and with the internet in general so even in
+moments where ive lost my way, I can use that markdown file as a lodestone and come back to the task at hand.</p>
+<p>Is it adhd or just a developer in 2026, you be the judge! I hope you got something out of my workflow. cheers.</p>
+]]></content:encoded><webmention/></item><item><title>2026-04-13-lazy</title><link>https://bneil.me/posts/2026-04-13-lazy/</link><pubDate>Mon, 13 Apr 2026 20:43:21 -0600</pubDate><guid>https://bneil.me/posts/2026-04-13-lazy/</guid><description><![CDATA[ <h2 id="l-is-for-lazy">L is for Lazy</h2>
 <p>Every now and then I remember a conversation I had with an friend and old coworker. Where, at the time, I was
 going on about some framework or programming thing. He had mentioned that not only he didn&rsquo;t like programming
 but that he was lazy. In that he found a way for a method to work and yeah, that was good enough. He didn&rsquo;t
@@ -360,6 +395,10 @@ ive written. So Cheers to Day 1 for this challenge!</p>
 
 
 <li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2026-04-13-lazy/">2026-04-13-lazy</a> - Letter L, Lazy</li>
+
+
+
+<li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2026-04-14-multitasking/">2026-04-14-multitasking</a> - Letter M, Multitasking</li>
 
 
 </ul>
