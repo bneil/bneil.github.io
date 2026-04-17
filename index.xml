@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Wed, 15 Apr 2026 20:51:35 -0600</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>2026-04-15-nowhere</title><link>https://bneil.me/posts/2026-04-15-nowhere/</link><pubDate>Wed, 15 Apr 2026 20:51:35 -0600</pubDate><guid>https://bneil.me/posts/2026-04-15-nowhere/</guid><description><![CDATA[ <h2 id="n-is-for-nowhere">N is for Nowhere</h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Thu, 16 Apr 2026 21:31:46 -0600</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>2026-04-16-opencode</title><link>https://bneil.me/posts/2026-04-16-opencode/</link><pubDate>Thu, 16 Apr 2026 21:31:46 -0600</pubDate><guid>https://bneil.me/posts/2026-04-16-opencode/</guid><description> &lt;h2 id="o-is-for-opencode">O is for Opencode&lt;/h2>
+&lt;p>Recently picked up opencode go, which is a low cost subscription to try out some models like kimi k2. Its been a solid
+plan, as subscriptions go. At least it seems more sane than 200+ a month. In either case, its been fun trying the easy
+button. Also its been fun trying to create skills from CLI skills. Really, the most interesting thing that ive enjoyed
+while using the tool is this plugin called oh my openagent, that provides a bunch of persona around the requests.&lt;/p></description><content:encoded><![CDATA[ <h2 id="o-is-for-opencode">O is for Opencode</h2>
+<p>Recently picked up opencode go, which is a low cost subscription to try out some models like kimi k2. Its been a solid
+plan, as subscriptions go. At least it seems more sane than 200+ a month. In either case, its been fun trying the easy
+button. Also its been fun trying to create skills from CLI skills. Really, the most interesting thing that ive enjoyed
+while using the tool is this plugin called oh my openagent, that provides a bunch of persona around the requests.</p>
+<p>Didn&rsquo;t really know what to write today, so phoning it in a little bit.</p>
+]]></content:encoded><webmention/></item><item><title>2026-04-15-nowhere</title><link>https://bneil.me/posts/2026-04-15-nowhere/</link><pubDate>Wed, 15 Apr 2026 20:51:35 -0600</pubDate><guid>https://bneil.me/posts/2026-04-15-nowhere/</guid><description><![CDATA[ <h2 id="n-is-for-nowhere">N is for Nowhere</h2>
 <p>One of the best places ive ever been was in the middle of nowhere. I have to say, if you&rsquo;ve never been away from the cities,
 away from traffic, in a random out of the way place. Just west or east of a places with people, you really can enjoy nowhere.</p>
 <p>I miss it some days, as im working to hard, or watching television. Or even writing on the computer. I think about just being
@@ -413,6 +423,10 @@ ive written. So Cheers to Day 1 for this challenge!</p>
 
 
 <li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2026-04-15-nowhere/">2026-04-15-nowhere</a> - Letter N, Nowhere</li>
+
+
+
+<li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2026-04-16-opencode/">2026-04-16-opencode</a> - Letter O, Opencode</li>
 
 
 </ul>
