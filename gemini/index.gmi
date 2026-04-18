@@ -41,11 +41,11 @@ Happy Fall Y'all
 ```
 ## latest posts or updates
 
+=> gemini://shiny.bneil.me/gemini/posts/2026-04-17-page/index.gmi 2026-04-17-page
 => gemini://shiny.bneil.me/gemini/posts/2026-04-16-opencode/index.gmi 2026-04-16-opencode
 => gemini://shiny.bneil.me/gemini/posts/2026-04-15-nowhere/index.gmi 2026-04-15-nowhere
 => gemini://shiny.bneil.me/gemini/posts/2026-04-14-multitasking/index.gmi 2026-04-14-multitasking
 => gemini://shiny.bneil.me/gemini/posts/2026-04-13-lazy/index.gmi 2026-04-13-lazy
-=> gemini://shiny.bneil.me/gemini/posts/2026-04-09-hobby/index.gmi 2026-04-09-hobby
 => gemini://shiny.bneil.me/gemini/posts/2026-04-11-justfile/index.gmi 2026-04-11-justfile
 => gemini://shiny.bneil.me/gemini/posts/2026-04-10-interesting/index.gmi 2026-04-10-interesting
  
