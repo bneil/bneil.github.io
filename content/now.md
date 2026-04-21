@@ -36,9 +36,22 @@ Currently enjoying the start of April. Started doing a new challenge, almost for
 
 - Knowing what we know (kindle)
 
+<details class="now-finished"><summary>🪦</summary>
+
+- Operation Bounce House
+- Why we dream
+
+</details>
+
 ## Watching
 
 - Pluribus
+
+<details class="now-finished"><summary>🪦</summary>
+
+- Shrinking
+
+</details>
 
 ## Listening To
 
