@@ -1,0 +1,5 @@
+<ul>
+{{ range .Site.RegularPages.ByDate.Reverse | first 10 }}
+<li style="margin-bottom: 10px;"><a href="{{ .RelPermalink }}">{{ .Title }}</a> - {{ .Description }}</li>
+{{ end }}
+</ul>

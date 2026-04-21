@@ -6,40 +6,58 @@ description: "now"
 DisableComments: true
 ---
 
-_Last Updated: {{< updated >}}_
+<div class="now-hero">
 
-Currently enjoying the start of April. Started doing a new challenge, almost forgot to update this
+![now](/images/now2.png)
 
-<small>latest picture i put on [pixelfeed](https://pixelfed.social/bneil)</small><br/>
-<img src="https://pxscdn.com/public/m/_v2/795114395599828067/31410d826-759a86/VvVapwVSVPDv/gqYINg24eTiUoRR8JQQaYxCVPYTGT6Zu0iKSBXdh.jpg" alt="picture from the bike" style="height: 50%;width:50%">
+<div class="now-hero-updated">_Last Updated: {{< updated >}}_</div>
 
-## Recent A to Z Posts
+</div>
 
-{{< recent-atoz >}}
+<div class="now-body">
+<div class="now-grid">
+<div class="now-main">
+
+Currently enjoying the start of April. Started doing a new challenge, almost forgot to update this.
+
+<div class="frames-popout">
+<small>latest on <a href="https://pixelfed.social/bneil">pixelfed</a></small>
+<img src="https://pxscdn.com/public/m/_v2/795114395599828067/31410d826-759a86/VvVapwVSVPDv/gqYINg24eTiUoRR8JQQaYxCVPYTGT6Zu0iKSBXdh.jpg" alt="picture from the bike">
+</div>
+
+<!-- drop geocities gifs here -->
+<div class="now-gifs">
+</div>
+
+</div>
+<div class="now-sidebar">
 
 ## Reading
 
 - Knowing what we know (kindle)
--
 
 ## Watching
 
 - Pluribus
 
-### Recently Finished
-
-#### Books
-
-- Operation Bounce House
-- Why we dream
-
-#### Shows
-
-- Shrinking
-
 ## Listening To
 
 - A good number of podcasts, think ill start a currently listening page.
+
+</div>
+</div>
+
+<div class="now-recent">
+
+## Recently Updated
+
+{{< recent-posts >}}
+
+</div>
+
+</div>
+
+---
 
 This page is following best practice as defined from
 [@NowNowNow](https://twitter.com/NowNowNow)

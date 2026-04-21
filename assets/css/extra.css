@@ -354,3 +354,179 @@ footer {
   background: #1a1a1a;
   border-color: #0a0a0a;
 }
+
+/* =============================================================================
+   Now Page Layout
+   ============================================================================= */
+
+.now-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 640px) {
+  .now-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.now-main, .now-sidebar {
+  min-width: 0;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.now-main {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.now-sidebar {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.dark .now-main {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.dark .now-sidebar {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.now-recent {
+  padding: 0 1rem 1rem;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.03);
+  margin-top: 0.25rem;
+}
+
+.dark .now-recent {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.now-body {
+  padding: 1rem;
+  border-radius: 4px;
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(0,0,0,0.04) 0px,
+    rgba(0,0,0,0.04) 10px,
+    transparent 10px,
+    transparent 20px
+  );
+}
+
+.dark .now-body {
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(255,255,255,0.04) 0px,
+    rgba(255,255,255,0.04) 10px,
+    transparent 10px,
+    transparent 20px
+  );
+}
+
+.now-hero img {
+  border: none;
+  box-shadow: none;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.now-hero {
+  position: relative;
+  text-align: center;
+  padding: 0 0 1.75rem;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+  background: repeating-linear-gradient(
+    -45deg,
+    rgba(0,0,0,0.04) 0px,
+    rgba(0,0,0,0.04) 10px,
+    transparent 10px,
+    transparent 20px
+  );
+}
+
+.now-hero-updated {
+  position: absolute;
+  bottom: 4px;
+  right: 8px;
+  font-size: 0.75rem;
+  opacity: 0.6;
+  padding-top: 0.5rem;
+}
+
+.dark .now-hero {
+  background: repeating-linear-gradient(
+    -45deg,
+    rgba(255,255,255,0.04) 0px,
+    rgba(255,255,255,0.04) 10px,
+    transparent 10px,
+    transparent 20px
+  );
+}
+
+.now-sidebar h2 {
+  margin-top: 0;
+}
+
+/* Popout frame */
+.frames-popout {
+  margin: 1.5rem 0;
+  padding: 8px;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow:
+    0 4px 6px rgba(0,0,0,0.12),
+    0 8px 20px rgba(0,0,0,0.10);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.frames-popout:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    0 8px 12px rgba(0,0,0,0.15),
+    0 16px 32px rgba(0,0,0,0.12);
+}
+
+.frames-popout img {
+  display: block;
+  max-width: 100%;
+  margin: 0.5rem auto 0;
+  border-radius: 2px;
+}
+
+.frames-popout small {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.dark .frames-popout {
+  box-shadow:
+    0 4px 6px rgba(0,0,0,0.4),
+    0 8px 20px rgba(0,0,0,0.3);
+}
+
+.dark .frames-popout:hover {
+  box-shadow:
+    0 8px 12px rgba(0,0,0,0.5),
+    0 16px 32px rgba(0,0,0,0.4);
+}
+
+/* GeoCities GIF strip */
+.now-gifs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.now-gifs img {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
