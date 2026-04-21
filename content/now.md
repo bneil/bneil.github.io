@@ -13,6 +13,10 @@ Currently enjoying the start of April. Started doing a new challenge, almost for
 <small>latest picture i put on [pixelfeed](https://pixelfed.social/bneil)</small><br/>
 <img src="https://pxscdn.com/public/m/_v2/795114395599828067/31410d826-759a86/VvVapwVSVPDv/gqYINg24eTiUoRR8JQQaYxCVPYTGT6Zu0iKSBXdh.jpg" alt="picture from the bike" style="height: 50%;width:50%">
 
+## Recent A to Z Posts
+
+{{< recent-atoz >}}
+
 ## Reading
 
 - Knowing what we know (kindle)
