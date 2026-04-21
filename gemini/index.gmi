@@ -41,7 +41,7 @@ Happy Fall Y'all
 ```
 ## latest posts or updates
 
-=> gemini://shiny.bneil.me/gemini/posts/2026-04-18-q-continum/index.gmi 2026-04-18-quiet
+=> gemini://shiny.bneil.me/gemini/posts/2026-04-18-quiet/index.gmi 2026-04-18-quiet
 => gemini://shiny.bneil.me/gemini/posts/2026-04-19-r-riddle/index.gmi 2026-04-19-r-riddle
 => gemini://shiny.bneil.me/gemini/posts/2026-04-17-page/index.gmi 2026-04-17-page
 => gemini://shiny.bneil.me/gemini/posts/2026-04-16-opencode/index.gmi 2026-04-16-opencode
