@@ -10,6 +10,10 @@ latest picture i put on [pixelfeed](https://pixelfed.social/bneil)
 
 
 
+## Recent A to Z Posts
+
+{{}}
+
 ## Reading
 
 * Knowing what we know (kindle)
@@ -43,7 +47,7 @@ This page is following best practice as defined from
 
 
 ---
-updated: 12 April 2026.
+updated: 20 April 2026.
 
 => / to the Index
 => https://bneil.me/now/ / html
