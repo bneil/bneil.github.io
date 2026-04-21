@@ -2,41 +2,58 @@
 
 
 
+
+
+=> /images/now2.png Embedded Image: /images/now2.png
+
 _Last Updated: {{}}_
 
-Currently enjoying the start of April. Started doing a new challenge, almost forgot to update this
-
-latest picture i put on [pixelfeed](https://pixelfed.social/bneil)
 
 
 
-## Recent A to Z Posts
+<div class="now-grid">
 
-{{}}
+
+Currently enjoying the start of April. Started doing a new challenge, almost forgot to update this.
+
+
+<small>latest on [pixelfed](https://pixelfed.social/bneil)
+<img src="https://pxscdn.com/public/m/_v2/795114395599828067/31410d826-759a86/VvVapwVSVPDv/gqYINg24eTiUoRR8JQQaYxCVPYTGT6Zu0iKSBXdh.jpg" alt="picture from the bike">
+
+
+
+<div class="now-gifs">
+
+
+
+<div class="now-sidebar">
 
 ## Reading
 
 * Knowing what we know (kindle)
--
 
 ## Watching
 
 * Pluribus
 
-### Recently Finished
-
-### Books
-
-* Operation Bounce House
-* Why we dream
-
-### Shows
-
-* Shrinking
-
 ## Listening To
 
 * A good number of podcasts, think ill start a currently listening page.
+
+
+</div>
+
+
+
+## Recently Updated
+
+{{}}
+
+
+
+
+
+---
 
 This page is following best practice as defined from
 [@NowNowNow](https://twitter.com/NowNowNow)
@@ -47,7 +64,7 @@ This page is following best practice as defined from
 
 
 ---
-updated: 20 April 2026.
+updated: 21 April 2026.
 
 => / to the Index
 => https://bneil.me/now/ / html
