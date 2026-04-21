@@ -3,6 +3,8 @@
 
 Pages in this section:
 
+=> /posts/2026-04-19-r-riddle/index.gmi 2026-04-19 2026-04-19-r-riddle
+=> /posts/2026-04-18-q-continum/index.gmi 2026-04-18 2026-04-18-quiet
 => /posts/2026-04-17-page/index.gmi 2026-04-17 2026-04-17-page
 => /posts/2026-04-16-opencode/index.gmi 2026-04-16 2026-04-16-opencode
 => /posts/2026-04-15-nowhere/index.gmi 2026-04-15 2026-04-15-nowhere
