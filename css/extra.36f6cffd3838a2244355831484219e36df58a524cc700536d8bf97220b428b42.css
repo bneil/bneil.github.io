@@ -378,6 +378,11 @@ footer {
   border-radius: 4px;
 }
 
+.now-sidebar {
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
 .now-main {
   background: rgba(0, 0, 0, 0.03);
 }
@@ -392,6 +397,32 @@ footer {
 
 .dark .now-sidebar {
   background: rgba(255, 255, 255, 0.06);
+}
+
+.now-finished {
+  display: block;
+  text-align: right;
+  margin: 0.25rem 0;
+}
+
+.now-finished summary {
+  cursor: pointer;
+  list-style: none;
+  font-size: 1.2rem;
+  user-select: none;
+}
+
+.now-finished summary::-webkit-details-marker {
+  display: none;
+}
+
+.now-finished[open] summary {
+  margin-bottom: 0.25rem;
+}
+
+.now-finished ul {
+  margin: 0;
+  padding-left: 1.2rem;
 }
 
 .now-recent {
