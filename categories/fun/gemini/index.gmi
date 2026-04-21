@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /posts/2026-04-20-smoke/index.gmi 2026-04-20 2026-04-20-smoke
 => /posts/2026-04-19-r-riddle/index.gmi 2026-04-19 2026-04-19-r-riddle
 => /posts/2026-04-18-quiet/index.gmi 2026-04-18 2026-04-18-quiet
 => /posts/2026-04-17-page/index.gmi 2026-04-17 2026-04-17-page
