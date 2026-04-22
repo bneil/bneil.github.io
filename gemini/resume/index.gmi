@@ -195,11 +195,15 @@ But most importantly im able
 
 **Backend:** Go, TypeScript, Rust, Scala, Akka, Java, Thrift/<span class="tech">Protobuf, NATS
 
-**DevOps:** Docker, Kubernetes, Terraform, GitHub Actions, GitLab CI, Vault, Helm
+**DevOps:** Docker, Kubernetes, Terraform, OpenTofu, GitHub Actions, GitLab CI, Vault, Helm
+
+**Project Tracking:** Linear, Jira, Pivotal Tracker
 
 **Databases:** PostgreSQL, SQLite, Redis, DynamoDB, Elasticsearch, Kafka
 
 **Clouds:** AWS, GCP, Fly.io, Firebase
+
+**AI Tooling:** Claude, OpenCode, pi.dev
 
 
 Ive left alot off this list in the hopes it wouldn't be distracting. Lots of technology has come and gone over the past twenty years
