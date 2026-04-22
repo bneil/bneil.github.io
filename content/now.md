@@ -18,7 +18,9 @@ DisableComments: true
 <div class="now-grid">
 <div class="now-main">
 
-Currently enjoying the start of April. Started doing a new challenge, almost forgot to update this.
+Currently enjoying the middle of April. The A to Z challenge is alot, wasn't quite expecting to write everyday (outside of journaling) and its
+felt really good, if im being honest. Also been setting up new tech at work which has made me feel kinda relevant again. I think its easy sometimes
+in the deluge of technology things to feel left behind. I feel like I know how behind I am, and im ok with that.
 
 <div class="frames-popout">
 <small>latest on <a href="https://pixelfed.social/bneil">pixelfed</a></small>
@@ -35,6 +37,7 @@ Currently enjoying the start of April. Started doing a new challenge, almost for
 ## Reading
 
 - Knowing what we know (kindle)
+- House of glass (book book) ~ dude what is this....
 
 <details class="now-finished"><summary>🪦</summary>
 
@@ -45,17 +48,18 @@ Currently enjoying the start of April. Started doing a new challenge, almost for
 
 ## Watching
 
-- Pluribus
+- Trust Me; The False Prophet
 
 <details class="now-finished"><summary>🪦</summary>
 
 - Shrinking
+- Pluribus
 
 </details>
 
 ## Listening To
 
-- A good number of podcasts, think ill start a currently listening page.
+- A peoples history of the united states
 
 </div>
 </div>
