@@ -3583,9 +3583,9 @@ get a very vivid tale. Def made me look up pictures of the world fair and next t
 </div>
 <h2 id="about-me">About me&hellip;</h2>
 <p><img class="thumbnail" src="https://bneil.me/images/wild-report.jpg" width="320" align="left" /><p/></p>
-<p>Over a decade of experience in developing cutting-edge technological solutions, bridging the gap between business objectives and technical excellence. A technical leader with a proven track record of architecting scalable, resilient, and high-performance systems that drive innovation and propel growth.</p>
-<p>With a deep passion for continuous learning and an unwavering commitment to staying ahead of the curve, I thrive in dynamic environments where challenges are met with creative problem-solving and technical innovation.</p>
-<p>But most importantly im able <br/></p>
+<p>I&rsquo;ve been building software since 2006, across gaming, ad tech, fintech, and now AI startups. That time has split between being deep in a codebase and running engineering teams as CTO, so I can go from a code review to a board conversation without much friction.</p>
+<p>The throughline has been taking systems that are complicated and messy and making them easier to operate. Sometimes that&rsquo;s architecture. Sometimes it&rsquo;s just deleting code nobody understood.</p>
+<p>But most importantly I&rsquo;m able <br/></p>
 <p>🚀👩‍💻🔥 to use 💻⚡️🌟 emojis 🏆⌨️💪 for great good! 🥳🎉</p>
 <h3 id="technology-summary">Technology Summary</h3>
 <p><strong>Frontend:</strong> <span class="tech">Vue.js</span>, <span class="tech">Next.js</span>/<span class="tech">React</span>, <span class="tech">Flutter</span>/<span class="tech">Dart</span>, <span class="tech">Backbone.js</span><br/>
@@ -3632,14 +3632,14 @@ get a very vivid tale. Def made me look up pictures of the world fair and next t
 <p><strong>Technical Toolset</strong> <span class="tech">GCP</span>, <span class="tech">OpenTofu</span>, <span class="tech">Claude</span>, <span class="tech">OpenCode</span>, <span class="tech">pi.dev</span>, <span class="tech">Linear</span></p>
 <hr>
 <p><strong>Modernize</strong> <em>Consultant</em> <strong>July 2024 to January 2025</strong><br/></p>
-<p>As a Senior Application Architect for ProWallet, I&rsquo;ve focused on:</p>
+<p>Worked as Senior Application Architect for ProWallet:</p>
 <ul>
-<li>Implementing Infrastructure as Code solutions with <span class="tech">Terraform</span></li>
-<li>Establishing mobile deployment pipelines with <span class="tech">CodeMagic.io</span></li>
-<li>Contributing <span class="tech">Flutter</span>/<span class="tech">Dart</span> mobile app development initiatives</li>
-<li>Integrating financial services with <span class="tech">Plaid</span>, Treasury Prime, and Incomm</li>
-<li>Modernizing legacy systems with <span class="tech">TypeScript</span> and <span class="tech">Firebase</span></li>
-<li>Facilitating enterprise migration from Microsoft 365 to Google Suite</li>
+<li>Built out Infrastructure as Code with <span class="tech">Terraform</span></li>
+<li>Set up mobile deployment pipelines with <span class="tech">CodeMagic.io</span></li>
+<li>Contributed to <span class="tech">Flutter</span>/<span class="tech">Dart</span> mobile app development</li>
+<li>Integrated financial services with <span class="tech">Plaid</span>, Treasury Prime, and Incomm</li>
+<li>Migrated legacy systems to <span class="tech">TypeScript</span> and <span class="tech">Firebase</span></li>
+<li>Helped the company move from Microsoft 365 to Google Suite</li>
 </ul>
 <hr>
 <p><strong>Compliable</strong> <em>CTO Co-Founder</em> <strong>Feb 2020 to July 2024</strong><br/></p>
@@ -3655,10 +3655,10 @@ get a very vivid tale. Def made me look up pictures of the world fair and next t
 <p><strong>Technical Toolset</strong> <span class="tech">Docker</span>, <span class="tech">AWS</span> Stack, <span class="tech">Go</span>, <span class="tech">Flutter</span>, <span class="tech">Firebase</span>, <span class="tech">Terraform</span></p>
 <p><strong>REBRIC</strong> <em>CTO / Consultant</em> <strong>Nov 2016 to Feb 2020</strong> <br/></p>
 <ul>
-<li>Started as CTO in the early days, building proof of concept apps to get VCs excited</li>
-<li>Made it into TechStars 2019 Western Union Accelerator (pretty rad!)</li>
-<li>Helped other companies modernize their tech while we figured out our own path</li>
-<li>Specialized in making <span class="tech">DevOps</span> and <span class="tech">AWS</span> pipelines more approachable for established companies</li>
+<li>Joined as CTO early on, building proof of concept apps to pitch to investors</li>
+<li>Got into TechStars 2019 via the Western Union Accelerator</li>
+<li>Consulted for other companies while figuring out REBRIC&rsquo;s product direction</li>
+<li>Focused on making <span class="tech">DevOps</span> and <span class="tech">AWS</span> pipelines less painful for established engineering teams</li>
 </ul>
 <p><strong>Technical Toolset</strong> <span class="tech">Docker</span>, <span class="tech">Jenkins</span>, <span class="tech">Ambassador</span>, <span class="tech">Play</span>, <span class="tech">Rust</span>, <span class="tech">Go</span> Microservices, <span class="tech">OpenFaas</span>, <span class="tech">GCP</span>, <span class="tech">AWS</span>.</p>
 <hr>
@@ -3685,12 +3685,10 @@ get a very vivid tale. Def made me look up pictures of the world fair and next t
 <hr>
 <p><strong>Sony Online Entertainment</strong> <em>Lead Developer</em> <strong>May 2006 to Jul 2011</strong> <br/></p>
 <ul>
-<li>Lead, manage and mentor a team of web developers to align strategic goals of the company</li>
-<li>Work closely with artists and producers on projects with short changing deadlines; develop feature-rich websites and applications</li>
-<li>Create and maintain high volume websites and work towards the success of many projects for both the marketing and platform departments</li>
-<li>Developed SOE frameworks for <span class="tech">Facebook</span> and helped build out strategies for client and server-side technologies to meet those growing ends</li>
-<li>Designed, maintained and worked with every website at SOE and contributed to the success of many titles for the company</li>
-<li>Trained consistently on new technologies to adapt to current and future projects to create the best scalable web frameworks for SOE and partners</li>
+<li>Led and mentored a team of web developers across marketing and platform projects</li>
+<li>Worked across nearly every public-facing SOE property, from game title sites to platform tools</li>
+<li>Built SOE&rsquo;s internal frameworks for <span class="tech">Facebook</span> integrations during peak social gaming growth</li>
+<li>Collaborated with artists and producers on tight timelines across multiple shipped titles</li>
 </ul>
 <p><strong>Technical Toolset</strong> <span class="tech">Java</span>, <span class="tech">Dojo</span>, <span class="tech">Prototype</span>, <span class="tech">Velocity</span>, <span class="tech">Tomcat</span>, <span class="tech">Perforce</span></p>
 <hr>

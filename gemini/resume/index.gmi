@@ -180,11 +180,11 @@
 
 <p/>
 
-Over a decade of experience in developing cutting-edge technological solutions, bridging the gap between business objectives and technical excellence. A technical leader with a proven track record of architecting scalable, resilient, and high-performance systems that drive innovation and propel growth.
+I've been building software since 2006, across gaming, ad tech, fintech, and now AI startups. That time has split between being deep in a codebase and running engineering teams as CTO, so I can go from a code review to a board conversation without much friction.
 
-With a deep passion for continuous learning and an unwavering commitment to staying ahead of the curve, I thrive in dynamic environments where challenges are met with creative problem-solving and technical innovation.
+The throughline has been taking systems that are complicated and messy and making them easier to operate. Sometimes that's architecture. Sometimes it's just deleting code nobody understood.
 
-But most importantly im able 
+But most importantly I'm able 
 
 
 🚀👩‍💻🔥 to use 💻⚡️🌟 emojis 🏆⌨️💪 for great good! 🥳🎉 
@@ -253,13 +253,13 @@ Ive left alot off this list in the hopes it wouldn't be distracting. Lots of tec
 **Modernize** *Consultant* __July 2024 to January 2025__
 
 
-As a Senior Application Architect for ProWallet, I've focused on:
-* Implementing Infrastructure as Code solutions with Terraform
-* Establishing mobile deployment pipelines with CodeMagic.io
-* Contributing Flutter/<span class="tech">Dart mobile app development initiatives
-* Integrating financial services with Plaid, Treasury Prime, and Incomm
-* Modernizing legacy systems with TypeScript and Firebase
-* Facilitating enterprise migration from Microsoft 365 to Google Suite
+Worked as Senior Application Architect for ProWallet:
+* Built out Infrastructure as Code with Terraform
+* Set up mobile deployment pipelines with CodeMagic.io
+* Contributed to Flutter/<span class="tech">Dart mobile app development
+* Integrated financial services with Plaid, Treasury Prime, and Incomm
+* Migrated legacy systems to TypeScript and Firebase
+* Helped the company move from Microsoft 365 to Google Suite
 
 ------
 
@@ -279,10 +279,10 @@ As a Senior Application Architect for ProWallet, I've focused on:
 **REBRIC** *CTO / Consultant* __Nov 2016 to Feb 2020__ 
 
 
-* Started as CTO in the early days, building proof of concept apps to get VCs excited
-* Made it into TechStars 2019 Western Union Accelerator (pretty rad!)
-* Helped other companies modernize their tech while we figured out our own path
-* Specialized in making DevOps and AWS pipelines more approachable for established companies
+* Joined as CTO early on, building proof of concept apps to pitch to investors
+* Got into TechStars 2019 via the Western Union Accelerator
+* Consulted for other companies while figuring out REBRIC's product direction
+* Focused on making DevOps and AWS pipelines less painful for established engineering teams
 
 **Technical Toolset** Docker, Jenkins, Ambassador, Play, Rust, Go Microservices, OpenFaas, GCP, AWS.
 
@@ -315,12 +315,10 @@ As a Senior Application Architect for ProWallet, I've focused on:
 **Sony Online Entertainment** *Lead Developer* __May 2006 to Jul 2011__ 
 
 
-* Lead, manage and mentor a team of web developers to align strategic goals of the company
-* Work closely with artists and producers on projects with short changing deadlines; develop feature-rich websites and applications
-* Create and maintain high volume websites and work towards the success of many projects for both the marketing and platform departments
-* Developed SOE frameworks for Facebook and helped build out strategies for client and server-side technologies to meet those growing ends
-* Designed, maintained and worked with every website at SOE and contributed to the success of many titles for the company
-* Trained consistently on new technologies to adapt to current and future projects to create the best scalable web frameworks for SOE and partners
+* Led and mentored a team of web developers across marketing and platform projects
+* Worked across nearly every public-facing SOE property, from game title sites to platform tools
+* Built SOE's internal frameworks for Facebook integrations during peak social gaming growth
+* Collaborated with artists and producers on tight timelines across multiple shipped titles
 
 **Technical Toolset** Java, Dojo, Prototype, Velocity, Tomcat, Perforce
 
