@@ -3619,7 +3619,17 @@ get a very vivid tale. Def made me look up pictures of the world fair and next t
   }
 </style>
 <h3 id="experience">Experience</h3>
-<p><strong>Modernize</strong> <em>Consultant</em> <strong>July 2024 to Present</strong><br/></p>
+<p><strong>RedThread.ai</strong> <em>Principal Engineer</em> <strong>January 2025 to Present</strong><br/></p>
+<ul>
+<li>Serving as Principal Engineer at an early-stage AI startup, collaborating on technical strategy and driving execution</li>
+<li>Leading SOC 2 compliance program as Security Officer, establishing security controls and audit readiness</li>
+<li>Architecting and managing cloud infrastructure on <span class="tech">GCP</span> using <span class="tech">OpenTofu</span> for Infrastructure as Code</li>
+<li>Building agentic automation pipelines via <span class="tech">Linear</span> to streamline engineering workflows</li>
+<li>Streamlining adoption of AI-native practices across the team, including code harnesses like <span class="tech">OpenCode</span>, <span class="tech">Claude</span>, and <span class="tech">pi.dev</span> with models used throughout</li>
+</ul>
+<p><strong>Technical Toolset</strong> <span class="tech">GCP</span>, <span class="tech">OpenTofu</span>, <span class="tech">Claude</span>, <span class="tech">OpenCode</span>, <span class="tech">pi.dev</span>, <span class="tech">Linear</span></p>
+<hr>
+<p><strong>Modernize</strong> <em>Consultant</em> <strong>July 2024 to January 2025</strong><br/></p>
 <p>As a Senior Application Architect for ProWallet, I&rsquo;ve focused on:</p>
 <ul>
 <li>Implementing Infrastructure as Code solutions with <span class="tech">Terraform</span></li>
