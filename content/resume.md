@@ -68,6 +68,17 @@ DisableComments = true
     color: #00ff41;
     text-shadow: 0 0 8px rgba(0, 255, 65, 0.5);
   }
+
+  #score {
+    color: #00e639 !important;
+    background: rgba(0, 255, 65, 0.1) !important;
+    border-color: rgba(0, 255, 65, 0.25) !important;
+  }
+
+  #game-container {
+    border-color: rgba(0, 255, 65, 0.15) !important;
+    background: rgba(0, 255, 65, 0.02) !important;
+  }
 }
 </style>
 <style>
@@ -108,46 +119,45 @@ DisableComments = true
 }
 
 .retro-button {
-  padding: 15px 30px;
-  font-size: 18px;
-  font-weight: bold;
-  color: #004d1a;
-  background-color: #f5f5f5;
-  border: 2px solid #004d1a;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 77, 26, 0.2);
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #006622 0%, #004d1a 100%);
+  border: none;
+  border-radius: 999px;
+  box-shadow: 0 2px 8px rgba(0, 77, 26, 0.35), inset 0 1px 0 rgba(255,255,255,0.1);
   cursor: pointer;
-  transition: all 0.3s ease;
-  font-family: 'Courier New', monospace;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: system-ui, -apple-system, sans-serif;
+  letter-spacing: 0.02em;
 }
 
 .retro-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 0 15px rgba(0, 77, 26, 0.4);
-  background-color: rgba(0, 77, 26, 0.1);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(0, 77, 26, 0.45), inset 0 1px 0 rgba(255,255,255,0.15);
+  background: linear-gradient(135deg, #007a29 0%, #006622 100%);
 }
 
 .retro-button:active {
   transform: translateY(0);
-  box-shadow: 0 0 10px rgba(0, 77, 26, 0.2);
+  box-shadow: 0 1px 4px rgba(0, 77, 26, 0.3);
 }
 
-/* Dark mode button override */
 @media (prefers-color-scheme: dark) {
   .retro-button {
-    color: #00ff41;
-    background-color: #001a00;
-    border-color: #00ff41;
-    box-shadow: 0 0 10px rgba(0, 255, 65, 0.2);
+    color: #0a0a0a;
+    background: linear-gradient(135deg, #00e639 0%, #00cc33 100%);
+    box-shadow: 0 2px 8px rgba(0, 255, 65, 0.3), inset 0 1px 0 rgba(255,255,255,0.2);
   }
-  
+
   .retro-button:hover {
-    box-shadow: 0 0 15px rgba(0, 255, 65, 0.4);
-    background-color: rgba(0, 255, 65, 0.1);
+    background: linear-gradient(135deg, #00ff41 0%, #00e639 100%);
+    box-shadow: 0 4px 16px rgba(0, 255, 65, 0.45), inset 0 1px 0 rgba(255,255,255,0.25);
   }
-  
+
   .retro-button:active {
-    box-shadow: 0 0 10px rgba(0, 255, 65, 0.2);
+    box-shadow: 0 1px 4px rgba(0, 255, 65, 0.25);
   }
 }
 </style>
@@ -159,12 +169,14 @@ DisableComments = true
 ## Taking Systems From Complex to Automated
 ...and an avid bug squisher 🚫👾 wherever they popup
 
-<div id="game-container" style="position: relative; height: 120px; border: 1px solid #ccc; overflow: hidden; margin-bottom: 20px;">
+<div id="game-container" style="position: relative; height: 52px; border: 1px solid rgba(0,0,0,0.1); border-radius: 10px; overflow: hidden; margin-bottom: 12px; background: rgba(0,0,0,0.03);">
   <div class="spaceship-container"></div>
-  <div id="game-controls" style="position: absolute; top: 10px; left: 10px; z-index: 100;">
-    <button id="start-button" class="retro-button">Start Game</button>
-    <button id="restart-button" class="retro-button" style="display: none;">Restart</button>
-    <div id="score" style="margin-top: 10px; font-size: 1.4em; font-weight: bold; color: #00ff41; text-shadow: 0 0 10px #00ff41; transition: all 0.3s ease;">Score: 0</div>
+  <div id="game-controls" style="position: absolute; inset: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; padding: 0 12px;">
+    <div style="display: flex; gap: 8px;">
+      <button id="start-button" class="retro-button">Start Game</button>
+      <button id="restart-button" class="retro-button" style="display: none;">Restart</button>
+    </div>
+    <div id="score" style="font-size: 0.85em; font-weight: 700; font-family: system-ui, -apple-system, sans-serif; color: #004d1a; background: rgba(0,77,26,0.1); border: 1px solid rgba(0,77,26,0.2); border-radius: 999px; padding: 3px 12px; transition: all 0.3s cubic-bezier(0.4,0,0.2,1); letter-spacing: 0.03em;">Score: 0</div>
   </div>
 </div>
 
@@ -210,21 +222,9 @@ But most importantly im able <br/>
   }
 
   @keyframes scoreBoost {
-    0% {
-      transform: scale(1);
-      color: #00ff41;
-      text-shadow: 0 0 10px #00ff41;
-    }
-    50% {
-      transform: scale(1.3);
-      color: #ffff00;
-      text-shadow: 0 0 20px #ffff00;
-    }
-    100% {
-      transform: scale(1);
-      color: #00ff41;
-      text-shadow: 0 0 10px #00ff41;
-    }
+    0%   { transform: scale(1); }
+    40%  { transform: scale(1.25); background: rgba(0,200,80,0.25); }
+    100% { transform: scale(1); }
   }
 </style>
 
