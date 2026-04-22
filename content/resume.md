@@ -196,9 +196,11 @@ But most importantly im able <br/>
 
 **Frontend:** <span class="tech">Vue.js</span>, <span class="tech">Next.js</span>/<span class="tech">React</span>, <span class="tech">Flutter</span>/<span class="tech">Dart</span>, <span class="tech">Backbone.js</span><br/>
 **Backend:** <span class="tech">Go</span>, <span class="tech">TypeScript</span>, <span class="tech">Rust</span>, <span class="tech">Scala</span>, <span class="tech">Akka</span>, <span class="tech">Java</span>, <span class="tech">Thrift</span>/<span class="tech">Protobuf</span>, <span class="tech">NATS</span><br/>
-**DevOps:** <span class="tech">Docker</span>, <span class="tech">Kubernetes</span>, <span class="tech">Terraform</span>, <span class="tech">GitHub Actions</span>, <span class="tech">GitLab CI</span>, <span class="tech">Vault</span>, <span class="tech">Helm</span><br/>
+**DevOps:** <span class="tech">Docker</span>, <span class="tech">Kubernetes</span>, <span class="tech">Terraform</span>, <span class="tech">OpenTofu</span>, <span class="tech">GitHub Actions</span>, <span class="tech">GitLab CI</span>, <span class="tech">Vault</span>, <span class="tech">Helm</span><br/>
+**Project Tracking:** <span class="tech">Linear</span>, <span class="tech">Jira</span>, <span class="tech">Pivotal Tracker</span><br/>
 **Databases:** <span class="tech">PostgreSQL</span>, <span class="tech">SQLite</span>, <span class="tech">Redis</span>, <span class="tech">DynamoDB</span>, <span class="tech">Elasticsearch</span>, <span class="tech">Kafka</span><br/>
 **Clouds:** <span class="tech">AWS</span>, <span class="tech">GCP</span>, <span class="tech">Fly.io</span>, <span class="tech">Firebase</span><br/>
+**AI Tooling:** <span class="tech">Claude</span>, <span class="tech">OpenCode</span>, <span class="tech">pi.dev</span><br/>
 
 <i>Ive left alot off this list in the hopes it wouldn't be distracting. Lots of technology has come and gone over the past twenty years</i>
 
