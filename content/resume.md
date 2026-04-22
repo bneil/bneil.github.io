@@ -231,7 +231,19 @@ But most importantly im able <br/>
 
 ### Experience
 
-**Modernize** *Consultant* __July 2024 to Present__<br/>
+**RedThread.ai** *Principal Engineer* __January 2025 to Present__<br/>
+
+- Serving as Principal Engineer at an early-stage AI startup, collaborating on technical strategy and driving execution
+- Leading SOC 2 compliance program as Security Officer, establishing security controls and audit readiness
+- Architecting and managing cloud infrastructure on <span class="tech">GCP</span> using <span class="tech">OpenTofu</span> for Infrastructure as Code
+- Building agentic automation pipelines via <span class="tech">Linear</span> to streamline engineering workflows
+- Streamlining adoption of AI-native practices across the team, including code harnesses like <span class="tech">OpenCode</span>, <span class="tech">Claude</span>, and <span class="tech">pi.dev</span> with models used throughout
+
+**Technical Toolset** <span class="tech">GCP</span>, <span class="tech">OpenTofu</span>, <span class="tech">Claude</span>, <span class="tech">OpenCode</span>, <span class="tech">pi.dev</span>, <span class="tech">Linear</span>
+
+------
+
+**Modernize** *Consultant* __July 2024 to January 2025__<br/>
 
 As a Senior Application Architect for ProWallet, I've focused on:
 - Implementing Infrastructure as Code solutions with <span class="tech">Terraform</span>
