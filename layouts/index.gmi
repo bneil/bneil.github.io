@@ -11,24 +11,7 @@ _88o,,od8P 888    Y88 888oo,__ 888o88oo,.__d8b888 Y88" 888o888oo,__
 to my digital garden, im still in the process of making things look better.
 That said! Thanks to everyone for reading!!
 
-Happy Fall Y'all
-```
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣾⣶⣦⣄⠀⢸⣿⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⣿⣿⣿⣿⡿⠀⢸⡿⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⠿⠛⠋⠉⠁⠀⣾⠃⢀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣷⣶⣶⣾⣿⠀⢰⠇⠀⢸⣧⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⠿⠿⠿⠃⢠⠋⢠⠀⢸⣿⡇⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣭⣤⣤⣤⣤⠀⠀⠁⢰⣿⡀⢸⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⠟⠁⠀⢀⠀⣸⣿⡇⣿⣿⡇⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⣿⣿⣿⣭⠉⠁⠀⢀⣴⣿⠀⣿⣿⣿⣿⡟⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⡿⠛⠁⣀⣤⠀⣿⣿⣿⣸⣿⣿⣿⠏⠀⠀⠀
-⠀⠀⠀⠀⣀⣤⣾⣿⣿⣿⣿⣟⣩⣤⣶⣿⣿⣿⣰⣿⣿⣿⣿⠿⠋⠁⠀⠀⠀⠀
-⠀⠀⠲⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠈⠉⠉⠛⠛⠛⠛⠛⠛⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-```
+{{ partial "seasonal/spring.gmi" . }}
 
 ## Navigation
 => gemini://shiny.bneil.me/about/index.gmi About Me
@@ -40,8 +23,8 @@ Happy Fall Y'all
 :::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\
 ```
 ## latest posts or updates
-{{ range ( where .Site.RegularPages "Type" "posts" | first 7 ).ByLastmod.Reverse }}
-=> {{ replace .Permalink "gemini://" "gemini://shiny." 1}} {{ .Title }}{{end}}
+{{ $geminiBase := .Site.Params.geminiBaseUrl }}{{ range ( where .Site.RegularPages "Type" "posts" | first 7 ).ByLastmod.Reverse }}{{ $page := . }}{{ with .OutputFormats.Get "gemini" }}=> {{ $geminiBase }}{{ replace .RelPermalink "/gemini" "" 1}} {{ $page.Title }}
+{{ end }}{{- end }}
  
 ```
   .--.      .-'.      .--.      .--.      .--.      .--.      .`-.      .--.
