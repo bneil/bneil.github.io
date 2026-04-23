@@ -43,13 +43,13 @@ Happy Spring!
 :::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\
 ```
 ## latest posts or updates
+=> gemini://shiny.bneil.me/posts/2026-04-22-ultralisk/index.gmi 2026-04-22-ultralisk
 => gemini://shiny.bneil.me/posts/2026-04-21-tavern/index.gmi 2026-04-21-tavern
 => gemini://shiny.bneil.me/posts/2026-04-19-r-riddle/index.gmi 2026-04-19-r-riddle
 => gemini://shiny.bneil.me/posts/2026-04-20-smoke/index.gmi 2026-04-20-smoke
 => gemini://shiny.bneil.me/posts/2026-04-18-quiet/index.gmi 2026-04-18-quiet
 => gemini://shiny.bneil.me/posts/2026-04-17-page/index.gmi 2026-04-17-page
 => gemini://shiny.bneil.me/posts/2026-04-16-opencode/index.gmi 2026-04-16-opencode
-=> gemini://shiny.bneil.me/posts/2026-04-15-nowhere/index.gmi 2026-04-15-nowhere
 
  
 ```
@@ -84,6 +84,8 @@ Happy Spring!
 
 => gemini://shiny.bneil.me/tags/atoz/gemini/index.gmi AtoZ
 => gemini://shiny.bneil.me/tags/blog-challenge/gemini/index.gmi Blog-Challenge
+=> gemini://shiny.bneil.me/tags/rant/gemini/index.gmi Rant
+=> gemini://shiny.bneil.me/tags/starcraft/gemini/index.gmi Starcraft
 => gemini://shiny.bneil.me/tags/meta/gemini/index.gmi Meta
 => gemini://shiny.bneil.me/tags/book/gemini/index.gmi Book
 => gemini://shiny.bneil.me/tags/philosophy/gemini/index.gmi Philosophy
