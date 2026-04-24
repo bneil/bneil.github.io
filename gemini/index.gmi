@@ -43,13 +43,13 @@ Happy Spring!
 :::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\
 ```
 ## latest posts or updates
+=> gemini://shiny.bneil.me/posts/2026-04-23-vertigo/index.gmi 2026-04-23-Vertigo
 => gemini://shiny.bneil.me/posts/2026-04-22-ultralisk/index.gmi 2026-04-22-ultralisk
 => gemini://shiny.bneil.me/posts/2026-04-21-tavern/index.gmi 2026-04-21-tavern
 => gemini://shiny.bneil.me/posts/2026-04-19-r-riddle/index.gmi 2026-04-19-r-riddle
 => gemini://shiny.bneil.me/posts/2026-04-20-smoke/index.gmi 2026-04-20-smoke
 => gemini://shiny.bneil.me/posts/2026-04-18-quiet/index.gmi 2026-04-18-quiet
 => gemini://shiny.bneil.me/posts/2026-04-17-page/index.gmi 2026-04-17-page
-=> gemini://shiny.bneil.me/posts/2026-04-16-opencode/index.gmi 2026-04-16-opencode
 
  
 ```
