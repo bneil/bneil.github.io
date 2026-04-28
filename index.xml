@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Mon, 27 Apr 2026 20:47:30 -0600</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>2026-04-27-weird</title><link>https://bneil.me/posts/2026-04-27-weird/</link><pubDate>Mon, 27 Apr 2026 20:47:30 -0600</pubDate><guid>https://bneil.me/posts/2026-04-27-weird/</guid><description><![CDATA[ <h2 id="w-is-for-weird">W is for Weird</h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Tue, 28 Apr 2026 09:32:05 -0600</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>dataview-connection-panel</title><link>https://bneil.me/notes/2026-04-28-dataview-connection-panel/</link><pubDate>Tue, 28 Apr 2026 09:32:05 -0600</pubDate><guid>https://bneil.me/notes/2026-04-28-dataview-connection-panel/</guid><description><![CDATA[ <p>TL;DR: A pinned sidebar panel that shows a date-sorted table of all notes linking to currently viewing.</p>
+<p>Usually in obsidian I have a graph view of open but ive found this to be better in understanding connections,
+since i can view the created and modified dates. Just make sure you have dataview installed and then make sure to drag this into the panel area of you choice.</p>
+<p>Note the markdown needs to have &lsquo;dataviewjs&rsquo; after the three backwhacks</p>]]></description><content:encoded><![CDATA[ <p>TL;DR: A pinned sidebar panel that shows a date-sorted table of all notes linking to currently viewing.</p>
+<p>Usually in obsidian I have a graph view of open but ive found this to be better in understanding connections,
+since i can view the created and modified dates. Just make sure you have dataview installed and then make sure to drag this into the panel area of you choice.</p>
+<p>Note the markdown needs to have &lsquo;dataviewjs&rsquo; after the three backwhacks</p>
+<p>also sorry if you aren&rsquo;t in dark mode, i need to fix the coloring for light mode&hellip;. sorry</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>async function render() {
+</span></span><span style="display:flex;"><span>    dv<span style="color:#f92672">.</span>container<span style="color:#f92672">.</span>empty();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> btn <span style="color:#f92672">=</span> dv<span style="color:#f92672">.</span>container<span style="color:#f92672">.</span>createEl(<span style="color:#e6db74">&#34;button&#34;</span>, { text: <span style="color:#e6db74">&#34;Refresh&#34;</span> });
+</span></span><span style="display:flex;"><span>    btn<span style="color:#f92672">.</span>style<span style="color:#f92672">.</span>marginBottom <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;12px&#34;</span>;
+</span></span><span style="display:flex;"><span>    btn<span style="color:#f92672">.</span>onclick <span style="color:#f92672">=</span> () <span style="color:#f92672">=&gt;</span> render();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> selfPath <span style="color:#f92672">=</span> dv<span style="color:#f92672">.</span>current()<span style="color:#f92672">.</span>file<span style="color:#f92672">.</span>path;
+</span></span><span style="display:flex;"><span>    let target <span style="color:#f92672">=</span> null;
+</span></span><span style="display:flex;"><span>    let bestTime <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    app<span style="color:#f92672">.</span>workspace<span style="color:#f92672">.</span>iterateAllLeaves(leaf <span style="color:#f92672">=&gt;</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (leaf<span style="color:#f92672">.</span>view<span style="color:#f92672">.</span>getViewType() <span style="color:#f92672">!==</span> <span style="color:#e6db74">&#34;markdown&#34;</span>) <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">const</span> file <span style="color:#f92672">=</span> leaf<span style="color:#f92672">.</span>view<span style="color:#f92672">.</span>file;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>file <span style="color:#f92672">||</span> file<span style="color:#f92672">.</span>path <span style="color:#f92672">===</span> selfPath) <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (leaf<span style="color:#f92672">.</span>activeTime <span style="color:#f92672">&gt;</span> bestTime) {
+</span></span><span style="display:flex;"><span>            bestTime <span style="color:#f92672">=</span> leaf<span style="color:#f92672">.</span>activeTime;
+</span></span><span style="display:flex;"><span>            target <span style="color:#f92672">=</span> file;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    });
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>target) {
+</span></span><span style="display:flex;"><span>        dv<span style="color:#f92672">.</span>paragraph(<span style="color:#e6db74">&#34;_Open a note in another pane to see its connections._&#34;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> page <span style="color:#f92672">=</span> dv<span style="color:#f92672">.</span>page(target<span style="color:#f92672">.</span>path);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> inlinks  <span style="color:#f92672">=</span> (page<span style="color:#f92672">.</span>file<span style="color:#f92672">.</span>inlinks<span style="color:#960050;background-color:#1e0010">?</span><span style="color:#f92672">.</span>values  <span style="color:#960050;background-color:#1e0010">??</span> []);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> outlinks <span style="color:#f92672">=</span> (page<span style="color:#f92672">.</span>file<span style="color:#f92672">.</span>outlinks<span style="color:#960050;background-color:#1e0010">?</span><span style="color:#f92672">.</span>values <span style="color:#960050;background-color:#1e0010">??</span> []);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> merged <span style="color:#f92672">=</span> new Map();
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">const</span> l of inlinks)  merged<span style="color:#f92672">.</span>set(l<span style="color:#f92672">.</span>path, { link: l, dir: <span style="color:#e6db74">&#34;← in&#34;</span> });
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">const</span> l of outlinks) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (merged<span style="color:#f92672">.</span>has(l<span style="color:#f92672">.</span>path)) merged<span style="color:#f92672">.</span>get(l<span style="color:#f92672">.</span>path)<span style="color:#f92672">.</span>dir <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;↔ both&#34;</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span> merged<span style="color:#f92672">.</span>set(l<span style="color:#f92672">.</span>path, { link: l, dir: <span style="color:#e6db74">&#34;→ out&#34;</span> });
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> rows <span style="color:#f92672">=</span> [];
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">const</span> { link, dir } of merged<span style="color:#f92672">.</span>values()) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">const</span> p <span style="color:#f92672">=</span> dv<span style="color:#f92672">.</span>page(link<span style="color:#f92672">.</span>path);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>p) <span style="color:#66d9ef">continue</span>;
+</span></span><span style="display:flex;"><span>        rows<span style="color:#f92672">.</span>push([p<span style="color:#f92672">.</span>file<span style="color:#f92672">.</span>link, dir, p<span style="color:#f92672">.</span>file<span style="color:#f92672">.</span>ctime, p<span style="color:#f92672">.</span>file<span style="color:#f92672">.</span>mtime]);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    rows<span style="color:#f92672">.</span>sort((a, b) <span style="color:#f92672">=&gt;</span> b[<span style="color:#ae81ff">2</span>] <span style="color:#f92672">-</span> a[<span style="color:#ae81ff">2</span>]);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    dv<span style="color:#f92672">.</span>header(<span style="color:#ae81ff">3</span>, <span style="color:#960050;background-color:#1e0010">`</span>Connections: <span style="color:#f92672">$</span>{target<span style="color:#f92672">.</span>basename}<span style="color:#960050;background-color:#1e0010">`</span>);
+</span></span><span style="display:flex;"><span>    dv<span style="color:#f92672">.</span>table([<span style="color:#e6db74">&#34;Note&#34;</span>, <span style="color:#e6db74">&#34;Direction&#34;</span>, <span style="color:#e6db74">&#34;Created&#34;</span>, <span style="color:#e6db74">&#34;Modified&#34;</span>], rows);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>render();
+</span></span></code></pre></div>]]></content:encoded><webmention/></item><item><title>2026-04-27-weird</title><link>https://bneil.me/posts/2026-04-27-weird/</link><pubDate>Mon, 27 Apr 2026 20:47:30 -0600</pubDate><guid>https://bneil.me/posts/2026-04-27-weird/</guid><description><![CDATA[ <h2 id="w-is-for-weird">W is for Weird</h2>
 <p>At first I was thinking to say &lsquo;websites&rsquo; for this prompt, but then I thought, lets go with &lsquo;weird websites&rsquo;.
 So many of these i discovered on the <a href="https://theuselessweb.com/">useless web</a> and drip with that web 1.0 vibe. I miss the culture and days
 when the web was just weird.</p>
@@ -5908,6 +5967,8 @@ in the deluge of technology things to feel left behind. I feel like I know how b
 <h2 id="recently-updated">Recently Updated</h2>
 <ul>
 
+<li style="margin-bottom: 10px;"><a href="https://bneil.me/notes/2026-04-28-dataview-connection-panel/">dataview-connection-panel</a> - [NOTE] obsidian dataview connection panel</li>
+
 <li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2026-04-27-weird/">2026-04-27-weird</a> - Letter W, Weird</li>
 
 <li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2026-04-23-vertigo/">2026-04-23-Vertigo</a> - Letter V, Vertigo</li>
@@ -5925,8 +5986,6 @@ in the deluge of technology things to feel left behind. I feel like I know how b
 <li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2026-04-17-page/">2026-04-17-page</a> - Letter P, Page</li>
 
 <li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2026-04-16-opencode/">2026-04-16-opencode</a> - Letter O, Opencode</li>
-
-<li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2026-04-15-nowhere/">2026-04-15-nowhere</a> - Letter N, Nowhere</li>
 
 </ul>
 

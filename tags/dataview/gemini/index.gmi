@@ -1,0 +1,6 @@
+# Dataview
+
+
+Pages in this section:
+
+=> /notes/2026-04-28-dataview-connection-panel/index.gmi 2026-04-28 dataview-connection-panel

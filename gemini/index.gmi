@@ -59,6 +59,7 @@ Happy Spring!
 
 ## by major subject
 
+=> gemini://shiny.bneil.me/categories/notes/gemini/index.gmi Notes
 => gemini://shiny.bneil.me/categories/fun/gemini/index.gmi Fun
 => gemini://shiny.bneil.me/categories/writing/gemini/index.gmi Writing
 => gemini://shiny.bneil.me/categories/mentions/gemini/index.gmi Mentions
@@ -68,7 +69,6 @@ Happy Spring!
 => gemini://shiny.bneil.me/categories/project-management/gemini/index.gmi Project Management
 => gemini://shiny.bneil.me/categories/project-managment/gemini/index.gmi Project Managment
 => gemini://shiny.bneil.me/categories/practice/gemini/index.gmi Practice
-=> gemini://shiny.bneil.me/categories/notes/gemini/index.gmi Notes
 => gemini://shiny.bneil.me/categories/productivity/gemini/index.gmi Productivity
 => gemini://shiny.bneil.me/categories/general/gemini/index.gmi General
 => gemini://shiny.bneil.me/categories/update/gemini/index.gmi Update
@@ -82,6 +82,9 @@ Happy Spring!
 
 ## by tag
 
+=> gemini://shiny.bneil.me/tags/dataview/gemini/index.gmi Dataview
+=> gemini://shiny.bneil.me/tags/notes/gemini/index.gmi Notes
+=> gemini://shiny.bneil.me/tags/obsidian/gemini/index.gmi Obsidian
 => gemini://shiny.bneil.me/tags/atoz/gemini/index.gmi AtoZ
 => gemini://shiny.bneil.me/tags/blog-challenge/gemini/index.gmi Blog-Challenge
 => gemini://shiny.bneil.me/tags/rant/gemini/index.gmi Rant
@@ -92,7 +95,6 @@ Happy Spring!
 => gemini://shiny.bneil.me/tags/ai/gemini/index.gmi Ai
 => gemini://shiny.bneil.me/tags/blogging/gemini/index.gmi Blogging
 => gemini://shiny.bneil.me/tags/50of50/gemini/index.gmi 50of50
-=> gemini://shiny.bneil.me/tags/notes/gemini/index.gmi Notes
 => gemini://shiny.bneil.me/tags/biking/gemini/index.gmi Biking
 => gemini://shiny.bneil.me/tags/claude/gemini/index.gmi Claude
 => gemini://shiny.bneil.me/tags/development/gemini/index.gmi Development
@@ -102,7 +104,6 @@ Happy Spring!
 => gemini://shiny.bneil.me/tags/pocketbase/gemini/index.gmi Pocketbase
 => gemini://shiny.bneil.me/tags/moonbit/gemini/index.gmi Moonbit
 => gemini://shiny.bneil.me/tags/opentofu/gemini/index.gmi Opentofu
-=> gemini://shiny.bneil.me/tags/obsidian/gemini/index.gmi Obsidian
 => gemini://shiny.bneil.me/tags/merge/gemini/index.gmi Merge
 => gemini://shiny.bneil.me/tags/tmux/gemini/index.gmi Tmux
 => gemini://shiny.bneil.me/tags/fun/gemini/index.gmi Fun
