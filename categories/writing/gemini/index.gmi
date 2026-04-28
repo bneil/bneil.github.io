@@ -3,6 +3,7 @@
 
 Pages in this section:
 
+=> /posts/2026-04-27-weird/index.gmi 2026-04-27 2026-04-27-weird
 => /posts/2026-04-23-vertigo/index.gmi 2026-04-23 2026-04-23-Vertigo
 => /posts/2026-04-22-ultralisk/index.gmi 2026-04-22 2026-04-22-ultralisk
 => /posts/2026-04-21-tavern/index.gmi 2026-04-21 2026-04-21-tavern
