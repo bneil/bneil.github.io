@@ -18,9 +18,8 @@ DisableComments: true
 <div class="now-grid">
 <div class="now-main">
 
-Currently enjoying the middle of April. The A to Z challenge is alot, wasn't quite expecting to write everyday (outside of journaling) and its
-felt really good, if im being honest. Also been setting up new tech at work which has made me feel kinda relevant again. I think its easy sometimes
-in the deluge of technology things to feel left behind. I feel like I know how behind I am, and im ok with that.
+Crazy how fast the weather changes in Colorado. Felt like it was a fairly chill spring and its out into the 90s. Been enjoying changing
+the backyard to have more clovers. Hopefully it helps with the bees and with the general weed fun. So, yeah, nothing much of note lately.
 
 <div class="frames-popout">
 <small>latest on <a href="https://pixelfed.social/bneil">pixelfed</a></small>
