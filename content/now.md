@@ -18,8 +18,7 @@ DisableComments: true
 <div class="now-grid">
 <div class="now-main">
 
-Crazy how fast the weather changes in Colorado. Felt like it was a fairly chill spring and its out into the 90s. Been enjoying changing
-the backyard to have more clovers. Hopefully it helps with the bees and with the general weed fun. So, yeah, nothing much of note lately.
+Continuing to enjoy the summer. Super hot.
 
 <div class="frames-popout">
 <small>latest on <a href="https://pixelfed.social/bneil">pixelfed</a></small>
@@ -35,11 +34,11 @@ the backyard to have more clovers. Hopefully it helps with the bees and with the
 
 ## Reading
 
-- Knowing what we know (kindle)
-- House of glass (book book) ~ dude what is this....
+- Overstory
 
 <details class="now-finished"><summary>🪦</summary>
 
+- House of glass (book book) ~ dude what is this....
 - Operation Bounce House
 - Why we dream
 
@@ -47,10 +46,11 @@ the backyard to have more clovers. Hopefully it helps with the bees and with the
 
 ## Watching
 
-- Trust Me; The False Prophet
+- Euphoria, finished up season 2
 
 <details class="now-finished"><summary>🪦</summary>
 
+- Trust Me; The False Prophet
 - Shrinking
 - Pluribus
 
