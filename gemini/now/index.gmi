@@ -14,7 +14,7 @@ _Last Updated: {{}}_
 <div class="now-grid">
 
 
-Continuing to enjoy the summer. Super hot.
+September, finally getting some rain and thats a great thing.
 
 
 <small>latest on [pixelfed](https://pixelfed.social/bneil)
@@ -31,6 +31,7 @@ Continuing to enjoy the summer. Super hot.
 ## Reading
 
 * Overstory
+* Moar sarah moss
 
 <summary>🪦
 
@@ -42,10 +43,12 @@ Continuing to enjoy the summer. Super hot.
 
 ## Watching
 
-* Euphoria, finished up season 2
+* The Studio
+* Ted Lasso, season 2
 
 <summary>🪦
 
+* Euphoria, finished up season 2
 * Trust Me; The False Prophet
 * Shrinking
 * Pluribus
@@ -80,7 +83,7 @@ This page is following best practice as defined from
 
 
 ---
-updated: 30 July 2026.
+updated: 1 September 2026.
 
 => / to the Index
 => https://bneil.me/now/ / html
