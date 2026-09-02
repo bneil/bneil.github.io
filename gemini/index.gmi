@@ -43,13 +43,13 @@ Happy Spring!
 :::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\::::::::.\
 ```
 ## latest posts or updates
+=> gemini://shiny.bneil.me/posts/2026-09-01_no-reason/index.gmi 2026-09-01_no-reason
 => gemini://shiny.bneil.me/posts/2026-04-27-weird/index.gmi 2026-04-27-weird
 => gemini://shiny.bneil.me/posts/2026-04-23-vertigo/index.gmi 2026-04-23-Vertigo
 => gemini://shiny.bneil.me/posts/2026-04-22-ultralisk/index.gmi 2026-04-22-ultralisk
 => gemini://shiny.bneil.me/posts/2026-04-21-tavern/index.gmi 2026-04-21-tavern
 => gemini://shiny.bneil.me/posts/2026-04-19-r-riddle/index.gmi 2026-04-19-r-riddle
 => gemini://shiny.bneil.me/posts/2026-04-20-smoke/index.gmi 2026-04-20-smoke
-=> gemini://shiny.bneil.me/posts/2026-04-18-quiet/index.gmi 2026-04-18-quiet
 
  
 ```
@@ -59,6 +59,7 @@ Happy Spring!
 
 ## by major subject
 
+=> gemini://shiny.bneil.me/categories/general/gemini/index.gmi General
 => gemini://shiny.bneil.me/categories/notes/gemini/index.gmi Notes
 => gemini://shiny.bneil.me/categories/fun/gemini/index.gmi Fun
 => gemini://shiny.bneil.me/categories/writing/gemini/index.gmi Writing
@@ -70,7 +71,6 @@ Happy Spring!
 => gemini://shiny.bneil.me/categories/project-managment/gemini/index.gmi Project Managment
 => gemini://shiny.bneil.me/categories/practice/gemini/index.gmi Practice
 => gemini://shiny.bneil.me/categories/productivity/gemini/index.gmi Productivity
-=> gemini://shiny.bneil.me/categories/general/gemini/index.gmi General
 => gemini://shiny.bneil.me/categories/update/gemini/index.gmi Update
 => gemini://shiny.bneil.me/categories/rabbithole/gemini/index.gmi Rabbithole
 => gemini://shiny.bneil.me/categories/challenge/gemini/index.gmi Challenge
@@ -82,6 +82,7 @@ Happy Spring!
 
 ## by tag
 
+=> gemini://shiny.bneil.me/tags/update/gemini/index.gmi Update
 => gemini://shiny.bneil.me/tags/dataview/gemini/index.gmi Dataview
 => gemini://shiny.bneil.me/tags/notes/gemini/index.gmi Notes
 => gemini://shiny.bneil.me/tags/obsidian/gemini/index.gmi Obsidian
@@ -111,7 +112,6 @@ Happy Spring!
 => gemini://shiny.bneil.me/tags/whimsy/gemini/index.gmi Whimsy
 => gemini://shiny.bneil.me/tags/rust/gemini/index.gmi Rust
 => gemini://shiny.bneil.me/tags/wasm/gemini/index.gmi Wasm
-=> gemini://shiny.bneil.me/tags/update/gemini/index.gmi Update
 => gemini://shiny.bneil.me/tags/meetings/gemini/index.gmi Meetings
 => gemini://shiny.bneil.me/tags/offchest/gemini/index.gmi Offchest
 => gemini://shiny.bneil.me/tags/planning/gemini/index.gmi Planning

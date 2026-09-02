@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Tue, 28 Apr 2026 09:32:05 -0600</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>dataview-connection-panel</title><link>https://bneil.me/notes/2026-04-28-dataview-connection-panel/</link><pubDate>Tue, 28 Apr 2026 09:32:05 -0600</pubDate><guid>https://bneil.me/notes/2026-04-28-dataview-connection-panel/</guid><description><![CDATA[ <p>TL;DR: A pinned sidebar panel that shows a date-sorted table of all notes linking to currently viewing.</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bneil.me</title><link>https://bneil.me/</link><description>Recent content on bneil.me</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© bneil</copyright><lastBuildDate>Tue, 01 Sep 2026 20:38:25 -0600</lastBuildDate><atom:link href="https://bneil.me/index.xml" rel="self" type="application/rss+xml"/><item><title>2026-09-01_no-reason</title><link>https://bneil.me/posts/2026-09-01_no-reason/</link><pubDate>Tue, 01 Sep 2026 20:38:25 -0600</pubDate><guid>https://bneil.me/posts/2026-09-01_no-reason/</guid><description><![CDATA[ <h2 id="random-randomoning">Random Randomoning</h2>
+<p>Found out today, that the website <a href="https://www.wikiwand.com/en/This_Website_Will_Self-destruct">This Website Will Self-destruct</a> self destructed
+a few years ago. Kinda made me sad, it was one of the places I would put tweets that
+I didn&rsquo;t want to tweet. Kinda like writing and then destroying a note.</p>
+<p>Aside from missing the catharsis of confessing to that site, it made me sad that I
+hadn&rsquo;t even thought about it in years. I think I just always the denizens of the web
+would forever remember it.</p>]]></description><content:encoded><![CDATA[ <h2 id="random-randomoning">Random Randomoning</h2>
+<p>Found out today, that the website <a href="https://www.wikiwand.com/en/This_Website_Will_Self-destruct">This Website Will Self-destruct</a> self destructed
+a few years ago. Kinda made me sad, it was one of the places I would put tweets that
+I didn&rsquo;t want to tweet. Kinda like writing and then destroying a note.</p>
+<p>Aside from missing the catharsis of confessing to that site, it made me sad that I
+hadn&rsquo;t even thought about it in years. I think I just always the denizens of the web
+would forever remember it.</p>
+<p>But, In any case, im glad it found it end and was amazed by the art project in general had survived as long as it had.</p>
+<p>I miss a good old art project.</p>
+]]></content:encoded><webmention/></item><item><title>dataview-connection-panel</title><link>https://bneil.me/notes/2026-04-28-dataview-connection-panel/</link><pubDate>Tue, 28 Apr 2026 09:32:05 -0600</pubDate><guid>https://bneil.me/notes/2026-04-28-dataview-connection-panel/</guid><description><![CDATA[ <p>TL;DR: A pinned sidebar panel that shows a date-sorted table of all notes linking to currently viewing.</p>
 <p>Usually in obsidian I have a graph view of open but ive found this to be better in understanding connections,
 since i can view the created and modified dates. Just make sure you have dataview installed and then make sure to drag this into the panel area of you choice.</p>
 <p>Note the markdown needs to have &lsquo;dataviewjs&rsquo; after the three backwhacks</p>]]></description><content:encoded><![CDATA[ <p>TL;DR: A pinned sidebar panel that shows a date-sorted table of all notes linking to currently viewing.</p>
@@ -6051,6 +6066,8 @@ about those implementations here.</p>
 <h2 id="recently-updated">Recently Updated</h2>
 <ul>
 
+<li style="margin-bottom: 10px;"><a href="/posts/2026-09-01_no-reason/">2026-09-01_no-reason</a> - Just wanted to write something</li>
+
 <li style="margin-bottom: 10px;"><a href="/notes/2026-04-28-dataview-connection-panel/">dataview-connection-panel</a> - [NOTE] obsidian dataview connection panel</li>
 
 <li style="margin-bottom: 10px;"><a href="/posts/2026-04-27-weird/">2026-04-27-weird</a> - Letter W, Weird</li>
@@ -6068,8 +6085,6 @@ about those implementations here.</p>
 <li style="margin-bottom: 10px;"><a href="/posts/2026-04-18-quiet/">2026-04-18-quiet</a> - Letter Q, quiet</li>
 
 <li style="margin-bottom: 10px;"><a href="/posts/2026-04-17-page/">2026-04-17-page</a> - Letter P, Page</li>
-
-<li style="margin-bottom: 10px;"><a href="/posts/2026-04-16-opencode/">2026-04-16-opencode</a> - Letter O, Opencode</li>
 
 </ul>
 
@@ -6129,6 +6144,8 @@ about those implementations here.</p>
 <h2 id="recently-updated">Recently Updated</h2>
 <ul>
 
+<li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2026-09-01_no-reason/">2026-09-01_no-reason</a> - Just wanted to write something</li>
+
 <li style="margin-bottom: 10px;"><a href="https://bneil.me/notes/2026-04-28-dataview-connection-panel/">dataview-connection-panel</a> - [NOTE] obsidian dataview connection panel</li>
 
 <li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2026-04-27-weird/">2026-04-27-weird</a> - Letter W, Weird</li>
@@ -6146,8 +6163,6 @@ about those implementations here.</p>
 <li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2026-04-18-quiet/">2026-04-18-quiet</a> - Letter Q, quiet</li>
 
 <li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2026-04-17-page/">2026-04-17-page</a> - Letter P, Page</li>
-
-<li style="margin-bottom: 10px;"><a href="https://bneil.me/posts/2026-04-16-opencode/">2026-04-16-opencode</a> - Letter O, Opencode</li>
 
 </ul>
 
