@@ -1,35 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-{{ partial "header.html" . }}
+  {{ partial "header.html" . }}
 
-<body>
-  <div class="content">
-    {{ partial "head.html" . }}
+  <body>
+    <div class="content">
+      {{ partial "head.html" . }}
 
-
-
-    <main class="list">
-      <div class="site-description">
-        {{- if isset .Site.Params "subtitle" -}}
-        {{- end -}}
-      </div>
-      <!--
+      <main class="list">
+        <div class="site-description">
+          {{- if isset .Site.Params "subtitle" -}} {{- end -}}
+        </div>
+        <!--
         <div class="float-right">
           <img src="/images/halloweenjason.gif" class="no-border" />
         </div>
       -->
-      <h1>Welcome</h1> you've stumbled onto my humble corner of the internet!
-      This website is the personal site of Ben Neil, a lifelong programmer and generalist.
-      This site is always a work in progress, constantly evolving and growing as I explore new technologies and ideas.
-      <br/>
-      <br/>
-      Whether you're a seasoned programmer, a curious web surfer 🏄,
-      or just someone looking to read a blog and relax,
-      I hope you'll find something here to enjoy! That's what the internet is about!
+        <h1>Welcome</h1>
+        you've stumbled onto my humble corner of the internet! This website is
+        the personal site of Ben Neil, a lifelong programmer and generalist.
+        This site is always a work in progress, constantly evolving and growing
+        as I explore new technologies and ideas.
+        <br />
+        <br />
+        Whether you're a seasoned programmer, a curious web surfer 🏄, or just
+        someone looking to read a blog and relax, I hope you'll find something
+        here to enjoy! That's what the internet is about!
 
-      <p />
+        <p />
 
-      <!--
+        <!--
       <h2>Most Recently Added Posts</h2>
       <ul>
         {{ range after 1 (  where .Site.Pages "Type" "posts" | first 4 ).ByDate.Reverse  }}
@@ -38,41 +37,40 @@
       </ul>
     -->
 
+        <h2>Latest Blog Challenge</h2>
+        <ul>
+          {{ $atozPost := .Site.GetPage "posts/2026-03-30-a-to-z-2026" }} {{ if
+          $atozPost }}
+          <li>
+            <a href="{{ $atozPost.RelPermalink }}">{{ $atozPost.Title }}</a> ~
+            Completed ~
+          </li>
+          {{ end }}
+        </ul>
 
-      <h2>Latest Blog Challenge</h2>
-      <ul>
-        {{ $atozPost := .Site.GetPage "posts/2026-03-30-a-to-z-2026" }}
-        {{ if $atozPost }}
-        <li><a href="{{ $atozPost.RelPermalink }}">{{ $atozPost.Title }}</a> ~ In Progress ~</li>
-        {{ end }}
-      </ul>
-
-      <h2>Most Recently Modified Posts</h2>
-      <ul>
-        {{ range ( first 7 .Site.RegularPages ).ByLastmod.Reverse }}
+        <h2>Most Recently Modified Posts</h2>
+        <ul>
+          {{ range ( first 7 .Site.RegularPages ).ByLastmod.Reverse }}
           <li><a href="{{ .Permalink }}">{{ .Description }}</a></li>
+          {{end}}
+        </ul>
+
+        <div style="padding-top: 25px" class="homepage-head">
+          <img src="/images/talking-head-768.jpg" />
+        </div>
+
+        <h2>Categories</h2>
+        {{- $catz := ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+        {{range $index, $t := sort $catz }}
+        <a href="{{.Permalink}}">{{.Title}}</a> {{- if ne $index (len $catz) }}
+        | {{ end }} {{end}}
+
+        <h2>Tags</h2>
+        {{range ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
+        <a href="{{.Permalink}}">#{{.Title}}</a>
         {{end}}
-      </ul>
 
-      <div style="padding-top:25px" class="homepage-head">
-        <img src="/images/talking-head-768.jpg" />
-      </div>
-
-      <h2>Categories</h2>
-      {{- $catz := ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
-      {{range $index, $t := sort $catz }}
-      <a href="{{.Permalink}}">{{.Title}}</a> {{- if ne $index (len $catz) }} | {{ end }}
-      {{end}}
-
-
-      <h2>Tags</h2>
-      {{range ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
-      <a href="{{.Permalink}}">#{{.Title}}</a>
-      {{end}}
-
-
-
-      <!--
+        <!--
           {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
           {{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
           {{ range $paginator.Pages }}
@@ -91,18 +89,15 @@
           {{ end }}
           {{ template "partials/paginator.html" . }}
         -->
+      </main>
+      {{ partial "footer.html" . }}
 
-
-    </main>
-    {{ partial "footer.html" . }}
-
-    <p style="text-align: center;">
-      <a href="gemini://shiny.bneil.me">
-        <img src="/images/gemini.jpeg" />
-      </a>
-      &nbsp;
-  </div>
-
-</body>
-
+      <p style="text-align: center">
+        <a href="gemini://shiny.bneil.me">
+          <img src="/images/gemini.jpeg" />
+        </a>
+        &nbsp;
+      </p>
+    </div>
+  </body>
 </html>
