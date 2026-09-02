@@ -18,7 +18,7 @@ DisableComments: true
 <div class="now-grid">
 <div class="now-main">
 
-Continuing to enjoy the summer. Super hot.
+September, finally getting some rain and thats a great thing.
 
 <div class="frames-popout">
 <small>latest on <a href="https://pixelfed.social/bneil">pixelfed</a></small>
@@ -35,6 +35,7 @@ Continuing to enjoy the summer. Super hot.
 ## Reading
 
 - Overstory
+- Moar sarah moss
 
 <details class="now-finished"><summary>🪦</summary>
 
@@ -46,10 +47,12 @@ Continuing to enjoy the summer. Super hot.
 
 ## Watching
 
-- Euphoria, finished up season 2
+- The Studio
+- Ted Lasso, season 2
 
 <details class="now-finished"><summary>🪦</summary>
 
+- Euphoria, finished up season 2
 - Trust Me; The False Prophet
 - Shrinking
 - Pluribus
